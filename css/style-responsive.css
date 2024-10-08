@@ -1779,24 +1779,19 @@
         font-size: 15px;
         margin-left: -67px;
     }
-    /* .btn{
-        position: fixed;
-        right: 50px;
+
+    .whatwedo-headers{
+        background-color: darkcyan;
     }
-    .sticky-top .btn{
-        margin-left: 275px;
-        position: fixed;
-    } */
-
-
-
+    .whatwedo-title{
+        width: 440px;
+    }
 
     .about-box, .about-box2, .about-box3{
         width: 300px;
         height: 140px;
         margin-top: -10px;
         margin-left: 0;
-        background-color: salmon;
     }
     .about-box2{
         margin-left: -162px;
@@ -1805,16 +1800,6 @@
         margin-left: 637px;
         margin-top: -165px;
     }
-    /* .experience_icon{
-        padding-top: 45px;
-        padding-left: 50px;
-    }
-    .experience-head1{
-        font-size: 20px;
-        margin-top: -40px;
-    }
-    .experience-head2{
-        font-size: 15px;
-    } */
+
 
 }

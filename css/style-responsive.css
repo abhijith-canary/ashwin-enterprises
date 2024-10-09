@@ -1817,8 +1817,13 @@
     .blog-img1, .blog-img2, .blog-img3{
         width: 405px;
     }
-    .blog-text-head{width: 360px;background-color: firebrick;}
+    .blog-text-head{width: 360px;background-color: forestgreen;}
     .blog-main2{
         margin-top: -10px;
+    }
+}
+@media screen and (max-width:450px) and (min-width:425px){
+    .blog-text-head{
+        background-color: firebrick;
     }
 }

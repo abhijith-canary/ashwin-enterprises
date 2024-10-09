@@ -21,10 +21,9 @@
         height: 40px;
         font-size: 14px;
         padding: 10px 10px 0px 10px;
-        background-color: blue;
     }
     .sticky-top .btn{
-        margin-left: -22px;
+        margin-left: 180px;
     }
 
     .home-title-div{
@@ -193,7 +192,7 @@
     .our-service-content{
         width: 351px;
         height: 80px;
-        margin-top: 75px;
+        margin-top: 76px;
         margin-left: -12px;
         border-radius: 0px 0px 10px 10px;
     }
@@ -285,7 +284,7 @@
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
     .service3{
-        height: 1855px;
+        height: 1820px;
         margin-top: 0px;
     }
     /* .service-impact-container{
@@ -296,13 +295,14 @@
         height: auto;
         margin-top: -45px;
         margin-left: -11px;
-        border-radius: 12px;
+        border-radius: 12px 12px 0px 0px;
     }
     .service-content-right{
         width: 350px;
         height: auto;
         margin-left: 13px;
-        margin-top: 10px;
+        margin-top: -5px;
+        border-radius: 0px 0px 12px 12px;
     }
     .service-content-title{
         font-size: 18px;
@@ -321,19 +321,24 @@
         height: auto;
         margin-top: 360px;
         margin-left: 13px;
+        border-radius: 0px 0px 12px 12px;
+        z-index: 1;
     }
     .service-img2{
         width: 350px;
         height: auto;
-        margin-top: -1058px;
+        margin-top: -1010px;
         margin-left: -11px;
-        border-radius: 11px ;
+        border-radius: 12px 12px 0px 0px ;
+    }
+    .service-value-right{
+        margin-top: -8px;
     }
     .service-img3{
         width: 350px;
         height: auto;
         margin-left: -11px;
-        margin-top: -61px;
+        margin-top: -60px;
         border-radius: 12px;
     }
 
@@ -576,14 +581,6 @@
     .nav-logo-head, .nav-logo-head2{
         display: none;
     }
-    .btn{
-        margin: auto;
-        margin-left: -23px;
-        width: 130px;
-        height: 40px;
-        font-size: 14px;
-        padding: 10px 10px 0px 10px;
-    }
     .nav-logo{
         display: block;
         max-width: 120px;
@@ -595,8 +592,17 @@
     .navbar-light .navbar-collapse{
         margin-left: 5px;
     }
+    .btn{
+        position: relative;
+        margin: auto;
+        margin-left: 177px;
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+        padding: 10px 10px 0px 10px;
+    }
     .sticky-top .btn{
-        margin-left: -23px;
+        margin-left: 177px;
     }
 
     .home-title-div{
@@ -751,7 +757,7 @@
     .our-service-content{
         width: 387.5px;
         height: 80px;
-        margin-top: 63px;
+        margin-top: 62px;
         margin-left: -12px;
         border-radius: 0px 0px 10px 10px;
     }
@@ -839,20 +845,20 @@
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
     .service3{
-        height: 2020px;
+        height: 1980px;
     }
     .service-img1{
         width: 385px;
         height: auto;
         margin-top: -40px;
-        border-radius: 12px;
     }
     .service-content-right{
         width: 385px;
         height: auto;
-        margin-left: 15px;
-        margin-top: 10px;
+        margin-left: 14px;
+        margin-top: -5px;
         padding: 20px 20px 20px 25px;
+        border-radius: 0px 0px 12px 12px;
     }
     .service-content-title{
         font-size: 18px;
@@ -869,15 +875,17 @@
     .service-content-left{
         width: 385px;
         height: auto;
-        margin-top: 393px;
+        margin-top: 380px;
         padding: 10px 20px 10px 30px;
+        border-radius: 0px 0px 12px 12px;
+        z-index: 1;
     }
     .service-img2{
         width: 385px;
         height: auto;
-        margin-top: -1130px;
-        margin-left: -10px;
-        border-radius: 11px ;
+        margin-top: -1100px;
+        margin-left: -9px;
+        border-radius: 12px 12px 0px 0px;
     }
     .service-img3{
         width: 385px;
@@ -1133,14 +1141,15 @@
     }
     .btn{
         margin: auto;
-        margin-left: -22px;
+        margin-left: 178px;
         width: 130px;
         height: 40px;
         font-size: 14px;
         padding: 10px 10px 0px 10px;
+        position: relative;
     }
     .sticky-top .btn{
-        margin-left: -22px;
+        margin-left: 178px;
     }
     .nav-logo{
         display: block;
@@ -1725,7 +1734,6 @@
     }
 }
 
-
 @media screen and (max-width:1700px) and (min-width:1200px){
     .navbar-light .navbar-brand img {
         max-height: 90px;
@@ -1744,64 +1752,73 @@
         margin-left: 20px;
     }
 }
-
-@media screen and (max-width:1200px) and (min-width:900px){
+@media only screen and (max-width:980px) and (min-width:825px) {
     .nav-logo{
-        display: none;
+        margin-left: 370px;
     }
     .navbar-light .navbar-collapse{
-        margin-left: -10px;
+        margin-left: 255px;
     }
-    .navbar-nav{
-        margin-left: 0px;
+}
+@media only screen and (width:853px) {
+    .nav-logo{
+        margin-left: 340px;
     }
-    .navbar-light .navbar-nav .nav-link{
-        padding: 35px 10px;
-    }
-    .sticky-top .navbar-light .navbar-nav .nav-link{
-        padding: 25px 10px;
-    }
-    .navbar-light .navbar-brand img {
-        max-height: 100px;
-        margin-left: -15px;
-    }
-    .sticky-top .navbar-light .navbar-brand img {
-        max-height: 100px;
-        margin-left: -15px;
-        transition: 0.1s;
-    }
-    .nav-logo-head {
-        display: block;
-        font-size: 18px;
-        margin-left: -80px;
-        margin-top: -15px;
-    }
-    .nav-logo-head2{
-        display: block;
-        font-size: 15px;
-        margin-left: -67px;
-    }
+}
 
-    .whatwedo-headers{
-        background-color: darkcyan;
+@media only screen and (width:393px){
+    .our-service-content{
+        width: 368px;
+        margin-left: -11px;
     }
-    .whatwedo-title{
-        width: 440px;
+    .service3{
+        height: 1805px;
     }
-
-    .about-box, .about-box2, .about-box3{
-        width: 300px;
-        height: 140px;
+    .service-img1, .service-img2, .service-img3{
+        width: 368px;
+        border-radius: 12px 12px 0px 0px;
+    }
+    .service-content-right, .service-content-left{
+        width: 368px;
+    }
+    .features{
+        height: 1170px;
+    }
+    .blog-img1, .blog-img2, .blog-img3{
+        width: 368px;
+    }
+    .blog-main2{
         margin-top: -10px;
-        margin-left: 0;
+        height: 365px;
     }
-    .about-box2{
-        margin-left: -162px;
+    .blog-text-head{
+       width: 365px;
     }
-    .about-box3{
-        margin-left: 637px;
-        margin-top: -165px;
+}
+@media only screen and (width:430px) {
+    .nav-logo{
+        margin-left: 130px;
     }
+    .navbar-light .navbar-collapse{
+        width: 0px;
+        margin-left: 14px;
+    }
+    .our-service-content{
+        width: 405px;
+        margin-left: -11px;
+        margin-top: 62px;
+    }
+    .service-img1, .service-img2, .service-img3{width: 405px;margin-left: -11px;}.service-img2{margin-top: -1080px;}
 
-
+    .service-content-right, .service-content-left{width: 405px;margin-left: 13px;}.service-content-left{margin-top: 395px;}
+    .features{
+        height: 1215px;
+    }
+    .blog-img1, .blog-img2, .blog-img3{
+        width: 405px;
+    }
+    .blog-text-head{width: 360px;}
+    .blog-main2{
+        margin-top: -10px;
+    }
 }

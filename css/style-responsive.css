@@ -1795,7 +1795,7 @@
        width: 365px;
     }
 }
-@media screen and (max-width:435px) and (min-width:425px){
+@media screen and (max-width: 440px) and (min-width: 425px){
     .nav-logo{
         margin-left: 130px;
     }
@@ -1804,7 +1804,7 @@
         margin-left: 14px;
     }
     .our-service-content{
-        width: 405px;
+        width: 410px;
         margin-left: -11px;
         margin-top: 62px;
     }
@@ -1817,7 +1817,7 @@
     .blog-img1, .blog-img2, .blog-img3{
         width: 405px;
     }
-    .blog-text-head{width: 360px;background-color: forestgreen;}
+    .blog-text-head{width: 360px;}
     .blog-main2{
         margin-top: -10px;
     }

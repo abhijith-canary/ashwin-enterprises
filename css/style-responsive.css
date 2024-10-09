@@ -1817,7 +1817,7 @@
     .blog-img1, .blog-img2, .blog-img3{
         width: 405px;
     }
-    .blog-text-head{width: 360px;}
+    .blog-text-head{width: 360px;background-color: firebrick;}
     .blog-main2{
         margin-top: -10px;
     }

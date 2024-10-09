@@ -1795,7 +1795,7 @@
        width: 365px;
     }
 }
-@media screen and (max-width:450px) and (min-width:425px){
+@media screen and (max-width:440px) and (min-width:425px){
     .nav-logo{
         margin-left: 130px;
     }

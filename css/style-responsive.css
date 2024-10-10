@@ -838,6 +838,7 @@
     .blog-text, .viewall-link{
         font-size: 13px;
         line-height: 17px;
+        background-color: palegreen;
     }
     .blog-block{
         margin-top: -10px;
@@ -1630,18 +1631,5 @@
         width: 410px;
         margin-left: -11px;
         margin-top: 62px;
-    }
-    .service-img1, .service-img2, .service-img3{width: 405px;margin-left: -11px;}.service-img2{margin-top: -1080px;}
-
-    .service-content-right, .service-content-left{width: 405px;margin-left: 13px;}.service-content-left{margin-top: 395px;}
-    .features{
-        height: 1215px;
-    }
-    .blog-img1, .blog-img2, .blog-img3{
-        width: 405px;
-    }
-    .blog-text-head{width: 360px;}
-    .blog-main2{
-        margin-top: -10px;
     }
 }

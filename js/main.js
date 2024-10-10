@@ -32,56 +32,39 @@
     });
 
 
-    // // Modal Video
-    // $(document).ready(function () {
-    //     var $videoSrc;
-    //     $('.btn-play').click(function () {
-    //         $videoSrc = $(this).data("src");
-    //     });
-    //     console.log($videoSrc);
 
-    //     $('#videoModal').on('shown.bs.modal', function (e) {
-    //         $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-    //     })
-
-    //     $('#videoModal').on('hide.bs.modal', function (e) {
-    //         $("#video").attr('src', $videoSrc);
-    //     })
+    // // Testimonial-carousel
+    // $(".testimonial-carousel").owlCarousel({
+    //     autoplay: false,
+    //     smartSpeed: 2000,
+    //     center: false,
+    //     dots: false,
+    //     loop: true,
+    //     margin: 25,
+    //     nav : true,
+    //     navText : [
+    //         '<i class="fa-thin fa-angle-left"></i>',
+    //         '<i class="fa-thin fa-angle-right"></i>'
+    //     ],
+    //     responsiveClass: fa,
+    //     responsive: {
+    //         0:{
+    //             items:1
+    //         },
+    //         576:{
+    //             items:1
+    //         },
+    //         768:{
+    //             items:2
+    //         },
+    //         992:{
+    //             items:2
+    //         },
+    //         1200:{
+    //             items:2
+    //         }
+    //     }
     // });
-
-
-    // Testimonial-carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 2000,
-        center: false,
-        dots: false,
-        loop: true,
-        margin: 25,
-        nav : true,
-        navText : [
-            '<i class="fa-thin fa-angle-left"></i>',
-            '<i class="fa-thin fa-angle-right"></i>'
-        ],
-        responsiveClass: true,
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:2
-            },
-            1200:{
-                items:2
-            }
-        }
-    });
 
     
     

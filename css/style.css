@@ -588,7 +588,6 @@ body{
     border-radius: 0px 0px 10px 10px;
     margin-top: -10px;
 }
-
 .choose-text-title{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
@@ -609,81 +608,40 @@ body{
     color: #53626D;
 }
 
-
 /* --------------------------------------------------------*/
-.service-impact-container{
-    height: 1650px;
+.impact-img{
+    width: 630px;
 }
-.service-img1{
-    width: 640px;
-    height: 520px;
-    margin-left: -10px;
-    margin-top: -25px;
-}
-.service-content-right{
+.impact-content, .leadership-content, .value-content{
     background-color: #E7ECF0;
-    width: 660px;
-    height: 520px;
-    margin-left: 672px;
-    margin-top: -520px;
     border-radius: 12px;
-    transition-duration: 0.5s;
+    padding: 70px;
 }
-.service-content-right:hover{
-    background-color: #d6dfe6;
+.leadership-img{
+    margin-left: 20px;
 }
-.service-content-title{
+.leadership-content{
+    width: 630px;
+    height: 543px;
+}
+.value-content{
+    height: 528px;
+}
+.leadership-main, .valuetime-main{
+    margin-top: 20px;
+}
+.content-title{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
-    line-height: 85px;
     color: #000000;
-    margin-top: 70px;
-    padding-left: 35px;
 }
-.service-content-para{
-    width: 600px;
+.content-para{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: #53626D;
-    padding-left: 35px;
-    padding-right: 25px;
-}
-
-.service-img2{
-    width: 660px;
-    height: 520px;
-    margin-left: 648px;
-    margin-top: -640px;
-}
-.service-content-left{
-    background-color: #E7ECF0;
-    width: 640px;
-    height: 520px;
-    border-radius: 12px;
-    margin-left: 15px;
-    margin-top: 70px;
-    transition-duration: 0.5s;
-}
-.service-content-left:hover{
-    background-color: #d6dfe6;
-}
-.service-img3{
-    width: 640px;
-    height: 520px;
-    margin-left: -10px;
-    margin-top: -50px;
-}
-.service-content-para3{
-    width: 600px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #6f818d;
-    padding-left: 30px;
+    color: #53626D; 
 }
 
 /* --------------------- BLOGS STYLE START --------------------- */
@@ -765,6 +723,7 @@ body{
 .readmore-blog:hover{
     color: #D65827;
 }
+
 /* --------------------- BLOG LOGO STYLE START --------------------- */
 .our-partner{
     border: 1px solid #E7ECF0;
@@ -854,7 +813,6 @@ body{
 }
 
 /* --------------------- CONTACT2 STYLE START ------------------------ */
-
 .contact-section{
     background-color: #313031;
 }
@@ -957,7 +915,6 @@ body{
     margin-top: 15px;
     margin-left: -30px;
 }
-
 .contact-menu-section{
     width: 620px;
     height: 400px;
@@ -1020,8 +977,8 @@ body{
     width: 94%;
     margin-left: 40px;
 }
-/* --------------------- COPYRIGHT STYLE START ------------------------ */
 
+/* --------------------- COPYRIGHT STYLE START ------------------------ */
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-secondary) !important;

@@ -51,6 +51,7 @@
         margin-left: -100px;
         max-height: 400px;
     }
+
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
 
     .about-container1{
@@ -287,59 +288,32 @@
         height: 1820px;
         margin-top: 0px;
     }
-    /* .service-impact-container{
-        margin-top: 0px;
-    } */
-    .service-img1{
-        width: 350px;
-        height: auto;
-        margin-top: -45px;
-        margin-left: -11px;
-        border-radius: 12px 12px 0px 0px;
+    .content-title{
+        font-size: 18px;
     }
-    .service-content-right{
-        width: 350px;
-        height: auto;
-        margin-left: 13px;
+    .content-para{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .impact-content, .leadership-content, .value-content{
+        padding: 20px;
         margin-top: -5px;
         border-radius: 0px 0px 12px 12px;
     }
-    .service-content-title{
-        font-size: 18px;
-        margin-top: -20px;
-        padding: 0;
+    .leadership-img{
+        margin-left: 0px;
+        margin-top: -1005px;
     }
-    .service-content-para, .service-content-para3{
-        font-size: 13px;
-        line-height: 16px;
-        width: auto;
-        padding: 0px;
-        margin-top: -30px;
-    }
-    .service-content-left{
-        width: 350px;
-        height: auto;
-        margin-top: 360px;
-        margin-left: 13px;
-        border-radius: 0px 0px 12px 12px;
+    .leadership-content{
+        height: 340px;
+        margin-top: 300px;
         z-index: 1;
     }
-    .service-img2{
-        width: 350px;
-        height: auto;
-        margin-top: -1010px;
-        margin-left: -11px;
-        border-radius: 12px 12px 0px 0px ;
+    .value-img{
+        margin-top: -30px;
     }
-    .service-value-right{
-        margin-top: -8px;
-    }
-    .service-img3{
-        width: 350px;
-        height: auto;
-        margin-left: -11px;
-        margin-top: -60px;
-        border-radius: 12px;
+    .value-content{
+        height: 340px;
     }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
@@ -575,7 +549,6 @@
 /* ---------------------------------------------------------------------------------------------------------
 -------------------------------- media style for large phones ----------------------------------------------
 ------------------------------------------------------------------------------------------------------------ */
-
 
 @media screen and (max-width: 600px) and (min-width:400px){
     .nav-logo-head, .nav-logo-head2{
@@ -847,50 +820,32 @@
     .service3{
         height: 1980px;
     }
-    .service-img1{
-        width: 385px;
-        height: auto;
-        margin-top: -40px;
-    }
-    .service-content-right{
-        width: 385px;
-        height: auto;
-        margin-left: 14px;
-        margin-top: -5px;
-        padding: 20px 20px 20px 25px;
-        border-radius: 0px 0px 12px 12px;
-    }
-    .service-content-title{
+    .content-title{
         font-size: 18px;
-        margin-top: -20px;
-        padding: 0;
     }
-    .service-content-para, .service-content-para3{
+    .content-para{
         font-size: 13px;
         line-height: 17px;
-        width: auto;
-        padding: 0px;
-        margin-top: -30px;
     }
-    .service-content-left{
-        width: 385px;
-        height: auto;
-        margin-top: 380px;
-        padding: 10px 20px 10px 30px;
+    .impact-content, .leadership-content, .value-content{
+        padding: 15px 30px ;
+        margin-top: -5px;
         border-radius: 0px 0px 12px 12px;
+    }
+    .leadership-img{
+        margin-left: 0px;
+        margin-top: -1005px;
+    }
+    .leadership-content{
+        height: 340px;
+        margin-top: 315px;
         z-index: 1;
     }
-    .service-img2{
-        width: 385px;
-        height: auto;
-        margin-top: -1100px;
-        margin-left: -9px;
-        border-radius: 12px 12px 0px 0px;
+    .value-img{
+        margin-top: -30px;
     }
-    .service-img3{
-        width: 385px;
-        height: auto;
-        margin-top: -60px;
+    .value-content{
+        height: 340px;
     }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
@@ -1443,68 +1398,44 @@
         border-radius: 12px 12px 0px 0px ;
     }
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
-    .service-impact-container{
-        height: auto;
-    }
-    .service3{
-        height: 990px;
-    }
-    .service-img1{
-        width: 365px;
-        height: 310px;
-        margin-top: -45px;
-        margin-left: -11px;
-        border-radius: 12px;
-    }
-    .service-content-right{
-        width: 345px;
-        height: 310px;
-        margin-left: 390px;
-        margin-top: -310px;
-        padding: 20px 20px 20px 25px;
-    }
-    .service-content-title{
+    .content-title{
         font-size: 18px;
-        margin-top: -35px;
-        padding: 0;
     }
-    .service-content-para, .service-content-para3{
+    .content-para{
         font-size: 13px;
         line-height: 17px;
-        width: auto;
-        padding: 0px;
-        margin-top: -30px;
     }
-    .service-content-left{
-        width: 364px;
-        height: 320px;
-        margin-top: 60px;
-        margin-left: 12px;
-        padding: 10px 20px 10px 30px;
+    .impact-img{
+        height: 325px;
+        margin-left: -3px;
     }
-    .service-img2{
-        width: 345px;
-        height: 320px;
-        margin-top: -440px;
-        margin-left: 365px;
-        border-radius: 11px ;
+    .impact-content{
+        padding: 15px 30px;
+        border-radius: 7px;
+        width: 340px;
+        margin-left: 8px;
     }
-    .service-value-right{
-        width: 345px;
+    .leadership-img{
+        margin-left: 11px;
+        width: 340px;
         height: 330px;
-        margin-left: 390px;
-        margin-top: -330px;
-        padding: 20px 20px 20px 25px;
     }
-    .service-img3{
-        width: 365px;
+    .leadership-content{
         height: 330px;
-        margin-top: -60px;
-        margin-left: -11px;
-        border-radius: 12px;
+        width: 350px;
+        margin-left: -5px;
+        padding: 10px 20px;
+        border-radius: 7px;
     }
-    .service-content-para3{
-        line-height: 16px;
+    .value-img{
+        margin-top: 0px;
+        height: 340px;
+    }
+    .value-content{
+        height: 340px;
+        width: 340px;
+        margin-left: 8px;
+        padding: 10px 20px;
     }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
@@ -1770,16 +1701,6 @@
     .our-service-content{
         width: 368px;
         margin-left: -11px;
-    }
-    .service3{
-        height: 1805px;
-    }
-    .service-img1, .service-img2, .service-img3{
-        width: 368px;
-        border-radius: 12px 12px 0px 0px;
-    }
-    .service-content-right, .service-content-left{
-        width: 368px;
     }
     .features{
         height: 1170px;

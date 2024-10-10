@@ -318,52 +318,26 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .features{
-        height: 1215px;
-    }
-    .blog-title{
+    .our-blog-head{
         font-size: 17px;
-        margin-top: 10px;
-        margin-left: -10px;
     }
-    .blog-img1, .blog-img2, .blog-img3{
-        width: 350px;
-        height: 220px;
-        margin-left: -51px;
-        margin-top: -35px;
-    }
-    .blog-main1{
-        margin-top: -10px;
-    }
-    .blog-main2{
-        margin-top: 0px;
-    }
-    .blog-content, .blog-content2, .blog-content3{
-        margin-left: -35px;
-        margin-top: -30px;
-        width: 350px;
-    }
-    .blog-text-manufact{
+    .manufacture-head{
         font-size: 12px;
-        margin-left: 5px;
-        margin-top: -35px;
+        line-height: 0;
     }
-    .blog-text-title, .blog-text-title2{
+    .blog-subhead{
         font-size: 16px;
-        line-height: 19px;
-        margin-top: -10px;
-        margin-left: 5px;
+        line-height: 18px;
     }
-    .blog-text-head{
+    .blog-text, .viewall-link{
         font-size: 13px;
-        line-height: 16px;
-        width: 340px;
-        margin-top: -3px;
-        margin-left: 5px;
+        line-height: 17px;
     }
-    .readmore-blog {
-        font-size: 12px;
-        margin-left: 5px;
+    .blog-block{
+        margin-top: -10px;
+    }
+    .blog-block2{
+        margin-top: 15px;
     }
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
@@ -850,48 +824,26 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .features{
-        height: 1240px;
+    .our-blog-head{
+        font-size: 17px;
     }
-    .blog-title{
-        font-size: 20px;
-        margin-top: 0px;
-    }
-    .blog-img1, .blog-img2, .blog-img3{
-        width: 385px;
-        height: 240px;
-        margin-left: -51px;
-        margin-top: -35px;
-    }
-    .blog-main1{
-        margin-top: -10px;
-    }
-    .blog-main2{
-        margin-top: 0px;
-    }
-    .blog-content, .blog-content2, .blog-content3{
-        margin-left: -25px;
-        width: 350px;
-        margin-top: -30px;
-    }
-    .blog-text-manufact{
+    .manufacture-head{
         font-size: 12px;
-        margin-left: auto;
-        margin-top: -35px;
+        line-height: 0;
     }
-    .blog-text-title, .blog-text-title2{
+    .blog-subhead{
         font-size: 16px;
         line-height: 18px;
+    }
+    .blog-text, .viewall-link{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .blog-block{
         margin-top: -10px;
     }
-    .blog-text-head{
-        font-size: 13px;
-        line-height: 16px;
-        width: 350px;
-        margin-top: -5px;
-    }
-    .readmore-blog{
-        font-size: 12px;
+    .blog-block2{
+        margin-top: 15px;
     }
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
@@ -1440,60 +1392,22 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .features{
-        height: 390px;
+    .our-blog-head{
+        font-size: 17px;
     }
-    .blog-title{
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .blog-img1, .blog-img2, .blog-img3{
-        width: 230px;
-        height: 140px;
-        margin-left: -43px;
-        margin-top: -35px;
-    }
-    .blog-main{
-        width: 240px;
-        margin-left: -10px;
-    }
-    .blog-main1{
-        margin-top: 24px;
-        margin-left: 5px;
-        width: 240px;
-    }
-    .blog-main2{
-        margin-top: 25px;
-        margin-left: 5px;
-        width: 240px;
-    }
-    .blog-content, .blog-content2, .blog-content3{
-        margin-left: -23px;
-        width: 220px;
-        margin-top: -30px;
-    }
-    .blog-text-manufact{
+    .manufacture-head{
         font-size: 12px;
-        margin-left: auto;
+        line-height: 0;
     }
-    .blog-text-title, .blog-text-title2{
-        font-size: 14px;
+    .blog-subhead{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .blog-text, .viewall-link{
+        font-size: 13px;
         line-height: 17px;
-        margin-top: -5px;
     }
-    .blog-text-head{
-        font-size: 14px;
-        line-height: 17px;
-        width: auto;
-        margin-top: -5px;
-    }
-    .blog-text-head2{
-        margin-top: -10px;
-    }
-    .readmore-blog{
-        font-size: 12px;
-    }
-
+    
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
     .our-partner{
         margin-top: -10px;
@@ -1697,25 +1611,13 @@
     }
 }
 
-@media only screen and (width:393px){
+/* @media only screen and (width:393px){
     .our-service-content{
         width: 368px;
         margin-left: -11px;
     }
-    .features{
-        height: 1170px;
-    }
-    .blog-img1, .blog-img2, .blog-img3{
-        width: 368px;
-    }
-    .blog-main2{
-        margin-top: -10px;
-        height: 365px;
-    }
-    .blog-text-head{
-       width: 365px;
-    }
-}
+} */
+ 
 @media screen and (max-width: 440px) and (min-width: 425px){
     .nav-logo{
         margin-left: 130px;

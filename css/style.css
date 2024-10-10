@@ -645,82 +645,47 @@ body{
 }
 
 /* --------------------- BLOGS STYLE START --------------------- */
-.blog-title{
+.our-blog-head{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 25px;
     color: #1D1E1C;
-    margin-top: 40px;
 }
-.blog-img1{
-    margin-left: -180px;
-    width: 400px;
-    height: 280px;
-    transition: 0.5s;
-    overflow: hidden;
-}
-.blog-img1:hover, .blog-img2:hover, .blog-img3:hover{
-    transform: scale(1.03);
-}
-.blog-img2{
-    margin-left: -87px;
-    width: 400px;
-    height: 280px;
+.blog-img{
     transition: 0.5s;
 }
-.blog-img3{
-    margin-left: 5px;
-    width: 400px;
-    height: 280px;
-    transition: 0.5s;
+.blog-img:hover{
+    transform: scale(1.05);
 }
-.blog-content{
-    margin-left: -160px;
-    margin-top: -15px;
-    width: 370px;
-}
-.blog-content2{
-    margin-left: -65px;
-    margin-top: -15px;
-    width: 370px;
-}
-.blog-content3{
-    margin-left: 25px;
-    margin-top: -15px;
-    width: 370px;
-}
-.blog-text-manufact{
+.manufacture-head{
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #AAABAF;
 }
-.blog-text-title, .blog-text-title2{
+.blog-subhead{
     font-family: "Poppins", sans-serif;
     font-size: 21px;
     font-weight: 600;
     line-height: 25px;
     color: #1D1E1C;
 }
-.blog-text-title2{
-    margin-top: 0px;
-}
-.blog-text-head{
+.blog-text{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
     color: #53626D;
 }
-.readmore-blog{
+.viewall-link{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #53626D;
     text-decoration: underline;
 }
-.readmore-blog:hover{
+.viewall-link:hover{
     color: #D65827;
 }
 

@@ -17,4 +17,86 @@
     width: 100px;
     color: white;
 }
-    
+
+
+.header-two {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9998;
+    width: 100%;
+    background: #a84646;
+  }
+  
+  .menu-style2 {
+    text-align: center;
+  }
+  
+  .menu-style2.main-menu nav > ul > li > a {
+    color: #151515;
+    padding: 54px 17px;
+    position: relative;
+  }
+  
+  .menu-style2.main-menu nav > ul > li > a:before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: calc(50% - 1px);
+    height: 2px;
+    width: 10px;
+    background: #fc9928;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .menu-style2.main-menu nav ul li.active a:before,
+  .menu-style2.main-menu nav ul li a:hover:before {
+    opacity: 1;
+    width: 19px;
+  }
+  
+  .menu-style2.main-menu nav ul li.middle-logo a {
+    padding: 0;
+    transform: translateY(5px);
+  }
+  
+  .menu-style2.main-menu nav ul li.middle-logo a:before {
+    display: none;
+  }
+  
+  .menu-style2.main-menu nav ul li.middle-logo a img.hb-bottom-shape {
+    position: absolute;
+    left: 50%;
+    min-width: 157px;
+    transform: translateX(-50%);
+  }
+  
+  .header-bottom-right-style-2 {
+    margin-left: -41px;
+    text-align: right;
+  }
+  
+  .header-bottom-right-style-2 li {
+    display: inline-block;
+  }
+  
+  .header-bottom-right-style-2 li a.btn {
+    padding: 12px 20px;
+  }
+  .header-bottom-right-style-2 li a.btn-light {
+    border: 1px solid #ccc !important;
+  }
+  .header-bottom-right-style-2 li a.btn-light:hover {
+    border-color: #fc9928 !important;
+  }
+  
+  .header-bottom-right-style-2 li a:hover,
+  .header-bottom-right-style-2 li a.active {
+  }
+  
+  .header-bottom-right-style-2 li:first-child a {
+    margin-left: 0;
+  }
+  
+/*** Navbar End ***/

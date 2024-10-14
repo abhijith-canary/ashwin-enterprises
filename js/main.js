@@ -25,49 +25,12 @@
         }
     });
 
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 5,
-        time: 2000
-    });
-
-
-
-    // // Testimonial-carousel
-    // $(".testimonial-carousel").owlCarousel({
-    //     autoplay: false,
-    //     smartSpeed: 2000,
-    //     center: false,
-    //     dots: false,
-    //     loop: true,
-    //     margin: 25,
-    //     nav : true,
-    //     navText : [
-    //         '<i class="fa-thin fa-angle-left"></i>',
-    //         '<i class="fa-thin fa-angle-right"></i>'
-    //     ],
-    //     responsiveClass: fa,
-    //     responsive: {
-    //         0:{
-    //             items:1
-    //         },
-    //         576:{
-    //             items:1
-    //         },
-    //         768:{
-    //             items:2
-    //         },
-    //         992:{
-    //             items:2
-    //         },
-    //         1200:{
-    //             items:2
-    //         }
-    //     }
+    // // Facts counter
+    // $('[data-toggle="counter-up"]').counterUp({
+    //     delay: 5,
+    //     time: 2000
     // });
 
-    
-    
    // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {

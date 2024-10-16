@@ -748,10 +748,10 @@
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
     .service{
-        height: 1080px;
+        height: 1280px;
     }
     .service-section2{
-        height: 1070px;
+        height: 1270px;
         margin-top: -40px;
     }
     .choose-title{
@@ -759,9 +759,16 @@
         margin-top: -30px;
         margin-left: auto;
     }
-    .service-img{
-        width: auto;
+    /* .service-img{
+        width: 280px;
         height: 200px;
+    }     */
+    .choose-experience-img{
+        width: 363px;
+        height: 270px;
+    }
+    .service .service-item .service-inner .service-img {
+        width: auto;
     }
     .service-div1{
         width: auto;
@@ -773,9 +780,8 @@
         padding-left: 15px;
         margin-top: -30px;
     }
-    .service-div3{
-        margin-top: -30px;
-    }
+    .service-div3{margin-top: -30px;}
+    
     .choose-text-box{
         width: auto;
         height: 130px;
@@ -1128,7 +1134,7 @@
         margin-left: -13px;
         margin-top: 5px;
     }
-    .experience_icon{
+    .experience_icon, .experience_icon3{
         width: 80px;
         padding-top: 45px;
         padding-left: 30px;
@@ -1238,7 +1244,6 @@
     .our-service-bg{
         height: 660px;
         margin-top: -10px;
-        background-image: url(../media/servicepage-bgimg.png);
     }
     .our-service-title{
         font-size: 18px;
@@ -1305,7 +1310,7 @@
         margin-top: -45px;
     }
     .choose-title{
-        font-size: 16px;
+        font-size: 17px;
         margin-top: -30px;
         margin-left: auto;
     }
@@ -1347,6 +1352,9 @@
     .choose-experience-img{
         width: 230px;
         border-radius: 12px 12px 0px 0px ;
+    }
+    .service .service-item .service-inner .service-img {
+        width: auto;
     }
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
@@ -1405,12 +1413,12 @@
     .blog-subhead{
         font-size: 16px;
         line-height: 18px;
+        background-color: olive;
     }
     .blog-text, .viewall-link{
         font-size: 13px;
         line-height: 17px;
     }
-    
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
     .our-partner{
         margin-top: -10px;
@@ -1426,9 +1434,10 @@
     }
     .contact-action{
         border-radius: 12px 12px 0px 0px;
-        height: 230px;
+        height: 190px;
         width: auto;
         margin-left: -12px;
+        background-image: url(../media/Action_button_bg_croped.png);
     }
     .action-content{
         width: auto;
@@ -1443,17 +1452,18 @@
     .action-para{
         font-size: 15px;
         line-height: 16px;
-        width: auto;
+        width: 550px;
         margin-top: -25px;
         padding: 0px 10px;
     }
     .consult-btn2{
-        margin-top: -40px;
-        margin-left: 10px;
+        margin-top: -120px;
+        margin-left: 580px;
         font-size: 12px;
         line-height: 15px;
         width: 90px;
         height: 35px;
+        background-color: teal;
     }
 
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
@@ -1614,13 +1624,6 @@
     }
 }
 
-/* @media only screen and (width:393px){
-    .our-service-content{
-        width: 368px;
-        margin-left: -11px;
-    }
-} */
- 
 @media screen and (max-width: 440px) and (min-width: 425px){
     .nav-logo{
         margin-left: 130px;
@@ -1633,5 +1636,124 @@
         width: 410px;
         margin-left: -11px;
         margin-top: 62px;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:990px){
+    .about-box, .about-box2, .about-box3{
+        height: 130px;
+        width: 310px;
+    }
+    .about-box2{
+        margin-top: 5px;
+        margin-left: -168px;
+    }
+    .about-box3{
+        margin-left: 637px;
+        margin-top: -155px;
+    }
+    .service-box{
+        margin-top: 3px;
+    }
+/* -----------about2 section-------------- */
+    .about{
+        height: 548px;
+    }
+    .section-about2{
+        height: 530px;
+        width: auto;
+    }
+    .whatwedo-headers{
+        margin-top: 80px;
+    }
+    .whatwedo-title{
+        width: auto;
+        height: auto;
+    }
+    .about-imgs{width: 40px;}
+    
+    .about-content-right{
+        margin-left: 280px;
+        margin-top: -100px;
+    }
+    .job-block, .deployment-block{
+        width: auto;
+        margin-left: 20px;
+    }
+    .travel-block, .placement-block{
+        width: auto;
+    }
+/* -----------section1 section-------------- */
+    .our-service-bg{
+        background-image: url(../media/service_Bg_Image.png);
+    }
+    .our-service-title{
+        color: rgb(255, 255, 255);
+    }
+    .our-service-content{
+        width: 102.5%;
+        margin-left: -11px;
+    }
+    .service-card-slider{
+        margin-left: 300px;
+    }  
+    .owl-carousel-3 .owl-nav {
+        width: auto;
+        top: 370px;
+        right: auto;
+        left: -80px;
+        justify-content: flex-end;
+    }
+/* -----------section2 section-------------- */
+    .service{
+        height: 555px;
+    }
+    .service-section2{
+        height: 550px;
+    }
+    .choose-title, .choose-img-container{
+        margin-top: 5px;
+    }
+    .service-div1{
+        width: auto;
+        margin-left: 20px;
+    }
+    .service-div2{
+        width: auto;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .service-div3{
+        width: auto;
+        margin-top: -452px;
+        margin-left: 640px;
+    }
+    .choose-text-box, .choose-experience-img{
+        width: 300px;
+    }
+    .choose-text-para{margin-top: -10px;}
+
+/* -----------section3 section-------------- */
+    .impact-img, .value-img{
+        height: auto;
+        width: auto;
+    }
+    .impact-content{
+        padding: 80px 50px;
+        width: 460px;
+    }
+    .leadership-img{
+        margin-left: 11px;
+        width: 460px;
+        height: auto;
+    }
+    .leadership-content{
+        height: auto;
+        width: 470px;
+        padding: 50px 50px;
+    }
+    .value-content{
+        height: auto;
+        width: 460px;
+        padding: 50px 50px;
     }
 }

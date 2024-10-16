@@ -48,7 +48,6 @@
 
 
 
-        <!-- Navbar & Hero Start -->
         <div class="container-fluid nav-bar p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <img src="media/logo_Icon.png" class="img-fluid nav-logo" alt="">
@@ -56,15 +55,15 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav  py-0">
+                    <div class="navbar-nav py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About Us</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="blog.html" class="nav-item nav-link">Blogs</a>
                         <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                     </div>
-
-                    <a href="index.html" class="navbar-brand ">
+        
+                    <a href="index.html" class="navbar-brand">
                         <img src="media/logo_Icon.png" class="img-fluid logo-img" alt="">
                         <h1 class="nav-logo-head">ASHWIN ENTERPRISES PRIVATE LTD</h1>
                         <p class="nav-logo-head2">Recruitment and Placement Services</p>
@@ -73,7 +72,41 @@
                 </div>
             </nav>
         </div>
-        <!-- Navbar & Hero End -->
+        
+        <!-- Scrolling Text Section -->
+        <div class="ticker" style="overflow: hidden; background-color: #f0f8ff; padding: 10px; position: sticky; top: 0; z-index: 1000;">
+            <div class="ticker-text" style="white-space: nowrap;">
+                Breaking News: Our new services are now available! | Special offers this month! | Join us for our upcoming webinar!
+            </div>
+        </div>
+        
+        
+        <style>
+            /* Add CSS for the ticker animation */
+            .ticker {
+                height: 50px; /* Adjust height as needed */
+                overflow: hidden;
+                position: relative; /* Change to relative */
+                width: 100%; /* Full width */
+                z-index: 1000; /* Ensure it stays above other content */
+            }
+        
+            .ticker-text {
+                display: inline-block;
+                position: absolute;
+                animation: ticker 15s linear infinite;
+            }
+        
+            @keyframes ticker {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+        </style>
+        
 
         <!-- Home Start -->
         <div class="carousel-header">
@@ -134,7 +167,7 @@
                         <div class="about-box3">
                             <div class="pb-4">
                                 <img src="media/Service_Icon.png" class="experience_icon3">
-                                <div class="px-4">
+                                <div class="px-4 service-box">
                                     <p class="mb-4 experience-head1 service-head">Service</p>
                                     <p class="mb-4 experience-head2">Second to none</p>
                                 </div>
@@ -229,14 +262,14 @@
                 <div class=" wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="choose-title">Why Choose us?</h1>
                 </div>
-                <div class="row g-4">
+                <div class="row g-4 choose-img-container">
                     <div class="col-lg-6 col-xl-4 wow fadeInUp service-div1" data-wow-delay="0.5s">
                         <div class="service-item">
                             <div class="service-inner">
                                 <div class="service-img">
                                     <img src="media/choose-experience-img.png" class="img-fluid choose-experience-img" alt="Image">
                                 </div>
-                                <div class="choose-text-box ">
+                                <div class="choose-text-box">
                                     <h4 class="choose-text-title">Experience</h4>
                                     <p class="choose-text-para">With over 25 years of expertise in the HR industry, we bring a wealth of knowledge and strategies to meet your recruitment and placement needs.</p>
                                 </div>
@@ -247,7 +280,7 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp service-div2" data-wow-delay="0.5s">
                         <div class="service-item">
                             <div class="service-inner">
-                                <div class="service-img ">
+                                <div class="service-img">
                                     <img src="media/choose-network-img.png" class="img-fluid choose-experience-img" alt="Image">
                                 </div>
                                 <div class="choose-text-box ">
@@ -491,7 +524,7 @@
                     </p>                 
                 </div>
             </div>
-        </div><br>
+        </div>
         <!-- Copyright End -->
 
 

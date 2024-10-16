@@ -127,14 +127,13 @@ body{
 /*** Navbar End ***/
 
 /*** service Start ***/
-.service-item {
-    background-color: none;
-}
+
 
 .service .service-item .service-inner .service-img {
     position: relative;
     overflow: hidden;
     border-radius: 10px 10px 0px 0px;
+    width: 380px;
 }
 
 .service .service-item .service-inner .service-img img {
@@ -575,6 +574,8 @@ body{
 }
 .service-img{
     margin-top: 45px;
+}
+.choose-experience-img{
     width: 380px;
 }
 .choose-text-box{

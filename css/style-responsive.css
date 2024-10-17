@@ -1,31 +1,33 @@
 @media screen and (max-width: 400px) {
-    .nav-logo-head, .nav-logo-head2{
-        display: none;
+    
+        .topnav-centered {
+            margin-left: -5px;
+        }
+        .nav-btn{
+            position: absolute; /* Position it relative to the parent */
+            right: -130px;
+            top: 50%; /* Vertically center it */
+            transform: translateY(-50%); 
+            font-size: 11px;
+            width: 85px;
+            height: 35px;
+            padding: 0px 12px;
+            background-color: #c54809;
+            color: rgb(238, 231, 231);
+            border: 1px solid #c54809;
+        }
+        .nav-btn:hover{
+            background-color: white;
+            color: rgba(0, 0, 0, 0.808);
+            border: 1px solid rgb(37, 37, 37);
+        }
+        .get-text{
+            padding-left: 20px;
+        }
+/* --------------------- HOME RESPONSIVE START --------------------- */
+    .carousel-header{
+        margin-top: 50px;
     }
-    .nav-logo{
-        display: block;
-        max-width: 120px;
-        margin-left: 97px;
-    }
-    .nav-bar{
-        box-shadow: 0px 1px rgba(220, 220, 220, 0.664);
-    }
-    .navbar-light .navbar-collapse{
-        margin-left: -17px;
-    }
-    .btn{
-        position: relative;
-        margin: auto;
-        margin-left: 180px;
-        width: 130px;
-        height: 40px;
-        font-size: 14px;
-        padding: 10px 10px 0px 10px;
-    }
-    .sticky-top .btn{
-        margin-left: 180px;
-    }
-
     .home-title-div{
         width: auto;
         max-height: 400px;
@@ -54,15 +56,19 @@
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
 
+    .about-section{
+        margin-top: 60px;
+    }
     .about-container1{
         margin-top: -45px;
         height: 880px;
     }
     .section-about{
-        width: 350px;
+        width: auto;
         height: 390px;
         border-radius: 12px;
-        margin-left: -12px;
+        margin: 0 auto; /* Horizontally center it */
+        display: block;
     }
     .about-head{
         font-size: 15px;
@@ -179,6 +185,9 @@
     .our-service{
         height: 610px;
     }
+    .our-service1{
+        margin-top: 75px;
+    }
     .our-service-bg{
         height: 600px;
         margin-left: 0px;
@@ -242,55 +251,46 @@
     }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .service{
-        height: 1005px;
+    .choose-section{
+        padding: 0px 13px;
+        margin-top: 10px;
     }
-    .service-section2{
-        height: 1000px;
-        margin-top: -45px;
+    .choose-container{
+        padding: 10px 15px;
+        padding-bottom: 20px;
     }
     .choose-title{
         font-size: 16px;
-        margin-top: -30px;
-        margin-left: auto;
     }
-    .service-img{
-        width: auto;
-        height: 180px;
-    }
-    .service-div1{
-        padding-left: 13px;
-        margin-top: -10px;
-    }
-    .service-div2{
-        padding-left: 13px;
-        margin-top: -30px;
-    }
-    .service-div3{
-        margin-top: -30px;
-    }
-    .choose-text-box{
-        width: auto;
-        height: 130px;
-    }
-    .choose-text-title{
+    .choose-sub-title{
         font-size: 16px;
-        padding-top: 5px;
     }
     .choose-text-para{
         font-size: 13px;
         line-height: 16px;
-        margin-top: -20px;
+        margin-top: 0px;
+    }
+    .choose-box{
+        padding: 15px 25px;
+    }
+    .choose-network, .choose-vision{
+        margin-top: 15px;
     }
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
-
+    .collection{
+        margin-top: 5px;
+        height: 1945px;
+    }
     .content-title{
         font-size: 18px;
     }
     .content-para{
         font-size: 13px;
         line-height: 17px;
+    }
+    .impact-main{
+        margin-top: -35px;
     }
     .impact-content, .leadership-content, .value-content{
         padding: 20px;
@@ -318,6 +318,9 @@
         height: auto;
         margin-top: 0px;
     }
+    .blog-container{
+        margin-top: 80px;
+    }
     .our-blog-head{
         font-size: 17px;
     }
@@ -342,7 +345,7 @@
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
     .our-partner{
-        margin-top: -10px;
+        margin-top: -8px;
     }
     .logos-title{
         font-size: 19px;
@@ -363,6 +366,9 @@
     }
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
+    .contact-container{
+        margin-top: 80px;
+    }
     .contact-main{
         margin-top: -20px;
     }
@@ -525,33 +531,31 @@
 ------------------------------------------------------------------------------------------------------------ */
 
 @media screen and (max-width: 600px) and (min-width:400px){
-    .nav-logo-head, .nav-logo-head2{
-        display: none;
+
+    .topnav-centered {
+        margin-left: -5px;
     }
-    .nav-logo{
-        display: block;
-        max-width: 120px;
-        margin-left: 120px;
+    .nav-btn{
+        position: absolute; /* Position it relative to the parent */
+        right: -130px;
+        top: 50%; /* Vertically center it */
+        transform: translateY(-50%); 
+        font-size: 11px;
+        width: 95px;
+        height: 35px;
+        padding: 0px 16px;
     }
-    .nav-bar{
-        box-shadow: 0px 1px rgba(220, 220, 220, 0.664);
-    }
-    .navbar-light .navbar-collapse{
-        margin-left: 5px;
-    }
-    .btn{
-        position: relative;
-        margin: auto;
-        margin-left: 177px;
-        width: 130px;
-        height: 40px;
-        font-size: 14px;
-        padding: 10px 10px 0px 10px;
-    }
-    .sticky-top .btn{
-        margin-left: 177px;
+    .get-text{
+        padding-left: 20px;
     }
 
+/* --------------------- HOME RESPONSIVE START --------------------- */
+body{
+    background-color: thistle;
+}
+    .carousel-header{
+        margin-top: 70px;
+    }
     .home-title-div{
         width: auto;
         margin-top: 0px;
@@ -580,10 +584,13 @@
     }
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
+    .about-section{ margin-top: 80px; }
+
+    .country{ height: 880px; }
 
     .about-container1{
         margin-top: -40px;
-        height: 900px;
+        height: 920px;
     }
     .section-about{
         width: auto;
@@ -612,6 +619,9 @@
         margin-top: -10px;
         margin-left: 0;
     }
+    .about-box{
+        margin-top: 15px;
+    }
     .experience_icon{
         padding-top: 45px;
         padding-left: 50px;
@@ -626,7 +636,7 @@
 
 /* --------------------------------------------------------- */
     .about{
-        height: 820px;
+        height: 825px;
     }
     .abt-sec{
         width: 350px;
@@ -687,9 +697,10 @@
     }
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service{
-        height: 655px;
-    }
+    .our-service{ height: 655px; }
+
+    .our-service1{ margin-top: 80px; }
+    
     .our-service-bg{
         height: 640px;
         border-radius: 12px;
@@ -732,77 +743,43 @@
         width: 30px;
         margin-left: 0px;
     }
-    .constrution-box{
-        height: 406px;
-    }
-    .constrution-box, .hospitality-box{
-        margin-top: -405px;
-    }
-    .hospitality-box{
-        height: 406px;
-        margin-top: -405px;
-    }
-    .hospitality-hover{
-        height: 405px;
-    }
+    .constrution-box, .hospitality-box { height: 406px; }
+
+    .constrution-box, .hospitality-box { margin-top: -405px; }
+
+    .hospitality-hover { height: 405px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .service{
-        height: 1280px;
+    .choose-section{
+        padding: 0px 13px;
+        margin-top: 10px;
     }
-    .service-section2{
-        height: 1270px;
-        margin-top: -40px;
+    .choose-container{
+        padding: 10px 15px;
+        padding-bottom: 20px;
     }
     .choose-title{
-        font-size: 17px;
-        margin-top: -30px;
-        margin-left: auto;
+        font-size: 16px;
     }
-    /* .service-img{
-        width: 280px;
-        height: 200px;
-    }     */
-    .choose-experience-img{
-        width: 363px;
-        height: 270px;
-    }
-    .service .service-item .service-inner .service-img {
-        width: auto;
-    }
-    .service-div1{
-        width: auto;
-        padding-left: 15px;
-        margin-top: -10px;
-    }
-    .service-div2{
-        width: auto;
-        padding-left: 15px;
-        margin-top: -30px;
-    }
-    .service-div3{margin-top: -30px;}
-    
-    .choose-text-box{
-        width: auto;
-        height: 130px;
-    }
-    .choose-text-title{
-        font-size: 17px;
-        padding-top: 10px;
+    .choose-sub-title{
+        font-size: 16px;
     }
     .choose-text-para{
         font-size: 13px;
-        line-height: 17px;
+        line-height: 16px;
+        margin-top: 0px;
     }
+    .choose-box { padding: 15px 25px; }
+    
+    .choose-network, .choose-vision { margin-top: 15px; }
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .service3{
-        height: 1980px;
+    .collection{
+        height: 1990px;
     }
-    .content-title{
-        font-size: 18px;
-    }
+    .content-title{ font-size: 18px; }
+
     .content-para{
         font-size: 13px;
         line-height: 17px;
@@ -821,17 +798,20 @@
         margin-top: 315px;
         z-index: 1;
     }
-    .value-img{
-        margin-top: -30px;
-    }
-    .value-content{
-        height: 340px;
-    }
+    .value-img{ margin-top: -30px; }
+
+    .value-content{ height: 340px; }
+
+    .impact-main{ margin-top: -55px;}
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
+
     .blog{
         height: auto;
         margin-top: 0px;
+    }    
+    .blog-container{
+        margin-top: 90px;
     }
     .our-blog-head{
         font-size: 17px;
@@ -878,6 +858,9 @@
     }
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
+    .contact-container{
+        margin-top: 85px;
+    }
     .contact-main{
         margin-top: -15px;
     }
@@ -1049,7 +1032,7 @@
 
 @media screen and (max-width: 1200px) and (min-width: 600px) {
 
-    .navbar-light .navbar-collapse{
+    /* .navbar-light .navbar-collapse{
         margin-left: 185px;
     }
     .nav-logo-head, .nav-logo-head2{
@@ -1074,7 +1057,7 @@
     }
     .nav-bar{
         box-shadow: 0px 1px rgba(220, 220, 220, 0.664);
-    }
+    } */
 
     .home-title-div{
         width: auto;
@@ -1302,60 +1285,37 @@
     }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .service{
-        height: 425px;
-    }
-    .service-section2{
-        height: 420px;
-        margin-top: -45px;
-    }
-    .choose-title{
-        font-size: 17px;
-        margin-top: -30px;
-        margin-left: auto;
-    }
-    .service-div1{
-        width: 230px;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-top: -10px;
-        margin-left: 8px;
-    }
-    .service-div2{
-        width: 230px;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-top: -10px;
-        margin-left: 7px;
-    }
-    .service-div3{
-        width: 230px;
-        margin-top: -392px;
-        margin-left: 482px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .choose-text-box{
-        width: 230px;
-        height: 160px;
-        border-radius: 0px 0px 12px 12px;
-    }
-    .choose-text-title{
+    .choose-section{
+        padding: 0px 13px;
+        margin-top: 10px;
+      }
+      .choose-container{
+        padding: 10px 13px;
+      }
+      .choose-title{
         font-size: 16px;
-        padding-top: 5px;
-    }
-    .choose-text-para{
+      }
+      .choose-sub-title{
+        font-size: 16px;
+      }
+      .choose-text-para{
         font-size: 13px;
         line-height: 16px;
-        margin-top: -20px;
-    }
-    .choose-experience-img{
-        width: 230px;
-        border-radius: 12px 12px 0px 0px ;
-    }
-    .service .service-item .service-inner .service-img {
-        width: auto;
-    }
+        margin-top: 0px;
+      }
+      .choose-box{
+        padding: 15px 30px;
+      }
+      .choose-experience, .choose-network, .choose-vision{
+        width: 245px;
+      }
+      .choose-network{
+        margin-left: -7px;
+      }
+      .choose-vision{
+        margin-left: 475px;
+        margin-top: -356px;
+      }
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
     .content-title{
@@ -1413,7 +1373,6 @@
     .blog-subhead{
         font-size: 16px;
         line-height: 18px;
-        background-color: olive;
     }
     .blog-text, .viewall-link{
         font-size: 13px;
@@ -1463,7 +1422,6 @@
         line-height: 15px;
         width: 90px;
         height: 35px;
-        background-color: teal;
     }
 
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
@@ -1592,7 +1550,7 @@
     }
 }
 
-@media screen and (max-width:1700px) and (min-width:1200px){
+/* @media screen and (max-width:1700px) and (min-width:1200px){
     .navbar-light .navbar-brand img {
         max-height: 90px;
         transition: .5s;
@@ -1609,8 +1567,8 @@
     .nav-logo-head2{
         margin-left: 20px;
     }
-}
-@media only screen and (max-width:980px) and (min-width:825px) {
+} */
+/* @media only screen and (max-width:980px) and (min-width:825px) {
     .nav-logo{
         margin-left: 370px;
     }
@@ -1622,16 +1580,16 @@
     .nav-logo{
         margin-left: 340px;
     }
-}
+} */
 
 @media screen and (max-width: 440px) and (min-width: 425px){
-    .nav-logo{
+    /* .nav-logo{
         margin-left: 130px;
     }
     .navbar-light .navbar-collapse{
         width: 0px;
         margin-left: 14px;
-    }
+    } */
     .our-service-content{
         width: 410px;
         margin-left: -11px;
@@ -1703,34 +1661,16 @@
         left: -80px;
         justify-content: flex-end;
     }
+
 /* -----------section2 section-------------- */
-    .service{
-        height: 555px;
+
+    .choose-experience, .choose-network, .choose-vision{
+        width: 325px;
     }
-    .service-section2{
-        height: 550px;
+    .choose-vision{
+        margin-left: 635px;
+        margin-top: -395px;
     }
-    .choose-title, .choose-img-container{
-        margin-top: 5px;
-    }
-    .service-div1{
-        width: auto;
-        margin-left: 20px;
-    }
-    .service-div2{
-        width: auto;
-        margin-top: -10px;
-        margin-left: 10px;
-    }
-    .service-div3{
-        width: auto;
-        margin-top: -452px;
-        margin-left: 640px;
-    }
-    .choose-text-box, .choose-experience-img{
-        width: 300px;
-    }
-    .choose-text-para{margin-top: -10px;}
 
 /* -----------section3 section-------------- */
     .impact-img, .value-img{
@@ -1755,5 +1695,10 @@
         height: auto;
         width: 460px;
         padding: 50px 50px;
+    }
+    
+    .contact-action{
+        background-image: url(../media/Action_button_bg.png);
+        background-repeat: no-repeat;
     }
 }

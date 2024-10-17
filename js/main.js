@@ -14,22 +14,23 @@
     
     // Initiate the wowjs
     new WOW().init();
+    
+    // Shrink the navbar on scroll
+    window.onscroll = function () {
+        var navbar = document.getElementById("navbar");
+        var navLogoHead = document.getElementById("navLogoHead");
+        var navLogoHead2 = document.getElementById("navLogoHead2");
 
-
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 45) {
-            $('.nav-bar').addClass('sticky-top shadow-sm');
+        if (window.scrollY > 50) {
+            navbar.classList.add("shrink");
+            navLogoHead.style.opacity = "0"; // Hide logo head
+            navLogoHead2.style.opacity = "0"; // Hide logo head 2
         } else {
-            $('.nav-bar').removeClass('sticky-top shadow-sm');
+            navbar.classList.remove("shrink");
+            navLogoHead.style.opacity = "1"; // Show logo head
+            navLogoHead2.style.opacity = "1"; // Show logo head 2
         }
-    });
-
-    // // Facts counter
-    // $('[data-toggle="counter-up"]').counterUp({
-    //     delay: 5,
-    //     time: 2000
-    // });
+    };
 
    // Back to top button
    $(window).scroll(function () {

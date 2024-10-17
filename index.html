@@ -46,68 +46,32 @@
         </div>
         <!-- Spinner End -->
 
+        <!-- Top navigation -->
+        <div class="topnav" id="navbar">
 
-
-        <div class="container-fluid nav-bar p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-                <img src="media/logo_Icon.png" class="img-fluid nav-logo" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About Us</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="blog.html" class="nav-item nav-link">Blogs</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                    </div>
-        
-                    <a href="index.html" class="navbar-brand">
-                        <img src="media/logo_Icon.png" class="img-fluid logo-img" alt="">
-                        <h1 class="nav-logo-head">ASHWIN ENTERPRISES PRIVATE LTD</h1>
-                        <p class="nav-logo-head2">Recruitment and Placement Services</p>
-                    </a>
-                    <a href="" class="btn">Get Consulting</a>
-                </div>
-            </nav>
-        </div>
-        
-        <!-- Scrolling Text Section -->
-        <div class="ticker" style="overflow: hidden; background-color: #f0f8ff; padding: 10px; position: sticky; top: 0; z-index: 1000;">
-            <div class="ticker-text" style="white-space: nowrap;">
-                Breaking News: Our new services are now available! | Special offers this month! | Join us for our upcoming webinar!
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
+        
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="service.html">Services</a>
+                <a href="blog.html">Blogs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        
+            <div class="topnav-centered">
+                <img class="nav-logo" src="media/logo_Icon.png" alt="Logo">
+                <p class="nav-logo-head" id="navLogoHead">ASHWIN ENTERPRISES PRIVATE LTD</p>
+                <p class="nav-logo-head2" id="navLogoHead2">Recruitment and Placement Services</p>
+            </div>
+        
+            <a href="#consulting" class="nav-btn"><span class="get-text">Get</span> Consulting</a>
         </div>
         
-        
-        <style>
-            /* Add CSS for the ticker animation */
-            .ticker {
-                height: 50px; /* Adjust height as needed */
-                overflow: hidden;
-                position: relative; /* Change to relative */
-                width: 100%; /* Full width */
-                z-index: 1000; /* Ensure it stays above other content */
-            }
-        
-            .ticker-text {
-                display: inline-block;
-                position: absolute;
-                animation: ticker 15s linear infinite;
-            }
-        
-            @keyframes ticker {
-                0% {
-                    transform: translateX(100%);
-                }
-                100% {
-                    transform: translateX(-100%);
-                }
-            }
-        </style>
-        
-
         <!-- Home Start -->
         <div class="carousel-header">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -257,65 +221,76 @@
         <!-- Our service End -->
 
         <!-- Why choose us Start -->
-        <div class="container-fluid service overflow-hidden py-5">
-            <div class="container py-5 service-section2" >
-                <div class=" wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="choose-title">Why Choose us?</h1>
-                </div>
-                <div class="row g-4 choose-img-container">
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp service-div1" data-wow-delay="0.5s">
-                        <div class="service-item">
-                            <div class="service-inner">
-                                <div class="service-img">
-                                    <img src="media/choose-experience-img.png" class="img-fluid choose-experience-img" alt="Image">
-                                </div>
-                                <div class="choose-text-box">
-                                    <h4 class="choose-text-title">Experience</h4>
-                                    <p class="choose-text-para">With over 25 years of expertise in the HR industry, we bring a wealth of knowledge and strategies to meet your recruitment and placement needs.</p>
-                                </div>
-                            </div>
-                        </div>
+        <section class="choose-section wow zoomIn" data-wow-delay="0.3s">
+            <div class="container choose-container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 ">
+                        <p class="choose-title wow fadeInUp" data-wow-delay="0.3s">Why Choose Us?</p>
                     </div>
-                    
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp service-div2" data-wow-delay="0.5s">
-                        <div class="service-item">
-                            <div class="service-inner">
-                                <div class="service-img">
-                                    <img src="media/choose-network-img.png" class="img-fluid choose-experience-img" alt="Image">
-                                </div>
-                                <div class="choose-text-box ">
-                                    <h4 class="choose-text-title">Network</h4>
-                                    <p class="choose-text-para">Our extensive network of qualified professionals and industry contacts ensures that we can deliver the right candidates quickly and efficiently.</p>
+                    <div><!-- button commented--></div>
+
+                    <div class="col-lg-4 col-md-6 choose-experience wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="choose-body">
+                            <div class="choose-img-box">
+                                <img src="media/choose-experience-img.png" class="choose-img img-fluid">
+                            </div>
+
+                            <div class="choose-box">
+                                <h4 class="choose-sub-title">Experience</h4>
+
+                                <div class="d-flex align-items-center">
+                                    <p class="choose-text-para"> With over 25 years of expertise in the HR industry, we bring a wealth of knowledge and strategies to meet your recruitment and placement needs</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp service-div3" data-wow-delay="0.5s">
-                      <div class="service-item">
-                          <div class="service-inner">
-                              <div class="service-img ">
-                                  <img src="media/choose-vision-img.png" class="img-fluid choose-experience-img" alt="Image">
-                              </div>
-                              <div class="choose-text-box ">
-                                  <h4 class="choose-text-title">Vision</h4>
-                                  <p class="choose-text-para">We are committed to transforming workplaces by providing exceptional talent and fostering growth through innovative HR solutions.</p>
-                              </div>
-                          </div>
-                      </div>
+                    <div class="col-lg-4 col-md-6 choose-network wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="choose-body">
+                            <div class="choose-img-box">
+                                <img src="media/choose-network-img.png" class="choose-img img-fluid">
+                            </div>
+
+                            <div class="choose-box">
+                                <h4 class="choose-sub-title">Network</h4>
+
+                                <div class="d-flex align-items-center">
+                                    <p class="choose-text-para">Our extensive network of qualified professionals and industry contacts ensures that we can deliver the right candidates quickly and efficiently.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 choose-vision wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="choose-body">
+                            <div class="choose-img-box">
+                                <img src="media/choose-vision-img.png" class="choose-img img-fluid">
+                            </div>
+
+                            <div class="choose-box">
+                                <h4 class="choose-sub-title">Vision</a></h4>
+                                    
+                                <div class="d-flex align-items-center">
+                                    <p class="choose-text-para">We are committed to transforming workplaces by providing exceptional talent and fostering growth through innovative HR solutions.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Why choose us  End -->
 
         <!-- Service Impact Start -->
-        <section class="collection py-3">
+        <section class="collection position-relative py-5">
             <div class="container">
                 <div class="row">
-                    <div class="d-flex flex-wrap impact-main wow fadeInLeft" data-wow-delay="0.5s">
-                        <div class="col-md-6 ">
+                    <div class="d-flex flex-wrap impact-main wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="col-md-6">
                             <img src="media/explore-impact.png" class="img-fluid impact-img">
                         </div>
                         <div class="col-md-6 impact-content">
@@ -324,17 +299,17 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-wrap leadership-main wow fadeInRight" data-wow-delay="0.5s">
+                    <div class="d-flex flex-wrap leadership-main wow fadeInRight" data-wow-delay="0.4s">
                         <div class="col-md-6 leadership-content">
                             <h3 class="content-title">Leadership</h3>
                             <p class="content-para">At Ashwin Enterprises, our leadership team is the cornerstone of our success, driving our mission with a blend of visionary thinking and hands-on expertise. With over 25 years in the manpower recruitment industry, our leaders possess a deep understanding of diverse sectors and a commitment to excellence. They foster a culture of innovation, integrity, and continuous improvement, ensuring that we remain at the forefront of the industry. Our leadership is dedicated to building and nurturing long-term partnerships with clients and candidates, consistently exceeding expectations through strategic insight and personalized service. Their unwavering dedication empowers us to deliver recruitment solutions that not only meet but elevate organizational goals and drive sustainable growth.</p>
                         </div>
-                        <div class="col-md-6 ">
+                        <div class="col-md-6">
                             <img src="media/leadership.png" class="img-fluid leadership-img">
                         </div>
                     </div>
 
-                    <div class="d-flex flex-wrap valuetime-main wow fadeInLeft" data-wow-delay="0.5s">
+                    <div class="d-flex flex-wrap valuetime-main wow fadeInLeft" data-wow-delay="0.3s">
                         <div class="col-md-6">
                             <img src="media/vision-service.png" class="img-fluid impact-img value-img">
                         </div>
@@ -544,6 +519,13 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <script>
+            function toggleMenu() {
+                var navLinks = document.getElementById("navLinks");
+                navLinks.classList.toggle("active");
+            }
+        </script>
     </body>
 
 </html>

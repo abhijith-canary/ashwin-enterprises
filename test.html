@@ -39,7 +39,39 @@
     </head>
 
     <body>
-
+        <!-- Scrolling Text Section -->
+        <div class="ticker" style="overflow: hidden; background-color: #f0f8ff; padding: 10px; position: sticky; top: 0; z-index: 1000;">
+            <div class="ticker-text" style="white-space: nowrap;">
+                Breaking News: Our new services are now available! | Special offers this month! | Join us for our upcoming webinar!
+            </div>
+        </div>
+        
+        
+        <style>
+            /* Add CSS for the ticker animation */
+            .ticker {
+                height: 50px; /* Adjust height as needed */
+                overflow: hidden;
+                position: relative; /* Change to relative */
+                width: 100%; /* Full width */
+                z-index: 1000; /* Ensure it stays above other content */
+            }
+        
+            .ticker-text {
+                display: inline-block;
+                position: absolute;
+                animation: ticker 15s linear infinite;
+            }
+        
+            @keyframes ticker {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+        </style>
 
 
 
@@ -213,71 +245,55 @@
             <div class="container choose-container">
                 <div class="row align-items-center">
 
-                    <div class="col-lg-6">
-                        <p class=" choose-title">Why Choose Us?</p>
+                    <div class="col-lg-6 ">
+                        <p class="choose-title wow fadeInUp" data-wow-delay="0.3s">Why Choose Us?</p>
                     </div>
+                    <div><!-- button commented--></div>
 
-                    <div class="col-lg-4 col-12 d-flex ms-auto mb-5 mb-lg-4">
-                        <!-- button commented-->
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="job-thumb job-thumb-box">
-                            <div class="job-image-box-wrap">
-                                <a href="job-details.html">
-                                    <img src="media/choose-experience-img.png" class="job-image img-fluid" alt="">
-                                </a>
+                    <div class="col-lg-4 col-md-6 choose-experience">
+                        <div class="choose-body">
+                            <div class="choose-img-box">
+                                <img src="media/choose-experience-img.png" class="choose-img img-fluid">
                             </div>
 
-                            <div class="job-body" style="background-color: #E7ECF0;">
-                                <h4 class="job-title">
-                                    <a href="job-details.html" class="job-title-link">Technical Lead</a>
-                                </h4>
+                            <div class="choose-box">
+                                <h4 class="choose-sub-title">Experience</h4>
 
                                 <div class="d-flex align-items-center">
-                                    <p class="job-location"> With over 25 years of expertise in the HR industry, we bring a wealth of knowledge and strategies to meet your recruitment and placement needs</p>
+                                    <p class="choose-text-para"> With over 25 years of expertise in the HR industry, we bring a wealth of knowledge and strategies to meet your recruitment and placement needs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 choose-network">
+                        <div class="choose-body">
+                            <div class="choose-img-box">
+                                <img src="media/choose-network-img.png" class="choose-img img-fluid">
+                            </div>
+
+                            <div class="choose-box">
+                                <h4 class="choose-sub-title">Network</h4>
+
+                                <div class="d-flex align-items-center">
+                                    <p class="choose-text-para">Our extensive network of qualified professionals and industry contacts ensures that we can deliver the right candidates quickly and efficiently.</p>
                                 </div>
 
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="job-thumb job-thumb-box">
-                            <div class="job-image-box-wrap">
-                                <a href="job-details.html">
-                                    <img src="media/choose-network-img.png" class="job-image img-fluid" alt="marketing assistant">
-                                </a>
+                    <div class="col-lg-4 col-md-6 choose-vision">
+                        <div class="choose-body">
+                            <div class="choose-img-box">
+                                <img src="media/choose-vision-img.png" class="choose-img img-fluid">
                             </div>
 
-                            <div class="job-body" style="background-color: #E7ECF0;">
-                                <h4 class="job-title">
-                                    <a href="job-details.html" class="job-title-link">Marketing Assistant</a>
-                                </h4>
-
-                                <div class="d-flex align-items-center">
-                                    <p class="job-location">Our extensive network of qualified professionals and industry contacts ensures that we can deliver the right candidates quickly and efficiently.</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="job-thumb job-thumb-box">
-                            <div class="job-image-box-wrap">
-                                <a href="job-details.html">
-                                    <img src="media/choose-vision-img.png" class="job-image img-fluid" alt="">
-                                </a>
-                            </div>
-
-                            <div class="job-body" style="background-color: #E7ECF0;">
-                                <h4 class="job-title">
-                                    <a href="job-details.html" class="job-title-link">Programmer</a>
-                                </h4>
+                            <div class="choose-box">
+                                <h4 class="choose-sub-title">Vision</a></h4>
                                     
                                 <div class="d-flex align-items-center">
-                                    <p class="job-location">We are committed to transforming workplaces by providing exceptional talent and fostering growth through innovative HR solutions.</p>
+                                    <p class="choose-text-para">We are committed to transforming workplaces by providing exceptional talent and fostering growth through innovative HR solutions.</p>
                                 </div>
 
                             </div>

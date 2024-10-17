@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Sticky Navigation</title>
+
+  <style>
+    body {
+      background-color: cadetblue;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Navbar container */
+    .topnav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      transition: height 0.3s, padding 0.3s;
+      z-index: 1;
+    }
+
+    /* Shrink navbar on scroll */
+    .topnav.shrink {
+      height: 70px;
+      padding: 10px 20px;
+    }
+
+    .topnav img {
+      height: 90px;
+      transition: height 0.3s;
+      margin-top: -10px;
+    }
+
+    .topnav.shrink img {
+      height: 90px;
+      margin-top: 30px;
+    }
+    
+    .nav-logo-head {
+      font-size: 20px;
+      font-weight: 800;
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      text-align: center;
+      margin-top: -15px;
+    }
+
+    .nav-logo-head2 {
+      font-size: 14px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      text-align: center;
+      margin-top: -5px;
+    }
+
+    /* Navigation links aligned to the left */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding-left: 100px;
+      margin-right: auto;
+      transition: max-height 0.3s;
+    }
+
+    .nav-links a {
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #1D1E1C;
+      font-family:'Poppins', sans-serif;
+      font-size: 16px;  
+      font-weight: 600;
+      transition: 0.5s;
+    }
+    .nav-links a.active, .nav-links a:hover{
+      color: #D65614;
+    }
+  
+    .topnav-centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative; /* Changed to relative for responsive */
+      margin: 0 auto; /* Center align in responsive view */
+      margin-left: -40px;
+    }
+
+    /* Right-aligned button */
+    .nav-btn {
+      margin-left: auto;
+      position: relative;
+      margin-right: 150px;    
+      width: 178px;
+      height: 50px;
+      border: 1px solid #BABABA;
+      border-radius: 4px;
+      color: #1D1E1C;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      transition: 0.8s;
+      text-decoration: none;
+    }
+
+    /* Hamburger icon */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .hamburger div {
+      width: 22px;
+      height: 2px;
+      background-color: black;
+      margin: 2px 0;
+      transition: 0.3s;
+    }
+
+    /* Toggle menu behavior on mobile and tablet */
+    @media (max-width: 1035px) {
+      .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        background-color: white;
+      }
+      .nav-links.active {
+        max-height: 300px;
+      }
+      .hamburger {
+        display: flex;
+        margin-left: auto;
+        padding-right: 450px;
+      }
+      .topnav-centered {
+        position: absolute; /* Changed to absolute for centering */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center the element */
+        padding: 0; /* Reset padding */
+        order: 1; /* Keep it first in order */
+      }
+      .topnav img {
+        height: 60px;
+        margin-top: 0px;
+      }
+      .topnav.shrink img {
+        height: 60px;
+        margin-top: 0px;
+      }
+
+      .nav-logo-head,
+      .nav-logo-head2 {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Top navigation -->
+<div class="topnav" id="navbar">
+  <!-- Hamburger icon -->
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Navigation links aligned to the left -->
+  <div class="nav-links" id="navLinks">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+
+  <!-- Logo and titles centered -->
+  <div class="topnav-centered">
+    <img class="nav-logo" src="media/logo_Icon.png" alt="Logo">
+    <p class="nav-logo-head" id="navLogoHead">ASHWIN ENTERPRISES PRIVATE LTD</p>
+    <p class="nav-logo-head2" id="navLogoHead2">Recruitment and Placement Services</p>
+  </div>
+
+  <!-- Right-aligned button -->
+  <a href="#consulting" class="nav-btn">Get Consulting</a>
+</div>
+
+<!-- Main content -->
+<div style="padding: 16px; margin-top: 130px;">
+  <h2>Responsive Sticky Navigation with Toggle Button</h2>
+  <p>Resize the browser window to see the responsive effect.</p>
+  <p>Scroll down to see the shrinking effect.</p>
+</div>
+
+<div style="padding: 16px;">
+  <h2>More Content</h2>
+  <p>Scroll down to see the sticky navbar and its shrinking behavior in action.</p>
+</div>
+
+<div style="padding: 16px;">
+  <h2>More Content</h2>
+  <p>Scroll down to see the sticky navbar and its shrinking behavior in action.</p>
+</div>
+
+<div style="padding: 16px;">
+  <h2>More Content</h2>
+  <p>Scroll down to see the sticky navbar and its shrinking behavior in action.</p>
+</div>
+
+<div style="padding: 16px;">
+  <h2>More Content</h2>
+  <p>Scroll down to see the sticky navbar and its shrinking behavior in action.</p>
+</div>
+
+<div style="padding: 16px;">
+  <h2>More Content</h2>
+  <p>Scroll down to see the sticky navbar and its shrinking behavior in action.</p>
+</div>
+
+<div style="padding: 16px;">
+  <h2>More Content</h2>
+  <p>Scroll down to see the sticky navbar and its shrinking behavior in action.</p>
+</div>
+
+<!-- JavaScript for menu toggle and navbar shrink effect -->
+<script>
+  // Toggle the mobile menu
+  function toggleMenu() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("active");
+  }
+
+  // Shrink the navbar on scroll
+  window.onscroll = function () {
+    var navbar = document.getElementById("navbar");
+    var navLogoHead = document.getElementById("navLogoHead");
+    var navLogoHead2 = document.getElementById("navLogoHead2");
+
+    if (window.scrollY > 50) {
+      navbar.classList.add("shrink");
+      navLogoHead.style.opacity = "0"; // Hide logo head
+      navLogoHead2.style.opacity = "0"; // Hide logo head 2
+    } else {
+      navbar.classList.remove("shrink");
+      navLogoHead.style.opacity = "1"; // Show logo head
+      navLogoHead2.style.opacity = "1"; // Show logo head 2
+    }
+  };
+</script>
+
+</body>
+</html>

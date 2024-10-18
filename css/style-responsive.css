@@ -1033,7 +1033,7 @@ body{
 @media screen and (max-width: 1200px) and (min-width: 600px) {
 
     .nav-btn{
-        background-color: #095bc5;
+        background-color: rgb(29, 99, 29);
     }
     .get-text{
         padding-left: 20px;

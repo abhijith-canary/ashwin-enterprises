@@ -983,7 +983,7 @@ body{
 /* --------------------- COPYRIGHT STYLE START ------------------------ */
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-secondary) !important;
+    background: white !important;
 }
 .copyright-container{
     background-color: #313031;

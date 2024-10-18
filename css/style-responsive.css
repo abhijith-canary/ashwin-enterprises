@@ -1040,6 +1040,9 @@ body{
     }
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
+    .carousel-header{
+        margin-top: 70px;
+    }
     .home-title-div{
         width: auto;
         max-height: 500px;
@@ -1066,7 +1069,9 @@ body{
     }
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
-
+    .about-section{
+        margin-top: 60px;
+    }
     .about-container1{
         margin-top: -40px;
         height: 540px;
@@ -1201,7 +1206,9 @@ body{
     }
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-
+    .our-service1{
+        margin-top: 80px;
+    }
     .our-service{
         height: 680px;
     }
@@ -1298,10 +1305,12 @@ body{
         margin-top: -356px;
       }
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
+    .collection{ margin-top: 10px; height: 1060px;}
 
-    .content-title{
-        font-size: 18px;
-    }
+    .impact-main{ margin-top: -40px; }
+
+    .content-title{ font-size: 18px; }
+
     .content-para{
         font-size: 13px;
         line-height: 17px;
@@ -1340,6 +1349,9 @@ body{
     }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
+    .blog-container{
+        margin-top: 90px;
+    }
     .blog{
         margin-top: 0px;
         height: auto;
@@ -1369,6 +1381,9 @@ body{
         margin-top: 5px;
     }
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
+    .contact-container{
+        margin-top: 90px;
+    }
     .contact-main{
         margin-top: -25px;
     }
@@ -1500,7 +1515,7 @@ body{
     }
     .social-icons-div{
         margin-left: 180px;
-        margin-top: -135px;
+        margin-top: -5px;
         width: auto;
         height: 30px;
     }
@@ -1515,7 +1530,7 @@ body{
     }
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
-
+    
     .copyright-container{
         padding: 0px 10px 35px 10px;
     }
@@ -1571,7 +1586,6 @@ body{
         width: 0px;
         margin-left: 14px;
     } */
-     body{ background-color: #095bc5;}
     .our-service-content{
         width: 410px;
         margin-left: -11px;

@@ -12,14 +12,13 @@
             width: 85px;
             height: 35px;
             padding: 0px 12px;
-            background-color: #c54809;
-            color: rgb(238, 231, 231);
-            border: 1px solid #c54809;
+            color: black;
+            border: 1px solid rgba(39, 38, 38, 0.781);
         }
         .nav-btn:hover{
-            background-color: white;
-            color: rgba(0, 0, 0, 0.808);
-            border: 1px solid rgb(37, 37, 37);
+            background-color: #c54809;
+            color: white;
+            border: 1px solid #c54809;
         }
         .get-text{
             padding-left: 20px;
@@ -1060,6 +1059,15 @@ body{
         box-shadow: 0px 1px rgba(220, 220, 220, 0.664);
     } */
 
+    
+    .nav-btn{
+        background-color: #095bc5;
+    }
+    .get-text{
+        padding-left: 20px;
+    }
+
+/* --------------------- HOME RESPONSIVE START --------------------- */
     .home-title-div{
         width: auto;
         max-height: 500px;

@@ -1032,34 +1032,6 @@ body{
 
 @media screen and (max-width: 1200px) and (min-width: 600px) {
 
-    /* .navbar-light .navbar-collapse{
-        margin-left: 185px;
-    }
-    .nav-logo-head, .nav-logo-head2{
-        display: none;
-    }
-    .btn{
-        margin: auto;
-        margin-left: 178px;
-        width: 130px;
-        height: 40px;
-        font-size: 14px;
-        padding: 10px 10px 0px 10px;
-        position: relative;
-    }
-    .sticky-top .btn{
-        margin-left: 178px;
-    }
-    .nav-logo{
-        display: block;
-        max-width: 120px;
-        margin-left: 300px;
-    }
-    .nav-bar{
-        box-shadow: 0px 1px rgba(220, 220, 220, 0.664);
-    } */
-
-    
     .nav-btn{
         background-color: #095bc5;
     }
@@ -1599,6 +1571,7 @@ body{
         width: 0px;
         margin-left: 14px;
     } */
+     body{ background-color: #095bc5;}
     .our-service-content{
         width: 410px;
         margin-left: -11px;

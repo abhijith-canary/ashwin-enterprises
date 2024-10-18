@@ -1,28 +1,28 @@
 @media screen and (max-width: 400px) {
     
-        .topnav-centered {
-            margin-left: -5px;
-        }
-        .nav-btn{
-            position: absolute; /* Position it relative to the parent */
-            right: -130px;
-            top: 50%; /* Vertically center it */
-            transform: translateY(-50%); 
-            font-size: 11px;
-            width: 85px;
-            height: 35px;
-            padding: 0px 12px;
-            color: black;
-            border: 1px solid rgba(39, 38, 38, 0.781);
-        }
-        .nav-btn:hover{
-            background-color: #c54809;
-            color: white;
-            border: 1px solid #c54809;
-        }
-        .get-text{
-            padding-left: 20px;
-        }
+    .topnav-centered {
+        margin-left: -5px;
+    }
+    .nav-btn{
+        position: absolute; /* Position it relative to the parent */
+        right: -130px;
+        top: 50%; /* Vertically center it */
+        transform: translateY(-50%); 
+        font-size: 11px;
+        width: 85px;
+        height: 35px;
+        padding: 0px 12px;
+        color: black;
+        border: 1px solid rgba(39, 38, 38, 0.781);
+    }
+    .nav-btn:hover{
+        background-color: #c54809;
+        color: white;
+        border: 1px solid #c54809;
+    }
+    .get-text{
+        padding-left: 20px;
+    }
 /* --------------------- HOME RESPONSIVE START --------------------- */
     .carousel-header{
         margin-top: 50px;
@@ -1029,11 +1029,25 @@
 
 @media screen and (max-width: 1200px) and (min-width: 600px) {
 
-    .nav-btn{
-        background-color: rgb(29, 99, 29);
+    .hamburger {
+        position: absolute; 
+        left: 20px; 
+        top: 50%; 
+        transform: translateY(-50%);
     }
-    .get-text{
-        padding-left: 20px;
+
+    .nav-btn{
+        position: absolute; 
+        right: -120px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 117px;
+        height: 35px;
+        font-size: 12px;
+        padding: 7px 12px;
+    }
+    .topnav-centered{
+        margin-left: -5px;
     }
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
@@ -1543,46 +1557,7 @@
     }
 }
 
-/* @media screen and (max-width:1700px) and (min-width:1200px){
-    .navbar-light .navbar-brand img {
-        max-height: 90px;
-        transition: .5s;
-        margin-left: 80px;
-    }
-    .navbar-nav{
-        margin-left: 30px;
-        padding: 0px 0px;
-    }
-    .nav-logo-head{
-        margin-top: -15px;
-        margin-left: -20px;
-    }
-    .nav-logo-head2{
-        margin-left: 20px;
-    }
-} */
-/* @media only screen and (max-width:980px) and (min-width:825px) {
-    .nav-logo{
-        margin-left: 370px;
-    }
-    .navbar-light .navbar-collapse{
-        margin-left: 255px;
-    }
-}
-@media only screen and (width:853px) {
-    .nav-logo{
-        margin-left: 340px;
-    }
-} */
-
 @media screen and (max-width: 440px) and (min-width: 425px){
-    /* .nav-logo{
-        margin-left: 130px;
-    }
-    .navbar-light .navbar-collapse{
-        width: 0px;
-        margin-left: 14px;
-    } */
     .our-service-content{
         width: 410px;
         margin-left: -11px;
@@ -1633,7 +1608,8 @@
     .travel-block, .placement-block{
         width: auto;
     }
-/* -----------section1 section-------------- */
+    
+    /* -----------section1 section-------------- */
     .our-service-bg{
         background-image: url(../media/service_Bg_Image.png);
     }
@@ -1655,8 +1631,7 @@
         justify-content: flex-end;
     }
 
-/* -----------section2 section-------------- */
-
+    /* -----------section2 section-------------- */
     .choose-experience, .choose-network, .choose-vision{
         width: 325px;
     }
@@ -1665,7 +1640,7 @@
         margin-top: -395px;
     }
 
-/* -----------section3 section-------------- */
+    /* -----------section3 section-------------- */
     .impact-img, .value-img{
         height: auto;
         width: auto;
@@ -1689,7 +1664,6 @@
         width: 460px;
         padding: 50px 50px;
     }
-    
     .contact-action{
         background-image: url(../media/Action_button_bg.png);
         background-repeat: no-repeat;

@@ -543,16 +543,13 @@
         width: 95px;
         height: 35px;
         padding: 0px 16px;
-        background-color: #c54809;
     }
     .get-text{
         padding-left: 20px;
     }
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
-body{
-    background-color: thistle;
-}
+
     .carousel-header{
         margin-top: 70px;
     }

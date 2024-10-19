@@ -22,7 +22,7 @@
 /*** Spinner End ***/
 
 body{
-    background-color: white;
+    background-color: thistle;
 }
 .back-to-top {
     position: fixed;
@@ -679,7 +679,7 @@ body{
     margin-top: 180px;
 }
 
-.our-blog-head{
+.our-blog-head, .contact-us-title, .form-title{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -783,7 +783,7 @@ body{
     width: 680px;
     height: 50px;
     margin-left: 20px;
-    padding: 10px ;
+    padding: 10px;
 }
 .action-para{
     font-family: "Roboto", sans-serif;
@@ -1020,4 +1020,73 @@ body{
     background-color: #cf2216;
     border: none;
     color: white;
+}
+
+.contact-form{
+    background-color: #E7ECF0;
+    padding: 100px 30px 0px 30px;
+    height: 700px;
+}
+.contact-us-box {
+    margin-top: 20px;
+    height: 460px;
+}
+.contact-us-title, .form-title{
+    font-size: 20px;
+}
+.contact-us-head{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #1D1E1C;
+    margin-top: 30px;
+}
+.contact-us-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: normal;
+    color: #53626D;
+}
+.contact-link{ padding:10px 20px; }
+
+.contact-loc{ padding-left: 20px; margin-top: -20px;}
+
+.contact-subhead{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1D1E1C;
+}
+.contact-subtext{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1D1E1C;
+}
+.line{ display: none;}
+
+.form-box{
+    padding: 20px;
+    border: 1px solid #1D1E1C;
+    height: 490px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.form-floating input{
+    border-radius: 10px;
+}
+.form-floating textarea{
+    border-radius: 12px;
+}
+.form-btn{
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: #ac3128;
+}
+.call-icon{
+    width: 20px;
+    height: 20px;
+    opacity: 80%;
 }

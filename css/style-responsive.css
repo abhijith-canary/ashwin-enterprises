@@ -289,11 +289,9 @@
         width: auto;
         padding-left: 10px;
     }
-    .contact-email{ margin-top: -60px; }
+    .contact-email{ margin-top: -60px; } .email-icon{ margin-top: -60px; height: 12px; }
 
     .location-icon, .email-icon{ margin-left: 10px; width: 12px; height: 16px; }
-
-    .email-icon{ margin-top: -60px; height: 12px; }
 
     .contact-icon{
         margin-left: 5px;
@@ -381,23 +379,18 @@
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
 
-    .carousel-header{ margin-top: 70px; }
+    .carousel-header{ margin-top: 70px; } .home-bg-clip{ margin-left: -100px; max-height: 400px; }
 
-    .home-title-div{
-        width: auto;
-        margin-top: 0px;
-        max-height: 400px;
-    }
+    .home-title-div{ width: auto; margin-top: 0px; max-height: 400px; }
+
     .home-title{
         font-size: 33px;
         line-height: 35px;
         margin-top: 80px;
         margin-left: 0px;
     }
-    #home-hr{
-        margin-top: -30px;
-        margin-left: 0px;
-    }
+    #home-hr{ margin-top: -30px; margin-left: 0px; }
+
     .home-title2{
         margin-left: 0px;
         margin-top: -10px;
@@ -405,26 +398,13 @@
         font-size: 20px;
         color: white;
     }
-    .home-bg-clip{
-        margin-left: -100px;
-        max-height: 400px;
-    }
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
-    .about-section{ margin-top: 80px; }
+    .about-section{ margin-top: 80px; } .country{ height: 880px; }
 
-    .country{ height: 880px; }
+    .about-container1{ margin-top: -40px; height: 920px; }
 
-    .about-container1{
-        margin-top: -40px;
-        height: 920px;
-    }
-    .section-about{
-        width: auto;
-        height: 400px;
-        border-radius: 12px;
-    }
-    .about-head{ font-size: 15px; }
+    .section-about{ width: auto; height: 400px; border-radius: 12px; } .about-head{ font-size: 15px; }
 
     .about-title{
         font-size: 20px;
@@ -450,28 +430,14 @@
     .experience_icon{ padding-top: 45px;padding-left: 50px; } .experience-head1{ font-size: 20px;margin-top: -40px; } .experience-head2{ font-size: 15px; }
 
 /* --------------------------------------------------------- */
-    .about{
-        height: 825px;
-    }
-    .abt-sec{
-        width: 350px;
-        margin-left: 0px;
-    }
-    .section-about2{
-        height: 810px;
-        width: auto;
-        margin-top: 5px;
-    }
-    .whatwedo-headers{
-        margin-left: 10px;
-        margin-top: 30px;
-        width: 330px;
-    }
-    .whatwedo-head{
-        font-size: 15px;
-        width: 130px;
-        margin-left: -15px;
-    }
+    .about{ height: 825px; } .abt-sec{ width: 350px; margin-left: 0px; }
+
+    .section-about2{ height: 810px; width: auto; margin-top: 5px; }
+
+    .whatwedo-headers{ margin-left: 10px; margin-top: 30px; width: 330px; }
+
+    .whatwedo-head{ font-size: 15px; width: 130px; margin-left: -15px; }
+
     .whatwedo-title{
         font-size: 20px;
         line-height: 24px;
@@ -480,47 +446,32 @@
         width: 300px;
         height: auto;
     }
-    .about-imgs{
-        width: 40px;
-    }
+    .about-imgs{ width: 40px; }
+
     .about-content-right{
         margin-left: 0px;
         margin-top: 0px;
         width: 320px;
         height: 630px;
     }
-    .jobevaluation-title{
-        font-size: 16px;
-        margin-top: 10px;
-    }
+    .jobevaluation-title{ font-size: 16px; margin-top: 10px; }
+
     .jobvaluation-paragraph{
         font-size: 13px;
         width: 288px;
         line-height: 16px;
         margin-top: -5px;
     }
-    .readmore-link{
-        font-size: 13px;
-        line-height: 0px;
-    }
-    .job-block{
-        width: 320px;
-        margin-top: -35px;
-    }
-    .travel-block, .deployment-block, .placement-block{
-        width: 320px;
-    }
+    .readmore-link{ font-size: 13px; line-height: 0px; }
+
+    .job-block{ width: 320px; margin-top: -35px; } .travel-block, .deployment-block, .placement-block{ width: 320px; }
+
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service{ height: 655px; }
-
-    .our-service1{ margin-top: 80px; }
+    .our-service{ height: 655px; } .our-service1{ margin-top: 80px; }
     
-    .our-service-bg{
-        height: 640px;
-        border-radius: 12px;
-        margin-top: -10px;
-    }
+    .our-service-bg{ height: 640px; border-radius: 12px; margin-top: -10px; }
+
     .our-service-title{
         font-size: 17px;
         padding: 20px 10px;
@@ -540,11 +491,8 @@
         width: auto;
         padding: 15px 20px;
     }
-    .service-card-slider{
-        margin-left: 33px;
-        margin-top: 20px;
-        width: 340px;
-    }  
+    .service-card-slider{ margin-left: 33px; margin-top: 20px; width: 340px; }  
+
     .owl-carousel-3 .owl-nav {
         width: auto;
         top: 420px;
@@ -552,143 +500,71 @@
         left: 110px;
         justify-content: flex-end;
     }
-    .owl-carousel .owl-nav .owl-prev,
-    .owl-carousel .owl-nav .owl-next{
-        height: 30px;
-        width: 30px;
-        margin-left: 0px;
-    }
-    .constrution-box, .hospitality-box { height: 406px; }
+    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
 
-    .constrution-box, .hospitality-box { margin-top: -405px; }
+    .constrution-box, .hospitality-box { height: 406px; } .constrution-box, .hospitality-box { margin-top: -405px; }
 
     .hospitality-hover { height: 405px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .choose-section{
-        padding: 0px 13px;
-        margin-top: 10px;
-    }
-    .choose-container{
-        padding: 10px 15px;
-        padding-bottom: 20px;
-    }
-    .choose-title{
-        font-size: 16px;
-    }
-    .choose-sub-title{
-        font-size: 16px;
-    }
-    .choose-text-para{
-        font-size: 13px;
-        line-height: 16px;
-        margin-top: 0px;
-    }
-    .choose-box { padding: 15px 25px; }
+    .choose-section{ padding: 0px 13px; margin-top: 10px; }
+
+    .choose-container{ padding: 10px 15px; padding-bottom: 20px; } .choose-title { font-size: 16px; }
+   
+    .choose-sub-title{ font-size: 16px; } .choose-box { padding: 15px 25px; }
+
+    .choose-text-para{ font-size: 13px; line-height: 16px; margin-top: 0px; }
     
     .choose-network, .choose-vision { margin-top: 15px; }
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .collection{
-        height: 1990px;
-    }
-    .content-title{ font-size: 18px; }
+    .collection{ height: 1990px; } .content-title{ font-size: 18px; }
 
-    .content-para{
-        font-size: 13px;
-        line-height: 17px;
-    }
-    .impact-content, .leadership-content, .value-content{
-        padding: 15px 30px ;
-        margin-top: -5px;
-        border-radius: 0px 0px 12px 12px;
-    }
-    .leadership-img{
-        margin-left: 0px;
-        margin-top: -1005px;
-    }
-    .leadership-content{
-        height: 340px;
-        margin-top: 315px;
-        z-index: 1;
-    }
-    .value-img{ margin-top: -30px; }
+    .content-para{ font-size: 13px; line-height: 17px; }
 
-    .value-content{ height: 340px; }
+    .impact-content, .leadership-content, .value-content{ padding: 15px 30px ; margin-top: -5px; border-radius: 0px 0px 12px 12px; }
 
-    .impact-main{ margin-top: -55px;}
+    .leadership-img{ margin-left: 0px; margin-top: -1005px; }
+
+    .leadership-content{ height: 340px; margin-top: 315px; z-index: 1; }
+
+    .value-img{ margin-top: -30px; } .value-content{ height: 340px; } .impact-main{ margin-top: -55px;}
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog{
-        height: auto;
-        margin-top: 0px;
-    }    
-    .blog-container{
-        margin-top: 90px;
-    }
-    .our-blog-head{
-        font-size: 17px;
-    }
-    .manufacture-head{
-        font-size: 12px;
-        line-height: 0;
-    }
-    .blog-subhead{
-        font-size: 16px;
-        line-height: 18px;
-    }
-    .blog-text, .viewall-link{
-        font-size: 13px;
-        line-height: 17px;
-    }
-    .blog-block{
-        margin-top: -10px;
-    }
-    .blog-block2{
-        margin-top: 15px;
-    }
+    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 90px; }
+
+    .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
+
+    .blog-subhead{ font-size: 16px; line-height: 18px; }
+
+    .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
+
+    .blog-block{ margin-top: -10px; } .blog-block2{ margin-top: 15px; }
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
-    .our-partner{
-        margin-top: -15px;
-    }
-    .logos-title{
-        font-size: 20px;
-        line-height: 20px;
-        margin-top: 5px;
-    }    
-    .slide-img{
-        width: 100px;
-    }
-    .slide-img2, .slide-img3, .slide-img7{
-        width: 80px;
-    }
-    .slide-img4{
-        width: 140px;
-    }
-    .slide-img6{
-        width: 60px;
-    }
+
+    .our-partner{ margin-top: -15px; }
+
+    .logos-title{ font-size: 20px; line-height: 20px; margin-top: 5px; }    
+
+    .slide-img{ width: 100px; } .slide-img2, .slide-img3, .slide-img7{ width: 80px; }
+
+    .slide-img4{ width: 140px; } .slide-img6{ width: 60px; }
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
-    .contact-container{
-        margin-top: 85px;
-    }
-    .contact-main{
-        margin-top: -15px;
-    }
+
+    .contact-container{ margin-top: 85px; } .contact-main{ margin-top: -15px; }
+
     .contact-action{
         border-radius: 12px 12px 0px 0px;
         height: 250px;
         width: auto;
         margin-left: -12px;
     }
-    .action-content{
-        width: auto;
-        height: 200px;
-    }
+    .action-content{ width: auto; height: 200px; }
+    
     .action-title{
         font-size: 20px;
         width: auto;
@@ -712,10 +588,8 @@
     }
     
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
-    .contact-form{
-        height: 970px;
-        padding: 0px 10px 0px 10px;
-    }
+    .contact-form{ height: 970px; padding: 0px 10px 0px 10px; }
+
     .contact-us-box{ height: auto; }
 
     .contact-us-title, .form-title{ font-size: 16px;} .contact-us-head{ font-size: 20px; margin-top: -5px; }
@@ -736,11 +610,8 @@
     
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
 
-    .contact-logo{
-        width: 120px;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
+    .contact-logo{ width: 120px; padding-left: 0px; padding-top: 10px; }
+
     .contact-sentence{
         font-size: 13px;
         line-height: 15px;
@@ -793,75 +664,43 @@
         height: 16px;
         margin-top: 10px;
     }
-    .contact-number-div{
-        margin-left: 10px;
-        margin-top: -40px;
-        width: auto;
-    }
-    .contact-number{
-        font-size: 11.5px;
-        width: auto;
-    }
+    .contact-number-div{ margin-left: 10px; margin-top: -40px; width: auto; }
+
+    .contact-number{ font-size: 11.5px; width: auto; }
+
     .contact-menu-section{
         width: auto;
         height: auto;
         margin-left: auto;
         margin-top: auto;
     }
-    .company-menu-title{
-        font-size: 15px;
-        width: 70px;
-        line-height: 0px;
-    }
-    .contact-submenu, .contact-submenu1{
-        font-size: 13px;
-        line-height: normal;
-        width: auto;
-    }
-    .contact-menu{
-        margin-top: 15px;
-        margin-left: -5px;
-        width: 80px;
-    }
-    .contact-menu-service{
-        margin-top: -103px;
-        margin-left: 90px;
-        width: 130px;
-    }
-    .contact-menu-link{
-        margin-left: 240px;
-        margin-top: -125px;
-        width: 80px;
-    }
-    .social-icons-div{
-        margin-left: 230px;
-        margin-top: -25px;
-        width: auto;
-        height: 30px;
-    }
-    .social-icons{
-        padding: 0px 5px;
-        width: 31px;
-    }
-    .contact-end-hr{
-        width: 94%;
-        margin-left: 10px;
-    }
+    .company-menu-title{ font-size: 15px; width: 70px; line-height: 0px; }
+
+    .contact-submenu, .contact-submenu1{ font-size: 13px; line-height: normal; width: auto; }
+
+    .contact-menu{ margin-top: 15px; margin-left: -5px; width: 80px; }
+
+    .contact-menu-service{ margin-top: -103px; margin-left: 90px; width: 130px; }
+
+    .contact-menu-link{ margin-left: 240px; margin-top: -125px; width: 80px; }
+
+    .social-icons-div{ margin-left: 230px; margin-top: -25px; width: auto; height: 30px; }
+
+    .social-icons{ padding: 0px 5px; width: 31px; }
+
+    .contact-end-hr{ width: 94%; margin-left: 10px; }
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
 
-    .copyright-container{
-        padding: 10px 10px 80px 0px;
-    }
+    .copyright-container{ padding: 10px 10px 80px 0px; }
+
     .end-note{
         font-size: 11px;
         line-height: 13px;
         padding-left: 30px;
         margin-top: -15px;
     }
-    .end-note-span{
-        font-size: 11px;
-    }
+    .end-note-span{ font-size: 11px; }
 }
 
 /* ---------------------------------------------------------------------------------------------------------
@@ -876,7 +715,6 @@
         top: 50%; 
         transform: translateY(-50%);
     }
-
     .nav-btn{
         position: absolute; 
         right: -120px;
@@ -887,55 +725,36 @@
         font-size: 12px;
         padding: 7px 12px;
     }
-    .topnav-centered{
-        margin-left: -5px;
-    }
+    .topnav-centered { margin-left: -5px; }
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
-    .carousel-header{
-        margin-top: 70px;
-    }
-    .home-title-div{
-        width: auto;
-        max-height: 500px;
-    }
+    .carousel-header{ margin-top: 70px; }
+
+    .home-title-div{ width: auto; max-height: 500px; }
+
     .home-title{
         font-size: 45px;
         line-height: 40px;
         margin-top: 140px;
         margin-left: 30px;
     }
-    #home-hr{
-        margin-top: -30px;
-        margin-left: 35px;
-    }
+    #home-hr{ margin-top: -30px; margin-left: 35px; }
+
     .home-title2{
         margin-left: 35px;
         margin-top: -10px;
         width: auto;
         font-size: 20px;
     }
-    .home-bg-clip{
-        margin-left: auto;
-        max-height: 500px;
-    }
+    .home-bg-clip{ margin-left: auto; max-height: 500px; }
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
-    .about-section{
-        margin-top: 60px;
-    }
-    .about-container1{
-        margin-top: -40px;
-        height: 540px;
-    }
-    .section-about{
-        width: 500px;
-        height: 350px;
-        border-radius: 12px;
-    }
-    .about-head{
-        font-size: 16px;
-    }
+    .about-section{ margin-top: 60px; } .about-container1{ margin-top: -40px; height: 540px; }
+
+    .section-about{ width: 500px; height: 350px; border-radius: 12px; }
+
+    .about-head{ font-size: 16px; }
+
     .about-title{
         font-size: 20px;
         width: auto;
@@ -955,48 +774,23 @@
         margin-left: -13px;
         margin-top: 5px;
     }
-    .experience_icon, .experience_icon3{
-        width: 80px;
-        padding-top: 45px;
-        padding-left: 30px;
-    }
-    .about-box2{
-        margin-top: -154px;
-        margin-left: 235px;
-    }
-    .about-box3{
-        margin-left: 480px;
-        margin-top: -178px;
-    }
-    .experience-head1{
-        font-size: 18px;
-        margin-top: -40px;
-        margin-left: 70px;
-    }
-    .experience-head2{
-        font-size: 14px;
-        margin-left: 70px;
-        width: 120px;
-    }
+    .experience_icon, .experience_icon3{ width: 80px; padding-top: 45px; padding-left: 30px; }
+
+    .about-box2{ margin-top: -154px; margin-left: 235px; }
+
+    .about-box3{ margin-left: 480px; margin-top: -178px; }
+
+    .experience-head1{ font-size: 18px; margin-top: -40px; margin-left: 70px; }
+
+    .experience-head2{ font-size: 14px; margin-left: 70px; width: 120px; }
 
     /* --------------------------------------------------------- */
-    .about{
-        height: 520px;
-    }
-    .abt-sec{
-        width: 350px;
-        height: 600px;
-        margin-left: 0px;
-    }
-    .section-about2{
-        height: 500px;
-        width: auto;
-    }
-    .whatwedo-headers{
-        margin-left: 10px;
-        margin-top: 30px;
-        width: 330px;
-    }
+    .about{ height: 520px; } .abt-sec{ width: 350px; height: 600px; margin-left: 0px; }
+
+    .section-about2{ height: 500px; width: auto; }
+
+    .whatwedo-headers{ margin-left: 10px; margin-top: 30px; width: 330px; }
+    
     .whatwedo-head{
         font-size: 16px;
         width: 130px;
@@ -1011,45 +805,34 @@
         width: 500px;
         height: auto;
     }
-    .about-imgs{
-        width: 50px;
-    }
+    .about-imgs{ width: 50px; }
+
     .about-content-right{
         margin-left: 0px;
         margin-top: 0px;
         width: 320px;
         height: 630px;
     }
-    .jobevaluation-title{
-        font-size: 17px;
-        margin-top: 15px;
-    }
+    .jobevaluation-title{ font-size: 17px; margin-top: 15px; }
+
     .jobvaluation-paragraph{
         font-size: 14px;
         width: 288px;
         line-height: 16px;
         margin-top: 0px;
     }
-    .readmore-link{
-        font-size: 13px;
-        line-height: 0px;
-    }
-    .job-block{
-        width: 320px;
-        height: 200px;
-        margin-top: -30px;
-    }
+    .readmore-link{ font-size: 13px; line-height: 0px; }
+
+    .job-block{ width: 320px; height: 200px; margin-top: -30px; }
+
     .travel-block{
         width: 320px;
         height: 200px;
         margin-top: -315px;
         margin-left: 330px;
     }
-    .deployment-block{
-        margin-top: -220px;
-        width: 320px;
-        height: 160px;
-    }
+    .deployment-block{ margin-top: -220px; width: 320px; height: 160px; }
+
     .placement-block{
         margin-left: 330px;
         margin-top: -335px;
@@ -1058,16 +841,10 @@
     }
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service1{
-        margin-top: 80px;
-    }
-    .our-service{
-        height: 680px;
-    }
-    .our-service-bg{
-        height: 660px;
-        margin-top: -10px;
-    }
+    .our-service1{ margin-top: 80px; } .our-service{ height: 680px; }
+
+    .our-service-bg{ height: 660px; margin-top: -10px; }
+    
     .our-service-title{
         font-size: 18px;
         padding: 20px 10px;
@@ -1088,11 +865,8 @@
         width: 450px;
         padding: 20px 20px;
     }
-    .service-card-slider{
-        margin-left: 35px;
-        margin-top: 20px;
-        width: 650px;
-    }  
+    .service-card-slider{ margin-left: 35px; margin-top: 20px; width: 650px; }  
+
     .owl-carousel-3 .owl-nav {
         width: auto;
         top: 410px;
@@ -1100,88 +874,40 @@
         left: 280px;
         justify-content: flex-end;
     }
-    .owl-carousel .owl-nav .owl-prev,
-    .owl-carousel .owl-nav .owl-next{
-        height: 30px;
-        width: 30px;
-        margin-left: 0px;
-    }
-    .constrution-box{
-        height: 406px;
-        width: 300px;
-        margin-top: -405px;
-    }
-    .constrution-hover{
-        width: 298px;
-    }
-    .hospitality-box{
-        height: 406px;
-        width: 297px;
-        margin-top: -405px;
-    }
-    .hospitality-hover{
-        height: 404px;
-        width: 295px;
-    }
+    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
+
+    .constrution-box{ height: 406px; width: 300px; margin-top: -405px; } .constrution-hover{ width: 298px; }
+
+    .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .choose-section{
-        padding: 0px 13px;
-        margin-top: 10px;
-      }
-      .choose-container{
-        padding: 10px 13px;
-      }
-      .choose-title{
-        font-size: 16px;
-      }
-      .choose-sub-title{
-        font-size: 16px;
-      }
-      .choose-text-para{
-        font-size: 13px;
-        line-height: 16px;
-        margin-top: 0px;
-      }
-      .choose-box{
-        padding: 15px 30px;
-      }
-      .choose-experience, .choose-network, .choose-vision{
-        width: 245px;
-      }
-      .choose-network{
-        margin-left: -7px;
-      }
-      .choose-vision{
-        margin-left: 475px;
-        margin-top: -356px;
-      }
+
+    .choose-section{ padding: 0px 13px; margin-top: 10px; } .choose-container{ padding: 10px 13px; }
+
+    .choose-title{ font-size: 16px; } .choose-sub-title{ font-size: 16px; }
+
+    .choose-text-para{ font-size: 13px; line-height: 16px; margin-top: 0px; }
+
+    .choose-box{ padding: 15px 30px; } .choose-experience, .choose-network, .choose-vision{ width: 245px; }
+
+    .choose-network{ margin-left: -7px; } .choose-vision{ margin-left: 475px; margin-top: -356px; }
+
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
-    .collection{ margin-top: 10px; height: 1060px;}
 
-    .impact-main{ margin-top: -40px; }
+    .collection{ margin-top: 10px; height: 1060px;} .impact-main{ margin-top: -40px; }
 
-    .content-title{ font-size: 18px; }
+    .content-title{ font-size: 18px; } .content-para{ font-size: 13px; line-height: 17px; }
 
-    .content-para{
-        font-size: 13px;
-        line-height: 17px;
-    }
-    .impact-img{
-        height: 325px;
-        margin-left: -3px;
-    }
+    .impact-img{ height: 325px; margin-left: -3px; }
+
     .impact-content{
         padding: 15px 30px;
         border-radius: 7px;
         width: 340px;
         margin-left: 8px;
     }
-    .leadership-img{
-        margin-left: 11px;
-        width: 340px;
-        height: 330px;
-    }
+    .leadership-img{ margin-left: 11px; width: 340px; height: 330px; }
+
     .leadership-content{
         height: 330px;
         width: 350px;
@@ -1189,10 +915,8 @@
         padding: 10px 20px;
         border-radius: 7px;
     }
-    .value-img{
-        margin-top: 0px;
-        height: 340px;
-    }
+    .value-img{ margin-top: 0px; height: 340px; }
+
     .value-content{
         height: 340px;
         width: 340px;
@@ -1201,44 +925,29 @@
     }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
-    .blog-container{
-        margin-top: 90px;
-    }
-    .blog{
-        margin-top: 0px;
-        height: auto;
-    }
-    .our-blog-head{
-        font-size: 18px;
-    }
-    .manufacture-head{
-        font-size: 12px;
-        line-height: 0;
-    }
-    .blog-subhead{
-        font-size: 16px;
-        line-height: 18px;
-    }
-    .blog-text, .viewall-link{
-        font-size: 13px;
-        line-height: 17px;
-    }
+
+    .blog-container{ margin-top: 90px; } .blog{ margin-top: 0px; height: auto; }
+
+    .our-blog-head{ font-size: 18px; } .manufacture-head{ font-size: 12px; line-height: 0; }
+
+    .blog-subhead{ font-size: 16px; line-height: 18px; }
+
+    .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
+
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
-    .our-partner{
-        margin-top: -10px;
-    }
+
+    .our-partner{  margin-top: -10px; }
+    
     .logos-title{
         font-size: 20px;
         line-height: 20px;
         margin-top: 5px;
     }
+
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
-    .contact-container{
-        margin-top: 90px;
-    }
-    .contact-main{
-        margin-top: -25px;
-    }
+
+    .contact-container{ margin-top: 90px; } .contact-main{ margin-top: -25px; }
+
     .contact-action{
         border-radius: 12px 12px 0px 0px;
         height: 190px;
@@ -1246,10 +955,8 @@
         margin-left: -12px;
         background-image: url(../media/Action_button_bg_croped.png);
     }
-    .action-content{
-        width: auto;
-        height: 200px;
-    }
+    .action-content{ width: auto; height: 200px; }
+
     .action-title{
         font-size: 20px;
         width: auto;
@@ -1272,120 +979,72 @@
         height: 35px;
     }
 
+    /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
+    
+    .contact-form{height: 950px; padding: 0px 10px 0px 10px; }
+
+    .contact-us-box{ height: auto;}
+
+    .contact-us-title, .form-title{ font-size: 16px;} .contact-us-head{ font-size: 20px; margin-top: -5px; }
+    
+    .contact-us-text { font-size: 14px; line-height: 17px; }
+
+    .contact-subhead, .form-floating{ font-size: 15px;} .contact-subtext{ font-size: 14px;}
+
+    .contact-link{ padding: 0px 0px; } .contact-tele{ padding-left: 9px; margin-top: 0px;} .contact-loc{ padding-left: 2px; margin-top: -15px;} 
+    
+    .line { display: inline-block;} br { display: none; } 
+
+    .form-box { padding: 10px; height: 517px;} 
+
+    .call-icon{ width: 20px; height: 20px; }
+
+    .form-padding { margin-top: -5px;} .form-btn {margin-top: -5px;}
+
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
 
-    .contact-logo{
-        width: 130px;
-        padding-top: 10px;
-        padding-left: 0px;
-    }
-    .contact-sentence{
-        font-size: 15px;
-        line-height: 15px;
-        width: 400px;
-        padding-left: 10px;
-        margin-top: -5px;
-    }
-    .contact-input{
-        width: 400px;
-        height: 45px;
-        margin-top: 5px;
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    .inside-btn{
-        width: 80px;
-        height: 35px;
-        margin: 10px 6px;
-        font-size: 12px;
-    }
-    .contact-para, .contact-email{
-        font-size: 14px;
-        line-height: 15px;
-        width: 400px;
-        padding-left: 10px;
-    }
-    .contact-email{
-        margin-top: -60px;
-    }
-    .location-icon, .email-icon{
-        margin-left: 15px;
-        width: 12px;
-        height: 15px;
-    }
-    .email-icon{
-        height: 13px;
-        margin-top: -60px;
-    }
-    .contact-icon{
-        margin-left: 5px;
-        width: 13px;
-        height: 14px;
-        margin-top: 10px;
-    }
-    .contact-number-div{
-        margin-left: 250px;
-        margin-top: -75px;
-        width: auto;
-        height: 30px;
-    }
-    .contact-number{
-        font-size: 14px;
-        width: auto;
-        margin-top: 8px;
-    }
-    .contact-menu-section{
-        width: 650px;
-        height: auto;
-        margin-left: 30px;
-        margin-top: -40px;
-    }
-    .company-menu-title{
-        font-size: 14px;
-        width: 70px;
-        line-height: 0px;
-    }
-    .contact-submenu, .contact-submenu1{
-        font-size: 13px;
-        line-height: normal;
-        width: auto; 
-    }
-    .contact-menu{ 
-        margin-top: 15px;
-        margin-left: -5px;
-        width: 100px;
-    }
-    .contact-menu-service{
-        margin-top: 15px;
-        margin-left: -150px;
-        width: 170px;
-    }
-    .contact-menu-link{
-        margin-left: 360px;
-        margin-top: -123px;
-        width: 80px;
-    }
-    .social-icons-div{
-        margin-left: 180px;
-        margin-top: -5px;
-        width: auto;
-        height: 30px;
-    }
-    .social-icons{
-        padding: 0px 5px;
-        width: 31px;
-    }
-    .contact-end-hr{
-        width: 94%;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
+    .contact-logo{ width: 130px; padding-top: 10px; padding-left: 0px; }
+
+    .contact-sentence{ font-size: 15px; line-height: 15px; width: 400px; padding-left: 10px; margin-top: -5px; }
+
+    .contact-input{ width: 400px; height: 45px; margin-top: 5px; margin-left: 10px; font-size: 14px; }
+
+    .inside-btn{ width: 80px; height: 35px; margin: 10px 6px; font-size: 12px; }
+
+    .contact-para, .contact-email{ font-size: 14px; line-height: 15px; width: 400px; padding-left: 10px; }
+
+    .contact-email{ margin-top: -60px; } .location-icon, .email-icon{ margin-left: 15px; width: 12px; height: 15px; }
+
+    .email-icon{ height: 13px; margin-top: -60px; }
+
+    .contact-icon{ margin-left: 5px; width: 13px; height: 14px; margin-top: 10px; }
+
+    .contact-number-div{ margin-left: 250px; margin-top: -75px; width: auto; height: 30px; }
+
+    .contact-number{ font-size: 14px; width: auto; margin-top: 8px; }
+
+    .contact-menu-section{ width: 650px; height: auto; margin-left: 30px; margin-top: -40px; }
+
+    .company-menu-title{ font-size: 14px; width: 70px; line-height: 0px; }
+
+    .contact-submenu, .contact-submenu1{ font-size: 13px; line-height: normal; width: auto; }
+
+    .contact-menu{ margin-top: 15px; margin-left: -5px; width: 100px; }
+
+    .contact-menu-service{ margin-top: 15px; margin-left: -150px; width: 170px; }
+
+    .contact-menu-link{ margin-left: 360px; margin-top: -123px; width: 80px; }
+
+    .social-icons-div{ margin-left: 180px; margin-top: -5px; width: auto; height: 30px; }
+
+    .social-icons{ padding: 0px 5px; width: 31px; }
+
+    .contact-end-hr{ width: 94%; margin-left: 10px; margin-top: 10px; }
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
     
-    .copyright-container{
-        padding: 0px 10px 35px 10px;
-    }
+    .copyright-container{ padding: 0px 10px 35px 10px; }
+
     .end-note{
         font-size: 12px;
         line-height: 15px;
@@ -1393,9 +1052,7 @@
         margin-top: 0px;
         width: 600px;
     }
-    .end-note-span{
-        font-size: 12px;
-    }
+    .end-note-span{ font-size: 12px; }
 }
 
 @media screen and (max-width: 440px) and (min-width: 425px){
@@ -1406,110 +1063,143 @@
     }
 }
 @media screen and (max-width:1200px) and (min-width:990px){
-    .about-box, .about-box2, .about-box3{
-        height: 130px;
-        width: 310px;
-    }
-    .about-box2{
-        margin-top: 5px;
-        margin-left: -168px;
-    }
-    .about-box3{
-        margin-left: 637px;
-        margin-top: -155px;
-    }
-    .service-box{
-        margin-top: 3px;
-    }
+
+    .about-box, .about-box2, .about-box3{ height: 130px; width: 310px; }
+
+    .about-box2{ margin-top: 5px; margin-left: -168px; }
+
+    .about-box3{ margin-left: 637px; margin-top: -155px; }
+
+    .service-box{ margin-top: 3px; }
+
 /* -----------about2 section-------------- */
-    .about{
-        height: 548px;
-    }
-    .section-about2{
-        height: 530px;
-        width: auto;
-    }
-    .whatwedo-headers{
-        margin-top: 80px;
-    }
-    .whatwedo-title{
-        width: auto;
-        height: auto;
-    }
-    .about-imgs{width: 40px;}
-    
-    .about-content-right{
-        margin-left: 280px;
-        margin-top: -100px;
-    }
-    .job-block, .deployment-block{
-        width: auto;
-        margin-left: 20px;
-    }
-    .travel-block, .placement-block{
-        width: auto;
-    }
+
+    .about{ height: 548px; } .section-about2{ height: 530px; width: auto; }
+
+    .whatwedo-headers{ margin-top: 80px; } .whatwedo-title{ width: auto; height: auto; }
+
+    .about-imgs{width: 40px;} .about-content-right{ margin-left: 280px; margin-top: -100px; }
+
+    .job-block, .deployment-block{ width: auto; margin-left: 20px; }
+
+    .travel-block, .placement-block{ width: auto; }
     
     /* -----------section1 section-------------- */
-    .our-service-bg{
-        background-image: url(../media/service_Bg_Image.png);
-    }
-    .our-service-title{
-        color: rgb(255, 255, 255);
-    }
-    .our-service-content{
-        width: 102.5%;
-        margin-left: -11px;
-    }
-    .service-card-slider{
-        margin-left: 300px;
-    }  
-    .owl-carousel-3 .owl-nav {
-        width: auto;
-        top: 370px;
-        right: auto;
-        left: -80px;
-        justify-content: flex-end;
-    }
+
+    .our-service-bg{ background-image: url(../media/service_Bg_Image.png); }
+
+    .our-service-title{ color: rgb(255, 255, 255); }
+
+    .our-service-content{ width: 102.5%; margin-left: -11px; } .service-card-slider{ margin-left: 300px; }
+
+    .owl-carousel-3 .owl-nav { width: auto; top: 370px; right: auto; left: -80px; justify-content: flex-end; }
 
     /* -----------section2 section-------------- */
-    .choose-experience, .choose-network, .choose-vision{
-        width: 325px;
-    }
-    .choose-vision{
-        margin-left: 635px;
-        margin-top: -395px;
-    }
+
+    .choose-experience, .choose-network, .choose-vision{ width: 325px; }
+
+    .choose-vision{ margin-left: 635px; margin-top: -395px; }
 
     /* -----------section3 section-------------- */
-    .collection{
-        height: 1235px;
+
+    .collection{ height: 1235px; } .impact-img, .value-img{ height: auto; width: auto; }
+
+    .impact-content{ padding: 80px 50px; width: 460px; }
+
+    .leadership-img{ margin-left: 11px; width: 460px; height: auto; }
+
+    .leadership-content{ height: auto; width: 470px; padding: 50px 50px; }
+
+    .value-content{ height: auto; width: 460px; padding: 50px 50px; }
+
+    .contact-action{ background-image: url(../media/Action_button_bg.png); background-repeat: no-repeat; }
+
+    /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
+
+    .contact-form{ height: 600px; padding: 0px 20px 0px 20px; }
+
+    .form-box{ margin-top: 30px; padding: 20px; height: 540px;} 
+
+    .contact-us-box{ height: auto; margin-top: 80px;}
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+
+    .home-bg-clip { margin-left: auto; max-height: 700px; } .home-title-div{ height: 700px;}
+
+    .home-title { margin-top: 120px; margin-left: 150px;} 
+
+    .home-title2, #home-hr{ margin-left: 150px;}
+
+    /* --------------------- ABOUTUS-1 RESPONSIVE START --------------------- */
+
+    .about-box,.about-box2, .about-box3{
+        height: 130px;
+        width: 370px;
+        margin-left: -13px;
+        margin-top: 5px;
     }
-    .impact-img, .value-img{
-        height: auto;
-        width: auto;
-    }
-    .impact-content{
-        padding: 80px 50px;
-        width: 460px;
-    }
-    .leadership-img{
-        margin-left: 11px;
-        width: 460px;
-        height: auto;
-    }
-    .leadership-content{
-        height: auto;
-        width: 470px;
-        padding: 50px 50px;
-    }
-    .value-content{
-        height: auto;
-        width: 460px;
-        padding: 50px 50px;
-    }
-    .contact-action{
-        background-image: url(../media/Action_button_bg.png);
-        background-repeat: no-repeat;
-    }
+    .about-box2{ margin-left: -6px;} .about-box3{ margin-left: 0px;} 
+
+    .experience_icon3{ margin-top: 10px;} .service-head{ margin-top: -55px;}
+
+    .section-about2{ height: 720px;}
+
+    .whatwedo-title{ font-size: 30px; line-height: 40px; width: 420px;} .whatwedo-head{ font-size: 18px; }
+
+    .about-content-right{ margin-left: -30px; height: 560px;} 
+
+    .job-block, .travel-block{ height: 250px;} .deployment-block , .placement-block{ margin-top: -50px; height: 200px;}
+
+    /* --------------------- SERVICE-1 RESPONSIVE START --------------------- */
+
+    .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px;}  
+
+    .constrution-box{ height: 406px; width: 300px; margin-top: -405px; } .constrution-hover{ width: 298px; }
+
+    .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
+
+    .our-service-content{ margin-top: 115px;}
+
+    /* --------------------- SERVICE-2 RESPONSIVE START --------------------- */
+
+    .choose-title{ font-size: 30px;} .choose-experience{ height: 485px;}
+
+    .choose-box { height: 200px;}
+
+    /* -----------SERVICE-3 SECTION-------------- */
+
+    .collection{ height: 1480px; } .content-title{ font-size: 30px; }
+
+    .impact-content{ padding: 50px 50px; width: 540px; margin-left: 18px; }
+
+    .leadership-img{ margin-left: 20px; width: 540px; height: auto; }
+
+    .leadership-content{ height: auto; width: 558px; padding: 30px 40px 0px 40px; }
+
+    .value-content{ height: 467px; width: 540px; padding: 30px 40px 0px 40px; margin-left: 18px;}
+
+    .blog { height: 565px; }
+
+    /* -----------CONTACT SECTION-------------- */
+
+    .contact-menu-section{ margin-left: 520px; margin-top: -450px;} 
+
+    .contact-menu { margin-left: 90px;} .social-icons-div { margin-left: 400px;}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1035px){
+    .nav-links{ padding: 5px;} .nav-links a{ padding: 10px 0px; font-size: 14px;}
+
+    .topnav img { height: 80px;} .nav-logo-head{ font-size: 16px;} .nav-logo-head2{ font-size: 13px;} 
+
+    .topnav-centered { margin-left: -330px;}
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1201px){
+    .nav-links{ padding: 10px;} .nav-links a{ padding: 10px 5px; font-size: 15px;}
+
+    .nav-logo-head{ font-size: 18px;} .nav-logo-head2{ font-size: 14px;} 
+
+    .topnav-centered { text-align: center; margin: 0 auto; } .nav-btn{ right: -30px;}
 }

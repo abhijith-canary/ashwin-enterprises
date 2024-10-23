@@ -71,3 +71,31 @@ $(".carousel-item-2").owlCarousel({
 });
 // -----------------------------------
 })(jQuery);
+
+
+// Event card slider 
+
+let currentSlide = 0; // Track the current slide
+const slides = document.querySelectorAll(".card");
+const dots = document.querySelectorAll(".dot");
+
+// Function to show the specified slide
+function showSlide(index) {
+  // Update the transform property to show the correct slide
+  document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
+
+  // Update the active dot
+  dots.forEach(dot => dot.classList.remove("active"));
+  dots[index].classList.add("active");
+
+  // Update the current slide index
+  currentSlide = index;
+}
+
+// // Auto-slide functionality (optional)
+// setInterval(() => {
+//   currentSlide = (currentSlide + 1) % slides.length;    // Loop back to the first slide
+//   showSlide(currentSlide);
+// }, 5000); // Change slide every 5 seconds
+
+  

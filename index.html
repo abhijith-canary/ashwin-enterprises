@@ -18,6 +18,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+       
+        <!-- Google Lato font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
@@ -56,18 +61,20 @@
             </div>
         
             <div class="nav-links" id="navLinks">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="service.html">Services</a>
-                <a href="blog.html">Blogs</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="index.html" class="active nav-menu">Home</a>
+                <a href="about.html" class="nav-menu">About Us</a>
+                <a href="service.html" class="nav-menu">Services</a>
+                <a href="blog.html" class="nav-menu">Blogs</a>
+                <a href="contact.html" class="nav-menu">Contact Us</a>
             </div>
         
-            <div class="topnav-centered">
-                <img class="nav-logo" src="media/logo_Icon.png" alt="Logo">
-                <p class="nav-logo-head" id="navLogoHead">ASHWIN ENTERPRISES PRIVATE LTD</p>
-                <p class="nav-logo-head2" id="navLogoHead2">Recruitment and Placement Services</p>
-            </div>
+            <a href="index.html">
+                <div class="topnav-centered">
+                    <img class="nav-logo" src="media/logo_Icon.png" alt="Logo">
+                    <p class="nav-logo-head" id="navLogoHead">ASHWIN ENTERPRISES PRIVATE LTD</p>
+                    <p class="nav-logo-head2" id="navLogoHead2">Recruitment and Placement Services</p>
+                </div>
+            </a>
         
             <a href="#consulting" class="nav-btn"><span class="get-text">Get</span> Consulting</a>
         </div>
@@ -93,9 +100,10 @@
         <!-- Home End -->
 
         <!-- About1 Start -->
-        <div class="container-fluid country overflow-hidden" >
+        <div class="container-fluid overflow-hidden" >
             <div class="container py-5 about-container1">
-                <div class="section-title section-about wow fadeInUp" data-wow-delay="0.1s">
+                
+                <div class="section-about wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="about-head">Who we are ?</h5>
                     <h1 class="about-title">Ashwin Enterpises Pvt Ltd <span id="span-about-title">is a trusted overseas manpower recruitment agency in India.</span></h1>
                     <p class="about-sentance">We are approved and licensed by the Ministry od External Affairs, Government od India. With a legacy of more than 25 years we specialize in recruitment, staffing and training across various industries such as 
@@ -104,7 +112,63 @@
                         We prioritize long-term partnerships and offer comprehensive solutions for the organizational success of our clients.
                     </p>
                 </div>
-                <div class="row g-4">
+    
+                
+                <div class="card-slider-container wow fadeInUp" data-wow-delay="0.1ys">
+                    <div class="header">
+                        <h2 class="slider-heading">Upcoming Events</h2>
+                    
+                        <div class="dots-container">
+                            <span class="dot active" onclick="showSlide(0)"></span>
+                            <span class="dot" onclick="showSlide(1)"></span>
+                            <span class="dot" onclick="showSlide(2)"></span>
+                            <span class="dot" onclick="showSlide(3)"></span>
+                        </div>
+                    </div>
+                
+                    <div class="slider-wrapper">
+                        <div class="card">
+                            <a href="#"><p class="naukri">naukri.uae@gmail.com</p></a>
+                            <img src="media/event-1.png" alt="Event 1" class="card-img img-fluid">
+                            <div class="card-content">
+                                <p class="card-content-head">Client Interview @ Kochi</p>
+                                <p class="card-content-text">Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi</p>
+                                <div class="time-date text-uppercase  ">
+                                    <span class="post-date">6th october sunday</span><br>
+                                    <span class="post-time">9 am onwards</span>
+                                </div>
+                                <button class="card-btn">Contact Us</button>
+                            </div>
+                        </div>
+                
+                        <div class="card">
+                            <img src="media/event-1.png" alt="Event 2" class="card-img">
+                            <div class="card-content">
+                                <h3>Job Fair @ Delhi</h3>
+                                <p>12th October, 10 AM - 4 PM</p>
+                            </div>
+                        </div>
+                
+                        <div class="card">
+                            <img src="media/event-1.png" alt="Event 3" class="card-img">
+                            <div class="card-content">
+                                <h3>Walk-in Drive @ Chennai</h3>
+                                <p>15th October, 11 AM - 5 PM</p>
+                            </div>
+                        </div>
+                
+                        <div class="card">
+                            <img src="media/event-1.png" alt="Event 4" class="card-img">
+                            <div class="card-content">
+                                <h3>Career Expo @ Bangalore</h3>
+                                <p>20th October, 9 AM - 6 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row g-4 about-box-container">
                     <div class="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="about-box">
                             <div class="pb-4">
@@ -121,8 +185,8 @@
                             <div class="pb-4">
                                 <img src="media/Legacy_Icon.png" class="experience_icon">
                                 <div class="px-4">
-                                    <p class="mb-4 experience-head1 legacy-head">Legacy</p>
-                                    <p class="mb-4 experience-head2 legacy-head2">Built over 25 years</p>
+                                    <p class="mb-4 experience-head1">Legacy</p>
+                                    <p class="mb-4 experience-head2">Built over 25 years</p>
                                 </div>
                             </div>
                         </div>
@@ -130,9 +194,9 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay="0.1s">
                         <div class="about-box3">
                             <div class="pb-4">
-                                <img src="media/Service_Icon.png" class="experience_icon3">
+                                <img src="media/Service_Icon.png" class="experience_icon">
                                 <div class="px-4 service-box">
-                                    <p class="mb-4 experience-head1 service-head">Service</p>
+                                    <p class="mb-4 experience-head1">Service</p>
                                     <p class="mb-4 experience-head2">Second to none</p>
                                 </div>
                             </div>
@@ -336,7 +400,7 @@
                             <p class="manufacture-head">Manufacturing</p>
                             <h5 class="blog-subhead">The Importance of Skilled Labour in the manufacturing Industry</h5>
                             <p class="blog-text">In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators...</p>
-                            <a href="#" class="viewall-link">View all <img src="media/arrow-black.png"></a>
+                            <a href="blog-single.html" class="viewall-link">View all <img src="media/arrow-black.png"></a>
                         </div>
                     </div>
 

@@ -37,11 +37,19 @@ body{
     z-index: 99;
 }
 
-/*** Section Title Start ***/
-.section-title {
-    max-width: 900px;
-    text-align: center;
-    margin: 0 auto;
+.bg-breadcrumb {
+    background:linear-gradient(#791710b0, #791710b0), url(../media/blog-img1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    padding: 100px 0 60px 0;
+    margin-top: 150px;
+    height: 400px;
+}   
+.breadcrumb-item {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /*** Navbar Start ***/
@@ -99,7 +107,7 @@ body{
     margin-right: auto;
     transition: max-height 0.3s;
 }
-.nav-links a {
+.nav-links  .nav-menu {
     padding: 10px 15px;
     text-decoration: none;
     color: #1D1E1C;
@@ -108,7 +116,7 @@ body{
     font-weight: 600;
     transition: 0.5s;
 }
-.nav-links a.active, .nav-links a:hover{
+.nav-links .nav-menu.active, .nav-links .nav-menu:hover{
     color: #D65614;
 }
 .topnav-centered {
@@ -117,7 +125,8 @@ body{
     align-items: center;
     position: relative;
     margin: 0 auto;
-    margin-left: -70px;
+    margin-left: -310px;
+    /* margin-left: -70px; */
 }
 .nav-btn {
     margin-left: auto;
@@ -165,7 +174,7 @@ body{
         background-color: white;
         
     }
-    .nav-links a {
+    .nav-links .nav-menu {
        margin-right: 110px;
        padding: 5px 0px;
     }
@@ -259,7 +268,6 @@ body{
     font-weight: 800;
     font-size: 32px;
     width: 390px;
-    /* color: #D65827; */
     margin-left: 300px;
     margin-top: -10px;
     color: white;
@@ -273,49 +281,171 @@ body{
 }
 
 /* --------------------- ABOUT US STYLE START --------------------- */
-.about-section{
-    margin-top: 120px;
-}
+.about-section{ margin-top: 120px; }
+
 .section-about{
     background: url(../media/aboutus-bgimg1.png);
+    width: 780px;
     height: 500px;
-    margin-top: 0px;
 }
+.section-title {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .about-head{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    padding-top: 30px;
-    color: black;
+    padding-top: 0px;
+    color: black;   
 }
 .about-title{
-  font-family: "Poppins", sans-serif;
-  font-size: 54px;
-  font-weight: 600;
-  line-height: 70px;
-  width: 1060px;
-  height: 210px;
-  text-align: center;
-  margin-left: -70px;
-  color: #D65827;
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70px;
+    width: 800px;
+    height: 210px;
+    color: #D65827;
 }
-#span-about-title{
-    color: #000000;
-}
+.section-title h1{text-align: center; margin-left: -150px; width: 1050px;}
+ 
+#span-about-title{ color: #000000; }
+
 .about-sentance{
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  width: 1063px;
-  height: 107px;
-  margin-left: -70px;
-  margin-top: 30px;
-  color: #53626D;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 800px;
+    height: 107px;
+    margin-top: 30px;
+    color: #53626D;
 }
-#span-about-sentance{
-  font-weight: 700;
+
+/* --------------------- EVENT STYLE START --------------------- */
+
+.card-slider-container {
+    width: 435px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    right: 0px;
+    left: 855px;
+    bottom: 500px;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.slider-heading {
+    width: auto;
+    height: 17px;
+    font-family:"Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D1E1C;
+}
+.dots-container { display: flex; gap: 6px; }
+
+.dot {
+    width: 25px;
+    height: 5px;
+    background-color: #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.dot.active, .dot:hover{ background-color: #D65614; }
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.card {
+    min-width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px #BDBDBD3B;
+
+    overflow: hidden;
+    margin: 15px 0;
+}
+.card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+}
+.card-content {
+    height: 165px;
+    padding: 10px 25px;
+    text-align: start;
+}
+.card-content-head{
+    font-family: "Poppins", sans-serif;
+    font-size: 23.12px;
+    font-weight: 700;
+    line-height: 0px;
+    color: #1D1E1C;
+}
+.card-content-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18.46px;
+    width: 386px;
+    color: #53626D;
+}
+.time-date{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.16px;
+    color: #D55513;
+}
+.post-time{ color: #1D1E1C; }
+
+.card-btn{
+    width: 122px;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #D65614;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+}
+.naukri{
+    width: 180px;
+    height: 25px;
+    background-color: #D65614;
+    font-family: "Lato", sans-serif;
+    font-size: 16.25px;
+    font-weight: 700;
+    line-height: 19.5px;
+    color: white;
+    padding: 2px 5px 0px 5px;
+    border-radius: 0px 4px 4px 0px;
+    position: absolute;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+/* --------------------- ABOUT-BOX STYLE START --------------------- */
+
+#span-about-sentance{ font-weight: 700; }
+
+.about-box-container{ margin-top: -500px;}
 
 .about-box, .about-box2, .about-box3{
     background-color: #E7ECF0;
@@ -325,12 +455,8 @@ body{
     width: 420px;
     height: 162px;
 }
-.about-box2{
-    margin-left: -3px;
-}
- .about-box3{
-    margin-left: 8px;
-}
+.about-box2{ margin-left: -3px; } .about-box3{ margin-left: 8px; }
+
 .experience_icon, .experience_icon3{
     padding-top: 50px;
     padding-left: 50px;
@@ -350,12 +476,8 @@ body{
     margin-top: -30px;
     margin-left: 100px;
 }
-.legacy-head{
-    margin-top: -55px;
-}
-.service-head{
-    margin-top: -45px;
-}
+.legacy-head{ margin-top: -55px; } .service-head{ margin-top: -45px; }
+
 
 /* --------------------- ABOUT US2 STYLE START --------------------- */
 
@@ -548,7 +670,7 @@ body{
 /* ---------- HOVER CONTENT BOX STYLE ------------- */
 .hover-box1{
     object-fit: cover;
-    transition: 0.4s;
+    transition: s;
 }
 .hover-box1 .constrution-box:hover{
     opacity: 0;
@@ -573,6 +695,7 @@ body{
     width: 305px;
     height: 405px;
     margin-left: -1px;
+    transition: 0.5s;
 }
 .hospitality-hover{
     width: 300px;
@@ -582,6 +705,7 @@ body{
     width: 302px;
     height: 405px;
     margin-left: -1px;
+    transition: 0.5s;
 }
 
 /* --------------------- SERVICE STYLE START --------------------- */

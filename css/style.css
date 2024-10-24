@@ -5,6 +5,9 @@
 .roboto-thin {
     font-family: "Roboto", sans-serif;font-weight: 100;font-style: normal;
 }
+.lato-thin { 
+    font-family: "Lato", serif; font-weight: 100; font-style: normal;
+}
 
 /*** Spinner Start ***/
 #spinner {
@@ -35,21 +38,6 @@ body{
     justify-content: center;
     transition: 0.5s;
     z-index: 99;
-}
-
-.bg-breadcrumb {
-    background:linear-gradient(#791710b0, #791710b0), url(../media/blog-img1.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-size: cover;
-    padding: 100px 0 60px 0;
-    margin-top: 150px;
-    height: 400px;
-}   
-.breadcrumb-item {
-    font-size: 16px;
-    font-weight: 500;
 }
 
 /*** Navbar Start ***/
@@ -1157,3 +1145,121 @@ body{
     height: 20px;
     opacity: 80%;
 }
+
+
+
+
+
+/**********************************/
+/********* Single News CSS ********/
+/**********************************/
+
+.blog-banner {
+    background:linear-gradient( rgba(118, 28, 20, 0.9), rgba(118, 28, 20, 0.9)), url(../media/Blog_Details_banner_img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;  
+    margin-top: 150px;
+    padding: 13% 20%;
+}   
+.banner-title{
+    width: 1137px;
+    height: 97px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 59px;
+
+}
+
+
+
+.single-blogs {
+    position: relative;
+    width: 100%;
+    padding: 50px 0 0 0;
+    margin-bottom: 15px;
+}
+.single-head{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    width: 650px;
+    color: #1D1E1C;
+}
+.single-texts{
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #53626D;
+}
+.single-subhead{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1D1E1C;
+}
+.blog-second-img{ padding: 20px 25px 30px 0px; }
+
+.single-blogs .sn-content {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+.sidebar, .sidebar-block{ padding-top: 25px;}
+
+.sidebar-title{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1D1E1C;
+}
+.sidebar-img1{ width: 400px; height: 250px; }
+
+.blog-head-manu{ 
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #D55513;
+}
+.sidebar-head{
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #1D1E1C;
+    width: 342px;
+    height: 90px;
+}
+.sidebar-text{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 402px;
+    height: 72px;
+    color: #53626D;
+    margin-top: -20px;
+}
+.leadership, .research{
+    width: 95px;
+    height: 24px;
+    padding: 2px 10px 2px 15px;
+    border-radius: 16px ;
+    background-color: #F4EEEB;
+    color: #FF681B;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: -5px;
+}
+.management{ padding: 2px 10px 2px 8px; margin-left: 10px;}
+
+.research{ margin-left: 10px; width: 85px}

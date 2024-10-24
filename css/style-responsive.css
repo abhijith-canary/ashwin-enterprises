@@ -243,6 +243,24 @@
 
     .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; } .blog-block{ margin-top: -10px; } .blog-block2{ margin-top: 15px; }
 
+    /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
+
+    .blog-banner{ padding: 150px 20px; margin-top: 70px; height: 500px; }
+
+    .banner-title{ width: 320px; font-size: 30px; line-height: 35px; }
+
+    .sidebar-img1{ height: 200px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
+
+    .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px; }
+
+    .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: -15px;}
+    
+    .sidebar-text{ width: auto; font-size: 14px; line-height: normal; margin-top: -30px;} 
+
+    .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
+
+    .single-subhead{ font-size: 15px;}
+ 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
     .our-partner{ margin-top: -8px; }
@@ -601,6 +619,25 @@
     .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
 
     .blog-block{ margin-top: -10px; } .blog-block2{ margin-top: 15px; }
+
+    /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
+
+    .blog-banner{ padding: 150px 40px; margin-top: 70px; height: 500px; }
+
+    .banner-title{ width: 320px; font-size: 30px; line-height: 35px; }
+
+    .sidebar-img1{ height: 250px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
+
+    .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px; }
+
+    .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: -25px;}
+    
+    .sidebar-text{ width: auto; font-size: 14px; line-height: normal; margin-top: -30px;} 
+
+    .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
+
+    .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
+ 
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 

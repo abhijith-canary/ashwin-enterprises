@@ -755,31 +755,21 @@ body{
 
 
 /* --------------------------------------------------------*/
-.collection{
-    margin-top: 25px;
-    height: 1700px;
-}
-.impact-img{
-    width: 630px;
-}
+.collection{ margin-top: 25px; height: 1700px;}
+
+.impact-img{ width: 630px; }
+
 .impact-content, .leadership-content, .value-content{
     background-color: #E7ECF0;
     border-radius: 10px;
     padding: 70px;
 }
-.leadership-img{
-    margin-left: 20px;
-}
-.leadership-content{
-    width: 630px;
-    height: 543px;
-}
-.value-content{
-    height: 528px;
-}
-.leadership-main, .valuetime-main{
-    margin-top: 20px;
-}
+.leadership-img{ margin-left: 20px; }
+
+.leadership-content{ width: 630px; height: 543px; }
+
+.value-content{ height: 528px; } .leadership-main, .valuetime-main{ margin-top: 20px; }
+
 .content-title{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
@@ -795,13 +785,9 @@ body{
 }
 
 /* --------------------- BLOGS STYLE START --------------------- */
-.blog{
-    margin-top: 55px;
-    height: 600px;
-}
-.blog-section{
-    margin-top: 180px;
-}
+.blog{ margin-top: 55px; height: 600px; }
+
+.blog-section{ margin-top: 180px; }
 
 .our-blog-head, .contact-us-title, .form-title{
     font-family: "Poppins", sans-serif;
@@ -810,12 +796,10 @@ body{
     line-height: 25px;
     color: #1D1E1C;
 }
-.blog-img{
-    transition: 0.5s;
-}
-.blog-img:hover{
-    transform: scale(1.05);
-}
+.blog-img{ transition: 0.5s; }
+
+.blog-img:hover{ transform: scale(1.05); }
+
 .manufacture-head{
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -843,15 +827,11 @@ body{
     color: #53626D;
     text-decoration: underline;
 }
-.viewall-link:hover{
-    color: #D65827;
-}
+.viewall-link:hover{ color: #D65827; }
 
 /* --------------------- BLOG LOGO STYLE START --------------------- */
-.our-partner{
-    border: 1px solid #E7ECF0;
-    border-radius: 12px;
-}
+.our-partner{ border: 1px solid #E7ECF0; border-radius: 12px; }
+
 .logos-title{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
@@ -878,27 +858,19 @@ body{
     display: inline-block;
     transition: 5s;
 }
-.logos-slide img{
-    margin: 0px 20px;
-}
+.logos-slide img{ margin: 0px 20px; }
 
 /* --------------------- CONTACT1 STYLE START --------------------- */
-.contact-container{
-    margin-top: 140px;
-}
-.contact-main{
-    margin-top: 35px;
-}
+.contact-container{ margin-top: 140px; } .contact-main{ margin-top: 35px; }
+
 .contact-action{
     background-image: url(../media/Action_button_bg.png);
     border-radius: 12px 12px 0px 0px;
     height: 295px;
     margin-left: -12px;
 }
-.action-content{
-    width: auto;
-    height: 200px;
-}
+.action-content{ width: auto; height: 200px; }
+
 .action-title{
     font-family: "Poppins", sans-serif;
     font-size: 35px;
@@ -933,19 +905,14 @@ body{
     font-weight: 600;
     transition: 1s;
 }
-.consult-btn2:hover{
-    background-color: white;
-    color: rgb(170, 48, 26);
-}
+.consult-btn2:hover{ background-color: white; color: rgb(170, 48, 26); }
+
 
 /* --------------------- CONTACT2 STYLE START ------------------------ */
-.contact-section{
-    background-color: #313031;
-}
-.contact-logo{
-    padding-left: 20px;
-    padding-top: 30px;
-}
+.contact-section{ background-color: #313031; }
+
+.contact-logo{ padding-left: 20px; padding-top: 30px; }
+
 .contact-sentence{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -966,13 +933,10 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 15px;
 }
-::placeholder{
-    color: #C9ADAA;
-}
-.input-wrapper{
-    position: relative;
-    display: inline-block;
-}
+::placeholder{ color: #C9ADAA; }
+
+.input-wrapper{ position: relative; display: inline-block; }
+
 .input-wrapper button{
     position: absolute; 
     top: 0; 
@@ -992,9 +956,7 @@ body{
     font-size: 16px;
     transition: 0.5s;
 }
-.inside-btn:hover{
-    background-color: #cf2216;
-}
+.inside-btn:hover{ background-color: #cf2216; }
 
 .contact-para , .contact-email, .contact-number{
     width: 426px;
@@ -1006,9 +968,8 @@ body{
     color: #ffffff;
     padding-left: 20px;
 }
-.contact-number{
-    font-size: 15px;
-}
+.contact-number{ font-size: 15px; }
+
 .contact-email{
     margin-top: -50px;
     width: 100px;
@@ -1019,10 +980,8 @@ body{
     margin-top: -80px;
     width: 400px;
 }
-.contact-number{
-    margin-left: -10px;
-    height: 20px;
-}
+.contact-number{ margin-left: -10px; height: 20px; }
+
 .location-icon{
     width: 15px;
     height: 19px;
@@ -1068,36 +1027,27 @@ body{
     width: 160px;
     color: white;
 }
-.contact-submenu1{
-    width: 100px;
-}
-.contact-submenu:hover{
-    color: #D65614;
-}
-.contact-submenu1:hover{
-    color: #D65614;
-}
+.contact-submenu1{ width: 100px; }
+
+.contact-submenu:hover{ color: #D65614; } .contact-submenu1:hover{ color: #D65614; }
+
 .contact-menu-service{
     margin-top: 50px;
     margin-left: 100px;
     width: 300px;
 }
-.contact-menu-link{
-    margin-left: 170px;
-    margin-top: 50px;
-}
+.contact-menu-link{ margin-left: 170px; margin-top: 50px; }
+
 .social-icons-div{
     margin-left: 445px;
     margin-top: 120px;
     width: 170px;
     height: 30px;
 }
-.social-icons{
-    padding: 0px 10px;
-}
-.social-icons:hover{
-    transform: scale(1.15);
-}
+.social-icons{ padding: 0px 10px; }
+
+.social-icons:hover{ transform: scale(1.15); }
+
 .contact-end-hr{
     color: #ffffff;
     width: 94%;
@@ -1132,7 +1082,6 @@ body{
     font-weight: 600;
     text-decoration: underline;
 }
-
 .btn-up{
     border: 1px solid #D65827;
     border-radius: 50%;
@@ -1145,7 +1094,6 @@ body{
     border: none;
     color: white;
 }
-
 .contact-form{
     background-color: #E7ECF0;
     padding: 100px 30px 0px 30px;
@@ -1153,13 +1101,10 @@ body{
     border-right: 1px solid #b1b3b6;
     border-left: 1px solid #b1b3b6;
 }
-.contact-us-box {
-    margin-top: 20px;
-    height: 460px;
-}
-.contact-us-title, .form-title{
-    font-size: 20px;
-}
+.contact-us-box { margin-top: 20px; height: 460px; }
+
+.contact-us-title, .form-title{ font-size: 20px; }
+
 .contact-us-head{
     font-family: "Poppins", sans-serif;
     font-size: 35px;
@@ -1170,7 +1115,7 @@ body{
 .contact-us-text{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     line-height: normal;
     color: #53626D;
 }
@@ -1199,12 +1144,8 @@ body{
     border-radius: 12px;
     overflow: hidden;
 }
-.form-floating input{
-    border-radius: 10px;
-}
-.form-floating textarea{
-    border-radius: 12px;
-}
+.form-floating input, .form-floating textarea{ border-radius: 10px; }
+
 .form-btn{
     border: none;
     border-radius: 12px;
@@ -1215,41 +1156,4 @@ body{
     width: 20px;
     height: 20px;
     opacity: 80%;
-}
-
-.single {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 65px 0;
-}
-
-.single img {
-    width: 100%;
-    margin: 0 0 25px 0;
-}
-
-.single .table,
-.single .list-group {
-    margin-bottom: 30px;
-}
-
-.single .ul-group {
-    padding: 0;
-    list-style: none;
-}
-
-.single .ul-group li {
-    margin-left: 2px;
-}
-
-.single .ul-group li::before {
-    position: relative;
-    content: "\f0da";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-}
-
-.single .ol-group {
-    padding-left: 18px;
 }

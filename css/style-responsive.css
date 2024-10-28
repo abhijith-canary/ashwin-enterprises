@@ -46,7 +46,7 @@
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
     .about-section{ margin-top: 70px; } .country{ height: 835px; }
 
-    .about-container1{ margin-top: -45px; height: 1340px; }
+    .about-container1{ margin-top: -45px; height: 1370px; }
 
     .section-about{
         width: auto;
@@ -73,7 +73,7 @@
         margin: auto;
         margin-top: -10px;
     }
-    .about-box-container{ margin-top: -25px;}
+    .about-box-container{ margin-top: 0px; }
 
     .about-box, .about-box2, .about-box3{
         height: 140px;
@@ -111,6 +111,9 @@
         font-weight: 400;
         bottom: 16px;
     }
+    
+    .arrow-orange{ font-size: 12px;}
+
     .dot { width: 20px; border-radius: 2px;}
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
@@ -451,7 +454,7 @@
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
     .about-section{ margin-top: 80px; } .country{ height: 830px;}
 
-    .about-container1{ margin-top: -45px; height: 1340px;}
+    .about-container1{ margin-top: -45px; height: 1380px; }
 
     .section-about{ width: auto; height: 350px; border-radius: 12px; } .about-head{ font-size: 15px; }
 
@@ -476,7 +479,7 @@
         margin-top: -10px;
         margin-left: 0;
     }
-    .about-box-container{ margin-top: -40px;} .about-box{ margin-top: 15px; }
+    .about-box-container{ margin-top: -10px; } .about-box{ margin-top: 15px; }
 
     .experience_icon{ padding-top: 45px; padding-left: 50px; } .experience-head1{ font-size: 20px;margin-top: -40px; } .experience-head2{ font-size: 15px; }
 
@@ -637,7 +640,6 @@
     .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
 
     .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
- 
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
@@ -684,6 +686,7 @@
     }
     
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
+
     .contact-form{ height: 970px; padding: 0px 10px 0px 10px; }
 
     .contact-us-box{ height: auto; }
@@ -907,6 +910,8 @@
         font-weight: 400;
         bottom: 16px;
     }
+    .arrow-orange{ font-size: 12px;}
+
     .dot { width: 20px; border-radius: 2px;}
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
@@ -1061,6 +1066,32 @@
     .blog-subhead{ font-size: 16px; line-height: 18px; }
 
     .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
+
+    /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
+
+    .blog-banner{ padding: 150px 40px; margin-top: 70px; height: 400px; }
+
+    .banner-title{ width: auto; font-size: 30px; line-height: 35px; }
+
+    .sidebar-container{ width: auto;} .sidebar{ padding-top: 0px;}
+
+    .sidebar-img1{ height: 150px; width: 250px;} .sidebar-title, .sidebar-head{ font-size: 17px; line-height: normal; width: 250px;} 
+
+    .sidebar-title{ padding-top: 20px;} .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px;}
+
+    .sidebar-text{ width: 250px; font-size: 14px; line-height: normal; margin-top: -30px;} 
+
+    .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: 0px; width: 100px;}
+
+    .product{ width: 60px; padding: 2px 10px 2px 5px;} .research { width: 70px; padding: 2px 10px 2px 5px;} .framework{ width: 90px;} 
+
+    .content-container{ width: auto; position: relative; }
+
+    .single-head{ font-size: 18px; width: 422px; } .single-texts{font-size: 14px; line-height: normal; width: 422px;}
+
+    .blog-main-img, .blog-main-img2{ width: 422px; } 
+
+    .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
@@ -1250,6 +1281,14 @@
 
     .contact-action{ background-image: url(../media/Action_button_bg.png); background-repeat: no-repeat; }
 
+    /* --------------------- BLOG-SINGLE RESPONSIVE START --------------------- */
+
+    .sidebar-img1{ height: 200px; width: 350px;}
+
+    .sidebar-head, .sidebar-text{ width: 340px;} .leadership{ margin-top: -20px;}
+
+    .blog-main-img, .blog-main-img2, .single-texts { width: 560px;} 
+
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
 
     .contact-form{ height: 600px; padding: 0px 20px 0px 20px; }
@@ -1260,7 +1299,6 @@
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1200px) {
-    /* .topnav-centered { right: 60px;} */
 
     .home-bg-clip { margin-left: auto; max-height: 700px; } .home-title-div{ height: 700px;}
 

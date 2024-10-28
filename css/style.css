@@ -338,8 +338,20 @@ body{
     font-weight: 600;
     color: #1D1E1C;
 }
-.dots-container { display: flex; gap: 6px; }
+.arrow-orange{
+    color: #D65614;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.arrow-orange:hover{color: #cf5f27b6;}
 
+.dots-container { 
+    display: flex;
+    gap: 6px;
+    justify-content: center; 
+}
 .dot {
     width: 25px;
     height: 5px;
@@ -360,7 +372,6 @@ body{
     border: none;
     border-radius: 10px;
     box-shadow: 0px 4px 10px 0px #BDBDBD3B;
-
     overflow: hidden;
     margin: 15px 0;
 }
@@ -433,7 +444,7 @@ body{
 
 #span-about-sentance{ font-weight: 700; }
 
-.about-box-container{ margin-top: -500px;}
+.about-box-container{ margin-top: -400px;}
 
 .about-box, .about-box2, .about-box3{
     background-color: #E7ECF0;
@@ -741,7 +752,6 @@ body{
     transform: scale(1.07);
 }
 
-
 /* --------------------------------------------------------*/
 .collection{ margin-top: 25px; height: 1700px;}
 
@@ -775,7 +785,7 @@ body{
 /* --------------------- BLOGS STYLE START --------------------- */
 .blog{ margin-top: 55px; height: 600px; }
 
-.blog-section{ margin-top: 180px; }
+.blog-section{ margin-top: 180px; height: 1200px; }
 
 .our-blog-head, .contact-us-title, .form-title{
     font-family: "Poppins", sans-serif;
@@ -784,7 +794,7 @@ body{
     line-height: 25px;
     color: #1D1E1C;
 }
-.blog-img{ transition: 0.5s; }
+.blog-img{ transition: 0.5s; height: 315px; border-radius: 12px;}
 
 .blog-img:hover{ transform: scale(1.05); }
 
@@ -808,14 +818,127 @@ body{
     line-height: 20px;
     color: #53626D;
 }
-.viewall-link{
+.blog-block3{ margin-top: 50px; }
+
+.viewall-link, .blog-link{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #53626D;
     text-decoration: underline;
 }
-.viewall-link:hover{ color: #D65827; }
+.blog-link:hover, .viewall-link:hover{ color: #D65827; }
+
+.blog-link{ position: absolute; right: 17%; }
+
+/* --------------------- BLOG-SINGLE PAGE STYLE START --------------------- */
+
+.blog-banner {
+    background:linear-gradient( rgba(118, 28, 20, 0.9), rgba(118, 28, 20, 0.9)), url(../media/Blog_Details_banner_img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;  
+    margin-top: 150px;
+    padding: 13% 20%;
+}   
+.banner-title{
+    width: 1137px;
+    height: 97px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 59px;
+}
+
+
+
+.single-blogs {
+    position: relative;
+    width: 100%;
+    padding: 50px 0 0 0;
+    margin-bottom: 15px;
+}
+.single-head{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    width: 650px;
+    color: #1D1E1C;
+}
+.single-texts{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #53626D;
+}
+.single-subhead{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1D1E1C;
+}
+.blog-second-img{ padding: 20px 25px 30px 0px; }
+
+.single-blogs .sn-content {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+.sidebar, .sidebar-block{ padding-top: 25px;}
+
+.sidebar-title{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1D1E1C;
+}
+.sidebar-img1{ width: 400px; height: 250px; }
+
+.blog-head-manu{ 
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #D55513;
+}
+.sidebar-head{
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #1D1E1C;
+    width: 342px;
+    height: 90px;
+}
+.sidebar-text{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 402px;
+    height: 72px;
+    color: #53626D;
+    margin-top: -20px;
+}
+.leadership, .research{
+    width: 95px;
+    height: 24px;
+    padding: 2px 10px 2px 15px;
+    border-radius: 16px ;
+    background-color: #F4EEEB;
+    color: #FF681B;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: -5px;
+}
+.management{ padding: 2px 10px 2px 8px; margin-left: 10px;} .product{ width: 75px;} .research{ margin-left: 10px; width: 85px}
 
 /* --------------------- BLOG LOGO STYLE START --------------------- */
 .our-partner{ border: 1px solid #E7ECF0; border-radius: 12px; }
@@ -1146,14 +1269,6 @@ body{
     opacity: 80%;
 }
 
-
-
-
-
-/**********************************/
-/********* Single News CSS ********/
-/**********************************/
-
 .blog-banner {
     background:linear-gradient( rgba(118, 28, 20, 0.9), rgba(118, 28, 20, 0.9)), url(../media/Blog_Details_banner_img.png);
     background-position: center center;
@@ -1191,7 +1306,7 @@ body{
     color: #1D1E1C;
 }
 .single-texts{
-    font-family:"Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -1260,6 +1375,4 @@ body{
     line-height: 20px;
     margin-top: -5px;
 }
-.management{ padding: 2px 10px 2px 8px; margin-left: 10px;}
-
-.research{ margin-left: 10px; width: 85px}
+.management{ padding: 2px 10px 2px 8px; margin-left: 10px;} .product{ width: 75px;} .research{ margin-left: 10px; width: 85px}

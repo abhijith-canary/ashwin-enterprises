@@ -123,30 +123,30 @@ function saveAndRedirect(blogName) {
 
 
 
-    // Get the modal
-    const modal = document.getElementById("contactModal");
-    const closeButton = document.querySelector(".close");
-    const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
+    // // Get the modal
+    // const modal = document.getElementById("contactModal");
+    // const closeButton = document.querySelector(".close");
+    // const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
 
-    // Function to open the modal
-    function openModal() {
-        modal.style.display = "flex"; // Use flex to show modal
-        document.body.style.overflow = 'hidden'; // Prevent background scroll
-    }
+    // // Function to open the modal
+    // function openModal() {
+    //     modal.style.display = "flex"; // Use flex to show modal
+    //     document.body.style.overflow = 'hidden'; // Prevent background scroll
+    // }
 
-    // Function to close the modal
-    function closeModal() {
-        modal.style.display = "none"; // Hide modal
-        document.body.style.overflow = 'auto'; // Allow background scroll
-    }
+    // // Function to close the modal
+    // function closeModal() {
+    //     modal.style.display = "none"; // Hide modal
+    //     document.body.style.overflow = 'auto'; // Allow background scroll
+    // }
 
-    // Add event listeners to the card buttons
-    cardButtons.forEach(button => {
-        button.addEventListener("click", openModal);
-    });
+    // // Add event listeners to the card buttons
+    // cardButtons.forEach(button => {
+    //     button.addEventListener("click", openModal);
+    // });
 
-    // Close the modal when the close button is clicked
-    closeButton.addEventListener("click", closeModal);
+    // // Close the modal when the close button is clicked
+    // closeButton.addEventListener("click", closeModal);
 
     // // Close the modal when clicking outside of the modal content
     // window.addEventListener("click", (event) => {
@@ -157,9 +157,9 @@ function saveAndRedirect(blogName) {
 
 
 
-    // js for contact form email submission
-    function sendMail (){
-        let parms = {
+    // // js for contact form email submission
+    // function sendMail (){
+    //     let parms = {
             
-        }
-    }
+    //     }
+    // }

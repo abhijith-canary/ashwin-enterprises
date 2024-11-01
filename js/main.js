@@ -106,19 +106,7 @@ function toggleMenu() {
 }
 
 
-// recent blog section
-function saveAndRedirect(blogName) {
-    // Save the clicked blog to local storage
-    let blogs = JSON.parse(localStorage.getItem('blogs')) || [];
-    // Remove the blog if it exists to update its position
-    blogs = blogs.filter(blog => blog !== blogName);
-    // Add the blog to the front
-    blogs.unshift(blogName);
-    localStorage.setItem('blogs', JSON.stringify(blogs));
 
-    // Redirect to the blog page
-    window.location.href = 'recent.html?id=' + blogName;
-}
 
 
 

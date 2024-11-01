@@ -127,3 +127,216 @@
     </script>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ashwin Enterpises</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="icon" type="image/x-icon" href="media/logo_Icon.png" class="logo_icon">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style-responsive.css">
+    </head>
+    <body style="background-color: chocolate;">
+
+        <!-- Navbar & Hero End -->
+
+        <div class="container-fluid blog-detail-banner">
+            <div class="container">
+                <h3 class="banner-title wow fadeInDown" id="mainBlogHeading" data-wow-delay="0.1s"></h1>
+            </div>
+        </div>
+
+        <div class="single-blogs">
+            <div class="container">
+                <div class="row">
+                    <!-- Sidebar Section -->
+                    <div class="col-lg-4 sidebar-container">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <h2 class="sidebar-title wow fadeInLeft" data-wow-delay="0.1s">Recent Blog Posts</h2>
+                            </div>
+                            <div id="recentBlogContents"></div>
+                        </div>
+                    </div>
+
+                    <!-- Blog Content Section -->
+                    <div class="col-lg-8 content-container">
+                        <div class="sn-container">
+                            <div class="sn-img">
+                                <h1 class="single-head py-3 wow fadeInRight" data-wow-delay="0.1s" id="blogTitle"></h1>
+                            </div>
+                            <div class="sn-content" id="blogContentContainer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const recent_contents = {
+                blog1: {
+                    recent_img: "media/blog-img1.png",
+                    recent_blog_banner_title: "The Importance of Skilled Labour in the Manufacturing Industry.",
+                    recent_blog_text: "In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators...",
+                    recent_subhead1: "Leadership",
+                    recent_subhead2: "Management",
+                    recent_subhead3: ""
+                },
+                blog2: {
+                    recent_img: "media/blog-img4.png",
+                    recent_blog_banner_title: "Elevating Business Security: The Essential Role of Professional Security Services",
+                    recent_blog_text: "In today's dynamic business environment, robust security services are paramount to safeguarding assets...",
+                    recent_subhead1: "Product",
+                    recent_subhead2: "Research",
+                    recent_subhead3: "Frameworks"
+                }, 
+            };
+
+            const contents = {
+                blog1: {
+                    blog_banner_title: "The Importance of Skilled Labour in the Manufacturing Industry.",
+                    blog_img1: "media/blog-image-1.png",
+                    blog_introduction: "In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators to meticulous quality control inspectors, these skilled workers form the backbone of any successful manufacturing operation. Their expertise and commitment are vital to maintaining efficiency, safety, and high productivity in the manufacturing process.",
+                    
+                    blog_heading1: "Critical Roles:",
+                    blog_text1: "Skilled labor ensures that production processes run smoothly, efficiently, and safely. These professionals master the operation of complex machinery, handle sophisticated tools, and execute precision tasks that keep production lines moving. Their technical prowess and hands-on experience prevent machine malfunctions, reduce errors, and maintain a steady production flow. Without skilled labor, the risk of operational disruptions escalates, leading to costly delays and compromised product quality.",
+                    
+                    blog_heading2: "Quality Assurance:",
+                    blog_text2: "The expertise of skilled workers is fundamental in maintaining high standards of production quality. Quality control inspectors are trained to identify defects, ensure compliance with industry standards, and implement quality management systems. Their keen attention to detail and unwavering commitment to excellence result in products that meet or exceed customer expectations. Skilled labourers adhere to stringent quality protocols, minimizing waste, reducing returns, and enhancing the overall reputation of the manufacturing company.",
+                    blog_img2: "media/Blog_detail_4.png",
+                    
+                    blog_heading3: "Operational Efficiency:",
+                    blog_text3: "Skilled professionals are key to boosting operational efficiency within the manufacturing sector. Their ability to troubleshoot issues, perform regular maintenance, and optimize machine performance significantly reduces downtime and increases productivity. These workers bring innovative solutions to operational challenges, driving continuous improvement in production processes. Their proficiency not only accelerates production but also ensures efficient resource use, leading to cost savings and higher profitability for manufacturing businesses.",
+                    
+                    blog_heading4: "Conclusion:",
+                    blog_text4: "At Ashwin Enterprises, we recognize the critical need for highly skilled labor in manufacturing. Our recruitment process is designed to identify and place top-tier talent who can meet the industry's rigorous demands. By providing skilled professionals who excel in their roles, we help manufacturing companies uphold high standards of quality, achieve operational efficiency, and drive overall business success. Partner with Ashwin Enterprises to ensure that your manufacturing operations are supported by the best talent in the industry, propelling your business towards sustained growth and excellence.",
+                    
+                    blog_heading5 : "",
+                    blog_text5 : "",
+
+                },
+                blog2: {
+                    blog_banner_title : "Elavating Business Security: The Essentail Role of Professional Security Services",
+                    blog_img1 : "media/blog-image-1.png",
+                    blog_introduction : "In today's dynamic business environment, robust security services are paramount to safeguarding assets, ensuring the safety of employees and customers, and maintaining smooth business operations. Skilled security personnel are vital for creating a secure environment that deters threats and instils confidence in stakeholders." ,
+
+                    blog_heading1 : "Critical Roles:",
+                    blog_text1 : "Security personnel play a pivotal role in maintaining a safe and secure environment. They are responsible for monitoring premises, managing access points, and responding to emergencies. Their presence deters potential threats and criminal activities, ensuring that business operations are uninterrupted and secure. Skilled security guards are trained to handle a variety of situations, from crowd control during events to providing a rapid response in emergencies, making them indispensable to any organization.",
+
+                    blog_heading2 : "Quality Assurance:",
+                    blog_text2 : "Professional security services are fundamental in maintaining high standards of safety and security. Trained security personnel follow strict protocols and procedures to ensure compliance with safety regulations and industry standards. Their expertise in risk assessment and management helps in identifying vulnerabilities and implementing effective security measures. By maintaining vigilance and adhering to best practices, security professionals enhance the overall safety and reputation of the business.",
+
+                    blog_img2 : "media/Blog_detail_4.png",
+                    blog_heading3 : "Operational Efficiency:",
+                    blog_text3 : "Effective security services contribute significantly to the operational efficiency of a business. Skilled security personnel ensure that access to facilities is controlled and monitored, preventing unauthorized entry and reducing the risk of theft or damage. Their presence allows employees and customers to feel safe, fostering a productive and positive work environment. Additionally, security professionals assist in emergency planning and response, ensuring that businesses are prepared for and can swiftly recover from incidents, minimizing downtime and operational disruptions.",
+
+                    blog_heading4 : "Conclusion:",
+                    blog_text4 : "At Ashwin Enterprises, we understand the critical need for highly skilled security personnel in maintaining a safe and secure business environment. Our recruitment process is designed to identify and place top-tier security professionals who can meet the rigorous demands of the industry. By providing trained and reliable security personnel, we help businesses uphold high standards of safety, achieve operational efficiency, and protect their assets and people. Partner with Ashwin Enterprises to ensure that your security needs are met with excellence, allowing you to focus on your core business activities with confidence and peace of mind.",
+                    
+                    blog_heading5 : "",
+                    blog_text5 : "",
+                
+                },
+            };
+
+                function displayRecentBlogContents(clickedBlog) {
+                console.log("Displaying recent blog contents...");
+                const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
+                const contentContainer = document.getElementById('recentBlogContents');
+                contentContainer.innerHTML = ''; // Clear existing content
+
+                // Display the contents of the most recent blogs
+                blogs.slice(0, 3).forEach(blog => {
+                    const blogContent = recent_contents[blog];
+                    if (blogContent) {
+                        const blogElement = document.createElement('div');
+                        blogElement.innerHTML = `
+                            <div class="sidebar-widget wow fadeInLeft" data-wow-delay="0.1s">
+                                <div class="sidebar-block">
+                                    <img src="${blogContent.recent_img}" class="sidebar-img1 img-fluid">
+                                    <p class="blog-head-manu">Manufacturing</p>
+                                    <h4 class="sidebar-head">${blogContent.recent_blog_banner_title}</h4>
+                                    <p class="sidebar-text">${blogContent.recent_blog_text}</p>
+                                    <div class="d-flex qwerty">
+                                        <p class="leadership">${blogContent.recent_subhead1}</p>
+                                        <p class="leadership">${blogContent.recent_subhead2}</p>
+                                        <p class="leadership">${blogContent.recent_subhead3}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        contentContainer.appendChild(blogElement);
+                    }
+                });
+            }
+
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log("Document loaded, displaying recent blogs...");
+                const urlParams = new URLSearchParams(window.location.search);
+                const clickedBlog = urlParams.get('id'); // Get the clicked blog ID from the URL
+                displayRecentBlogContents(clickedBlog); // Display the clicked blog and recent blog contents
+            });
+
+            function loadBlogContent() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const blogId = urlParams.get("id");
+
+                const blogPost = contents[blogId];
+
+
+                if (blogPost) {
+                    document.getElementById("mainBlogHeading").textContent = blogPost.blog_banner_title; 
+
+                    document.getElementById("blogTitle").textContent = blogPost.blog_banner_title;               
+                    document.getElementById("blogContentContainer").innerHTML = `
+                        <div class="wow fadeInRight" data-wow-delay="0.1s">
+                            <img src="${blogPost.blog_img1}" class="img-fluid blog-main-img">
+                            <p class="single-texts">${blogPost.blog_introduction}</p>
+
+                            <h4 class="single-subhead">${blogPost.blog_heading1}</h4>
+                            <p class="single-texts">${blogPost.blog_text1}</p>
+
+                            <h4 class="single-subhead">${blogPost.blog_heading2}</h4>
+                            <p class="single-texts">${blogPost.blog_text2}</p>
+                        </div>
+
+                        <div class="wow fadeInRight" data-wow-delay="0.1s">
+                            <div class="blog-second-img">
+                                <img src="${blogPost.blog_img2}" class="img-fluid blog-main-img2">
+                            </div>
+                            <h4 class="single-subhead">${blogPost.blog_heading3}</h4>
+                            <p class="single-texts">${blogPost.blog_text3}</p>
+
+                            <h4 class="single-subhead">${blogPost.blog_heading4}</h4>
+                            <p class="single-texts">${blogPost.blog_text4}</p>
+
+                            <h4 class="single-subhead">${blogPost.blog_heading5}</h4>
+                            <p class="single-texts">${blogPost.blog_text5}</p>
+                        </div>
+                    `;
+                } else {
+                    document.getElementById("blogContentContainer").innerHTML = "<p>Blog post not found.</p>";
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                displayRecentBlogContents();
+                loadBlogContent();
+            });
+        </script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

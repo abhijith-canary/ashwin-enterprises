@@ -261,7 +261,9 @@
                 function displayRecentBlogContents(clickedBlog) {
                 console.log("Displaying recent blog contents...");
                 const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
+                console.log(blogs,"kkkkkkkkkkkk")
                 const contentContainer = document.getElementById('recentBlogContents');
+                console.log(contentContainer,"get the dataaaaaa")
                 contentContainer.innerHTML = ''; // Clear existing content
 
                 // Display the contents of the most recent blogs

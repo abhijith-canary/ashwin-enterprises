@@ -258,6 +258,14 @@
                 }
             };
 
+            function initializeLocalStorage() {
+    if (!localStorage.getItem('blogs')) {
+        // Define default blog entries (example data)
+        const defaultBlogs = ['blog1', 'blog2'];
+        localStorage.setItem('blogs', JSON.stringify(defaultBlogs));
+    }
+}
+
                 function displayRecentBlogContents(clickedBlog) {
                 console.log("Displaying recent blog contents...");
                 const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
@@ -294,6 +302,8 @@
             
             document.addEventListener('DOMContentLoaded', function() {
                 console.log("Document loaded, displaying recent blogs...");
+
+                initializeLocalStorage(); 
                 const urlParams = new URLSearchParams(window.location.search);
                 const clickedBlog = urlParams.get('id'); // Get the clicked blog ID from the URL
                 displayRecentBlogContents(clickedBlog); // Display the clicked blog and recent blog contents

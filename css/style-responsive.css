@@ -157,12 +157,13 @@
     .travel-block, .deployment-block, .placement-block{ width: 320px; }
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service{ height: 610px; } .our-service1{ margin-top: 75px; }
+
+    .our-service{ height: 610px; } .our-service1{ margin-top: 75px;} 
 
     .our-service-bg{
         height: 600px;
         margin-left: 0px;
-        margin-top: -15px;
+        margin-top: -15px; 
     }
     .our-service-title{
         font-size: 16px;
@@ -171,11 +172,11 @@
         width: 150px;
     }
     .our-service-content{
-        width: 351px;
+        width: 107%;
         height: 80px;
         margin-top: 76px;
-        margin-left: -12px;
-        border-radius: 0px 0px 10px 10px;
+        margin-left: -11px;
+        border-radius: 0px 0px 10px 10px;  /*???*/
     }
     .our-service-para{
         font-size: 13px;
@@ -185,7 +186,7 @@
     }
     .service-card-slider{
         margin-left: 28px;
-        margin-top: 20px;
+        margin-top: 35px;
         width: 300px;
     }  
     .owl-carousel-3 .owl-nav {
@@ -238,13 +239,23 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 80px; }
+    .blog-banner{ margin-top: 70px; height: 300px;}
+
+    .blog-banner-title{ font-size: 30px; }
+
+    .blog-banner-subhead{ font-size: 16px; padding-top: 25%;}
+
+    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 10px; }
     
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
     .blog-subhead{ font-size: 16px; line-height: 18px; }
 
-    .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; } .blog-block{ margin-top: -10px; } .blog-block2{ margin-top: 15px; }
+    .blog-img{ height: 250px; width: 100%;} .blog-img:hover{transform: scale(1.02);}
+
+    .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
+    
+    .blog-block{ margin-top: -10px;} .blog-block2, .blog-block3{ margin-top: 15px; }
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -252,7 +263,7 @@
 
     .banner-title{ width: 320px; font-size: 30px; line-height: 35px; }
 
-    .sidebar-img1{ height: 200px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
+    .sidebar-img1{ height: 250px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
 
     .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px; }
 
@@ -263,7 +274,16 @@
     .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
 
     .single-subhead{ font-size: 15px;}
- 
+
+    .blog-media{ padding: 0px 20px 0px 0px;}
+    
+    .shares, .tweet, .share-span, .facebook{ font-size: 13px; }
+
+    .hr-blog { width: 90px;} .share-span1{ display: none ;} 
+
+    .share-div{ padding-top: 8px;}
+
+
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
     .our-partner{ margin-top: -8px; }
@@ -559,10 +579,10 @@
         width: 150px;
     }
     .our-service-content{
-        width: 387.5px;
+        width: 106%;
         height: 80px;
         margin-top: 62px;
-        margin-left: -12px;
+        margin-left: -11px;
         border-radius: 0px 0px 10px 10px;
     }
     .our-service-para{
@@ -571,7 +591,7 @@
         width: auto;
         padding: 15px 20px;
     }
-    .service-card-slider{ margin-left: 33px; margin-top: 20px; width: 340px; }  
+    .service-card-slider{ margin-left: 33px; margin-top: 35px; width: 340px; }  
 
     .owl-carousel-3 .owl-nav {
         width: auto;
@@ -613,7 +633,13 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 90px; }
+    .blog-banner{ margin-top: 70px; height: 350px;}
+
+    .blog-banner-title{ font-size: 30px;}
+
+    .blog-banner-subhead{ font-size: 16px; padding-top: 28%;}
+
+    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 10px; }
 
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -621,7 +647,9 @@
 
     .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
 
-    .blog-block{ margin-top: -10px; } .blog-block2{ margin-top: 15px; }
+    .blog-block{ margin-top: -10px; } .blog-block2, .blog-block3{ margin-top: 15px;}
+
+    .blog-img{ height: 250px; width: 100%; }
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -633,13 +661,21 @@
 
     .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px; }
 
-    .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: -25px;}
+    .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: -25px; }
     
     .sidebar-text{ width: auto; font-size: 14px; line-height: normal; margin-top: -30px;} 
 
     .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
 
     .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
+
+    .blog-media{ padding: 0px 10px 0px 0px;}
+    
+    .shares, .tweet, .share-span, .facebook{ font-size: 13px; }
+
+    .hr-blog { width: 100px;} .share-span1{ display: none ;} 
+
+    .share-div{ padding-top: 8.5px;}
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
@@ -983,14 +1019,14 @@
         padding: 20px 10px;
         height: 6px;
         width: 170px;
-        color: rgb(197, 191, 191);
+        color: #fff;
     }
     .our-service-content{
-        width: 720px;
+        width: 103.3%;
         height: 100px;
-        margin-top: 77px;
-        margin-left: -12px;
-        border-radius: 0px 0px 10px 10px;
+        margin-top: 11%;
+        margin-left: -11px; 
+        border-radius: 0 0 10px 10px;
     }
     .our-service-para{
         font-size: 15px;
@@ -998,7 +1034,7 @@
         width: 450px;
         padding: 20px 20px;
     }
-    .service-card-slider{ margin-left: 35px; margin-top: 20px; width: 650px; }  
+    .service-card-slider{ margin-left: 35px; margin-top: 35px; width: 650px; }  
 
     .owl-carousel-3 .owl-nav {
         width: auto;
@@ -1059,39 +1095,57 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog-container{ margin-top: 90px; } .blog{ margin-top: 0px; height: auto; }
+    .blog-banner{ margin-top: 70px; height: 350px;}
+
+    .blog-banner-title{ font-size: 30px;}
+
+    .blog-banner-subhead{ font-size: 16px; padding-top: 15%;}
+
+    .blog-container{ margin-top: 10px; } .blog{ margin-top: 0px; height: auto; }
 
     .our-blog-head{ font-size: 18px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
     .blog-subhead{ font-size: 16px; line-height: 18px; }
 
-        .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
+    .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
 
-        /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
+    .blog-img{ height: 160px; }
 
-        .blog-detail-banner{ padding: 150px 40px; margin-top: 70px; height: 400px; }
+    .blog-block3 { margin-top: 20px; } 
 
-        .banner-title{ width: auto; font-size: 30px; line-height: 35px; }
+    /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
-        .sidebar-container{ width: auto;} .sidebar{ padding-top: 0px;}
+    .blog-detail-banner{ padding: 150px 40px; margin-top: 70px; height: 400px; }
 
-        .sidebar-img1{ height: 150px; width: 250px;} .sidebar-title, .sidebar-head{ font-size: 17px; line-height: normal; width: 250px;} 
+    .banner-title{ width: auto; font-size: 30px; line-height: 35px; }
 
-        .sidebar-title{ padding-top: 20px;} .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px;}
+    .sidebar-container{ width: auto;} .sidebar{ padding-top: 0px;}
 
-        .sidebar-text{ width: 250px; font-size: 14px; line-height: normal; margin-top: -30px;} 
+    .sidebar-img1{ height: 150px; width: 250px;} .sidebar-title, .sidebar-head{ font-size: 17px; line-height: normal; width: 250px;} 
 
-        .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: 0px; width: 100px;}
+    .sidebar-title{ padding-top: 20px;} .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px;}
 
-        .product{ width: 60px; padding: 2px 10px 2px 5px;} .research { width: 70px; padding: 2px 10px 2px 5px;} .framework{ width: 90px;} 
+    .sidebar-text{ width: 250px; font-size: 14px; line-height: normal; margin-top: -30px;} 
 
-        .content-container{ width: auto; position: relative; }
+    .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: 0px; }
 
-        .single-head{ font-size: 18px; width: 422px; } .single-texts{font-size: 14px; line-height: normal; width: 422px;}
+    .qwerty { gap: 4px;}
 
-        .blog-main-img, .blog-main-img2{ width: 422px; } 
+    .content-container{ width: auto; position: relative; }
 
-        .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
+    .single-head{ font-size: 18px; width: 422px; } .single-texts{font-size: 14px; line-height: normal; width: 422px;}
+
+    .blog-main-img, .blog-main-img2{ width: 422px; } 
+
+    .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
+    
+    .blog-media{ padding: 0px 10px 0px 0px;}
+    
+    .shares, .tweet, .share-span, .facebook{ font-size: 13px; }
+
+    .hr-blog { width: 100px;} .share-span1{ display: none ;} 
+
+    .share-div{ padding-top: 8.5px;}
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
@@ -1212,15 +1266,9 @@
         width: 600px;
     }
     .end-note-span{ font-size: 12px; }
+
 }
 
-@media screen and (max-width: 440px) and (min-width: 425px){
-    .our-service-content{
-        width: 410px;
-        margin-left: -11px;
-        margin-top: 62px;
-    }
-}
 
 /* -----------------------------------------------------------
 --------------------- STYLING FOR IPAD PRO -------------------
@@ -1279,15 +1327,19 @@
 
     .value-content{ height: auto; width: 460px; padding: 50px 50px; }
 
-    .contact-action{ background-image: url(../media/Action_button_bg.png); background-repeat: no-repeat; }
+    .contact-action{ background-image: url(../media/Action_button_bg.png);  }
 
     /* --------------------- BLOG-SINGLE RESPONSIVE START --------------------- */
+
+    .blog-img { width: 100%; height: 220px;}
 
     .sidebar-img1{ height: 200px; width: 350px;}
 
     .sidebar-head, .sidebar-text{ width: 340px;} .leadership{ margin-top: -20px;}
 
     .blog-main-img, .blog-main-img2, .single-texts { width: 560px;} 
+
+    .qwerty { gap: 10px;}
 
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
 

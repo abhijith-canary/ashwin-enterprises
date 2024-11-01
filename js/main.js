@@ -98,4 +98,68 @@ function showSlide(index) {
 //   showSlide(currentSlide);
 // }, 5000); // Change slide every 5 seconds
 
-  
+
+// navbar working for responsive view
+function toggleMenu() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("active");
+}
+
+
+// recent blog section
+function saveAndRedirect(blogName) {
+    // Save the clicked blog to local storage
+    let blogs = JSON.parse(localStorage.getItem('blogs')) || [];
+    // Remove the blog if it exists to update its position
+    blogs = blogs.filter(blog => blog !== blogName);
+    // Add the blog to the front
+    blogs.unshift(blogName);
+    localStorage.setItem('blogs', JSON.stringify(blogs));
+
+    // Redirect to the blog page
+    window.location.href = 'details.html?id=' + blogName;
+}
+
+
+
+
+    // Get the modal
+    const modal = document.getElementById("contactModal");
+    const closeButton = document.querySelector(".close");
+    const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
+
+    // Function to open the modal
+    function openModal() {
+        modal.style.display = "flex"; // Use flex to show modal
+        document.body.style.overflow = 'hidden'; // Prevent background scroll
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        modal.style.display = "none"; // Hide modal
+        document.body.style.overflow = 'auto'; // Allow background scroll
+    }
+
+    // Add event listeners to the card buttons
+    cardButtons.forEach(button => {
+        button.addEventListener("click", openModal);
+    });
+
+    // Close the modal when the close button is clicked
+    closeButton.addEventListener("click", closeModal);
+
+    // // Close the modal when clicking outside of the modal content
+    // window.addEventListener("click", (event) => {
+    //     if (event.target === modal) {
+    //         closeModal();
+    //     }
+    // });
+
+
+
+    // js for contact form email submission
+    function sendMail (){
+        let parms = {
+            
+        }
+    }

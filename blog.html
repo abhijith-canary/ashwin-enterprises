@@ -77,8 +77,9 @@
 
 
             <div class="container-fluid blog-banner">
-                <div class="container">
-                    <h3 class="banner-title wow fadeInDown" data-wow-delay="0.1s"></h1> 
+                <div class="container text-center">
+                    <p class="blog-banner-subhead">BLOGS</p>
+                    <h3 class="blog-banner-title fadeInDown " data-wow-delay="0.1s">A Legacy Of 25+ Years</h1> 
                 </div>
             </div>
 
@@ -86,7 +87,7 @@
         <section class="blog blog-section" >
             <div class="container blog-container">
                 <div class="d-flex mb-3">
-                    <h4 class="our-blog-head">Our Blogs</h4>
+                    <h4 class="our-blog-head wow fadeIn" data-wow-delay="0.6s">Our Blogs</h4>
                 </div>
                 <div class="row">
                     <div class="col-md-4 blog-block wow fadeInUp" data-wow-delay="0.3s">
@@ -95,7 +96,10 @@
                             <p class="manufacture-head">Manufacturing</p>
                             <h5 class="blog-subhead">The Importance of Skilled Labour in the manufacturing Industry</h5>
                             <p class="blog-text">In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators...</p>
-                            <a href="blog-single.html" class="viewall-link" id="1">View all <img src="media/arrow-black.png"></a>
+                            <!-- <a href="blog-details.html?id=blog1" class="viewall-link">View all <img src="media/arrow-black.png"></a> -->
+                            <!-- <a href="javascript:void(0);" onclick="saveAndRedirect('blog1')" class="viewall-link">View all <img src="media/arrow-black.png"></a> --> 
+                            <a href="details.html?id=blog1" onclick="saveAndRedirect('blog1')" class="viewall-link">View all <img src="media/arrow-black.png"></a> 
+
                         </div>
                     </div>
 
@@ -105,7 +109,7 @@
                             <p class="manufacture-head">Manufacturing</p>
                             <h5 class="blog-subhead">Elavating Business Security: The Essentail Role of Professional Security Services</h5>
                             <p class="blog-text">In today's dynamic business environment, robust security services are paramount to safeguarding assets...</p>
-                            <a href="blog-single.html" class="viewall-link">View all <img src="media/arrow-black.png"></a>
+                            <a href="details.html?id=blog2" onclick="saveAndRedirect('blog2')" class="viewall-link">View all <img src="media/arrow-black.png"></a> 
                         </div>
                     </div>
 
@@ -115,7 +119,7 @@
                             <p class="manufacture-head">Manufacturing</p>
                             <h5 class="blog-subhead">Empowering Excellence: Recruitment Solutions for Health and Hospitality Sectors</h5>
                             <p class="blog-text">In the critical fields of health and hospitality, the caliber of your team directly impacts the quality of care and guest experiences...</p>
-                            <a href="blog-single.html" class="viewall-link" id="1">View all <img src="media/arrow-black.png"></a>
+                            <a href="details.html?id=blog3" onclick="saveAndRedirect('blog3')" class="viewall-link">View all <img src="media/arrow-black.png"></a> 
                         </div>
                     </div>
 
@@ -125,7 +129,7 @@
                             <p class="manufacture-head">Manufacturing</p>
                             <h5 class="blog-subhead">Building the Future: Expert Recruitment Solutions for the Construction Industry</h5>
                             <p class="blog-text">In the dynamic world of construction, the success of any project hinges on the skill and dedication of the workforce...</p>
-                            <a href="blog-single.html" class="viewall-link" id="1">View all <img src="media/arrow-black.png"></a>
+                            <a href="details.html?id=blog4" onclick="saveAndRedirect('blog4')" class="viewall-link">View all <img src="media/arrow-black.png"></a> 
                         </div>
                     </div>
 
@@ -135,19 +139,10 @@
                             <p class="manufacture-head">Manufacturing</p>
                             <h5 class="blog-subhead">Unlocking Success: Recruitment Solutions for the Oil and Gas Industry</h5>
                             <p class="blog-text">The oil and gas industry, known for its complexity and scale, requires a highly skilled and adaptable workforce to meet...</p>
-                            <a href="#" class="viewall-link">View all <img src="media/arrow-black.png"></a>
+                            <a href="details.html?id=blog5" onclick="saveAndRedirect('blog5')" class="viewall-link">View all <img src="media/arrow-black.png"></a> 
                         </div>
                     </div>
-
-                    <div class="col-md-4 blog-block3 wow fadeInUp" data-wow-delay="0.3s">
-                        <img src="media/blog-image-2.png" alt="image" class="blog-img img-fluid">
-                        <div class="flex-wrap ">
-                            <p class="manufacture-head">Manufacturing</p>
-                            <h5 class="blog-subhead">The Importance of Skilled Labour in the manufacturing Industry</h5>
-                            <p class="blog-text">In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators...</p>
-                            <a href="blog-single.html" class="viewall-link" id="1">View all <img src="media/arrow-black.png"></a>
-                        </div>
-                    </div>
+ 
                 </div>
             </div>
         </section>
@@ -215,6 +210,9 @@
                 var navLinks = document.getElementById("navLinks");
                 navLinks.classList.toggle("active");
             }
+        </script>
+        <script>
+
         </script>
     </body>
 

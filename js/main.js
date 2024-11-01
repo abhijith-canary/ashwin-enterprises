@@ -117,7 +117,7 @@ function saveAndRedirect(blogName) {
     localStorage.setItem('blogs', JSON.stringify(blogs));
 
     // Redirect to the blog page
-    window.location.href = 'recent.html?id=' + blogName;
+    window.location.href = 'details.html?id=' + blogName;
 }
 
 

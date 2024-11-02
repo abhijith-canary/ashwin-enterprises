@@ -258,13 +258,13 @@
                 }
             };
 
-                function initializeLocalStorage() {
-                    if (!localStorage.getItem('blogs')) {
-                        // Define default blog entries (example data)
-                        const defaultBlogs = ['blog2', 'blog3'];
-                        localStorage.setItem('blogs', JSON.stringify(defaultBlogs));
-                    }
-                }
+        function initializeLocalStorage() {
+            if (!localStorage.getItem('blogs')) {
+                // Define default blog entries (example data)
+                const defaultBlogs = ['blog1', 'blog2'];
+                localStorage.setItem('blogs', JSON.stringify(defaultBlogs));
+            }
+        }
 
                 function displayRecentBlogContents(clickedBlog) {
                 console.log("Displaying recent blog contents...");

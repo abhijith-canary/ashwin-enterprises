@@ -81,7 +81,7 @@
 
             const contents = {
                 blog1: {
-                    blog_banner_title: "The Importance of Skilled Labour in the manufacturing Industry",
+                    blog_banner_title: "BLOG-1",
                     blog_img1: "media/blog-image-1.png",
                     blog_introduction: "In the manufacturing industry, the significance of skilled labour cannot be overstated. ",
                     
@@ -123,38 +123,9 @@
                     blog_heading5 : "",
                     blog_text5 : "",
                 },
-                
-                blog3: {
-                    blog_banner_title : "BLOG-3",
-                    blog_img1 : "media/blog-image-1.png",
-                    blog_introduction : "In today's dynamic business environment, robust security services are paramount to safeguarding assets, " ,
-
-                    blog_heading1 : "Critical Roles:",
-                    blog_text1 : "Security personnel play a pivotal role in maintaining a safe and secure environment. They are responsible for monitoring premises,",
-
-                    blog_heading2 : "Quality Assurance:",
-                    blog_text2 : "Professional security services are fundamental in maintaining high standards of safety and security. ",
-
-                    blog_img2 : "media/Blog_detail_4.png",
-                    blog_heading3 : "Operational Efficiency:",
-                    blog_text3 : "Effective security services contribute significantly to the operational efficiency of a business.",
-
-                    blog_heading4 : " **** ",
-                    blog_text4 : " **** ",
-                    
-                    blog_heading5 : " **** ",
-                    blog_text5 : " **** ",
-                },
             };
 
-        function initializeLocalStorage() {
-            if (!localStorage.getItem('blogs')) {
-                // Define default blog entries (example data)
-                const defaultBlogs = ['blog1', 'blog2'];
-                localStorage.setItem('blogs', JSON.stringify(defaultBlogs));
-            }
-        }
-
+            
                 function displayRecentBlogContents(clickedBlog) {
                 console.log("Displaying recent blog contents...");
                 const blogs = JSON.parse(localStorage.getItem('blogs')) || [];

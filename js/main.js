@@ -132,11 +132,5 @@ cardButtons.forEach(button => {
 // Close the modal when the close button is clicked
 closeButton.addEventListener("click", closeModal);
 
-// Close the modal when clicking outside of the modal content
-window.addEventListener("click", (event) => {
-    if (event.target === modal) {
-        closeModal();
-    }
-});
 
 

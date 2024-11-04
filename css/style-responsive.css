@@ -117,6 +117,20 @@
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
 
+    /* --------------------- MODAL FORM STYLE START --------------------- */
+
+    .modal{ width: auto; padding: 22px; }
+
+    .modal-head{ font-size: 19px; } .modal-content { padding: 20px; }
+
+    #contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
+        font-size: 13px;
+        height: 40px;
+    }
+    #contactForm textarea{ height: 130px; }
+
+    .event-formbtn{ padding: 5px 6px; font-size: 11px; }
+
     /* ------------------------- EVENT DETAILS STYLING---------------------------- */
      
     .event-banner-title{ padding-top: 30%; } 
@@ -547,6 +561,20 @@
     .dot { width: 20px; border-radius: 2px;}
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
+    
+    /* --------------------- MODAL FORM STYLE START --------------------- */
+
+    .modal{ width: auto; padding: 22px; }
+
+    .modal-head{ font-size: 19px; } .modal-content { padding: 20px; }
+
+    #contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
+        font-size: 13px;
+        height: 40px;
+    }
+    #contactForm textarea{ height: 130px; }
+
+    .event-formbtn{ padding: 5px 6px; font-size: 11px; }
 
     /* ------------------------- EVENT DETAILS STYLING---------------------------- */
     
@@ -1338,14 +1366,14 @@
 @media screen and (max-width:1200px) and (min-width:990px){
 
     /* ------------------------- EVENT DETAILS STYLING---------------------------- */
-/* 
+
     .card-slider-container{ left: 610px}
     
     .event-banner-title{ padding-top: 15%; } 
     
     .event-card{ width: 320px; }
 
-    .event-time{ position: absolute; left: auto; margin-left: -147px; } */
+    .event-time{ position: absolute; left: auto; margin-left: -147px; }
 
     /* ------------------------- EVENT DETAILS END---------------------------- */
 

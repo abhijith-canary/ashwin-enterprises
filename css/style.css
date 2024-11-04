@@ -436,6 +436,76 @@ body{
     z-index: 1;
 }
 
+/* --------------------- EVENT STYLE START --------------------- */
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 0%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+.modal-head{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1D1E1C;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: start;
+}
+.close {
+    color: #D55513; 
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; 
+    align-self: flex-end;
+}
+.close:hover, .close:focus {
+    color: #d3632ac4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-radius: 7px;
+    color: #798791;
+}
+#contactForm textarea{ height: 130px; }
+
+::placeholder{ color: #798791; }
+
+.event-formbtn{
+    background-color: #D55513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.event-formbtn:hover { background-color: #eb621d; }
+
+.no-scroll { overflow: hidden; }
+
 /* --------------------- EVENT DETAILS STYLE START --------------------- */
 .event-card-section{ 
     margin-top: 45px;  
@@ -890,7 +960,7 @@ body{
     background-size: cover;
     height: 700px;  
     margin-top: 150px;
-    padding: 13% 20%;
+    padding: 15% 20%;
 }   
 .banner-title{
     width: 1137px;
@@ -902,7 +972,6 @@ body{
     font-weight: 600;
     line-height: 59px;
 }
-
 .single-blogs {
     position: relative;
     width: 100%;
@@ -1108,7 +1177,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 15px;
 }
-::placeholder{ color: #C9ADAA; }
+/* ::placeholder{ color: #C9ADAA; } */
 
 .input-wrapper{ position: relative; display: inline-block; }
 
@@ -1332,67 +1401,3 @@ body{
     opacity: 80%;
 }
 
-
-       /* Modal styling */
-       .modal {
-        display: none; /* Hidden by default */
-        position: fixed;
-        z-index: 1; /* Sit on top */
-        padding-top: 0%;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
-    }
-
-    .modal-content {
-        background-color: #fefefe;
-        margin: auto;
-        padding: 30px;
-        border: 1px solid #888;
-        width: 100%;
-        max-width: 600px;
-        border-radius: 8px;
-    }
-
-    .close {
-        color: #D55513; /* Change text color for better visibility */
-        font-size: 28px;
-        font-weight: bold;
-        border: none; /* Remove border */
-        cursor: pointer; /* Pointer cursor on hover */
-        align-self: flex-end;
-    }
-
-    .close:hover,
-    .close:focus {
-        color: #d3632ac4;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    form label { display: block; margin-top: 10px; }
-
-    #contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
-        width: 100%;
-        padding: 10px 0px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    .event-formbtn{
-        background-color: #D55513;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-    .event-formbtn:hover {
-        background-color: #eb621d;
-    }
-    .no-scroll {
-        overflow: hidden;
-    }

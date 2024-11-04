@@ -181,16 +181,20 @@
                 <div id="contactModal" class="modal">
                     <div class="modal-content">
                         <span class="close">&times;</span>
-                        <h2>Contact Us</h2>
+                        <h2 class="modal-head">Contact Us</h2>
                         <form id="contactForm">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
+
+                            <div class="d-flex first-input">
+                                <!-- <label for="name"></label> -->
+                                <input type="text" id="name" name="name" placeholder="Name" required style="margin-right: 20px;">
+
+                                <!-- <label for="phone"></label> -->
+                                <input type="text" id="phone" name="phone" placeholder="Phone" required>
+                            </div>
             
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-            
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            
+                            <textarea id="message" name="message" placeholder="Message" required></textarea>
             
                             <button class="event-formbtn" type="submit">Send Message</button>
                         </form>

@@ -111,34 +111,51 @@
         font-weight: 400;
         bottom: 16px;
     }
-    
     .arrow-orange{ font-size: 12px;}
 
     .dot { width: 20px; border-radius: 2px;}
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
 
+    /* ------------------------- EVENT DETAILS STYLING---------------------------- */
+     
+    .event-banner-title{ padding-top: 30%; } 
+
+    .event-card-section{ margin-top: 0px; } .event-card-container{ padding: 20px;}
+    
+    .event-card{ padding-top: 15px; } .event-content{ padding: 10px 20px 30px 20px; }
+
+    .event-card-btn{
+        width: auto; 
+        height: 35px;
+        font-size: 13px;
+        font-weight: 400;
+        position: absolute; 
+        margin-top: -18px;
+        right: 40px;
+    }
+    .event-time{ position: absolute; left: 40px;}
+    
     /* --------------------------------------------------------- */
 
-    .about{ height: 800px; } .abt-sec{ width: 350px; margin-left: 0px; }
+    .about{ height: 800px; padding: 0 20px;} .abt-sec{ width: 350px; }
 
-    .section-about2{ height: 775px; width: auto; margin-left: 0; }
+    .section-about2{ height: 780px; width: auto; }
 
-    .whatwedo-headers{ margin-left: 0px; margin-top: 30px; width: 330px; }
+    .whatwedo-headers{ margin: 30px 8px; width: 300px; }
 
-    .whatwedo-head{ font-size: 15px; width: 130px; margin-left: -15px; } .about-imgs{ width: 40px; }
+    .whatwedo-head{ font-size: 15px; width: 130px; } .about-imgs{ width: 40px; }
 
     .whatwedo-title{
         font-size: 18px;
         line-height: 21px;
         margin-top: 10px;
-        margin-left: -15px;
         width: 300px;
         height: auto;
     }
     .about-content-right{
-        margin-left: -15px;
-        margin-top: 0px;
+        margin-top: -20px;
+        margin-left: 0px;
         width: 320px;
         height: 630px;
     }
@@ -158,7 +175,7 @@
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
 
-    .our-service{ height: 610px; } .our-service1{ margin-top: 75px;} 
+    .our-service{ height: 610px; padding: 0 20px; } .our-service1{ margin-top: 75px;} 
 
     .our-service-bg{
         height: 600px;
@@ -212,7 +229,7 @@
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
 
-    .choose-section{ padding: 0px 13px; margin-top: 10px; }
+    .choose-section{ padding: 0px 20px; margin-top: 10px; }
 
     .choose-container{ padding: 10px 15px; padding-bottom: 20px; }
 
@@ -222,30 +239,30 @@
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 5px; height: 1945px; } .content-title{ font-size: 18px; }
+    .collection{ margin-top: 5px; height: 1890px; padding: 0 7px; } .content-title{ font-size: 18px; }
 
     .content-para{ font-size: 13px; line-height: 17px; } .impact-main{ margin-top: -35px; }
 
     .impact-content, .leadership-content, .value-content{
-        padding: 20px;
+        padding: 15px;
         margin-top: -5px;
         border-radius: 0px 0px 12px 12px;
     }
-    .leadership-img{ margin-left: 0px; margin-top: -1005px; }
+    .leadership-img{ margin-left: 0px; margin-top: -980px; }
 
-    .leadership-content{ height: 340px; margin-top: 300px; z-index: 1; }
+    .leadership-content{ height: 340px; margin-top: 275px; z-index: 1; }
 
     .value-img{ margin-top: -30px; } .value-content{ height: 340px; }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog-banner{ margin-top: 70px; height: 300px;}
+    .blog-banner{ margin-top: 70px; height: 270px;}
 
-    .blog-banner-title{ font-size: 30px; }
+    .blog-banner-title, .event-banner-title{ font-size: 30px; }
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 25%;}
 
-    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 10px; }
+    .blog{ height: auto; margin-top: 0px; padding: 0 7px; } .blog-container{ margin-top: 10px; }
     
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -286,6 +303,8 @@
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
+    .blog-logo-section{ padding: 0 17px;}
+    
     .our-partner{ margin-top: -8px; }
     
     .logos-title{ font-size: 19px; line-height: 19px; margin-top: 0px; }
@@ -295,7 +314,7 @@
     .slide-img4{ width: 140px; } .slide-img6{ width: 60px;}
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
-    .contact-container{ margin-top: 80px; } .contact-main{ margin-top: -20px; }
+    .contact-container{ margin-top: 80px; } .contact-main{ margin-top: -20px; padding: 0 17px;}
 
     .contact-action{
         border-radius: 12px 12px 0px 0px;
@@ -396,7 +415,7 @@
 
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
 
-    .copyright-container{ padding: 10px 10px 80px 0px; }
+    .copyright{ padding: 0 17px;} .copyright-container{ padding: 10px 10px 80px 0px; }
 
     .end-note{
         font-size: 11px;
@@ -529,27 +548,46 @@
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
 
-/* --------------------------------------------------------- */
-    .about{ height: 825px; } .abt-sec{ width: 350px; margin-left: 0px; }
+    /* ------------------------- EVENT DETAILS STYLING---------------------------- */
+    
+    .event-banner-title{ padding-top: 33%; } 
+
+    .event-card-section{ margin-top: 0px; } .event-card-container{ padding: 20px;}
+    
+    .event-card{ padding-top: 15px; } .event-content{ padding: 10px 20px 30px 20px; }
+
+    .event-card-btn{
+        width: auto; 
+        height: 35px;
+        font-size: 13px;
+        font-weight: 400;
+        position: absolute; 
+        margin-top: -18px;
+        right: 40px;
+    }
+    .event-time{ position: absolute; left: 40px;}
+
+    /* --------------------------------------------------------- */
+
+    .about{ height: 825px; padding: 0 20px; } 
 
     .section-about2{ height: 810px; width: auto; margin-top: 5px; }
 
     .whatwedo-headers{ margin-left: 10px; margin-top: 30px; width: 330px; }
 
-    .whatwedo-head{ font-size: 15px; width: 130px; margin-left: -15px; }
+    .whatwedo-head{ font-size: 15px; width: 130px; }
 
     .whatwedo-title{
         font-size: 20px;
         line-height: 24px;
         margin-top: 10px;
-        margin-left: -15px;
         width: 300px;
         height: auto;
     }
     .about-imgs{ width: 40px; }
 
     .about-content-right{
-        margin-left: 0px;
+        margin-left: 20px;
         margin-top: 0px;
         width: 320px;
         height: 630px;
@@ -568,7 +606,7 @@
 
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service{ height: 655px; } .our-service1{ margin-top: 80px; }
+    .our-service{ height: 655px; padding: 0 20px; } .our-service1{ margin-top: 80px; }
     
     .our-service-bg{ height: 640px; border-radius: 12px; margin-top: -10px; }
 
@@ -607,7 +645,7 @@
     .hospitality-hover { height: 405px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .choose-section{ padding: 0px 13px; margin-top: 10px; }
+    .choose-section{ padding: 0px 20px; margin-top: 10px; }
 
     .choose-container{ padding: 10px 15px; padding-bottom: 20px; } .choose-title { font-size: 16px; }
    
@@ -619,7 +657,7 @@
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .collection{ height: 1990px; } .content-title{ font-size: 18px; }
+    .collection{ height: 1965px; padding: 0 7px;} .content-title{ font-size: 18px; }
 
     .content-para{ font-size: 13px; line-height: 17px; }
 
@@ -633,13 +671,13 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog-banner{ margin-top: 70px; height: 350px;}
+    .blog-banner{ margin-top: 70px; height: 330px;}
 
-    .blog-banner-title{ font-size: 30px;}
+    .blog-banner-title, .event-banner-title{ font-size: 30px;}
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 28%;}
 
-    .blog{ height: auto; margin-top: 0px; } .blog-container{ margin-top: 10px; }
+    .blog{ height: auto; margin-top: 0px; padding: 0 7px; } .blog-container{ margin-top: 10px; }
 
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -679,6 +717,8 @@
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
+    .blog-logo-section{ padding: 0 20px; }
+
     .our-partner{ margin-top: -15px; }
 
     .logos-title{ font-size: 20px; line-height: 20px; margin-top: 5px; }    
@@ -689,7 +729,7 @@
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
 
-    .contact-container{ margin-top: 85px; } .contact-main{ margin-top: -15px; }
+    .contact-container{ margin-top: 85px; } .contact-main{ margin-top: -15px; padding: 0 20px;}
 
     .contact-action{
         border-radius: 12px 12px 0px 0px;
@@ -827,7 +867,7 @@
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
 
-    .copyright-container{ padding: 10px 10px 80px 0px; }
+    .copyright{ padding: 0 20px; } .copyright-container{ padding: 10px 10px 80px 0px; }
 
     .end-note{
         font-size: 11px;
@@ -935,7 +975,7 @@
     }
     .slider-wrapper{ margin-top: -15px;} .slider-heading { font-size: 17px; } .card-img{ height: 223px;}
 
-    .card-content{ padding: 5px 15px; height: 145px;} .card-content-head { font-size: 18px; } 
+    .card-content{ padding: 5px 15px; height: 145px;} .card-content-head { font-size: 15px; } 
 
     .card-content-text, .time-date{ font-size: 13px; width: auto; } .post-time{ position: absolute; margin-top: 20px; left: 15px;}
 
@@ -951,6 +991,30 @@
     .dot { width: 20px; border-radius: 2px;}
 
     .naukri { width: auto; font-size: 12px; letter-spacing: 0.7px;}
+
+    /* ------------------------- EVENT DETAILS STYLING---------------------------- */
+    
+    .event-card-section{ margin-top: 15px; } .event-card-container{ padding: 10px; padding-bottom: 20px; }
+    
+    .event-banner-title{ padding-top: 23%; font-size: 30px;} 
+    
+    .event-card{  padding-top: 20px; }
+
+    .event-content{ padding: 10px 10px 30px 10px; }
+
+    .event-card-btn {
+        width: 70px; 
+        height: 25px;
+        font-size: 10px;
+        font-weight: 400;
+        position: absolute; 
+        margin-top: -16px;
+        margin-left: -70px;
+        right: auto;
+    }
+    .time-date { font-size: 10px; }
+
+    .event-time{ position: absolute; left: auto; margin-left: -113.5px; margin-top: 13px;}
 
     /* --------------------------------------------------------- */
 
@@ -1266,18 +1330,26 @@
         width: 600px;
     }
     .end-note-span{ font-size: 12px; }
-
 }
-
 
 /* -----------------------------------------------------------
 --------------------- STYLING FOR IPAD PRO -------------------
 -------------------------------------------------------------- */
 @media screen and (max-width:1200px) and (min-width:990px){
 
-    .section-about{ width: 580px;} .section-title p { width: auto; margin-left: 0px;}
-    
+    /* ------------------------- EVENT DETAILS STYLING---------------------------- */
+/* 
     .card-slider-container{ left: 610px}
+    
+    .event-banner-title{ padding-top: 15%; } 
+    
+    .event-card{ width: 320px; }
+
+    .event-time{ position: absolute; left: auto; margin-left: -147px; } */
+
+    /* ------------------------- EVENT DETAILS END---------------------------- */
+
+    .section-about{ width: 580px;} .section-title p { width: auto; margin-left: 0px;}
 
     .about-box, .about-box2, .about-box3{ height: 130px; width: 310px; }
 
@@ -1287,7 +1359,7 @@
 
     .service-box{ margin-top: 3px; }
 
-/* -----------about2 section-------------- */
+/* -----------ABOUT2 SECTION STYLING-------------- */
 
     .about{ height: 548px; } .section-about2{ height: 530px; width: auto; }
 

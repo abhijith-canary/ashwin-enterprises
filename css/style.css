@@ -393,7 +393,7 @@ body{
     font-size: 13px;
     font-weight: 500;
     line-height: 18.46px;
-    width: 386px;
+    width: auto;
     color: #53626D;
 }
 .time-date{
@@ -405,7 +405,7 @@ body{
 }
 .post-time{ color: #1D1E1C; }
 
-.card-btn{
+.card-btn, .event-card-btn{
     width: 122px;
     height: 44px;
     border-radius: 4px;
@@ -415,11 +415,11 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 800;
-    position: absolute;
-    right: 25px;
-    bottom: 15px;
 }
+.card-btn{ position: absolute; right: 25px; bottom: 18px; }
+
 .card-btn:hover { background-color: #f1651fec;}
+
 .naukri{
     width: 180px;
     height: 25px;
@@ -435,6 +435,36 @@ body{
     margin-top: 25px;
     z-index: 1;
 }
+
+/* --------------------- EVENT DETAILS STYLE START --------------------- */
+.event-card-section{ 
+    margin-top: 45px;  
+    position: relative;
+    overflow: hidden;
+    text-align: end;
+} 
+.event-card-container{ padding-top: 20px; padding-bottom: 20px;}
+
+.event-banner-title{ padding-top: 15%; }
+
+.event-card{ padding-top: 25px; }
+
+.event-content{ 
+    background-color: #f5f8fa;
+    height: auto;
+    padding: 30px 25px 20px 25px ;
+    border-radius: 0px 0px 8px 8px;
+}
+.card-content-head, .card-content-text, .time-date { text-align: start;}
+
+.event-card-btn{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px; 
+    margin-left: -110px;
+}
+.event-card-btn:hover{ background-color: #f1651fec; }
 
 /* --------------------- ABOUT-BOX STYLE START --------------------- */
 
@@ -472,7 +502,6 @@ body{
     margin-left: 100px;
 }
 .legacy-head{ margin-top: -55px; } .service-head{ margin-top: -45px; }
-
 
 /* --------------------- ABOUT US2 STYLE START --------------------- */
 
@@ -537,7 +566,6 @@ body{
     text-decoration: underline;
     z-index: -99;
 }
-
 .readmore-link:hover{
     color: #D65827;
     opacity: 100%;
@@ -547,6 +575,7 @@ body{
 }
 
 /* --------------------- SERVICE STYLE START --------------------- */
+
 .our-service1{
     margin-top: 150px;
 }
@@ -840,7 +869,7 @@ body{
     height: 500px;
     margin-top: 150px;
 }
-.blog-banner-title{
+.blog-banner-title, .event-banner-title{
     font-family: "Poppins", sans-serif;
     font-size: 54px;
     font-weight: 600;
@@ -1201,15 +1230,12 @@ body{
 }
 
 /* --------------------- COPYRIGHT STYLE START ------------------------ */
-.copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: white !important;
-}
+
 .copyright-container{
     background-color: #313031;
     border-radius: 0px 0px 12px 12px;
     padding: 10px 0px 40px 0px;
-    margin-top: -17px;
+    margin-top: -19px;
 }
 .end-note{
     font-family: "Poppins", sans-serif;

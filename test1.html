@@ -1,137 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form Modal</title>
-    <style>
-        /* Modal styling */
-        .modal {
-            display: none; /* Hidden by default */
-            position: fixed;
-            z-index: 1; /* Sit on top */
-            padding-top: 60px;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
-        }
 
-        .modal-content {
-            background-color: #fefefe;
-            margin: auto;
-            padding: 30px;
-            border: 1px solid #888;
-            width: 100%;
-            max-width: 600px;
-            border-radius: 8px;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            background-color: #00ACED;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        form label {
-            display: block;
-            margin-top: 10px;
-        }
-
-        form input[type="text"], form input[type="email"], form textarea {
-            width: 100%;
-            padding: 10px 0px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        form button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        form button:hover {
-            background-color: #45a049;
-        }
-        .no-scroll {
-            overflow: hidden;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Contact Link -->
-    <a href="#" id="openModalLink">Contact Us</a>
-
-    <!-- Contact Form Modal -->
-    <div id="contactModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Contact Us</h2>
-            <form id="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </div>
-
-    <script>
-        // Get the modal
-        const modal = document.getElementById("contactModal");
-
-        // Get the link that opens the modal
-        const btn = document.getElementById("openModalLink");
-
-        // Get the <span> element that closes the modal
-        const span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on the link, open the modal
-        btn.onclick = function(event) {
-            event.preventDefault(); // Prevent default link behavior
-            modal.style.display = "block";
-            document.body.classList.add("no-scroll");
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-            document.body.classList.remove("no-scroll");
-        }
-
-
-    </script>
-</body>
-</html>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Ashwin Enterpises</title>
@@ -140,6 +9,24 @@
         <meta content="" name="description">
         <link rel="icon" type="image/x-icon" href="media/logo_Icon.png" class="logo_icon">
 
+        <!-- Google POPPINS font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Google ROBOT font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -147,196 +34,158 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style-responsive.css">
+        
     </head>
-    <body style="background-color: chocolate;">
 
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="topnav" id="navbar">
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-menu">Home</a>
+                <a href="about.html" class="nav-menu">About Us</a>
+                <a href="service.html" class="nav-menu">Services</a>
+                <a href="blog.html" class="active nav-menu">Blogs</a>
+                <a href="contact.html" class="nav-menu">Contact Us</a>
+            </div>
+        
+            <a href="index.html">
+                <div class="topnav-centered">
+                    <img class="nav-logo" src="media/logo_Icon.png" alt="Logo">
+                    <p class="nav-logo-head" id="navLogoHead">ASHWIN ENTERPRISES PRIVATE LTD</p>
+                    <p class="nav-logo-head2" id="navLogoHead2">Recruitment and Placement Services</p>
+                </div>
+            </a>
+        
+            <a href="tel:+91 9947070280" class="nav-btn"><span class="get-text">Get</span> Consulting</a>
+        </div>
         <!-- Navbar & Hero End -->
 
-        <div class="container-fluid blog-detail-banner">
-            <div class="container">
-                <h3 class="banner-title wow fadeInDown" id="mainBlogHeading" data-wow-delay="0.1s"></h1>
+
+        <div class="container-fluid blog-banner">
+            <div class="container text-center">
+                <h2 class="event-banner-title wow fadeInDown" data-wow-delay="0.2s">Our Upcoming Events</h2>
             </div>
         </div>
 
-        <div class="single-blogs">
-            <div class="container">
+        <!-- Blog Start -->
+        <section class="event-card-section" >
+            <div class="container event-card-container">
+                <div class="d-flex mb-3">
+                    <h4 class="our-blog-head wow fadeIn" data-wow-delay="0.6s">All Upcoming Events</h4>
+                </div>
                 <div class="row">
-                    <!-- Sidebar Section -->
-                    <div class="col-lg-4 sidebar-container">
-                        <div class="sidebar">
-                            <div class="sidebar-widget">
-                                <h2 class="sidebar-title wow fadeInLeft" data-wow-delay="0.1s">Recent Blog Posts</h2>
+
+                    <div class="col-md-4 event-card">
+                        <a href="#"><p class="naukri">${card.mail}</p></a>
+                        <img src="media/event-1.png" alt="image" class="event-img img-fluid">
+
+                        <div class="event-content">
+                            <p class="card-content-head">Client Interview @ Kochi</p>
+                            <p class="card-content-text">Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi</p>
+                            <div class="time-date text-uppercase ">
+                                <span class="post-date">${card.date}</span><br>
+                                <span class="post-time event-time">${card.time}</span>
                             </div>
-                            <div id="recentBlogContents"></div>
+                            <button class="event-card-btn">Contact Us</button>
+
                         </div>
                     </div>
 
-                    <!-- Blog Content Section -->
-                    <div class="col-lg-8 content-container">
-                        <div class="sn-container">
-                            <div class="sn-img">
-                                <h1 class="single-head py-3 wow fadeInRight" data-wow-delay="0.1s" id="blogTitle"></h1>
+                    <div class="col-md-4 event-card">
+                        <img src="media/event-1.png" alt="image" class="event-img img-fluid">
+                        <div class="event-content">
+                            <h5 class="card-content-head">Client Interview @ Kochi</h5>
+                            <p class="card-content-text">Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi</p>
+                            <div class="time-date text-uppercase ">
+                                <span class="post-date">${card.date}</span><br>
+                                <span class="post-time event-time">${card.time}</span>
                             </div>
-                            <div class="sn-content" id="blogContentContainer"></div>
+                            <button class="event-card-btn">Contact Us</button>
+
                         </div>
                     </div>
+
+                    <div class="col-md-4 event-card">
+                        <img src="media/event-1.png" alt="image" class="event-img img-fluid">
+                        <div class="event-content">
+                            <h5 class="card-content-head">Client Interview @ Kochi</h5>
+                            <p class="card-content-text">Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi</p>
+                            <div class="time-date text-uppercase ">
+                                <span class="post-date">${card.date}</span><br>
+                                <span class="post-time event-time">${card.time}</span>
+                            </div>
+                            <button class="event-card-btn">Contact Us</button>
+
+                        </div>
+                    </div>
+ 
                 </div>
             </div>
-        </div>
-
-        <script>
-            const recent_contents = {
-                blog1: {
-                    recent_img: "media/blog-img1.png",
-                    recent_blog_banner_title: "The Importance of Skilled Labour in the Manufacturing Industry.",
-                    recent_blog_text: "In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators...",
-                    recent_subhead1: "Leadership",
-                    recent_subhead2: "Management",
-                    recent_subhead3: ""
-                },
-                blog2: {
-                    recent_img: "media/blog-img4.png",
-                    recent_blog_banner_title: "Elevating Business Security: The Essential Role of Professional Security Services",
-                    recent_blog_text: "In today's dynamic business environment, robust security services are paramount to safeguarding assets...",
-                    recent_subhead1: "Product",
-                    recent_subhead2: "Research",
-                    recent_subhead3: "Frameworks"
-                }, 
-            };
-
-            const contents = {
-                blog1: {
-                    blog_banner_title: "The Importance of Skilled Labour in the Manufacturing Industry.",
-                    blog_img1: "media/blog-image-1.png",
-                    blog_introduction: "In the manufacturing industry, the significance of skilled labour cannot be overstated. From adept machine operators to meticulous quality control inspectors, these skilled workers form the backbone of any successful manufacturing operation. Their expertise and commitment are vital to maintaining efficiency, safety, and high productivity in the manufacturing process.",
-                    
-                    blog_heading1: "Critical Roles:",
-                    blog_text1: "Skilled labor ensures that production processes run smoothly, efficiently, and safely. These professionals master the operation of complex machinery, handle sophisticated tools, and execute precision tasks that keep production lines moving. Their technical prowess and hands-on experience prevent machine malfunctions, reduce errors, and maintain a steady production flow. Without skilled labor, the risk of operational disruptions escalates, leading to costly delays and compromised product quality.",
-                    
-                    blog_heading2: "Quality Assurance:",
-                    blog_text2: "The expertise of skilled workers is fundamental in maintaining high standards of production quality. Quality control inspectors are trained to identify defects, ensure compliance with industry standards, and implement quality management systems. Their keen attention to detail and unwavering commitment to excellence result in products that meet or exceed customer expectations. Skilled labourers adhere to stringent quality protocols, minimizing waste, reducing returns, and enhancing the overall reputation of the manufacturing company.",
-                    blog_img2: "media/Blog_detail_4.png",
-                    
-                    blog_heading3: "Operational Efficiency:",
-                    blog_text3: "Skilled professionals are key to boosting operational efficiency within the manufacturing sector. Their ability to troubleshoot issues, perform regular maintenance, and optimize machine performance significantly reduces downtime and increases productivity. These workers bring innovative solutions to operational challenges, driving continuous improvement in production processes. Their proficiency not only accelerates production but also ensures efficient resource use, leading to cost savings and higher profitability for manufacturing businesses.",
-                    
-                    blog_heading4: "Conclusion:",
-                    blog_text4: "At Ashwin Enterprises, we recognize the critical need for highly skilled labor in manufacturing. Our recruitment process is designed to identify and place top-tier talent who can meet the industry's rigorous demands. By providing skilled professionals who excel in their roles, we help manufacturing companies uphold high standards of quality, achieve operational efficiency, and drive overall business success. Partner with Ashwin Enterprises to ensure that your manufacturing operations are supported by the best talent in the industry, propelling your business towards sustained growth and excellence.",
-                    
-                    blog_heading5 : "",
-                    blog_text5 : "",
-
-                },
-                blog2: {
-                    blog_banner_title : "Elavating Business Security: The Essentail Role of Professional Security Services",
-                    blog_img1 : "media/blog-image-1.png",
-                    blog_introduction : "In today's dynamic business environment, robust security services are paramount to safeguarding assets, ensuring the safety of employees and customers, and maintaining smooth business operations. Skilled security personnel are vital for creating a secure environment that deters threats and instils confidence in stakeholders." ,
-
-                    blog_heading1 : "Critical Roles:",
-                    blog_text1 : "Security personnel play a pivotal role in maintaining a safe and secure environment. They are responsible for monitoring premises, managing access points, and responding to emergencies. Their presence deters potential threats and criminal activities, ensuring that business operations are uninterrupted and secure. Skilled security guards are trained to handle a variety of situations, from crowd control during events to providing a rapid response in emergencies, making them indispensable to any organization.",
-
-                    blog_heading2 : "Quality Assurance:",
-                    blog_text2 : "Professional security services are fundamental in maintaining high standards of safety and security. Trained security personnel follow strict protocols and procedures to ensure compliance with safety regulations and industry standards. Their expertise in risk assessment and management helps in identifying vulnerabilities and implementing effective security measures. By maintaining vigilance and adhering to best practices, security professionals enhance the overall safety and reputation of the business.",
-
-                    blog_img2 : "media/Blog_detail_4.png",
-                    blog_heading3 : "Operational Efficiency:",
-                    blog_text3 : "Effective security services contribute significantly to the operational efficiency of a business. Skilled security personnel ensure that access to facilities is controlled and monitored, preventing unauthorized entry and reducing the risk of theft or damage. Their presence allows employees and customers to feel safe, fostering a productive and positive work environment. Additionally, security professionals assist in emergency planning and response, ensuring that businesses are prepared for and can swiftly recover from incidents, minimizing downtime and operational disruptions.",
-
-                    blog_heading4 : "Conclusion:",
-                    blog_text4 : "At Ashwin Enterprises, we understand the critical need for highly skilled security personnel in maintaining a safe and secure business environment. Our recruitment process is designed to identify and place top-tier security professionals who can meet the rigorous demands of the industry. By providing trained and reliable security personnel, we help businesses uphold high standards of safety, achieve operational efficiency, and protect their assets and people. Partner with Ashwin Enterprises to ensure that your security needs are met with excellence, allowing you to focus on your core business activities with confidence and peace of mind.",
-                    
-                    blog_heading5 : "",
-                    blog_text5 : "",
-                
-                },
-            };
-
-                function displayRecentBlogContents(clickedBlog) {
-                console.log("Displaying recent blog contents...");
-                const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
-                const contentContainer = document.getElementById('recentBlogContents');
-                contentContainer.innerHTML = ''; // Clear existing content
-
-                // Display the contents of the most recent blogs
-                blogs.slice(0, 3).forEach(blog => {
-                    const blogContent = recent_contents[blog];
-                    if (blogContent) {
-                        const blogElement = document.createElement('div');
-                        blogElement.innerHTML = `
-                            <div class="sidebar-widget wow fadeInLeft" data-wow-delay="0.1s">
-                                <div class="sidebar-block">
-                                    <img src="${blogContent.recent_img}" class="sidebar-img1 img-fluid">
-                                    <p class="blog-head-manu">Manufacturing</p>
-                                    <h4 class="sidebar-head">${blogContent.recent_blog_banner_title}</h4>
-                                    <p class="sidebar-text">${blogContent.recent_blog_text}</p>
-                                    <div class="d-flex qwerty">
-                                        <p class="leadership">${blogContent.recent_subhead1}</p>
-                                        <p class="leadership">${blogContent.recent_subhead2}</p>
-                                        <p class="leadership">${blogContent.recent_subhead3}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        `;
-                        contentContainer.appendChild(blogElement);
-                    }
-                });
-            }
-
-            
-            document.addEventListener('DOMContentLoaded', function() {
-                console.log("Document loaded, displaying recent blogs...");
-                const urlParams = new URLSearchParams(window.location.search);
-                const clickedBlog = urlParams.get('id'); // Get the clicked blog ID from the URL
-                displayRecentBlogContents(clickedBlog); // Display the clicked blog and recent blog contents
-            });
-
-            function loadBlogContent() {
-                const urlParams = new URLSearchParams(window.location.search);
-                const blogId = urlParams.get("id");
-
-                const blogPost = contents[blogId];
+        </section>
+        <!-- Blog End -->
 
 
-                if (blogPost) {
-                    document.getElementById("mainBlogHeading").textContent = blogPost.blog_banner_title; 
+        
+        <!-- Back to Top -->
+        <a href="#" class="btn-up  back-to-top"><i class="fa fa-arrow-up"></i></a> 
 
-                    document.getElementById("blogTitle").textContent = blogPost.blog_banner_title;               
-                    document.getElementById("blogContentContainer").innerHTML = `
-                        <div class="wow fadeInRight" data-wow-delay="0.1s">
-                            <img src="${blogPost.blog_img1}" class="img-fluid blog-main-img">
-                            <p class="single-texts">${blogPost.blog_introduction}</p>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <!-- <script src="lib/waypoints/waypoints.min.js"></script> -->
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
 
-                            <h4 class="single-subhead">${blogPost.blog_heading1}</h4>
-                            <p class="single-texts">${blogPost.blog_text1}</p>
-
-                            <h4 class="single-subhead">${blogPost.blog_heading2}</h4>
-                            <p class="single-texts">${blogPost.blog_text2}</p>
-                        </div>
-
-                        <div class="wow fadeInRight" data-wow-delay="0.1s">
-                            <div class="blog-second-img">
-                                <img src="${blogPost.blog_img2}" class="img-fluid blog-main-img2">
-                            </div>
-                            <h4 class="single-subhead">${blogPost.blog_heading3}</h4>
-                            <p class="single-texts">${blogPost.blog_text3}</p>
-
-                            <h4 class="single-subhead">${blogPost.blog_heading4}</h4>
-                            <p class="single-texts">${blogPost.blog_text4}</p>
-
-                            <h4 class="single-subhead">${blogPost.blog_heading5}</h4>
-                            <p class="single-texts">${blogPost.blog_text5}</p>
-                        </div>
-                    `;
-                } else {
-                    document.getElementById("blogContentContainer").innerHTML = "<p>Blog post not found.</p>";
-                }
-            }
-
-            document.addEventListener('DOMContentLoaded', function() {
-                displayRecentBlogContents();
-                loadBlogContent();
-            });
-        </script>
+        <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
+            function toggleMenu() {
+                var navLinks = document.getElementById("navLinks");
+                navLinks.classList.toggle("active");
+            }
+
+            // recent blog section
+            function saveAndRedirect(blogName) {
+                // Save the clicked blog to local storage
+                let blogs = JSON.parse(localStorage.getItem('blogs')) || [];
+                // Remove the blog if it exists to update its position
+                blogs = blogs.filter(blog => blog !== blogName);
+                // Add the blog to the front
+                blogs.unshift(blogName);
+                localStorage.setItem('blogs', JSON.stringify(blogs));
+
+                // Redirect to the blog page
+                window.location.href = 'details.html?id=' + blogName;
+            }
+        </script>
+        <script>
+
+        </script>
     </body>
+
 </html>
+
+
+
+<!-- git add .
+git commit -m "commit-----"
+git push -u origin main   -->

@@ -1,0 +1,52 @@
+{
+        "card1": {
+        "mail": "naukri.uae@gmail.com",
+        "heading": "Client Interview @ Kochi",
+        "text": "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+        "date": "6th october sunday",
+        "time": "9 am onwards",
+        "image": "media/event-1.png"
+    },
+
+    
+    "card2": {
+        "mail": "naukri.uae@gmail.com",
+        "heading": "Client Interview @ Kochi",
+        "text": "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+        "date": "6th october sunday",
+        "time": "9 am onwards",
+        "image": "media/event-1.png"
+    },
+ 
+
+    "card3": {
+        "mail": "naukri.uae@gmail.com",
+        "heading": "Client Interview @ Kochi",
+        "text": "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+        "date": "6th october sunday",
+        "time": "9 am onwards",
+        "image": "media/event-1.png"
+    },
+    
+
+    "card4": {
+        "mail": "naukri.uae@gmail.com",
+        "heading": "Client Interview @ Kochi",
+        "text": "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+        "date": "6th october sunday",
+        "time": "9 am onwards",
+        "image": "media/event-1.png"
+    },
+
+
+    "card5": {
+        "mail": "naukri.uae@gmail.com",
+        "heading": "Client Interview @ Kochi",
+        "text": "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+        "date": "6th october sunday",
+        "time": "9 am onwards",
+        "image": "media/event-1.png"
+    }
+
+
+}

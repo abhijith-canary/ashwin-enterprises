@@ -121,7 +121,7 @@
 
     .modal{ width: auto; padding: 22px; }
 
-    .modal-head{ font-size: 19px; } .modal-content { padding: 20px; }
+    .modal-head{ font-size: 19px; } .modal-content { padding: 5px 20px 20px; }
 
     #contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
         font-size: 13px;
@@ -189,10 +189,10 @@
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
 
-    .our-service{ height: 610px; padding: 0 20px; } .our-service1{ margin-top: 75px;} 
+    .our-service{ height: 660px; padding: 0 20px; } .our-service1{ margin-top: 75px;} 
 
     .our-service-bg{
-        height: 600px;
+        height: 640px;
         margin-left: 0px;
         margin-top: -15px; 
     }
@@ -205,7 +205,7 @@
     .our-service-content{
         width: 107%;
         height: 80px;
-        margin-top: 76px;
+        margin-top: 79px;
         margin-left: -11px;
         border-radius: 0px 0px 10px 10px;  /*???*/
     }
@@ -216,13 +216,13 @@
         padding: 15px 20px;
     }
     .service-card-slider{
-        margin-left: 28px;
+        margin-left: 8px;
         margin-top: 35px;
-        width: 300px;
+        width: 330px; 
     }  
     .owl-carousel-3 .owl-nav {
         width: auto;
-        top: 370px;
+        top: 420px;
         right: auto;
         left: 100px;
         justify-content: flex-end;
@@ -233,13 +233,16 @@
         width: 30px;
         margin-left: 0px;
     }
-    .constrution-box, .hospitality-box{ margin-top: -360.5px; }
 
-    .constrution-box{ width: 273px; height: 362px; } .constrution-hover{ width: auto; height: 360px; }
-
-    .hospitality-box{ width: 275px; height: 362px; }
+    .hospitality-box{ width: 300px; height: 404px; margin-top: -360.5px; }
 
     .hospitality-hover{ width: 273px; height: 360px; }
+
+    .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
+
+    .box-content{
+        height: 218px;
+    }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
 
@@ -647,7 +650,7 @@
     .our-service-content{
         width: 106%;
         height: 80px;
-        margin-top: 62px;
+        margin-top: 76px;
         margin-left: -11px;
         border-radius: 0px 0px 10px 10px;
     }
@@ -657,18 +660,18 @@
         width: auto;
         padding: 15px 20px;
     }
-    .service-card-slider{ margin-left: 33px; margin-top: 35px; width: 340px; }  
+    .service-card-slider{ margin-left: 30px; margin-top: 35px; width: 340px; }  
 
     .owl-carousel-3 .owl-nav {
         width: auto;
         top: 420px;
         right: auto;
-        left: 110px;
+        left: 95px;
         justify-content: flex-end;
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
 
-    .constrution-box, .hospitality-box { height: 406px; } .constrution-box, .hospitality-box { margin-top: -405px; }
+    .hospitality-box { height: 406px; margin-top: -405px; }
 
     .hospitality-hover { height: 405px; }
 
@@ -1137,8 +1140,6 @@
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
 
-    .constrution-box{ height: 406px; width: 300px; margin-top: -405px; } .constrution-hover{ width: 298px; }
-
     .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
@@ -1401,11 +1402,11 @@
     
     /* -----------section1 section-------------- */
 
-    .our-service-bg{ background-image: url(../media/service_Bg_Image.png); }
+    .our-service-bg{ background-image: url(../media/service_Bg_Image.png); height: 670px;  }
 
     .our-service-title{ color: rgb(255, 255, 255); }
 
-    .our-service-content{ width: 102.5%; margin-left: -11px; } .service-card-slider{ margin-left: 300px; }
+    .our-service-content{ width: 102.5%; margin-left: -11px; margin-top: 9%; } .service-card-slider{ margin-left: 300px; margin-top: 40px;}
 
     .owl-carousel-3 .owl-nav { width: auto; top: 370px; right: auto; left: -80px; justify-content: flex-end; }
 
@@ -1488,8 +1489,6 @@
     /* --------------------- SERVICE-1 RESPONSIVE START --------------------- */
 
     .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px;}  
-
-    .constrution-box{ height: 406px; width: 300px; margin-top: -405px; } .constrution-hover{ width: 298px; }
 
     .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
 

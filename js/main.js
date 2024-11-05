@@ -32,6 +32,13 @@
         }
     };
 
+    // navbar working for responsive view
+    function toggleMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+    }
+
+
    // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -45,31 +52,48 @@
         return false;
     });
 
-// -----------------------------------
-$(".carousel-item-2").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1000,
-    margin: 30,
-    dots: false,
-    loop: true,
-    nav : true,
-    navText : [
-        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-    ],
-    responsive: {
-        0:{
-            items:1
-        },
-        576:{
-            items:1
-        },
-        768:{
-            items:2
-        }
-    }
-});
-// -----------------------------------
+    // Service Owlcarousel Slider
+    
+    $(document).ready(function() {
+        const carousel = $(".carousel-item-2");
+    
+        carousel.owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 3000, // Adjust autoplay speed if needed
+            smartSpeed: 1000,
+            margin: 30,
+            dots: false,
+            loop: true,
+            nav: true,
+            navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                }
+            }
+        });
+    
+        // Pause autoplay on hover
+        carousel.on('mouseenter', function() {
+            carousel.trigger('stop.owl.autoplay');
+        });
+    
+        // Resume autoplay on mouse leave
+        carousel.on('mouseleave', function() {
+            carousel.trigger('play.owl.autoplay', [1000]); // Specify autoplay speed in milliseconds
+        });
+    });
+    
+    
 })(jQuery);
 
 
@@ -99,38 +123,41 @@ function showSlide(index) {
 // }, 5000); // Change slide every 5 seconds
 
 
-// navbar working for responsive view
-function toggleMenu() {
-    var navLinks = document.getElementById("navLinks");
-    navLinks.classList.toggle("active");
-}
+
 
 
 // card from btn click
-// Get the modal
-const modal = document.getElementById("contactModal");
-const closeButton = document.querySelector(".close");
-const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the modal
+    const modal = document.getElementById("contactModal");
+    const closeButton = document.querySelector(".close");
+    const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
 
-// Function to open the modal
-function openModal() {
-    modal.style.display = "flex"; // Use flex to show modal
-    document.body.style.overflow = 'hidden'; // Prevent background scroll
-}
+    // Function to open the modal
+    function openModal() {
+        if (modal) {
+            modal.style.display = "flex"; // Use flex to show modal
+            document.body.style.overflow = 'hidden'; // Prevent background scroll
+        }
+    }
 
-// Function to close the modal
-function closeModal() {
-    modal.style.display = "none"; // Hide modal
-    document.body.style.overflow = 'auto'; // Allow background scroll
-}
+    // Function to close the modal
+    function closeModal() {
+        if (modal) {
+            modal.style.display = "none"; // Hide modal
+            document.body.style.overflow = 'auto'; // Allow background scroll
+        }
+    }
 
-// Add event listeners to the card buttons
-cardButtons.forEach(button => {
-    button.addEventListener("click", openModal);
+    // Add event listeners to the card buttons
+    cardButtons.forEach(button => {
+        button.addEventListener("click", openModal);
+    });
+
+    // Check if closeButton exists before adding event listener
+    if (closeButton) {
+        closeButton.addEventListener("click", closeModal);
+    }
 });
-
-// Close the modal when the close button is clicked
-closeButton.addEventListener("click", closeModal);
-
 
 

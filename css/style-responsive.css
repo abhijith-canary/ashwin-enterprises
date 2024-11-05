@@ -234,15 +234,9 @@
         margin-left: 0px;
     }
 
-    .hospitality-box{ width: 300px; height: 404px; margin-top: -360.5px; }
-
-    .hospitality-hover{ width: 273px; height: 360px; }
-
     .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
 
-    .box-content{
-        height: 218px;
-    }
+    .box-content{ height: 218px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
 
@@ -666,7 +660,7 @@
         width: auto;
         top: 420px;
         right: auto;
-        left: 95px;
+        left: 100px;
         justify-content: flex-end;
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
@@ -674,6 +668,10 @@
     .hospitality-box { height: 406px; margin-top: -405px; }
 
     .hospitality-hover { height: 405px; }
+
+    .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
+
+    .box-content{ height: 218px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
     .choose-section{ padding: 0px 20px; margin-top: 10px; }
@@ -1141,6 +1139,10 @@
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
 
     .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
+
+    .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
+
+    .box-content{ height: 218px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
 

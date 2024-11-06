@@ -365,7 +365,24 @@
                     })
                     .catch((error) => {
                         console.log("FAILED...", error);
-                        alert("Failed to send email. Please try again.");
+
+
+
+
+                        // Trigger the animation and text change
+                        submitButton.classList.add("sent-animation");
+                        submitButton.textContent = "Email Sent Successfully!";
+                        setTimeout(() => {
+                            submitButton.textContent = "Send Email"; // Reset text after 3 seconds
+                            submitButton.classList.remove("sent-animation");
+                        }, 4000);
+        
+                        document.getElementById("contact-form").reset(); // Reset the form
+
+
+
+
+                        // alert("Failed to send email. Please try again.");
                     });
             }
         </script>

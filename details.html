@@ -119,7 +119,9 @@
 
             function initializeLocalStorage() {
                 if (!localStorage.getItem('blogs')) {
-                    localStorage.setItem('blogs', JSON.stringify(Object.keys(recent_contents)));
+                    // Define default blog entries (example data)
+                    const defaultBlogs = ['blog3', 'blog2'];
+                    localStorage.setItem('blogs', JSON.stringify(defaultBlogs));
                 }
             }
 

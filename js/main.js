@@ -32,13 +32,6 @@
         }
     };
 
-    // navbar working for responsive view
-    function toggleMenu() {
-        var navLinks = document.getElementById("navLinks");
-        navLinks.classList.toggle("active");
-    }
-
-
    // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -96,6 +89,11 @@
     
 })(jQuery);
 
+    // navbar working for responsive view
+    function toggleMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+    }
 
 // Event card slider 
 
@@ -123,32 +121,26 @@ function showSlide(index) {
 // }, 5000); // Change slide every 5 seconds
 
 
-
-
-
 // card from btn click
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the modal
+
     const modal = document.getElementById("contactModal");
     const closeButton = document.querySelector(".close");
     const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
 
-    // Function to open the modal
     function openModal() {
         if (modal) {
-            modal.style.display = "flex"; // Use flex to show modal
+            modal.style.display = "flex"; 
             document.body.style.overflow = 'hidden'; // Prevent background scroll
         }
     }
 
-    // Function to close the modal
     function closeModal() {
         if (modal) {
-            modal.style.display = "none"; // Hide modal
-            document.body.style.overflow = 'auto'; // Allow background scroll
+            modal.style.display = "none"; 
+            document.body.style.overflow = 'auto'; 
         }
     }
-
     // Add event listeners to the card buttons
     cardButtons.forEach(button => {
         button.addEventListener("click", openModal);

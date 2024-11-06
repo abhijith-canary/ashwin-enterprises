@@ -118,22 +118,17 @@
             };
 
             function initializeLocalStorage() {
+                // Initialize `blogs` in localStorage if it doesn't exist
                 if (!localStorage.getItem('blogs')) {
-                    // Define default blog entries (example data)
-                    const defaultBlogs = ['blog1', 'blog2', 'blog3'];
-                    localStorage.setItem('blogs', JSON.stringify(defaultBlogs));
+                    localStorage.setItem('blogs', JSON.stringify(Object.keys(recent_contents)));
                 }
             }
 
             function displayRecentBlogContents(clickedBlog) {
-                console.log("Displaying recent blog contents...");
                 const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
-                console.log(blogs,"kkkkkkkkkkkk")
                 const contentContainer = document.getElementById('recentBlogContents');
-                console.log(contentContainer,"get the dataaaaaa")
                 contentContainer.innerHTML = ''; // Clear existing content
 
-                // Display the contents of the most recent blogs
                 blogs.slice(0, 3).forEach(blog => {
                     const blogContent = recent_contents[blog];
                     if (blogContent) {

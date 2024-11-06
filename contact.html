@@ -37,7 +37,7 @@
          
     </head>
 
-    <body style="background-color: rgb(0, 14, 77);">
+    <body>
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -283,8 +283,14 @@
 
 
         <script>
+
+            const public_key = "BKtb3JEM_RYUnCLDo";
+            const service_id = "service_yiildzo";
+            const template_id = "2template_j3njzl5";
+ 
+
             // Function for form email submission
-            emailjs.init("BKtb3JEM_RYUnCLDo");  // Replace with your public key
+            emailjs.init(public_key);  // Replace with your public key
         
             function sendEmail(event) {
                 event.preventDefault(); // Prevent the default form submission
@@ -349,7 +355,7 @@
                 };
         
                 // Send email using emailjs
-                emailjs.send("service_yiildzo", "2template_j3njzl5", templateParams)
+                emailjs.send(service_id, template_id, templateParams)  ////////////////////////////////////////////
                     .then((response) => {
                         console.log("SUCCESS!", response.status, response.text);
                         
@@ -382,7 +388,7 @@
 
 
 
-                        // alert("Failed to send email. Please try again.");
+                        alert("Failed to send email. Please try again.");
                     });
             }
         </script>

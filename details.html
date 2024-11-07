@@ -63,7 +63,7 @@
         </div>
         <!-- Navbar & Hero End -->
 
-        <div class="container-fluid">
+        <div class="container-fluid blog-detail-banner">
             <div class="container">
                 <h3 class="banner-title wow fadeInDown" id="mainBlogHeading" data-wow-delay="0.1s"></h3>
             </div>
@@ -293,6 +293,7 @@
 
                 if (blogPost) {
                     document.getElementById("mainBlogHeading").textContent = blogPost.blog_banner_title; 
+
                     document.getElementById("blogTitle").textContent = blogPost.blog_banner_title;               
                     document.getElementById("blogContentContainer").innerHTML = `
                         <div class="wow fadeInRight" data-wow-delay="0.1s">

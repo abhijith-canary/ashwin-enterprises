@@ -249,12 +249,12 @@
                 }
             };
 
-            // function initializeLocalStorage() {
-            //     // Initialize `blogs` in localStorage if it doesn't exist
-            //     if (!localStorage.getItem('blogs')) {
-            //         localStorage.setItem('blogs', JSON.stringify(Object.keys(recent_contents)));
-            //     }
-            // }
+            function initializeLocalStorage() {
+                // Initialize `blogs` in localStorage if it doesn't exist
+                if (!localStorage.getItem('blogs')) {
+                    localStorage.setItem('blogs', JSON.stringify(Object.keys(recent_contents)));
+                }
+            }
 
             function displayRecentBlogContents(clickedBlog) {
                 const blogs = JSON.parse(localStorage.getItem('blogs')) || [];

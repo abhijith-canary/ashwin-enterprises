@@ -285,6 +285,8 @@
     
     .blog-block{ margin-top: -10px;} .blog-block2, .blog-block3{ margin-top: 15px; }
 
+    .blog-link { font-size: 13px; position: absolute; right: 7%; margin-top: 3px;}
+
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
     .blog-detail-banner{ padding: 150px 20px; margin-top: 70px; height: 500px; }
@@ -717,6 +719,8 @@
     .blog-block{ margin-top: -10px; } .blog-block2, .blog-block3{ margin-top: 15px;}
 
     .blog-img{ height: 250px; width: 100%; }
+
+    .blog-link { font-size: 13px; position: absolute; right: 6%; margin-top: 3px;}
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -1204,9 +1208,9 @@
 
     .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
 
-    .blog-img{ height: 160px; }
-
-    .blog-block3 { margin-top: 20px; } 
+    .blog-img{ height: 160px; } .blog-block3 { margin-top: 20px; } 
+    
+    .blog-link { font-size: 13px; position: absolute; right: 8%; margin-top: 3px;}
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -1442,7 +1446,7 @@
 
     .blog-main-img, .blog-main-img2, .single-texts { width: 560px;} 
 
-    .qwerty { gap: 10px;}
+    .qwerty { gap: 10px;} .blog-link { right: 5%; margin-top: 5px;}
 
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
 

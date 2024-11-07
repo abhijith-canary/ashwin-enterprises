@@ -288,7 +288,6 @@
             const service_id = "service_yiildzo";
             const template_id = "2template_j3njzl5";
  
-
             // Function for form email submission
             emailjs.init(public_key);  // Replace with your public key
         
@@ -348,10 +347,7 @@
         
                 // Define template parameters
                 const templateParams = { 
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    name: name, phone: phone, email: email, message: message
                 };
         
                 // Send email using emailjs
@@ -371,23 +367,6 @@
                     })
                     .catch((error) => {
                         console.log("FAILED...", error);
-
-
-
-
-                        // Trigger the animation and text change
-                        submitButton.classList.add("sent-animation");
-                        submitButton.textContent = "Email Sent Successfully!";
-                        setTimeout(() => {
-                            submitButton.textContent = "Send Email"; // Reset text after 3 seconds
-                            submitButton.classList.remove("sent-animation");
-                        }, 4000);
-        
-                        document.getElementById("contact-form").reset(); // Reset the form
-
-
-
-
                         alert("Failed to send email. Please try again.");
                     });
             }

@@ -90,9 +90,20 @@
 })(jQuery);
 
     // navbar working for responsive view
+    // function toggleMenu() {
+    //     var navLinks = document.getElementById("navLinks");
+    //     navLinks.classList.toggle("active");
+    // }
+
     function toggleMenu() {
-        var navLinks = document.getElementById("navLinks");
+        const navLinks = document.getElementById("navLinks");
+        const hamburger = document.getElementById("hamburger");
+
+        // Toggle the active class for showing/hiding the menu
         navLinks.classList.toggle("active");
+
+        // Toggle the open class for changing the hamburger icon
+        hamburger.classList.toggle("open");
     }
 
 // Event card slider 

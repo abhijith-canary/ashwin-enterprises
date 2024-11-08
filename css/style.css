@@ -109,7 +109,6 @@ body{
     position: relative;
     margin: 0 auto;
     margin-left: -310px;
-    /* margin-left: -70px; */
 }
 .nav-btn {
     margin-left: auto;
@@ -140,9 +139,22 @@ body{
 .hamburger div {
     width: 22px;
     height: 2px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 2px 0;
     transition: 0.3s;
+}
+
+/* Transform hamburger into a close icon */
+.hamburger.open .line1 {
+    transform: rotate(45deg) translate(4px, 4px);
+}
+
+.hamburger.open .line2 {
+    opacity: 0;
+}
+
+.hamburger.open .line3 {
+    transform: rotate(-45deg) translate(5px, -5px);
 }
 
 @media (max-width: 1035px) {
@@ -216,10 +228,6 @@ body{
 .carousel-header{
     margin-top: 150px;
 }
-/* .home-banner{
-    width: 100%;
-    height: 700px;
-} */
 .home-title-div{
     position: absolute;
     background: #7917105b;
@@ -276,7 +284,6 @@ body{
     text-align: center;
     margin: 0 auto;
 }
-
 .about-head{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
@@ -360,15 +367,16 @@ body{
 .slider-wrapper {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    
 }
 .card {
     min-width: 100%;
     background-color: white;
-    border: none;
+    border: 1px solid rgba(240, 230, 230, 0.637);
     border-radius: 10px;
-    box-shadow: 0px 4px 10px 0px #BDBDBD3B;
+    /* box-shadow: 10px 10px 10px 10px #a02121f1; */
     overflow: hidden;
-    margin: 15px 0;
+    margin: 15px 0px;
 }
 .card-img {
     width: 100%;
@@ -508,16 +516,14 @@ body{
 
 /* --------------------- EVENT DETAILS STYLE START --------------------- */
 .event-card-section{ 
-    margin-top: 45px;  
+    margin-top: 20px;  
     position: relative;
     overflow: hidden;
     text-align: end;
 } 
-.event-card-container{ padding-top: 20px; padding-bottom: 20px;}
+.event-card-container{ padding-top: 20px; padding-bottom: 20px; }
 
-.event-banner-title{ padding-top: 15%; }
-
-.event-card{ padding-top: 25px; }
+.event-banner-title{ padding-top: 8%; } .event-card{ padding-top: 25px; }
 
 .event-content{ 
     background-color: #f5f8fa;
@@ -552,24 +558,27 @@ body{
 }
 .about-box2{ margin-left: -3px; } .about-box3{ margin-left: 8px; }
 
-.experience_icon, .experience_icon3{
-    padding-top: 50px;
+.experience_icon{
+    width: 105px;
+    height: 110px;
     padding-left: 50px;
+    padding-top: 60px;
 }
 .experience-head1{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #1D1E1C;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: -50px;
 }
 .experience-head2{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
+    color: #727f88;
+    margin-left: 120px;
     margin-top: -30px;
-    margin-left: 100px;
 }
 .legacy-head{ margin-top: -55px; } .service-head{ margin-top: -45px; }
 
@@ -913,16 +922,16 @@ body{
 }
 
 /* --------------------------------------------------------*/
-.collection{ margin-top: 25px; height: 1700px;}
+.collection{ margin-top: 25px; height: 1700px; }
 
-.impact-img{ width: 630px; }
+.impact-container{ padding: 0px;} .impact-img{ width: 630px; }
 
 .impact-content, .leadership-content, .value-content{
     background-color: #E7ECF0;
     border-radius: 10px;
     padding: 70px;
 }
-.leadership-img{ margin-left: 20px; }
+.leadership-img{ margin-left: 30px; height: 543px; width: 660px;}
 
 .leadership-content{ width: 630px; height: 543px; }
 
@@ -946,7 +955,7 @@ body{
 
 .blog{ margin-top: 55px; height: 600px;}
 
-.blog-section{ margin-top: 80px; height: 1200px; }
+.blog-section{ margin-top: 20px; height: 1200px; }
 
 .our-blog-head, .contact-us-title, .form-title{
     font-family: "Poppins", sans-serif;
@@ -1001,12 +1010,12 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 300px;
     margin-top: 150px;
 }
 .blog-banner-title, .event-banner-title{
     font-family: "Poppins", sans-serif;
-    font-size: 54px;
+    font-size: 45px;
     font-weight: 600;
     color: white;
 }
@@ -1015,7 +1024,7 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: white;
-    padding-top: 12%;
+    padding-top: 6.5%;
 }
 
 .blog-detail-banner{
@@ -1023,17 +1032,18 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;  
-    margin-top: 150px;
-    padding: 15% 20%;
+    height: 400px;  
+    margin-top: 160px;
+    padding: 7% 20%;
 }   
 .banner-title{
     width: 1137px;
+    background-color: #2b9239;
     height: 97px;
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
-    font-size: 54px;
+    font-size: 45px;
     font-weight: 600;
     line-height: 59px;
 }
@@ -1111,7 +1121,6 @@ body{
 }
 .leadership{
     width: auto;
-    /* width: 70px; */
     padding: 2px 10px 2px 10px;
     border-radius: 16px ;
     background-color: #F4EEEB;
@@ -1149,14 +1158,19 @@ body{
     padding-top: 20px;
     color: #1D1E1C;
 }
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
+.logo-white-images {
+    filter: brightness(40%) saturate(100%);
+    width: 130px;
 }
+.logo5{ height: 40px; width: 150px; }
+
+.logo6{ height: 60px; width: 60px;} .logo7{width: 75px;}
+
+.logo9{ height: 50px; width: 170px;} .logo17{ height: 48px; width: 135px; }
+
+.logo10{ height: 40px; width: 130px;} .logo11{ height: 80px; width: 80px; }
+
+.logo12 { height: 70px; width: 170px; } .logo19{ height: 50px; width: 160px;} .logo20 {width: 135px; height: 45px;}
 
 .blog-logos{
     overflow: hidden;
@@ -1164,11 +1178,20 @@ body{
     white-space: nowrap;
 }
 .logos-slide{
-    animation:  15s slide infinite linear;
+    animation:  30s slide infinite linear;
     display: inline-block;
     transition: 5s;
 }
 .logos-slide img{ margin: 0px 20px; }
+
+@keyframes slide {
+    from {
+        transform: translateX(2%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
 /* --------------------- CONTACT1 STYLE START --------------------- */
 .contact-container{ margin-top: 140px; } .contact-main{ margin-top: 35px; }

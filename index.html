@@ -55,9 +55,9 @@
         <div class="topnav" id="navbar">
 
             <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
         
             <div class="nav-links" id="navLinks">
@@ -117,7 +117,7 @@
                 <div class="card-slider-container wow fadeInDown" data-wow-delay="0.3s">
                     <div class="header">
                         <h2 class="slider-heading">Upcoming Events</h2>
-                        <a href="event-details.html" class="arrow-orange">See All <img src="media/arrow orange.png" alt=""></a>
+                        <a href="event-details.html" class="arrow-orange">See All <img src="media/arrow orange.png"></a>
                     </div>
                 
                     <div class="slider-wrapper">
@@ -136,11 +136,7 @@
                         </div>
                 
                         <div class="card">
-                            <!-- <img src="media/event-1.png" alt="Event 2" class="card-img">
-                            <div class="card-content">
-                                <h3>Job Fair @ Delhi</h3>
-                                <p>12th October, 10 AM - 4 PM</p>
-                            </div> -->
+
                             <div class="card-content text-center ">
                                 <p class="card-content-head">coming soon....</p>
                             </div>
@@ -161,10 +157,16 @@
                         </div>
                 
                         <div class="card">
-                            <img src="media/event-1.png" alt="Event 4" class="card-img">
+                            <a href="#"><p class="naukri">naukri.uae@gmail.com</p></a>
+                            <img src="media/event-1.png" alt="Event 1" class="card-img img-fluid">
                             <div class="card-content">
-                                <h3>Career Expo @ Bangalore</h3>
-                                <p>20th October, 9 AM - 6 PM</p>
+                                <p class="card-content-head">Client Interview @ Kochi</p>
+                                <p class="card-content-text">Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi</p>
+                                <div class="time-date text-uppercase  ">
+                                    <span class="post-date">6th october sunday</span><br>
+                                    <span class="post-time">9 am onwards</span>
+                                </div>
+                                <button class="card-btn" >Contact Us</button>
                             </div>
                         </div>
 
@@ -204,34 +206,28 @@
                 <div class="row g-4 about-box-container">
                     <div class="col-lg-6 col-xl-4 wow fadeInDown" data-wow-delay="0.2s">
                         <div class="about-box">
-                            <div class="pb-4">
-                                <img src="media/Experience_Icon.png" class="experience_icon">
-                                <div class="px-4">
-                                    <p class="mb-4 experience-head1">Experience</p>
-                                    <p class="mb-4 experience-head2">You can trust</p>
-                                </div>
+                            <img src="media/Experience_Icon.png" class="experience_icon">
+                            <div class="about-box-content">
+                                <p class="experience-head1">Experience</p>
+                                <p class="experience-head2">You can trust</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInDown" data-wow-delay="0.2s">
                         <div class="about-box2">
-                            <div class="pb-4">
-                                <img src="media/Legacy_Icon.png" class="experience_icon">
-                                <div class="px-4">
-                                    <p class="mb-4 experience-head1">Legacy</p>
-                                    <p class="mb-4 experience-head2">Built over 25 years</p>
-                                </div>
+                            <img src="media/Legacy_Icon.png" class="experience_icon">
+                            <div class="about-box-content">
+                                <p class="experience-head1">Legacy</p>
+                                <p class="experience-head2">Built over 25 years</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInDown" data-wow-delay="0.2s">
                         <div class="about-box3">
-                            <div class="pb-4">
-                                <img src="media/Service_Icon.png" class="experience_icon">
-                                <div class="px-4 service-box">
-                                    <p class="mb-4 experience-head1">Service</p>
-                                    <p class="mb-4 experience-head2">Second to none</p>
-                                </div>
+                            <img src="media/Service_Icon.png" class="experience_icon">
+                            <div class="about-box-content">
+                                <p class="experience-head1">Service</p>
+                                <p class="experience-head2">Second to none</p>
                             </div>
                         </div>
                     </div>
@@ -469,8 +465,8 @@
         <!-- Why choose us  End -->
 
         <!-- Service Impact Start -->
-        <section class="collection position-relative py-5">
-            <div class="container">
+        <section class="collection position-relative py-5" >
+            <div class="container impact-container">
                 <div class="row">
                     <div class="d-flex flex-wrap impact-main wow fadeInLeft" data-wow-delay="0.3s">
                         <div class="col-md-6">
@@ -508,7 +504,7 @@
 
         <!-- Blog Start -->
         <section class="blog" id="blog_page" >
-            <div class="container">
+            <div class="container" style="padding: 0px;">
                 <div class="d-flex mb-3">
                     <h4 class="our-blog-head wow fadeIn" data-wow-delay="0.7s">Our Blogs</h4>
                     <a href="blog.html" class="blog-link wow fadeIn" data-wow-delay="0.7s">View all <img src="media/arrow-black.png"></a>
@@ -549,7 +545,7 @@
         <!-- Blog End -->
 
         <!-- Blog Logo Start -->
-        <div class="container-fluid blog-logo-section py-4">
+        <div class="container-fluid blog-logo-section py-5" >
             <div class="container our-partner wow fadeInUp" data-wow-delay="0.1s">
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s" style="margin-bottom: 30px;">
                     <p class="logos-title">We’re proud to partner with the best</p>
@@ -557,32 +553,51 @@
 
                 <div class="blog-logos">
                     <div class="logos-slide">
-                        <img src="media/trans gulf 1.png" class="slide-img">
-                        <img src="media/Zubair corporation 1.png" class="slide-img2">
-                        <img src="media/trags 1.png" class="slide-img3">
-                        <img src="media/Royal Furniture 1.png" class="slide-img4">
-                        <img src="media/Perfect industries group holiding 1.png" class="slide-img5">
-                        <img src="media/owatco 1.png" class="slide-img6">
-                        <img src="media/NCC Limited 1.png" class="slide-img7">
+                        <img src="media/trans gulf.png" class="logo-white-images logo1">
+                        <img src="media/Zubair corporation.png" class="logo-white-images logo2">
+                        <img src="media/trags.png" class="logo-white-images logo3"> 
+                        <img src="media/Royal Furniture.png" class="logo-white-images logo4">
+                        <img src="media/Perfect industries group holiding.png" class="logo-white-images logo5">
+                        <img src="media/owatco.png" class="logo-white-images logo6">
+                        <img src="media/NCC Limited.png" class="logo-white-images logo7">
+                        <img src="media/Al naboodah.png" class="logo-white-images logo8">
+                        <img src="media/Al nuaimi.png" class="logo-white-images logo9">
+                        <img src="media/bin ghalib.png" class="logo-white-images logo9">
+                        <img src="media/Buktair.png" class="logo-white-images logo10">
+                        <img src="media/Bureau Veritas.png" class="logo-white-images logo11">
+                        <img src="media/Dubai Metal.png" class="logo-white-images logo12">
+                        <img src="media/East coast.png" class="logo-white-images logo13">
+                        <img src="media/elemecs.png" class="logo-white-images logo14">
+                        <img src="media/Emirates Engineering.png" class="logo-white-images logo15">
+                        <img src="media/Al shirawi.png" class="logo-white-images logo16">
+                        <img src="media/Al suwaidi.png" class="logo-white-images logo17">
+                        <img src="media/Lamprell.png" class="logo-white-images logo18">
+                        <img src="media/Madina.png" class="logo-white-images logo19">
+                        <img src="media/Naffco.png" class="logo-white-images logo20">
                     </div>
 
                     <div class="logos-slide">
-                        <img src="media/trans gulf 1.png" class="slide-img">
-                        <img src="media/Zubair corporation 1.png" class="slide-img2">
-                        <img src="media/trags 1.png" class="slide-img3">
-                        <img src="media/Royal Furniture 1.png" class="slide-img4">
-                        <img src="media/Perfect industries group holiding 1.png" class="slide-img5">
-                        <img src="media/owatco 1.png" class="slide-img6">
-                        <img src="media/NCC Limited 1.png" class="slide-img7">
-                    </div>
-                    <div class="logos-slide">
-                        <img src="media/trans gulf 1.png" class="slide-img">
-                        <img src="media/Zubair corporation 1.png" class="slide-img2">
-                        <img src="media/trags 1.png" class="slide-img3">
-                        <img src="media/Royal Furniture 1.png" class="slide-img4">
-                        <img src="media/Perfect industries group holiding 1.png" class="slide-img5">
-                        <img src="media/owatco 1.png" class="slide-img6">
-                        <img src="media/NCC Limited 1.png" class="slide-img7">
+                        <img src="media/trans gulf.png" class="logo-white-images logo1">
+                        <img src="media/Zubair corporation.png" class="logo-white-images logo2">
+                        <img src="media/trags.png" class="logo-white-images logo3"> 
+                        <img src="media/Royal Furniture.png" class="logo-white-images logo4">
+                        <img src="media/Perfect industries group holiding.png" class="logo-white-images logo5">
+                        <img src="media/owatco.png" class="logo-white-images logo6">
+                        <img src="media/NCC Limited.png" class="logo-white-images logo7">
+                        <img src="media/Al naboodah.png" class="logo-white-images logo8">
+                        <img src="media/Al nuaimi.png" class="logo-white-images logo9">
+                        <img src="media/bin ghalib.png" class="logo-white-images logo9">
+                        <img src="media/Buktair.png" class="logo-white-images logo10">
+                        <img src="media/Bureau Veritas.png" class="logo-white-images logo11">
+                        <img src="media/Dubai Metal.png" class="logo-white-images logo12">
+                        <img src="media/East coast.png" class="logo-white-images logo13">
+                        <img src="media/elemecs.png" class="logo-white-images logo14">
+                        <img src="media/Emirates Engineering.png" class="logo-white-images logo15">
+                        <img src="media/Al shirawi.png" class="logo-white-images logo16">
+                        <img src="media/Al suwaidi.png" class="logo-white-images logo17">
+                        <img src="media/Lamprell.png" class="logo-white-images logo18">
+                        <img src="media/Madina.png" class="logo-white-images logo19">
+                        <img src="media/Naffco.png" class="logo-white-images logo20">
                     </div>
                 </div>
             </div>
@@ -687,7 +702,7 @@
                     </p>                 
                 </div>
             </div>
-        </div>
+        </div><br>
         <!-- Copyright End -->
 
 

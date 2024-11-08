@@ -83,9 +83,9 @@
     }
     .about-box2, .about-box3{ margin-top: -18px; }
 
-    .experience_icon{ padding-top: 45px; padding-left: 50px; }
+    .experience_icon{ width: 100px; height: 100px; padding-top: 45px; padding-left: 50px; }
 
-    .experience_icon3{ padding-left: 55px; } .experience-head1{ font-size: 20px; margin-top: -40px; } .experience-head2{ font-size: 15px; }
+    .experience-head1{ font-size: 20px; margin-top: -40px; } .experience-head2{ font-size: 15px; margin-top: -25px;}
 
     .legacy-head, .service-head{ margin-top: -45px; } .legacy-head2{ margin-top: -28px; }
 
@@ -252,6 +252,8 @@
 
     .collection{ margin-top: 5px; height: 1890px; padding: 0 7px; } .content-title{ font-size: 18px; }
 
+    .impact-container{ padding:0 15px; }
+
     .content-para{ font-size: 13px; line-height: 17px; } .impact-main{ margin-top: -35px; }
 
     .impact-content, .leadership-content, .value-content{
@@ -259,7 +261,7 @@
         margin-top: -5px;
         border-radius: 0px 0px 12px 12px;
     }
-    .leadership-img{ margin-left: 0px; margin-top: -980px; }
+    .leadership-img{ margin-left: 0px; margin-top: -930px; height: 340px;}
 
     .leadership-content{ height: 340px; margin-top: 275px; z-index: 1; }
 
@@ -273,7 +275,9 @@
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 25%;}
 
-    .blog{ height: auto; margin-top: 0px; padding: 0 7px; } .blog-container{ margin-top: 10px; }
+    .blog{ height: auto; margin-top: 0px; padding: 0 22px; } .blog-container{ margin-top: 10px; }
+
+    .blog-section{ padding: 0 7px;}
     
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -322,9 +326,11 @@
     
     .logos-title{ font-size: 19px; line-height: 19px; margin-top: 0px; }
 
-    .slide-img{ width: 100px; } .slide-img2, .slide-img3, .slide-img7{ width: 80px; }
+    .logo2, .logo3, .logo8, .logo13, .logo15, .logo18{ width: 100px;} .logo5{ width: 160px;}
 
-    .slide-img4{ width: 140px; } .slide-img6{ width: 60px;}
+    .logo9, .logo16, .logo17{ width: 125px;} .logo12{ height: 60px; width: 140px;} .logo14{height: 60px; width: 110px;}
+
+    .logo20{ height: 60px; width: 145px;}
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
     .contact-container{ margin-top: 80px; } .contact-main{ margin-top: -20px; padding: 0 17px;}
@@ -351,7 +357,7 @@
         padding: 0px 10px;
     }
     .consult-btn2{
-        margin-top: -10px;
+        margin-top: auto;
         margin-left: 10px;
         font-size: 12px;
         width: 110px;
@@ -533,7 +539,9 @@
     }
     .about-box-container{ margin-top: -10px; } .about-box{ margin-top: 15px; }
 
-    .experience_icon{ padding-top: 45px; padding-left: 50px; } .experience-head1{ font-size: 20px;margin-top: -40px; } .experience-head2{ font-size: 15px; }
+    .experience_icon{ width: 100px; height: 100px; padding-top: 45px; padding-left: 50px; } .experience-head1{ font-size: 20px; margin-top: -40px; } 
+    
+    .experience-head2{ font-size: 15px; margin-top: -25px; }
 
     /* --------------------------------------------------------- */
 
@@ -690,11 +698,13 @@
 
     .collection{ height: 1965px; padding: 0 7px;} .content-title{ font-size: 18px; }
 
+    .impact-container{ padding:0 15px; }
+
     .content-para{ font-size: 13px; line-height: 17px; }
 
     .impact-content, .leadership-content, .value-content{ padding: 15px 30px ; margin-top: -5px; border-radius: 0px 0px 12px 12px; }
 
-    .leadership-img{ margin-left: 0px; margin-top: -1005px; }
+    .leadership-img{ margin-left: 0px; margin-top: -1005px; height: 340px;}
 
     .leadership-content{ height: 340px; margin-top: 315px; z-index: 1; }
 
@@ -708,7 +718,9 @@
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 28%;}
 
-    .blog{ height: auto; margin-top: 0px; padding: 0 7px; } .blog-container{ margin-top: 10px; }
+    .blog{ height: auto; margin-top: 0px; padding: 0 22px; } 
+    
+    .blog-section{ padding: 0 10px;} .blog-container{ margin-top: 10px; }
 
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -756,9 +768,11 @@
 
     .logos-title{ font-size: 20px; line-height: 20px; margin-top: 5px; }    
 
-    .slide-img{ width: 100px; } .slide-img2, .slide-img3, .slide-img7{ width: 80px; }
+    .logo2, .logo3, .logo8, .logo13, .logo15, .logo18{ width: 110px;} .logo5{ width: 170px;}
 
-    .slide-img4{ width: 140px; } .slide-img6{ width: 60px; }
+    .logo9, .logo16, .logo17{ width: 135px;} .logo12{ height: 50px; width: 140px;} .logo14{height: 60px; width: 90px;}
+
+    .logo20{ height: 55px; width: 140px;}
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
 
@@ -987,15 +1001,15 @@
         margin-left: -13px;
         margin-top: 5px;
     }
-    .experience_icon, .experience_icon3{ width: 80px; padding-top: 45px; padding-left: 30px; }
+    .experience_icon{ width: 60px; height: 80px; padding-top: 45px; padding-left: 30px; }
 
     .about-box2{ margin-top: -154px; margin-left: 235px; }
 
     .about-box3{ margin-left: 480px; margin-top: -178px; }
 
-    .experience-head1{ font-size: 18px; margin-top: -40px; margin-left: 70px; }
+    .experience-head1{ font-size: 18px; margin-top: -40px; margin-left: 70px;  }
 
-    .experience-head2{ font-size: 14px; margin-left: 70px; width: 120px; }
+    .experience-head2{ font-size: 14px; margin-left: 70px; margin-top: -20px; width: 120px; }
 
     /* ------------------------- EVENT CARD STYLING---------------------------- */
 
@@ -1162,24 +1176,25 @@
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 10px; height: 1060px;} .impact-main{ margin-top: -40px; }
+    .collection{ margin-top: 10px; height: 1060px; } 
+    
+    .impact-main{ margin-top: -40px; }
 
     .content-title{ font-size: 18px; } .content-para{ font-size: 13px; line-height: 17px; }
 
-    .impact-img{ height: 325px; margin-left: -3px; }
+    .impact-img{ height: 325px;  }
 
     .impact-content{
         padding: 15px 30px;
         border-radius: 7px;
         width: 340px;
-        margin-left: 8px;
+        margin-left: 19px;
     }
-    .leadership-img{ margin-left: 11px; width: 340px; height: 330px; }
+    .leadership-img{ margin-left: 19px; width: 340px; height: 330px; }
 
     .leadership-content{
         height: 330px;
-        width: 350px;
-        margin-left: -5px;
+        width: 360px;
         padding: 10px 20px;
         border-radius: 7px;
     }
@@ -1188,8 +1203,8 @@
     .value-content{
         height: 340px;
         width: 340px;
-        margin-left: 8px;
-        padding: 10px 20px;
+        margin-left: 19px;
+        padding: 7px 20px;
     }
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
@@ -1428,9 +1443,9 @@
 
     .impact-content{ padding: 80px 50px; width: 460px; }
 
-    .leadership-img{ margin-left: 11px; width: 460px; height: auto; }
+    .leadership-img{ margin-left: 19px; width: 460px; height: auto; }
 
-    .leadership-content{ height: auto; width: 470px; padding: 50px 50px; }
+    .leadership-content{ height: auto; width: 480px; padding: 50px 50px; }
 
     .value-content{ height: auto; width: 460px; padding: 50px 50px; }
 
@@ -1482,9 +1497,7 @@
     }
     .about-box2{ margin-left: -6px;} .about-box3{ margin-left: 0px;} 
 
-    .experience_icon3{ margin-top: 10px;} .service-head{ margin-top: -55px;}
-
-    .section-about2{ height: 720px;}
+    .service-head{ margin-top: -55px;} .section-about2{ height: 720px;}
 
     .whatwedo-title{ font-size: 30px; line-height: 40px; width: 420px;} .whatwedo-head{ font-size: 18px; }
 

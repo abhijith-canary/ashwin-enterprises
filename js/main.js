@@ -84,6 +84,13 @@
         carousel.on('mouseleave', function() {
             carousel.trigger('play.owl.autoplay', [1000]); // Specify autoplay speed in milliseconds
         });
+
+
+        function toggleHover(element) {
+            // Toggle the 'active' class on the clicked element to trigger the hover effect
+            element.classList.toggle('active');
+        }
+
     });
     
     
@@ -163,4 +170,31 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Select the modal and the close button
+    const modal = document.getElementById("contactModal");
+    const closeButton = modal.querySelector(".close");
+
+    // Function to open the modal
+    function openModal() {
+        modal.style.display = "flex"; // Show the modal
+        document.body.style.overflow = 'hidden'; // Prevent background scroll
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        modal.style.display = "none"; // Hide the modal
+        document.body.style.overflow = 'auto'; // Allow background scroll
+    }
+
+    // Add event listeners to the buttons inside the generated event cards
+    document.querySelectorAll('.event-card-btn').forEach(button => {
+        button.addEventListener("click", openModal);
+    });
+
+    // Add event listener to the close button
+    closeButton.addEventListener("click", closeModal);
+
+});
 

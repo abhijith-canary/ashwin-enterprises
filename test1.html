@@ -39,86 +39,59 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style-responsive.css">
+
+        <style>
+            .section {
+                width: 300px;
+                height: 200px;
+                background-color: lightgray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            /* Apply hover effect only when the section has the .hover-enabled class */
+            .hover-enabled:hover {
+                background-color: lightcoral;
+                transform: scale(1.05);
+            }
+
+
+        </style>
     </head>
 
     <body>
-
-
-
-
-        <div class="container-fluid blog-logo-section py-5" >
-            <div class="container our-partner wow fadeInUp" data-wow-delay="0.1s">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s" style="margin-bottom: 30px;">
-                    <p class="logos-title">We’re proud to partner with the best</p>
-                </div>
-
-                <div class="blog-logos">
-                    <div class="logos-slide">
-                        <img src="media/trans gulf.png" class="logo-white-images">
-                        <img src="media/Zubair corporation.png" class="logo-white-images">
-                        <img src="media/trags.png" class="logo-white-images"> 
-                        <img src="media/Royal Furniture.png" class="logo-white-images">
-                        <img src="media/Perfect industries group holiding.png" class="logo-white-images logo5">
-                        <img src="media/owatco.png" class="logo-white-images logo6">
-                        <img src="media/NCC Limited.png" class="logo-white-images logo7">
-                        <img src="media/Al naboodah.png" class="logo-white-images">
-                        <img src="media/Al nuaimi.png" class="logo-white-images logo8">
-                        <img src="media/Al suwaidi.png" class="logo-white-images logo9">
-                        <img src="media/Al shirawi.png" class="logo-white-images">
-                        <img src="media/bin ghalib.png" class="logo-white-images logo10">
-                        <img src="media/Buktair.png" class="logo-white-images logo11">
-                        <img src="media/Bureau Veritas.png" class="logo-white-images logo12">
-                        <img src="media/Dubai Metal.png" class="logo-white-images logo13">
-                        <img src="media/East coast.png" class="logo-white-images">
-                        <img src="media/elemecs.png" class="logo-white-images">
-                        <img src="media/Emirates Engineering.png" class="logo-white-images">
-                        <img src="media/Lamprell.png" class="logo-white-images">
-                        <img src="media/Madina.png" class="logo-white-images logo13">
-                        <img src="media/Naffco.png" class="logo-white-images logo14">
-                    </div>
-
-                    <div class="logos-slide">
-                        <img src="media/trans gulf.png" class="logo-white-images">
-                        <img src="media/Zubair corporation.png" class="logo-white-images">
-                        <img src="media/trags.png" class="logo-white-images"> 
-                        <img src="media/Royal Furniture.png" class="logo-white-images">
-                        <img src="media/Perfect industries group holiding.png" class="logo-white-images logo5">
-                        <img src="media/owatco.png" class="logo-white-images logo6">
-                        <img src="media/NCC Limited.png" class="logo-white-images logo7">
-                        <img src="media/Al naboodah.png" class="logo-white-images">
-                        <img src="media/Al nuaimi.png" class="logo-white-images logo8">
-                        <img src="media/Al suwaidi.png" class="logo-white-images logo9">
-                        <img src="media/Al shirawi.png" class="logo-white-images">
-                        <img src="media/bin ghalib.png" class="logo-white-images logo10">
-                        <img src="media/Buktair.png" class="logo-white-images logo11">
-                        <img src="media/Bureau Veritas.png" class="logo-white-images logo12">
-                        <img src="media/Dubai Metal.png" class="logo-white-images logo13">
-                        <img src="media/East coast.png" class="logo-white-images">
-                        <img src="media/elemecs.png" class="logo-white-images">
-                        <img src="media/Emirates Engineering.png" class="logo-white-images">
-                        <img src="media/Lamprell.png" class="logo-white-images">
-                        <img src="media/Madina.png" class="logo-white-images logo13">
-                        <img src="media/Naffco.png" class="logo-white-images logo14">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- <script src="js/main.js"></script> -->
-
+        <section id="hoverSection" class="section">
+            Click me to enable hover effect!
+        </section>
+        
         <script>
-            function toggleMenu() {
-            const navLinks = document.getElementById("navLinks");
-            const hamburger = document.getElementById("hamburger");
+                const section = document.getElementById('hoverSection');
+                let hoverEnabled = false;
 
-            // Toggle the active class for showing/hiding the menu
-            navLinks.classList.toggle("active");
+                section.addEventListener('click', () => {
+                    // Toggle the hover-enabled class on click
+                    hoverEnabled = !hoverEnabled;
+                    if (hoverEnabled) {
+                        section.classList.add('hover-enabled');
+                    } else {
+                        section.classList.remove('hover-enabled');
+                    }
+                });
 
-            // Toggle the open class for changing the hamburger icon
-            hamburger.classList.toggle("open");
-        }
+                section.addEventListener('mouseleave', () => {
+                    // Remove hover effect when the mouse leaves the section
+                    if (hoverEnabled) {
+                        section.classList.remove('hover-enabled');
+                        hoverEnabled = false;
+                    }
+                });
+
 
         </script>
 
-</body>
+    </body>
 </html>

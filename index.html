@@ -106,7 +106,7 @@
                 <div class="section-about wow fadeInDown" data-wow-delay="0.3s">
                     <h5 class="about-head">Who we are ?</h5>
                     <h1 class="about-title">Ashwin Enterpises Pvt Ltd <span id="span-about-title">is a trusted overseas manpower recruitment agency in India.</span></h1>
-                    <p class="about-sentance">We are approved and licensed by the Ministry od External Affairs, Government od India. With a legacy of more than 25 years we specialize in recruitment, staffing and training across various industries such as 
+                    <p class="about-sentance">We are approved and licensed by the Ministry of External Affairs, Government od India. With a legacy of more than 25 years we specialize in recruitment, staffing and training across various industries such as 
                         <span id="span-about-sentance"> Constrution, Manufacturing, oil & Gas, Security Services, Health & hospitality sectors.</span> Our services include providing <span id="span-about-sentance">professionals, managers, skilled technicians, security guards, labourers </span>etc. tailored to our clients' needs. 
                         Interviews and trade tests are organised at multiple centers across the country depending upon the categories and numbers that are required.
                         We prioritize long-term partnerships and offer comprehensive solutions for the organizational success of our clients.
@@ -195,6 +195,10 @@
                             </div>
             
                             <input type="email" id="email" name="email" placeholder="Email" required>
+
+                            <div class="file-input">
+                                <input type="file" id="file" name="file">
+                            </div>
                             
                             <textarea id="message" name="message" placeholder="Message" required></textarea>
             
@@ -284,28 +288,33 @@
                 <div class="wow fadeInDown" data-wow-delay="0.2s">
                     <p class="our-service-title">Our Services</p>
                 </div>
-
                 <div class="row wow fadeInDown" data-wow-delay="0.2s">
                     <div class="col-lg-6 service-card-slider">
                         <div class="slider-wrapper"> 
                             <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
-
-                                <div class="position-relative hover-box3">
+    
+                                <div class="position-relative hover-box3" onclick="toggleHover(this)" >
                                     <div class="manufacture-hover">
                                         <p class="manufacture-title">Construction Recruitment</p>
-                                        <p class="manufacture-text">In the dynamic and demanding construction industry, having the right workforce is crucial. We provide skilled labour, project managers, engineers, and other professionals who are experienced and reliable. Our candidates are vetted thoroughly to ensure they meet the specific requirements of your projects. We organize interviews and trade tests at multiple centres across the country, ensuring the right fit for your needs.</p>
+                                        <p class="manufacture-text">In the dynamic and demanding construction industry, having the right workforce is crucial. We provide skilled labour, project managers, engineers, 
+                                            and other professionals who are experienced and reliable. Our candidates are vetted thoroughly to ensure they meet the specific requirements of your projects. We organize 
+                                            interviews and trade tests at multiple centres across the country, ensuring the right fit for your needs.
+                                        </p>
                                     </div>
                                     <div class="manufacture-box">
                                         <img class="manufacture-img" src="media/constrution-img.png">
                                         <div class="box-content">
                                             <h4 class="manufacture-box-title">Construction Recruitment</h4>
-                                            <p class="manufacture-box-text">In the dynamic and demanding construction industry, having the right workforce is crucial. We provide skilled labour, project managers, engineers, and other professionals who are...</p>
+                                            <p class="manufacture-box-text">
+                                                In the dynamic and demanding construction industry, having the right workforce is crucial.
+                                                We provide skilled labour, project managers, engineers, and other professionals who are...
+                                            </p>
                                             <p class="readmore-link d-flex">Read more <img src="media/arrow-black.png" class="link-img"></p>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="position-relative hover-box3" style=" width: 301px;">
+                                <div class="position-relative hover-box3" onclick="toggleHover(this)" style=" width: 301px;">
                                     <div class="hospitality-hover">
                                         <p class="manufacture-title">Hospitality Recruitment</p>
                                         <p class="hospitality-text">In the hospitality industry, exceptional service is key to success. We provide experienced and courteous staff for hotels, resorts, restaurants, and other hospitality businesses. Our recruitment solutions ensure your guests receive top-notch service, enhancing their overall experience. Interviews and trade tests are organized to ensure the best candidates for your hospitality needs. We provide: </p>
@@ -318,7 +327,7 @@
                                         </ul>
                                     </div>
                                     
-                                    <div class="manufacture-box">
+                                    <div class="manufacture-box hospitality-box">
                                         <img class="manufacture-img" src="media/hospitality-img.png">
                                         <div class="box-content">
                                             <h4 class="manufacture-box-title">Hospitality Recruitment</h4>
@@ -327,8 +336,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="position-relative hover-box3">
+                                
+                                <div class="position-relative hover-box3" onclick="toggleHover(this)">
                                     <div class="manufacture-hover">
                                         <p class="manufacture-title">Manufacturing Recruitment</p>
                                         <p class="manufacture-text">Our manufacturing recruitment services cater to a wide range of sectors, ensuring that factories and production lines run smoothly and efficiently. We supply skilled workers, machine operators, quality control inspectors, and other essential personnel to meet your production needs. Our comprehensive solutions include interviews and trade tests tailored to your specific requirements.</p>
@@ -342,8 +351,8 @@
                                         </div>
                                     </div>
                                 </div>
-        
-                                <div class="position-relative hover-box3">
+    
+                                <div class="position-relative hover-box3" onclick="toggleHover(this)">
                                     <div class="manufacture-hover">
                                         <p class="manufacture-title">Oil & Gas Recruitment</p>
                                         <p class="manufacture-text">The oil and gas industry demands highly specialized and experienced professionals. We provide top-tier talent for offshore and onshore positions, including engineers, technicians, and safety specialists, ensuring your operations are safe, efficient, and compliant with industry standards. We facilitate interviews and trade tests to ensure the best candidates for your operations.</p>
@@ -357,8 +366,8 @@
                                         </div>
                                     </div>
                                 </div>
-        
-                                <div class="position-relative hover-box3">
+    
+                                <div class="position-relative hover-box3" onclick="toggleHover(this)">
                                     <div class="manufacture-hover">
                                         <p class="manufacture-title">Security Services Recruitment</p>
                                         <p class="manufacture-text">Safety and security are paramount in today’s world. We offer comprehensive security staffing solutions, providing trained and licensed security personnel to protect your assets, people, and property. Our candidates are trained to handle various security challenges professionally and effectively. Interviews and trade tests are conducted to ensure the best fit for your security needs.</p>
@@ -373,7 +382,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="position-relative hover-box3">
+                                <div class="position-relative hover-box3" onclick="toggleHover(this)">
                                     <div class="manufacture-hover">
                                         <p class="manufacture-title">Health Recruitment</p>
                                         <p class="manufacture-text">The healthcare sector requires compassionate, skilled, and reliable professionals. We supply healthcare providers with highly qualified doctors, nurses, allied health professionals, and administrative staff, ensuring quality care and support for patients. We organize interviews and trade tests to ensure the highest standards of care.</p>
@@ -387,11 +396,12 @@
                                         </div>
                                     </div>
                                 </div>
-
+    
                             </div>
                         </div>
                     </div>
                 </div>
+    
                 <div class="our-service-content wow fadeInLeft" data-wow-delay="0.2s">
                     <p class="our-service-para">Our customized counselling and training ensure that your new hires hit the ground running with essential skills and resources.</p>
                  </div>
@@ -723,7 +733,12 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
 
-
+        <script>
+            function toggleHover(element) {
+                // Toggle the 'active' class on the clicked element to trigger the hover effect
+                element.classList.toggle('active');
+            }
+        </script>
 
 
     </body>

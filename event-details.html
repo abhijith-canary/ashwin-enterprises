@@ -91,7 +91,7 @@
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <h2>Contact Us</h2>
-                    <form id="contactForm">
+                    <form id="contactForm" onsubmit="submitEmail(event);">
                         <div class="d-flex first-input">
                             <input type="text" id="name" name="name" placeholder="Name" required style="margin-right: 20px;">
                             
@@ -99,9 +99,13 @@
                         </div>
 
                         <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <div class="file-input">
+                            <input type="file" id="file" name="file">
+                        </div>
         
                         <textarea id="message" name="message" placeholder="Message" required></textarea>
-        
+                        
                         <button class="event-formbtn" type="submit">Send Message</button>
                     </form>
                 </div>
@@ -177,30 +181,6 @@
                     </div>`;
                 container.innerHTML += cardHTML;
             }
-
-            // Select the modal and the close button
-            const modal = document.getElementById("contactModal");
-            const closeButton = modal.querySelector(".close");
-
-            // Function to open the modal
-            function openModal() {
-                modal.style.display = "flex"; // Show the modal
-                document.body.style.overflow = 'hidden'; // Prevent background scroll
-            }
-
-            // Function to close the modal
-            function closeModal() {
-                modal.style.display = "none"; // Hide the modal
-                document.body.style.overflow = 'auto'; // Allow background scroll
-            }
-
-            // Add event listeners to the buttons inside the generated event cards
-            document.querySelectorAll('.event-card-btn').forEach(button => {
-                button.addEventListener("click", openModal);
-            });
-
-            // Add event listener to the close button
-            closeButton.addEventListener("click", closeModal);
         });
     </script>
 
@@ -221,5 +201,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/emailjs.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script>
+        (function() {
+            emailjs.init('BKtb3JEM_RYUnCLDo'); // Replace with your EmailJS user ID
+        })();
+    </script>
 </body>
 </html>

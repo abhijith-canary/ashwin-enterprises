@@ -86,11 +86,6 @@
         });
 
 
-        function toggleHover(element) {
-            // Toggle the 'active' class on the clicked element to trigger the hover effect
-            element.classList.toggle('active');
-        }
-
     });
     
     

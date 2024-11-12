@@ -675,9 +675,7 @@
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
 
-    .hospitality-box { height: 406px; margin-top: -405px; }
-
-    .hospitality-hover { height: 405px; }
+    .hover-close{ right: 30px; }
 
     .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
 
@@ -1156,7 +1154,7 @@
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
 
-    .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
+    /* .hospitality-hover{ height: 404px; width: 295px; } */
 
     .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
 
@@ -1508,8 +1506,6 @@
     /* --------------------- SERVICE-1 RESPONSIVE START --------------------- */
 
     .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px;}  
-
-    .hospitality-box{ height: 406px; width: 297px; margin-top: -405px; } .hospitality-hover{ height: 404px; width: 295px; }
 
     .our-service-content{ margin-top: 115px;}
 

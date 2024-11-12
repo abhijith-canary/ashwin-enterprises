@@ -73,21 +73,22 @@
                     items: 2
                 }
             }
+        });        
+
+        // Variable to track autoplay state
+        let isAutoplayRunning = true;    
+
+        // Add click event to toggle autoplay
+        $(".hover-box3").on("click", function () {
+            if (isAutoplayRunning) {
+                carousel.trigger('stop.owl.autoplay');
+            } else {
+                carousel.trigger('play.owl.autoplay', [3000]);
+            }
+            isAutoplayRunning = !isAutoplayRunning;
         });
     
-        // Pause autoplay on hover
-        carousel.on('mouseenter', function() {
-            carousel.trigger('stop.owl.autoplay');
-        });
-    
-        // Resume autoplay on mouse leave
-        carousel.on('mouseleave', function() {
-            carousel.trigger('play.owl.autoplay', [1000]); // Specify autoplay speed in milliseconds
-        });
-
-
     });
-    
     
 })(jQuery);
 

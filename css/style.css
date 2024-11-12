@@ -800,6 +800,9 @@ body{
     z-index: -99;
     width: 86px;
 }
+.readmore-link:hover{
+    color: #eb621d;
+}
 .link-img{ width: 13px; height: 10px; margin: 6px 5px;}
 
 .hover-box3{ object-fit: cover; transition: 0.4s; }
@@ -828,24 +831,23 @@ body{
     padding-left: 20px;
     margin-bottom: 1px; 
 }
-.hospitality-box{ margin-top: -404px; position: relative;}
 
-.manufacture-box {
+.manufacture-box, .hover-box3.active .manufacture-hover  {
     display: block; 
 }
 
-.manufacture-hover {
+.manufacture-hover, .hover-box3.active .manufacture-box {
     display: none; 
 }
-
-.hover-box3.active .manufacture-box {
-    display: none; 
-}
-
-.hover-box3.active .manufacture-hover {
-    display: block; 
+.hover-close{
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 /* --------------------- SERVICE STYLE START --------------------- */
+
 .choose-section{
     margin-top: 70px;
 }

@@ -278,8 +278,8 @@
 
     .blog{ height: auto; margin-top: 0px; padding: 5px 22px 0px; } .blog-container{ margin-top: 0px; padding: 0px 0px;}
 
-    .blog-section{ padding: 0 7px 15px; }
-    
+    .blog-section{ padding: 0 20px 0px; } .blog-container1{ padding: 10px 0px;}
+
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
     .blog-subhead{ font-size: 16px; line-height: 18px; }
@@ -438,7 +438,7 @@
 
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
 
-    .copyright{ padding: 0 17px;} .copyright-container{ padding: 10px 10px 80px 0px; }
+    .copyright{ padding: 0 17px 10px;} .copyright-container{ padding: 10px 10px 80px 0px; }
 
     .end-note{
         font-size: 11px;
@@ -468,9 +468,7 @@
 
     .call-icon{ width: 15px; height: 15px; }
 
-    .form-padding { margin-top: -5px;} .form-btn {margin-top: -5px;}
-
-    .copyright{ padding-bottom: 10px; }
+    .form-padding { margin-top: -5px; } .form-btn { margin-top: -5px; }
 }
 
 /* ---------------------------------------------------------------------------------------------------------
@@ -725,7 +723,7 @@
 
     .blog{ height: auto; margin-top: 0px; padding: 0 22px; } 
     
-    .blog-section{ padding: 15px 10px; } .blog-container{ padding: 10px 0; }
+    .blog-section{ padding: 5px 20px; } .blog-container, .blog-container1{ padding: 10px 0; }
 
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -1230,13 +1228,15 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog-banner{ margin-top: 70px; height: 350px;}
+    .blog-banner{ margin-top: 70px; height: 300px;}
 
     .blog-banner-title{ font-size: 30px;}
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 15%;}
 
     .blog-container{  padding: 10px 0px; } .blog{ margin-top: 0px; height: auto; }
+
+    .blog-section{ padding: 1px 0px; }
 
     .our-blog-head{ font-size: 18px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -1250,7 +1250,7 @@
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
-    .blog-detail-banner{ padding: 150px 40px; margin-top: 70px; height: 400px; }
+    .blog-detail-banner{ padding: 95px 40px; margin-top: 70px; height: 300px; }
 
     .banner-title{ width: auto; font-size: 30px; line-height: 35px; }
 
@@ -1392,7 +1392,7 @@
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
     
-    .copyright-container{ padding: 0px 10px 35px 10px; }
+    .copyright{ padding: 0 20px 10px;} .copyright-container{ padding: 0px 10px 35px 10px; }
 
     .end-note{
         font-size: 12px;
@@ -1445,15 +1445,17 @@
     
     /* -----------section1 section-------------- */
 
-    .our-service-bg{ background-image: url(../media/service_Bg_Image.png); height: 670px;  }
+    .our-service-bg{ background-image: url(../media/service_Bg_Image.png); height: 610px;  }
 
     .our-service-title{ color: rgb(255, 255, 255); }
 
-    .our-service-content{ width: 102.5%; margin-left: -11px; margin-top: 9%; } .service-card-slider{ margin-left: 300px; margin-top: 40px;}
+    .our-service-content{ width: 102.6%; margin-left: -11px; margin-top: 5.8%; } .service-card-slider{ margin-left: 300px; margin-top: 40px;}
 
     .owl-carousel-3 .owl-nav { width: auto; top: 370px; right: auto; left: -80px; justify-content: flex-end; }
 
     /* -----------section2 section-------------- */
+
+    .choose-section{ padding: 20px 10px; }
 
     .choose-experience, .choose-network, .choose-vision{ width: 325px; }
 
@@ -1461,7 +1463,9 @@
 
     /* -----------section3 section-------------- */
 
-    .collection{ height: 1235px; } .impact-img, .value-img{ height: auto; width: auto; }
+    .collection{ height: 1235px; margin-top: 0px;} .impact-img, .value-img{ height: auto; width: auto; }
+    
+    .impact-container{ padding: 0px 0px; margin-top: -45px; }
 
     .impact-content{ padding: 80px 50px; width: 460px; }
 
@@ -1474,6 +1478,10 @@
     .contact-action{ background-image: url(../media/Action_button_bg.png);  }
 
     /* --------------------- BLOG-SINGLE RESPONSIVE START --------------------- */
+
+    .blog-container { padding: 18px 0 10px;}
+
+    .blog-block{ margin-top: -10px;}
 
     .blog-img { width: 100%; height: 220px;}
 

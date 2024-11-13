@@ -148,88 +148,87 @@
         hamburger.classList.toggle("open");
     }
 
-// Event card slider 
+    // Event card slider 
+    let currentSlide = 0; 
+    const slides = document.querySelectorAll(".card");
+    const dots = document.querySelectorAll(".dot");
 
-let currentSlide = 0; // Track the current slide
-const slides = document.querySelectorAll(".card");
-const dots = document.querySelectorAll(".dot");
+    // Function to show the specified slide
+    function showSlide(index) {
+    // Update the transform property to show the correct slide
+    document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
 
-// Function to show the specified slide
-function showSlide(index) {
-  // Update the transform property to show the correct slide
-  document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
+    // Update the active dot
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[index].classList.add("active");
 
-  // Update the active dot
-  dots.forEach(dot => dot.classList.remove("active"));
-  dots[index].classList.add("active");
+    // Update the current slide index
+    currentSlide = index;
+    }
 
-  // Update the current slide index
-  currentSlide = index;
-}
-
-// // Auto-slide functionality (optional)
-// setInterval(() => {
-//   currentSlide = (currentSlide + 1) % slides.length;    // Loop back to the first slide
-//   showSlide(currentSlide);
-// }, 5000); // Change slide every 5 seconds
+    // Auto-slide functionality (optional)
+    setInterval(() => {
+    currentSlide = (currentSlide + 1) % slides.length;    // Loop back to the first slide
+    showSlide(currentSlide);
+    }, 5000); // Change slide every 5 seconds
 
 
-// card from btn click
-document.addEventListener("DOMContentLoaded", function() {
+    // card from btn click
+    document.addEventListener("DOMContentLoaded", function() {
 
-    const modal = document.getElementById("contactModal");
-    const closeButton = document.querySelector(".close");
-    const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
+        const modal = document.getElementById("contactModal");
+        const closeButton = document.querySelector(".close");
+        const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
 
-    function openModal() {
-        if (modal) {
-            modal.style.display = "flex"; 
+        function openModal() {
+            if (modal) {
+                modal.style.display = "flex"; 
+                document.body.style.overflow = 'hidden'; // Prevent background scroll
+            }
+        }
+
+        function closeModal() {
+            if (modal) {
+                modal.style.display = "none"; 
+                document.body.style.overflow = 'auto'; 
+            }
+        }
+        // Add event listeners to the card buttons
+        cardButtons.forEach(button => {
+            button.addEventListener("click", openModal);
+        });
+
+        // Check if closeButton exists before adding event listener
+        if (closeButton) {
+            closeButton.addEventListener("click", closeModal);
+        }
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select the modal and the close button
+        const modal = document.getElementById("contactModal");
+        const closeButton = modal.querySelector(".close");
+
+        // Function to open the modal
+        function openModal() {
+            modal.style.display = "flex"; // Show the modal
             document.body.style.overflow = 'hidden'; // Prevent background scroll
         }
-    }
 
-    function closeModal() {
-        if (modal) {
-            modal.style.display = "none"; 
-            document.body.style.overflow = 'auto'; 
+        // Function to close the modal
+        function closeModal() {
+            modal.style.display = "none"; // Hide the modal
+            document.body.style.overflow = 'auto'; // Allow background scroll
         }
-    }
-    // Add event listeners to the card buttons
-    cardButtons.forEach(button => {
-        button.addEventListener("click", openModal);
-    });
 
-    // Check if closeButton exists before adding event listener
-    if (closeButton) {
+        // Add event listeners to the buttons inside the generated event cards
+        document.querySelectorAll('.event-card-btn').forEach(button => {
+            button.addEventListener("click", openModal);
+        });
+
+        // Add event listener to the close button
         closeButton.addEventListener("click", closeModal);
-    }
-});
 
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Select the modal and the close button
-    const modal = document.getElementById("contactModal");
-    const closeButton = modal.querySelector(".close");
-
-    // Function to open the modal
-    function openModal() {
-        modal.style.display = "flex"; // Show the modal
-        document.body.style.overflow = 'hidden'; // Prevent background scroll
-    }
-
-    // Function to close the modal
-    function closeModal() {
-        modal.style.display = "none"; // Hide the modal
-        document.body.style.overflow = 'auto'; // Allow background scroll
-    }
-
-    // Add event listeners to the buttons inside the generated event cards
-    document.querySelectorAll('.event-card-btn').forEach(button => {
-        button.addEventListener("click", openModal);
     });
-
-    // Add event listener to the close button
-    closeButton.addEventListener("click", closeModal);
-
-});
 

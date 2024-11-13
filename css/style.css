@@ -22,6 +22,8 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+.container{ padding: 0px 20px 0px 20px; }
+
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -657,7 +659,7 @@ body{
     height: 155px;
     background-color: #74130E;
     border-radius: 20px 12px 10px 10px;
-    margin-left: -12px;
+    margin-left: -19px;
     margin-top: 55px;
 }
 .our-service-title{
@@ -678,7 +680,7 @@ body{
 }
 .service-card-slider{
     margin-top: -100px;
-    margin-left: 650px;
+    margin-left: 640px;
 }
 .sr-only {
     position: absolute;
@@ -764,7 +766,6 @@ body{
     padding: 40px 30px ;
     border-radius: 10px;
 }
-/* .manufacture-box{ position: relative; margin-top: -404px;} */
 
 .manufacture-title, .manufacture-box-title{
     font-family: "Poppins", sans-serif;
@@ -809,8 +810,6 @@ body{
 .hover-box3{ object-fit: cover; transition: 0.4s; }
 
 .manufacture-box { transition: 0.5s;}
-
-/* .hover-box3 .manufacture-box:hover{ opacity: 0; cursor: pointer; } */
 
 .hospitality-hover{
     background-color: #74130E;

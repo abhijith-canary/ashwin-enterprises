@@ -44,18 +44,19 @@
     .home-bg-clip{ margin-left: -100px; max-height: 400px; }
 
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
-    .about-section{ margin-top: 70px; } .country{ height: 835px; }
 
-    .about-container1{ margin-top: -45px; height: 1370px; }
+    .about-section{ margin-top: 70px; height: 850px;}
+
+    .about-container1{ margin-top: -10px; height: 1350px;}
 
     .section-about{
         width: auto;
-        height: 390px;
+        height: 370px;
         border-radius: 12px;
-        margin: 0 auto; /* Horizontally center it */
+        margin: 0 auto;
         display: block;
     }
-    .about-head{ font-size: 15px; padding-top: 35px; }
+    .about-head{ font-size: 15px; padding-top: 0px; }
 
     .about-title{
         font-size: 18px;
@@ -154,7 +155,7 @@
 
     .about{ height: 800px; padding: 0 20px;} .abt-sec{ width: 350px; }
 
-    .section-about2{ height: 780px; width: auto; }
+    .section-about2{ height: 780px; width: auto;}
 
     .whatwedo-headers{ margin: 30px 8px; width: 300px; }
 
@@ -189,16 +190,16 @@
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
 
-    .our-service{ height: 660px; padding: 0 20px; } .our-service1{ margin-top: 75px;} 
+    .our-service{ height: 660px; padding: 15px 20px; } .our-service1{ margin-top: 75px;} 
 
     .our-service-bg{
-        height: 640px;
+        height: 636px;
         margin-left: 0px;
-        margin-top: -15px; 
+        margin-top: 0px; 
     }
     .our-service-title{
         font-size: 16px;
-        padding: 20px 10px;
+        padding: 10px 10px;
         height: 6px;
         width: 150px;
     }
@@ -240,7 +241,7 @@
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
 
-    .choose-section{ padding: 0px 20px; margin-top: 10px; }
+    .choose-section{ padding: 10px 20px;}
 
     .choose-container{ padding: 10px 15px; padding-bottom: 20px; }
 
@@ -250,11 +251,11 @@
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 5px; height: 1890px; padding: 0 7px; } .content-title{ font-size: 18px; }
+    .collection{ margin-top: 0px; height: 1880px; padding: 0 7px; } .content-title{ font-size: 18px; }
 
-    .impact-container{ padding:0 15px; }
+    .impact-container{ padding: 0px 15px; margin-top: -40px; }
 
-    .content-para{ font-size: 13px; line-height: 17px; } .impact-main{ margin-top: -35px; }
+    .content-para{ font-size: 13px; line-height: 17px; } .impact-main{ margin-top: 0px; }
 
     .impact-content, .leadership-content, .value-content{
         padding: 15px;
@@ -265,7 +266,7 @@
 
     .leadership-content{ height: 340px; margin-top: 275px; z-index: 1; }
 
-    .value-img{ margin-top: -30px; } .value-content{ height: 340px; }
+    .value-img{ margin-top: -30px; } .value-content{ height: 340px; padding: 13px;}
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
@@ -275,39 +276,41 @@
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 25%;}
 
-    .blog{ height: auto; margin-top: 0px; padding: 0 22px; } .blog-container{ margin-top: 10px; }
+    .blog{ height: auto; margin-top: 0px; padding: 5px 22px 0px; } .blog-container{ margin-top: 0px; padding: 0px 0px;}
 
-    .blog-section{ padding: 0 7px;}
+    .blog-section{ padding: 0 7px 15px; }
     
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
     .blog-subhead{ font-size: 16px; line-height: 18px; }
 
-    .blog-img{ height: 250px; width: 100%;} .blog-img:hover{transform: scale(1.02);}
+    .blog-img{ height: 220px; width: 100%;} .blog-img:hover{transform: scale(1.02);}
 
     .blog-text, .viewall-link{ font-size: 13px; line-height: 17px; }
     
-    .blog-block{ margin-top: -10px;} .blog-block2, .blog-block3{ margin-top: 15px; }
+    .blog-block{ margin-top: -10px; } .blog-block2, .blog-block3{ margin-top: 15px; }
 
     .blog-link { font-size: 13px; position: absolute; right: 7%; margin-top: 3px;}
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
-    .blog-detail-banner{ padding: 150px 20px; margin-top: 70px; height: 500px; }
+    .blog-detail-banner{ padding: 90px 20px; margin-top: 70px; height: 290px; }
 
-    .banner-title{ width: 320px; font-size: 30px; line-height: 35px; }
+    .banner-title{ width: 320px; font-size: 22px; line-height: 35px; }
 
-    .sidebar-img1{ height: 250px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
+    .sidebar-img1{ height: 230px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
 
-    .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px; }
+    .sidebar-block{ padding-top: 15px;} .single-blogs{ padding: 10px 7px; }
 
     .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: -15px;}
     
     .sidebar-text{ width: auto; font-size: 14px; line-height: normal; margin-top: -30px;} 
 
+    .blog-main-img , .blog-main-img2{ height: 200px;}
+
     .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
 
-    .single-subhead{ font-size: 15px;}
+    .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
 
     .blog-media{ padding: 0px 20px 0px 0px;}
     
@@ -320,7 +323,7 @@
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
-    .blog-logo-section{ padding: 0 17px;}
+    .blog-logo-section{ padding: 0 17px; }
     
     .our-partner{ margin-top: -8px; }
     
@@ -333,13 +336,14 @@
     .logo20{ height: 60px; width: 145px;}
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
-    .contact-container{ margin-top: 80px; } .contact-main{ margin-top: -20px; padding: 0 17px;}
+    .contact-container{ margin-top: 80px; } .contact-main{ margin-top: -15px; padding: 0 17px;}
 
     .contact-action{
         border-radius: 12px 12px 0px 0px;
         height: 265px;
         width: auto;
         margin-left: -12px;
+        margin-top: 0px;
     }
     .action-content{ width: auto; height: 200px; }
 
@@ -465,6 +469,8 @@
     .call-icon{ width: 15px; height: 15px; }
 
     .form-padding { margin-top: -5px;} .form-btn {margin-top: -5px;}
+
+    .copyright{ padding-bottom: 10px; }
 }
 
 /* ---------------------------------------------------------------------------------------------------------
@@ -510,7 +516,7 @@
     }
 
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
-    .about-section{ margin-top: 80px; } .country{ height: 830px;}
+    .about-section{ margin-top: 80px; height: 830px; }
 
     .about-container1{ margin-top: -45px; height: 1380px; }
 
@@ -604,7 +610,7 @@
 
     /* --------------------------------------------------------- */
 
-    .about{ height: 825px; padding: 0 20px; } 
+    .about{ height: 850px; padding: 0 20px; } 
 
     .section-about2{ height: 810px; width: auto; margin-top: 5px; }
 
@@ -641,9 +647,10 @@
 
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service{ height: 655px; padding: 0 20px; } .our-service1{ margin-top: 80px; }
+
+    .our-service{ height: 678px; padding: 10px 20px; } .our-service1{ margin-top: 80px; }
     
-    .our-service-bg{ height: 640px; border-radius: 12px; margin-top: -10px; }
+    .our-service-bg{ height: 655px; border-radius: 12px; margin-top: 0px; }
 
     .our-service-title{
         font-size: 17px;
@@ -682,7 +689,7 @@
     .box-content{ height: 218px; }
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
-    .choose-section{ padding: 0px 20px; margin-top: 10px; }
+    .choose-section{ padding: 5px 20px 1px; margin-top: 10px; }
 
     .choose-container{ padding: 10px 15px; padding-bottom: 20px; } .choose-title { font-size: 16px; }
    
@@ -696,7 +703,7 @@
 
     .collection{ height: 1965px; padding: 0 7px;} .content-title{ font-size: 18px; }
 
-    .impact-container{ padding:0 15px; }
+    .impact-container{ padding: 60px 15px 7px; margin-top: -52px; }
 
     .content-para{ font-size: 13px; line-height: 17px; }
 
@@ -710,7 +717,7 @@
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
-    .blog-banner{ margin-top: 70px; height: 330px;}
+    .blog-banner{ margin-top: 70px; height: 300px;}
 
     .blog-banner-title, .event-banner-title{ font-size: 30px;}
 
@@ -718,7 +725,7 @@
 
     .blog{ height: auto; margin-top: 0px; padding: 0 22px; } 
     
-    .blog-section{ padding: 0 10px;} .blog-container{ margin-top: 10px; }
+    .blog-section{ padding: 15px 10px; } .blog-container{ padding: 10px 0; }
 
     .our-blog-head{ font-size: 17px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -734,13 +741,13 @@
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
-    .blog-detail-banner{ padding: 150px 40px; margin-top: 70px; height: 500px; }
+    .blog-detail-banner{ padding: 80px 40px; margin-top: 70px; height: 290px; }
 
-    .banner-title{ width: 320px; font-size: 30px; line-height: 35px; }
+    .banner-title{ width: 320px; font-size: 22px; line-height: 35px; }
 
     .sidebar-img1{ height: 250px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
 
-    .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px; }
+    .sidebar-block{ padding-top: 15px;} .single-blogs{ padding: 10px 8px; }
 
     .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: -25px; }
     
@@ -774,13 +781,14 @@
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
 
-    .contact-container{ margin-top: 85px; } .contact-main{ margin-top: -15px; padding: 0 20px;}
+    .contact-container{ margin-top: 85px; } .contact-main{ margin-top: -13px; padding: 0px 20px; }
 
     .contact-action{
         border-radius: 12px 12px 0px 0px;
         height: 250px;
         width: auto;
         margin-left: -12px;
+        margin-top: 0px;
     }
     .action-content{ width: auto; height: 200px; }
     
@@ -912,7 +920,7 @@
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
 
-    .copyright{ padding: 0 20px; } .copyright-container{ padding: 10px 10px 80px 0px; }
+    .copyright{ padding: 0 20px 10px; } .copyright-container{ padding: 20px 10px 70px 0px; }
 
     .end-note{
         font-size: 11px;
@@ -948,6 +956,7 @@
     .topnav-centered { margin-left: -5px; margin-top: -30px;}
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
+
     .carousel-header{ margin-top: 70px; }
 
     .home-title-div{ width: auto; max-height: 500px; }
@@ -969,7 +978,11 @@
     .home-bg-clip{ margin-left: auto; max-height: 500px; }
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
-    .about-section{ margin-top: 60px; height: 550px;} .about-container1{ margin-top: -10px; height: 670px; }
+    .about-section{ margin-top: 60px; height: 550px;}
+    
+    /* .about{ height: 800px;} */
+
+    .about-container1{ margin-top: -30px; height: 670px; }
 
     .section-about{ width: 350px; height: 350px; border-radius: 12px; margin-top: 20px;}
 
@@ -1119,13 +1132,15 @@
     }
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service1{ margin-top: 80px; } .our-service{ height: 680px; }
+    .our-service1{ margin-top: 80px; } .our-service{ height: 633px; }
 
-    .our-service-bg{ height: 660px; margin-top: -10px; }
+    .our-service{ padding: 10px 0px 0px ;}
+
+    .our-service-bg{ height: 600px; margin-top: 10px; }
     
     .our-service-title{
         font-size: 18px;
-        padding: 20px 10px;
+        padding: 5px 10px;
         height: 6px;
         width: 170px;
         color: #fff;
@@ -1133,7 +1148,7 @@
     .our-service-content{
         width: 103.3%;
         height: 100px;
-        margin-top: 11%;
+        margin-top: 50px;
         margin-left: -11px; 
         border-radius: 0 0 10px 10px;
     }
@@ -1143,13 +1158,21 @@
         width: 450px;
         padding: 20px 20px;
     }
-    .service-card-slider{ margin-left: 35px; margin-top: 35px; width: 650px; }  
+    .service-card-slider{  margin-left: 70px; margin-top: 35px; width: 590px; height: 370px; }  
+
+    .manufacture-img, .box-content{ width: 265px;} .manufacture-hover{ width: 265px; padding: 10px 30px; height: 383px;}
+
+    .manufacture-box-title, .manufacture-title{ font-size: 14px;}
+
+    .box-content{ padding: 18px 20px; }
+
+    .hospitality-hover{ padding: 1px 15px; }
 
     .owl-carousel-3 .owl-nav {
         width: auto;
-        top: 410px;
+        top: 390px;
         right: auto;
-        left: 280px;
+        left: 250px;
         justify-content: flex-end;
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
@@ -1162,7 +1185,7 @@
 
     /* --------------------- SERVICE2 RESPONSIVE START --------------------- */
 
-    .choose-section{ padding: 0px 13px; margin-top: 10px; } .choose-container{ padding: 10px 13px; }
+    .choose-section{ padding: 10px 13px; } .choose-container{ padding: 10px 13px; }
 
     .choose-title{ font-size: 16px; } .choose-sub-title{ font-size: 16px; }
 
@@ -1174,9 +1197,9 @@
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 10px; height: 1060px; } 
+    .collection{ margin-top: 0px; height: 1060px; } 
     
-    .impact-main{ margin-top: -40px; }
+    .impact-container{ padding: 2px 0px; margin-top: -35px; }
 
     .content-title{ font-size: 18px; } .content-para{ font-size: 13px; line-height: 17px; }
 
@@ -1213,7 +1236,7 @@
 
     .blog-banner-subhead{ font-size: 16px; padding-top: 15%;}
 
-    .blog-container{ margin-top: 10px; } .blog{ margin-top: 0px; height: auto; }
+    .blog-container{  padding: 10px 0px; } .blog{ margin-top: 0px; height: auto; }
 
     .our-blog-head{ font-size: 18px; } .manufacture-head{ font-size: 12px; line-height: 0; }
 
@@ -1271,13 +1294,14 @@
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
 
-    .contact-container{ margin-top: 90px; } .contact-main{ margin-top: -25px; }
+    .contact-container{ margin-top: 90px; } 
 
     .contact-action{
         border-radius: 12px 12px 0px 0px;
         height: 190px;
         width: auto;
         margin-left: -12px;
+        margin-top: -14px;
         background-image: url(../media/Action_button_bg_croped.png);
     }
     .action-content{ width: auto; height: 200px; }

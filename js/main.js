@@ -51,7 +51,7 @@
         const carousel = $(".carousel-item-2");
     
         carousel.owlCarousel({
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 3000, // Adjust autoplay speed if needed
             smartSpeed: 1000,
             margin: 30,
@@ -73,7 +73,46 @@
                     items: 2
                 }
             }
-        });        
+        });
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            // Ensure your elements exist before adding event listeners
+            const readmoreLinks = document.querySelectorAll('.readmore-link');
+            const closeButtons = document.querySelectorAll('.hover-close');
+        
+            if (readmoreLinks.length > 0) {
+                readmoreLinks.forEach(link => {
+                    link.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        const parentBox = link.closest('.hover-box3');
+                        const hoverDiv = parentBox?.querySelector('.manufacture-hover');
+                        const boxDiv = parentBox?.querySelector('.manufacture-box');
+        
+                        if (hoverDiv && boxDiv) {
+                            hoverDiv.style.display = 'block';
+                            boxDiv.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        
+            if (closeButtons.length > 0) {
+                closeButtons.forEach(closeBtn => {
+                    closeBtn.addEventListener('click', function () {
+                        const parentBox = closeBtn.closest('.hover-box3');
+                        const hoverDiv = parentBox?.querySelector('.manufacture-hover');
+                        const boxDiv = parentBox?.querySelector('.manufacture-box');
+        
+                        if (hoverDiv && boxDiv) {
+                            hoverDiv.style.display = 'none';
+                            boxDiv.style.display = 'block';
+                        }
+                    });
+                });
+            }
+        });
+        
+
 
         // Variable to track autoplay state
         let isAutoplayRunning = true;    

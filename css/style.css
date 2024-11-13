@@ -272,7 +272,9 @@ body{
 }
 
 /* --------------------- ABOUT US STYLE START --------------------- */
-.about-section{ margin-top: 120px; }
+.about-section{ margin-top: 120px;}
+
+.about-container1{ margin-top: 50px;  }
 
 .section-about{
     background: url(../media/aboutus-bgimg1.png);
@@ -288,8 +290,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    padding-top: 0px;
-    color: black;   
+    color: black;
 }
 .about-title{
     font-family: "Poppins", sans-serif;
@@ -374,7 +375,6 @@ body{
     background-color: white;
     border: 1px solid rgba(240, 230, 230, 0.637);
     border-radius: 10px;
-    /* box-shadow: 10px 10px 10px 10px #a02121f1; */
     overflow: hidden;
     margin: 15px 0px;
 }
@@ -588,7 +588,7 @@ body{
     background: url(../media/aboutus-bgimg2.png);
     height: 800px;
     border-radius: 10px;
-    margin-top: 10px;
+    padding-top: 40px;
 }
 .whatwedo-headers{
     margin-left: 30px;
@@ -649,7 +649,8 @@ body{
     background-image: url(../media/service_Bg_Image.png);
     height: 850px;
     border-radius: 10px;
-    margin-top: -25px;
+    margin-top: 80px;
+    margin-bottom: 35px;
 }
 .our-service-content{
     width: 604px;
@@ -664,7 +665,7 @@ body{
     font-weight: 600;
     font-size: 54px;
     color: rgb(255, 250, 250);
-    padding: 100px 30px;
+    padding: 73px 30px;
 }
 .our-service-para{
     font-size: 18px;
@@ -849,7 +850,7 @@ body{
 /* --------------------- SERVICE STYLE START --------------------- */
 
 .choose-section{
-    margin-top: 70px;
+    padding: 70px 0 25px 0px;
 }
 .choose-container{
     background-color: #E7ECF0;
@@ -888,12 +889,10 @@ body{
     border-radius: 12px 12px 0px 0px;
     overflow: hidden;
 }
-.choose-img:hover{
-    transform: scale(1.07);
-}
+.choose-img:hover{ transform: scale(1.07); }
 
 /* --------------------------------------------------------*/
-.collection{ margin-top: 25px; height: 1700px; }
+.collection{ margin-top: 25px; height: 1690px; }
 
 .impact-container{ padding: 0px;} .impact-img{ width: 630px; }
 
@@ -924,9 +923,9 @@ body{
 
 /* --------------------- BLOGS STYLE START --------------------- */
 
-.blog{ margin-top: 55px; height: 600px;}
+.blog{ height: 700px; } .blog-container{ padding: 90px 0px;}
 
-.blog-section{ margin-top: 20px; height: 1200px; }
+.blog-section{ margin-top: 20px; height: 1200px;}
 
 .our-blog-head, .contact-us-title, .form-title{
     font-family: "Poppins", sans-serif;
@@ -1164,13 +1163,14 @@ body{
 }
 
 /* --------------------- CONTACT1 STYLE START --------------------- */
-.contact-container{ margin-top: 140px; } .contact-main{ margin-top: 35px; }
+.contact-container{ margin-top: 140px; } 
 
 .contact-action{
     background-image: url(../media/Action_button_bg.png);
     border-radius: 12px 12px 0px 0px;
     height: 295px;
     margin-left: -12px;
+    margin-top: 60px;
 }
 .action-content{ width: auto; height: 200px; }
 

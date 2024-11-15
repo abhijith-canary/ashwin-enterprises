@@ -136,7 +136,7 @@
      
     .event-banner-title{ padding-top: 30%; } 
 
-    .event-card-section{ margin-top: 0px; } .event-card-container{ padding: 20px;}
+    .event-card-section{ margin-top: 0px; padding-bottom: 0px;} .event-card-container{ padding: 20px;}
     
     .event-card{ padding-top: 15px; } .event-content{ padding: 10px 20px 30px 20px; }
 
@@ -248,6 +248,8 @@
     .choose-title, .choose-sub-title{ font-size: 16px; } .choose-text-para{ font-size: 13px; line-height: 16px; margin-top: 0px; }
 
     .choose-box{ padding: 15px 25px; } .choose-network, .choose-vision{ margin-top: 15px; }
+
+    .choose-img{ height: 240px;}
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
 
@@ -594,7 +596,7 @@
     
     .event-banner-title{ padding-top: 33%; } 
 
-    .event-card-section{ margin-top: 0px; } .event-card-container{ padding: 20px;}
+    .event-card-section{ margin-top: 0px; padding-bottom: 0px;} .event-card-container{ padding: 20px;}
     
     .event-card{ padding-top: 15px; } .event-content{ padding: 10px 20px 30px 20px; }
 
@@ -699,6 +701,8 @@
     .choose-text-para{ font-size: 13px; line-height: 16px; margin-top: 0px; }
     
     .choose-network, .choose-vision { margin-top: 15px; }
+
+    .choose-img{ height: 250px;}
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
@@ -1055,7 +1059,7 @@
 
     /* ------------------------- EVENT DETAILS STYLING---------------------------- */
     
-    .event-card-section{ margin-top: 15px; } .event-card-container{ padding: 10px; padding-bottom: 20px; }
+    .event-card-section{ margin-top: 15px; padding-bottom: 10px; } .event-card-container{ padding: 10px; padding-bottom: 20px; }
     
     .event-banner-title{ padding-top: 23%; font-size: 30px;} 
     
@@ -1197,6 +1201,8 @@
     .choose-box{ padding: 15px 30px; } .choose-experience, .choose-network, .choose-vision{ width: 245px; }
 
     .choose-network{ margin-left: -7px; } .choose-vision{ margin-left: 475px; margin-top: -356px; }
+
+    .choose-img{ height: 190px;}
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
@@ -1424,7 +1430,7 @@
     
     .event-card{ width: 320px; }
 
-    .event-time{ position: absolute; left: auto; margin-left: -147px; }
+    .event-time{ position: absolute; left: auto; margin-left: -115px; }
 
     /* ------------------------- EVENT DETAILS END---------------------------- */
 
@@ -1456,17 +1462,19 @@
 
     .our-service-title{ color: rgb(255, 255, 255); }
 
-    .our-service-content{ width: 102.6%; margin-left: -11px; margin-top: 5.8%; } .service-card-slider{ margin-left: 300px; margin-top: 40px;}
+    .our-service-content{ width: 102.6%; margin-left: -11px; margin-top: 5.8%; } .service-card-slider{ margin-left: 310px; margin-top: 40px;}
 
-    .owl-carousel-3 .owl-nav { width: auto; top: 370px; right: auto; left: -80px; justify-content: flex-end; }
+    .owl-carousel-3 .owl-nav { width: auto; top: 350px; right: auto; left: -80px; justify-content: flex-end; }
 
     /* -----------section2 section-------------- */
 
-    .choose-section{ padding: 20px 10px; }
+    .choose-section{ padding: 20px 15px; } 
 
     .choose-experience, .choose-network, .choose-vision{ width: 325px; }
 
     .choose-vision{ margin-left: 635px; margin-top: -395px; }
+
+    .choose-img{ height: 260px;}
 
     /* -----------section3 section-------------- */
 
@@ -1546,14 +1554,15 @@
 
     .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px; margin-top: -78px; }  
 
-    .our-service-content{ margin-top: 115px; } 
-
+    .our-service-content{ margin-top: 115px; } .our-service-para{ padding: 40px 40px;}
 
     /* --------------------- SERVICE-2 RESPONSIVE START --------------------- */
 
+    .choose-container{ padding: 35px 40px; }
+    
     .choose-title{ font-size: 30px;} .choose-experience{ height: 485px;}
 
-    .choose-box { height: 200px;}
+    .choose-box { height: 200px;}  .choose-img{ height: 280px;}
 
     /* -----------SERVICE-3 SECTION-------------- */
 

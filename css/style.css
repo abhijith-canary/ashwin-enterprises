@@ -536,8 +536,9 @@ body{ background-color: rgb(255, 255, 255) }
     position: relative;
     overflow: hidden;
     text-align: end;
+    padding-bottom: 20px;
 } 
-.event-card-container{ padding-top: 20px; padding-bottom: 20px; }
+.event-card-container{ padding-top: 20px; padding-bottom: 30px; }
 
 .event-banner-title{ padding-top: 8%; } .event-card{ padding-top: 25px; }
 
@@ -897,6 +898,8 @@ body{ background-color: rgb(255, 255, 255) }
 .choose-img{
     border-radius: 12px 12px 0px 0px;
     transition: 0.5s;
+    height: 320px;
+    width: 400px;
 }
 .choose-img-box{
     border-radius: 12px 12px 0px 0px;

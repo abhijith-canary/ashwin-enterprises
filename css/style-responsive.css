@@ -290,7 +290,10 @@
     
     .blog-block{ margin-top: -10px; } .blog-block2, .blog-block3{ margin-top: 15px; }
 
-    .blog-link { font-size: 13px; position: absolute; right: 7%; margin-top: 3px;}
+    /* .blog-link { font-size: 13px; position: absolute; right: 7%; margin-top: 3px;} */
+
+    .blog-link { font-size: 13px; margin-top: 3px;} 
+
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -735,7 +738,9 @@
 
     .blog-img{ height: 250px; width: 100%; }
 
-    .blog-link { font-size: 13px; position: absolute; right: 6%; margin-top: 3px;}
+    /* .blog-link { font-size: 13px; position: absolute; right: 6%; margin-top: 3px;} */
+
+    .blog-link { font-size: 13px; margin-top: 3px;}
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -1246,7 +1251,9 @@
 
     .blog-img{ height: 160px; } .blog-block3 { margin-top: 20px; } 
     
-    .blog-link { font-size: 13px; position: absolute; right: 8%; margin-top: 3px;}
+    /* .blog-link { font-size: 13px; position: absolute; right: 8%; margin-top: 3px;} */
+
+    .blog-link { font-size: 13px; margin-top: 3px;}
 
     /* --------------------- SINGLE BLOG RESPONSIVE START --------------------- */
 
@@ -1287,9 +1294,9 @@
     .our-partner{  margin-top: -10px; }
     
     .logos-title{
-        font-size: 20px;
+        font-size: 25px;
         line-height: 20px;
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
@@ -1491,7 +1498,7 @@
 
     .blog-main-img, .blog-main-img2, .single-texts { width: 560px;} 
 
-    .qwerty { gap: 10px;} .blog-link { right: 5%; margin-top: 5px;}
+    .qwerty { gap: 10px;} .logos-title{ font-size: 30px;}
 
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */
 
@@ -1537,9 +1544,10 @@
 
     /* --------------------- SERVICE-1 RESPONSIVE START --------------------- */
 
-    .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px;}  
+    .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px; margin-top: -78px; }  
 
-    .our-service-content{ margin-top: 115px;}
+    .our-service-content{ margin-top: 115px; } 
+
 
     /* --------------------- SERVICE-2 RESPONSIVE START --------------------- */
 
@@ -1551,15 +1559,15 @@
 
     .collection{ height: 1480px; } .content-title{ font-size: 30px; }
 
-    .impact-content{ padding: 50px 50px; width: 540px; margin-left: 18px; }
+    .impact-content{ padding: 50px 50px; width: 550px; margin-left: 20px;}
 
-    .leadership-img{ margin-left: 20px; width: 540px; height: auto; }
+    .leadership-img{ margin-left: 20px; width: 550px; height: auto; }
 
-    .leadership-content{ height: auto; width: 558px; padding: 30px 40px 0px 40px; }
+    .leadership-content{ height: auto; width: 570px; padding: 30px 40px 0px 40px; }
 
-    .value-content{ height: 467px; width: 540px; padding: 30px 40px 0px 40px; margin-left: 18px;}
+    .value-content{ height: auto; width: 550px; padding: 30px 40px 0px 40px; margin-left: 20px;}
 
-    .blog { height: 565px; }
+    .blog{ height: auto; }  .blog-img{ height: 260px;}
 
     /* -----------CONTACT SECTION-------------- */
 

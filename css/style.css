@@ -984,9 +984,11 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .blog-link:hover, .viewall-link:hover{ color: #D65827; }
 
-.blog-link{
-    position: absolute;
-    right: 17%;
+.blog-class{ justify-content: space-between;}
+
+.blog-link {
+    position: relative;
+    right: 10px;
 }
 
 /* --------------------- BLOG-DETAILS STYLE START --------------------- */

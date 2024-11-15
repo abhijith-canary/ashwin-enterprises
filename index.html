@@ -117,7 +117,9 @@
                 <div class="card-slider-container wow fadeInDown" data-wow-delay="0.3s">
                     <div class="header">
                         <h2 class="slider-heading">Upcoming Events</h2>
+                        <!-- <a href="event-details.html" class="arrow-orange">See All <img src="media/arrow orange.png"></a> -->
                         <a href="event-details.html" class="arrow-orange">See All <img src="media/arrow orange.png"></a>
+
                     </div>
                 
                     <div class="slider-wrapper">
@@ -135,14 +137,14 @@
                             </div>
                         </div>
                 
-                        <div class="card">
+                        <!-- <div class="card">
 
                             <div class="card-content text-center ">
                                 <p class="card-content-head">coming soon....</p>
                             </div>
-                        </div>
+                        </div> -->
                 
-                        <div class="card">
+                        <!-- <div class="card">
                             <a href="#"><p class="naukri">naukri.uae@gmail.com</p></a>
                             <img src="media/event-1.png" alt="Event 1" class="card-img img-fluid">
                             <div class="card-content">
@@ -154,9 +156,9 @@
                                 </div>
                                 <button class="card-btn" >Contact Us</button>
                             </div>
-                        </div>
+                        </div> -->
                 
-                        <div class="card">
+                        <!-- <div class="card">
                             <a href="#"><p class="naukri">naukri.uae@gmail.com</p></a>
                             <img src="media/event-1.png" alt="Event 1" class="card-img img-fluid">
                             <div class="card-content">
@@ -168,15 +170,15 @@
                                 </div>
                                 <button class="card-btn" >Contact Us</button>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
 
                     <div class="dots-container">
-                        <span class="dot active" onclick="showSlide(0)"></span>
-                        <span class="dot" onclick="showSlide(1)"></span>
-                        <span class="dot" onclick="showSlide(2)"></span>
-                        <span class="dot" onclick="showSlide(3)"></span>
+                            <!-- <span class="dot active" onclick="showSlide(0)"></span>
+                            <span class="dot" onclick="showSlide(1)"></span>
+                            <span class="dot" onclick="showSlide(2)"></span>
+                            <span class="dot" onclick="showSlide(3)"></span> -->
                     </div>
                 </div>
 
@@ -184,13 +186,11 @@
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <h2 class="modal-head">Contact Us</h2>
-                        <form id="contactForm">
 
+                        <form id="contactForm" action="https://getform.io/f/bmddmoma" method="POST" enctype="multipart/form-data">
                             <div class="d-flex first-input">
-                                <!-- <label for="name"></label> -->
                                 <input type="text" id="name" name="name" placeholder="Name" required style="margin-right: 20px;">
 
-                                <!-- <label for="phone"></label> -->
                                 <input type="text" id="phone" name="phone" placeholder="Phone" required>
                             </div>
             
@@ -787,7 +787,6 @@
                 window.location.href = 'details.html?id=' + blogName;
             }
         </script>
-
 
     </body>
 

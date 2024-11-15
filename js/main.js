@@ -51,7 +51,7 @@
         const carousel = $(".carousel-item-2");
     
         carousel.owlCarousel({
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 3000, // Adjust autoplay speed if needed
             smartSpeed: 1000,
             margin: 30,
@@ -112,8 +112,7 @@
             }
         });
         
-
-
+        
         // Variable to track autoplay state
         let isAutoplayRunning = true;    
 
@@ -155,12 +154,10 @@
 
     // Function to show the specified slide
     function showSlide(index) {
-    // Update the transform property to show the correct slide
     document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
 
-    // Update the active dot
-    dots.forEach(dot => dot.classList.remove("active"));
-    dots[index].classList.add("active");
+    // dots.forEach(dot => dot.classList.remove("active"));
+    // dots[index].classList.add("active");
 
     // Update the current slide index
     currentSlide = index;
@@ -168,7 +165,7 @@
 
     // Auto-slide functionality (optional)
     setInterval(() => {
-    currentSlide = (currentSlide + 1) % slides.length;    // Loop back to the first slide
+    currentSlide = (currentSlide + 1) % slides.length;    
     showSlide(currentSlide);
     }, 5000); // Change slide every 5 seconds
 
@@ -178,7 +175,7 @@
 
         const modal = document.getElementById("contactModal");
         const closeButton = document.querySelector(".close");
-        const cardButtons = document.querySelectorAll(".card-btn"); // Select all buttons
+        const cardButtons = document.querySelectorAll(".card-btn"); 
 
         function openModal() {
             if (modal) {
@@ -186,19 +183,16 @@
                 document.body.style.overflow = 'hidden'; // Prevent background scroll
             }
         }
-
         function closeModal() {
             if (modal) {
                 modal.style.display = "none"; 
                 document.body.style.overflow = 'auto'; 
             }
         }
-        // Add event listeners to the card buttons
         cardButtons.forEach(button => {
             button.addEventListener("click", openModal);
         });
 
-        // Check if closeButton exists before adding event listener
         if (closeButton) {
             closeButton.addEventListener("click", closeModal);
         }
@@ -212,22 +206,17 @@
 
         // Function to open the modal
         function openModal() {
-            modal.style.display = "flex"; // Show the modal
+            modal.style.display = "flex"; 
             document.body.style.overflow = 'hidden'; // Prevent background scroll
         }
-
         // Function to close the modal
         function closeModal() {
-            modal.style.display = "none"; // Hide the modal
+            modal.style.display = "none"; 
             document.body.style.overflow = 'auto'; // Allow background scroll
         }
-
-        // Add event listeners to the buttons inside the generated event cards
         document.querySelectorAll('.event-card-btn').forEach(button => {
             button.addEventListener("click", openModal);
         });
-
-        // Add event listener to the close button
         closeButton.addEventListener("click", closeModal);
 
     });

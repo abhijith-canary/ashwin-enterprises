@@ -19,10 +19,7 @@
 }
 /*** Spinner End ***/
 
-body{
-    background-color: rgb(255, 255, 255);
-}
-
+body{ background-color: rgb(255, 255, 255) }
 
 .back-to-top {
     position: fixed;
@@ -365,7 +362,7 @@ body{
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.dot.active, .dot:hover{ background-color: #D65614; }
+.dot.active{ background-color: #D65614; }
 
 .slider-wrapper {
     display: flex;
@@ -496,10 +493,27 @@ body{
     margin-top: 5px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     border-radius: 7px;
-    color: #798791;
+    color: #53585c;
+}  
+
+.file-input input[type="file"]::-webkit-file-upload-button {
+    display: none;
 }
+
+.file-input input[type="file"]:before{
+    content: 'Upload Resume';
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    padding: 5px 9px;
+    outline: none;
+    cursor: pointer;
+    line-height: 16px;
+    margin-right: 10px;
+}
+
 #contactForm textarea{ height: 130px; }
 
 ::placeholder{ color: #798791; }

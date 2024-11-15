@@ -39,6 +39,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style-responsive.css">
+
 </head>
 <body>
     <!-- Navbar & Hero Start -->
@@ -91,7 +92,8 @@
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <h2>Contact Us</h2>
-                    <form id="contactForm" onsubmit="submitEmail(event);">
+                    
+                    <form id="contactForm" action="https://getform.io/f/bmddmoma" method="POST" enctype="multipart/form-data">
                         <div class="d-flex first-input">
                             <input type="text" id="name" name="name" placeholder="Name" required style="margin-right: 20px;">
                             
@@ -101,7 +103,7 @@
                         <input type="email" id="email" name="email" placeholder="Email" required>
 
                         <div class="file-input">
-                            <input type="file" id="file" name="file">
+                            <input type="file" id="file" name="file" >
                         </div>
         
                         <textarea id="message" name="message" placeholder="Message" required></textarea>
@@ -143,22 +145,22 @@
                     time: "9 am onwards",
                     image: "media/event-1.png"
                 },
-                card4: {
-                    mail: "naukri.uae@gmail.com",
-                    heading: "Client Interview @ Kochi",
-                    text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
-                    date: "6th october sunday",
-                    time: "9 am onwards",
-                    image: "media/event-1.png"
-                },
-                card5: {
-                    mail: "naukri.uae@gmail.com",
-                    heading: "Client Interview @ Kochi",
-                    text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
-                    date: "6th october sunday",
-                    time: "9 am onwards",
-                    image: "media/event-1.png"
-                },
+                // card4: {
+                //     mail: "naukri.uae@gmail.com",
+                //     heading: "Client Interview @ Kochi",
+                //     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+                //     date: "6th october sunday",
+                //     time: "9 am onwards",
+                //     image: "media/event-1.png"
+                // },
+                // card5: {
+                //     mail: "naukri.uae@gmail.com",
+                //     heading: "Client Interview @ Kochi",
+                //     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
+                //     date: "6th october sunday",
+                //     time: "9 am onwards",
+                //     image: "media/event-1.png"
+                // },
             };
 
             const container = document.getElementById('event-cards-container');
@@ -194,21 +196,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <!-- <script src="lib/waypoints/waypoints.min.js"></script> -->
-    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/emailjs.js"></script>
+    <!-- <script src="js/emailjs.js"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
     <script>
         (function() {
             emailjs.init('BKtb3JEM_RYUnCLDo'); // Replace with your EmailJS user ID
         })();
-    </script>
+    </script> -->
 </body>
 </html>

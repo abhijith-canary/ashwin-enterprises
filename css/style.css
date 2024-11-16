@@ -576,26 +576,25 @@ body{ background-color: rgb(255, 255, 255) }
 .about-box2{ margin-left: -3px; } .about-box3{ margin-left: 8px; }
 
 .experience_icon{
-    width: 105px;
-    height: 110px;
-    padding-left: 50px;
-    padding-top: 60px;
+    width: 160;
+    height: 160px;
+    padding: 50px 50px;
 }
 .experience-head1{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #1D1E1C;
-    margin-left: 120px;
-    margin-top: -50px;
+    padding-top: 35px;
+    margin-left: -30px;
 }
 .experience-head2{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #727f88;
-    margin-left: 120px;
     margin-top: -30px;
+    margin-left: -30px;
 }
 .legacy-head{ margin-top: -55px; } .service-head{ margin-top: -45px; }
 
@@ -881,6 +880,7 @@ body{ background-color: rgb(255, 255, 255) }
     background-color: #fff;
     border-radius: 0px 0px 12px 12px;
     padding: 20px 31px;
+    /* width: auto; */
 }
 .choose-sub-title{
     font-family: "Poppins", sans-serif;
@@ -898,8 +898,6 @@ body{ background-color: rgb(255, 255, 255) }
 .choose-img{
     border-radius: 12px 12px 0px 0px;
     transition: 0.5s;
-    height: 320px;
-    width: 400px;
 }
 .choose-img-box{
     border-radius: 12px 12px 0px 0px;

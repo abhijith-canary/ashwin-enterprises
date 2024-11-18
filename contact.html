@@ -147,10 +147,6 @@
 
                         <!-- <form id="contact-form" onsubmit="sendEmail(event);"> -->
                         <form id="contact-form" action="https://formspree.io/f/xvgoqgrd" method="POST" >
-
-                            <!-- Hidden subject field -->
-                            <input type="hidden" id="subject" name="subject" value="New submission from: ">
-
                             <div class="row g-4">
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
@@ -373,11 +369,6 @@
                     });
             }
 
-            document.getElementById('contactForm').addEventListener('submit', function(event){
-                var name = document.getElementById('name').value;
-                var subjectField = document.getElementById('subject');  // Get the hidden subject field
-                subjectField.value = 'New submission from: ' + name; 
-            })
         </script>
         
     </body>

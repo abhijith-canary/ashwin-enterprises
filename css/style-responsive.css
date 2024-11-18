@@ -49,7 +49,7 @@
 
     .about-container1{ margin-top: -10px; height: 1350px; }
 
-    /* .about-container1 { margin-top: -10px; height: 865px; } */  /* when event section is empty */
+    /* .about-container1 { margin-top: -10px; height: 865px; }  when event section is empty */
 
     .section-about{
         width: auto;
@@ -86,7 +86,9 @@
     }
     .about-box2, .about-box3{ margin-top: -15px; }
 
-    .experience-head1{ font-size: 20px; padding-top: 47px; } .experience-head2{ font-size: 15px; margin-top: -25px;}
+    .experience-head1{ font-size: 20px; } .experience-head2{ font-size: 15px; margin-top: -23px;}
+
+    .legacy{ margin-right: 45px;}
 
     /* ------------------------- EVENT CARD STYLING---------------------------- */
 
@@ -215,9 +217,12 @@
         padding: 15px 20px;
     }
     .service-card-slider{
-        margin-left: 8px;
+        margin-left: auto;
         margin-top: 35px;
-        width: 330px; 
+        width: 330px;
+        justify-content: center; 
+        align-items: center; 
+        margin-right: auto;
     }  
     .owl-carousel-3 .owl-nav {
         width: auto;
@@ -519,7 +524,7 @@
 
     .about-container1{ margin-top: -45px; height: 1380px; }
 
-    /* .about-container1 { margin-top: -45px; height: 865px; } */   /* when event section is empty */
+    /* .about-container1 { margin-top: -45px; height: 865px; }   when event section is empty */
 
     .section-about{ width: auto; height: 350px; border-radius: 12px; } .about-head{ font-size: 15px; }
 
@@ -544,11 +549,9 @@
         margin-top: -10px;
         margin-left: 0;
     }
-    .about-box-container{ margin-top: -10px; } .about-box{ margin-top: 15px; }
+    .about-box-container{ margin-top: -10px; } .about-box{ margin-top: 15px; } .legacy{ margin-right: 43px;}
     
-    .experience_icon { margin-left: 30px;}
-
-    .experience-head1{ font-size: 20px; padding-top: 47px; } .experience-head2{ font-size: 15px; margin-top: -25px;}
+    .experience-head1{ font-size: 20px; } .experience-head2{ font-size: 15px; margin-top: -23px;} 
 
     /* --------------------------------------------------------- */
 
@@ -660,7 +663,7 @@
         width: 150px;
     }
     .our-service-content{
-        width: 106%;
+        width: 107%;
         height: 80px;
         margin-top: 76px;
         margin-left: -11px;
@@ -672,13 +675,19 @@
         width: auto;
         padding: 15px 20px;
     }
-    .service-card-slider{ margin-left: 30px; margin-top: 35px; width: 340px; }  
-
+    .service-card-slider {
+        margin-left: auto ;
+        margin-right: auto;
+        margin-top: 35px;
+        width: 325px;
+        justify-content: center; 
+        align-items: center; 
+    }
     .owl-carousel-3 .owl-nav {
         width: auto;
         top: 420px;
         right: auto;
-        left: 100px;
+        left: 120px;
         justify-content: flex-end;
     }
     .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
@@ -702,7 +711,7 @@
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .collection{ height: 1965px; padding: 0 7px;} .content-title{ font-size: 18px; }
+    .collection{ height: auto; padding: 0 7px; } .content-title{ font-size: 18px; }
 
     .impact-container{ padding: 60px 15px 7px; margin-top: -52px; }
 
@@ -985,7 +994,7 @@
 
     .about-container1{ margin-top: -30px; height: 670px; }
 
-    /* .about-container1 { margin-top: -30px; height: 560px; }   when event section is empty */
+    /* .about-container1 { margin-top: -30px; height: 560px; }  when event section is empty */
 
     .section-about{ width: 350px; height: 350px; border-radius: 12px; margin-top: 20px;}
 
@@ -1018,11 +1027,9 @@
 
     .about-box2{ margin-top: -154px; margin-left: 235px; }
 
-    .about-box3{ margin-left: 480px; margin-top: -178px; }
+    .about-box3{ margin-left: 480px; margin-top: -178px; } .legacy { margin-right: 45px;}
 
-    .experience_icon{ margin-left: -30px; margin-top: -10px; padding: 55px 50px;}
-
-    .experience-head1{ font-size: 20px;  } .experience-head2{ font-size: 15px; }
+    .experience-head1{ font-size: 20px; } .experience-head2{ font-size: 15px; margin-top: -25px;}
 
     /* ------------------------- EVENT CARD STYLING---------------------------- */
 
@@ -1592,11 +1599,13 @@
     .nav-logo-head{ font-size: 18px;} .nav-logo-head2{ font-size: 14px;} 
 
     .topnav-centered { text-align: center; margin: 0 auto; } .nav-btn{ right: -30px;}
+
+    .about-box,.about-box2, .about-box3{  height: 150px; }
 }
 
 @media screen and (max-width: 765px) and (min-width: 600px){
     
-    .about_us { height: 1250px; }
+    #about_us{ height: 1250px; }  /* #about_us{ height: 800px; } */
 
     .about-section{ margin-top: 60px; height: 800px; }
 
@@ -1617,7 +1626,7 @@
     }
     .about-box2, .about-box3{margin-top: -15px;} 
 
-    .experience_icon { margin-left: 100px;} .experience-head2{margin-top: -26px;}
+    .experience-head2{margin-top: -26px;}
 
     .about-content-right{  margin-left: -13px; width: 220px; }
 

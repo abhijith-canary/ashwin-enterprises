@@ -571,22 +571,30 @@ body{ background-color: rgb(255, 255, 255) }
     margin-left: -12px;
     border-radius: 12px;
     width: 420px;
-    height: 162px;
+    height: 162px;  
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
 }
 .about-box2{ margin-left: -3px; } .about-box3{ margin-left: 8px; }
 
-.experience_icon{
-    width: 160;
-    height: 160px;
-    padding: 50px 50px;
+.legacy{ margin-right: 50px; }
+
+.p1{ padding-right: 20px; } .p2{ padding-left: 10px;} .p3{ padding-right: 13px;}
+
+.experience_icon {
+    width: 60px;
+    height: 60px;
 }
 .experience-head1{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #1D1E1C;
-    padding-top: 35px;
-    margin-left: -30px;
+    padding: 10px 10px 0px; 
 }
 .experience-head2{
     font-family: "Roboto", sans-serif;
@@ -594,7 +602,6 @@ body{ background-color: rgb(255, 255, 255) }
     font-size: 18px;
     color: #727f88;
     margin-top: -30px;
-    margin-left: -30px;
 }
 .legacy-head{ margin-top: -55px; } .service-head{ margin-top: -45px; }
 
@@ -906,7 +913,7 @@ body{ background-color: rgb(255, 255, 255) }
 .choose-img:hover{ transform: scale(1.07); }
 
 /* --------------------------------------------------------*/
-.collection{ margin-top: 25px; height: 1690px; }
+.collection{ margin-top: 25px; height: auto; margin-bottom: -40px;}
 
 .impact-container{ padding: 0px;} .impact-img{ width: 630px; }
 

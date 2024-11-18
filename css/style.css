@@ -1295,9 +1295,11 @@ body{ background-color: rgb(255, 255, 255) }
     width: 100px;
     height: 50px;
 }
+.contact-email:hover{ color: white;}
+
 .contact-number-div{
     margin-left: 330px;
-    margin-top: -80px;
+    margin-top: -63px;
     width: 400px;
 }
 .contact-number{ margin-left: -10px; height: 20px; }

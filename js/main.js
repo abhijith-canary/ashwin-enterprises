@@ -45,8 +45,8 @@
         return false;
     });
 
-    // Service Owlcarousel Slider
     
+    // Service Owlcarousel Slider
     $(document).ready(function() {
         const carousel = $(".carousel-item-2");
     
@@ -55,6 +55,8 @@
             autoplayTimeout: 3000, // Adjust autoplay speed if needed
             smartSpeed: 1000,
             margin: 30,
+            mouseDrag: false,
+            touchDrag: false,
             dots: false,
             loop: true,
             nav: true,
@@ -131,11 +133,6 @@
 })(jQuery);
 
     // navbar working for responsive view
-    // function toggleMenu() {
-    //     var navLinks = document.getElementById("navLinks");
-    //     navLinks.classList.toggle("active");
-    // }
-
     function toggleMenu() {
         const navLinks = document.getElementById("navLinks");
         const hamburger = document.getElementById("hamburger");
@@ -147,27 +144,27 @@
         hamburger.classList.toggle("open");
     }
 
-    // Event card slider 
-    let currentSlide = 0; 
-    const slides = document.querySelectorAll(".card");
-    const dots = document.querySelectorAll(".dot");
+    // // Event card slider 
+    // let currentSlide = 0; 
+    // const slides = document.querySelectorAll(".card");
+    // const dots = document.querySelectorAll(".dot");
 
-    // Function to show the specified slide
-    function showSlide(index) {
-    document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
+    // // Function to show the specified slide
+    // function showSlide(index) {
+    // document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
 
     // dots.forEach(dot => dot.classList.remove("active"));
     // dots[index].classList.add("active");
 
-    // Update the current slide index
-    currentSlide = index;
-    }
+    // // Update the current slide index
+    // currentSlide = index;
+    // }
 
-    // Auto-slide functionality (optional)
-    setInterval(() => {
-    currentSlide = (currentSlide + 1) % slides.length;    
-    showSlide(currentSlide);
-    }, 5000); // Change slide every 5 seconds
+    // // Auto-slide functionality (optional)
+    // setInterval(() => {
+    // currentSlide = (currentSlide + 1) % slides.length;    
+    // showSlide(currentSlide);
+    // }, 5000); // Change slide every 5 seconds
 
 
     // card from btn click

@@ -45,9 +45,11 @@
 
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
 
-    .about-section{ margin-top: 70px; height: 850px;}
+    .about-section{ margin-top: 70px; height: 850px; }
 
-    .about-container1{ margin-top: -10px; height: 1350px;}
+    .about-container1{ margin-top: -10px; height: 1350px; }
+
+    /* .about-container1 { margin-top: -10px; height: 865px; } */  /* when event section is empty */
 
     .section-about{
         width: auto;
@@ -517,6 +519,8 @@
 
     .about-container1{ margin-top: -45px; height: 1380px; }
 
+    /* .about-container1 { margin-top: -45px; height: 865px; } */   /* when event section is empty */
+
     .section-about{ width: auto; height: 350px; border-radius: 12px; } .about-head{ font-size: 15px; }
 
     .section-title h1 { width: auto; margin-left: 0px;}
@@ -978,10 +982,10 @@
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
     .about-section{ margin-top: 60px; height: 550px;}
-    
-    /* .about{ height: 800px;} */
 
     .about-container1{ margin-top: -30px; height: 670px; }
+
+    /* .about-container1 { margin-top: -30px; height: 560px; }   when event section is empty */
 
     .section-about{ width: 350px; height: 350px; border-radius: 12px; margin-top: 20px;}
 

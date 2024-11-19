@@ -254,7 +254,7 @@
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 0px; height: 1880px; padding: 0 7px; } .content-title{ font-size: 18px; }
+    .collection{ margin-top: 0px; height: auto; padding: 0 7px; } .content-title{ font-size: 18px; }
 
     .impact-container{ padding: 0px 15px; margin-top: -40px; }
 
@@ -269,7 +269,7 @@
 
     .leadership-content{ height: 340px; margin-top: 275px; z-index: 1; }
 
-    .value-img{ margin-top: -30px; } .value-content{ height: 340px; padding: 13px;}
+    .value-img{ margin-top: -30px; } .value-content{ height: 340px; padding: 7px 15px 10px 15px;}
 
     /* --------------------- BLOG RESPONSIVE START --------------------- */
 
@@ -1141,11 +1141,9 @@
     }
 
     /* --------------------- SERVICE1 RESPONSIVE START --------------------- */
-    .our-service1{ margin-top: 80px; } .our-service{ height: 633px; }
+    .our-service1{ margin-top: 80px; } .our-service{ height: 670px; padding: 10px 0px 0px ; }
 
-    .our-service{ padding: 10px 0px 0px ;}
-
-    .our-service-bg{ height: 600px; margin-top: 10px; }
+    .our-service-bg{ height: 640px; margin-top: 10px; }
     
     .our-service-title{
         font-size: 18px;
@@ -1157,7 +1155,7 @@
     .our-service-content{
         width: 103.3%;
         height: 100px;
-        margin-top: 50px;
+        margin-top: 89px;
         margin-left: -11px; 
         border-radius: 0 0 10px 10px;
     }
@@ -1179,14 +1177,12 @@
 
     .owl-carousel-3 .owl-nav {
         width: auto;
-        top: 390px;
+        top: 420px;
         right: auto;
         left: 250px;
         justify-content: flex-end;
     }
-    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; }
-
-    /* .hospitality-hover{ height: 404px; width: 295px; } */
+    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{ height: 30px; width: 30px; margin-left: 0px; } 
 
     .link-img{ width: 11px; height: 10px; margin: -4px 5px;}
 
@@ -1206,7 +1202,7 @@
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 0px; height: 1060px; } 
+    .collection{ margin-top: 0px; height: auto; } 
     
     .impact-container{ padding: 2px 0px; margin-top: -35px; }
 
@@ -1476,7 +1472,7 @@
 
     /* -----------section3 section-------------- */
 
-    .collection{ height: 1235px; margin-top: 0px;} .impact-img, .value-img{ height: auto; width: auto; }
+    .impact-img, .value-img{ height: auto; width: auto; }
     
     .impact-container{ padding: 0px 0px; margin-top: -45px; }
 
@@ -1550,9 +1546,9 @@
 
     /* --------------------- SERVICE-1 RESPONSIVE START --------------------- */
 
-    .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px; margin-top: -78px; }  
+    .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px; margin-top: 35px; }  
 
-    .our-service-content{ margin-top: 115px; } .our-service-para{ padding: 40px 40px;}
+    .our-service-content{ margin-top: 95px; } .our-service-para{ padding: 40px 40px;}
 
     /* --------------------- SERVICE-2 RESPONSIVE START --------------------- */
 
@@ -1564,7 +1560,7 @@
 
     /* -----------SERVICE-3 SECTION-------------- */
 
-    .collection{ height: 1480px; } .content-title{ font-size: 30px; }
+    .content-title{ font-size: 30px; }
 
     .impact-content{ padding: 50px 50px; width: 550px; margin-left: 20px;}
 
@@ -1598,7 +1594,7 @@
 
     .nav-logo-head{ font-size: 18px;} .nav-logo-head2{ font-size: 14px;} 
 
-    .topnav-centered { text-align: center; margin: 0 auto; } .nav-btn{ right: -30px;}
+    .topnav-centered { text-align: center; margin: 0 auto; margin-left: -100px; } .nav-btn{ right: -100px;}
 
     .about-box,.about-box2, .about-box3{  height: 150px; }
 }
@@ -1646,7 +1642,7 @@
     
     .choose-box{ width: 440px;} .choose-img { height: 340px; width: 440px;}
 
-    .collection{ height: 1865px; } .impact-img{ height: 370px; }  
+    .impact-img{ height: 370px; }  
 
     .impact-content, .value-content {
         width: 600px;

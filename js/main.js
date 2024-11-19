@@ -197,6 +197,7 @@
 
 
     document.addEventListener('DOMContentLoaded', function () {
+        
         // Select the modal and the close button
         const modal = document.getElementById("contactModal");
         const closeButton = modal.querySelector(".close");
@@ -218,3 +219,13 @@
 
     });
 
+
+    // js script for smooth scroll effect
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 500,
+        speedAsDuration: true,
+        offset: 10
+    });
+
+
+    

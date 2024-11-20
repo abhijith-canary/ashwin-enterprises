@@ -2,14 +2,14 @@
     "use strict";
 
     // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
-            }
-        }, 1);
-    };
-    spinner(0);
+    // var spinner = function () {
+    //     setTimeout(function () {
+    //         if ($('#spinner').length > 0) {
+    //             $('#spinner').removeClass('show');
+    //         }
+    //     }, 1);
+    // };
+    // spinner(0);
     
     // Wait for the page to fully load
     window.addEventListener('load', function () {

@@ -33,16 +33,24 @@
 .spinner {
     width: 120px;
     height: 70px;
-    animation: spin 1s linear infinite;
+    animation: wobble 0.4s ease-in-out infinite;
     transition: 1s;
 }
-@keyframes spin {
+/* @keyframes spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
+} */
+
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
 }
 /*** Spinner End ***/
 

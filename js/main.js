@@ -11,6 +11,17 @@
     };
     spinner(0);
     
+    // Wait for the page to fully load
+    window.addEventListener('load', function () {
+        // Hide the spinner
+        const spinner = document.getElementById('loadingSpinner');
+        spinner.style.display = 'none';
+
+        // Show the main content
+        const mainContent = document.getElementById('mainContent');
+        mainContent.style.display = 'block';
+    });
+
     
     // Initiate the wowjs
     new WOW().init();
@@ -256,26 +267,3 @@
     updateScrollOffset();
     window.addEventListener("resize", updateScrollOffset);
 
-
-    // js script for smooth scroll effect 2
-    // function updateScrollOffset() {
-    //     let offsetValue = 10;  
-
-    //     if (window.matchMedia("(max-width: 400px)").matches) {
-    //         offsetValue = 73; 
-    //     }
-    //     else if (window.matchMedia("(max-width: 600px) and (min-width: 400px)").matches) {
-    //         offsetValue = 75; 
-    //     }
-    //     else if (window.matchMedia("(max-width: 1200px) and (min-width: 600px)").matches) {
-    //         offsetValue = 65; 
-    //     }
-    //     new SmoothScroll('a[href*="#"]', {
-    //         speed: 500,
-    //         speedAsDuration: true,
-    //         offset: offsetValue
-    //     });
-    // }
-    // updateScrollOffset();
-
-    // window.addEventListener("resize", updateScrollOffset);

@@ -47,9 +47,9 @@
 
     .about-section{ margin-top: 70px; height: 850px; }
 
-    /* .about-container1{ margin-top: -10px; height: 1350px; } */
+    .about-container1{ margin-top: -10px; height: 1350px; }
 
-    .about-container1 { margin-top: -10px; height: 865px; } /* when event section is empty */
+    /* .about-container1 { margin-top: -10px; height: 865px; }  when event section is empty */
 
     .section-about{
         width: auto;
@@ -523,9 +523,9 @@
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
     .about-section{ margin-top: 80px; height: 830px; }
 
-    /* .about-container1{ margin-top: -45px; height: 1380px; } */
+    .about-container1{ margin-top: -45px; height: 1380px; }
 
-    .about-container1 { margin-top: -45px; height: 865px; } /*  when event section is empty */
+    /* .about-container1 { margin-top: -45px; height: 865px; }   when event section is empty */
 
     .section-about{ width: auto; height: 350px; border-radius: 12px; } .about-head{ font-size: 15px; }
 
@@ -993,9 +993,9 @@
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */
     .about-section{ margin-top: 60px; height: 550px;}
 
-    /* .about-container1{ margin-top: -30px; height: 670px; } */
+    .about-container1{ margin-top: -30px; height: 670px; }
 
-    .about-container1 { margin-top: -30px; height: 560px; } /* when event section is empty */
+    /* .about-container1 { margin-top: -30px; height: 560px; }  when event section is empty */
 
     .section-about{ width: 350px; height: 350px; border-radius: 12px; margin-top: 20px;}
 
@@ -1602,7 +1602,7 @@
 
 @media screen and (max-width: 765px) and (min-width: 600px){
     
-    #about_us{ height: 1250px; }  #about_us{ height: 800px; }
+    #about_us{ height: 1250px; }  /* #about_us{ height: 800px; } */
 
     .about-section{ margin-top: 60px; height: 800px; }
 

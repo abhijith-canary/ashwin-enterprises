@@ -143,6 +143,20 @@
         // Toggle the open class for changing the hamburger icon
         hamburger.classList.toggle("open");
     }
+    // Close the navigation menu when a link is clicked
+    function closeMenu() {
+        const navLinks = document.getElementById("navLinks");
+        const hamburger = document.getElementById("hamburger");
+
+        // Remove active and open classes to close the menu
+        navLinks.classList.remove("active");
+        hamburger.classList.remove("open");
+    }
+
+    // Add event listeners to all navigation links
+    document.querySelectorAll('.nav-menu').forEach(link => {
+        link.addEventListener('click', closeMenu);
+    });
 
     // // Event card slider 
     // let currentSlide = 0; 

@@ -36,15 +36,6 @@
     animation: wobble 0.4s ease-in-out infinite;
     transition: 1s;
 }
-/* @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-} */
-
 @keyframes wobble {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(15deg); }
@@ -702,13 +693,13 @@ body{ background-color: rgb(255, 255, 255) }
 
 .our-service1{  margin-top: 150px; }
 
-.our-service { padding-top: 10px; padding-bottom: 20px; }
+.our-service { padding-top: 10px; padding-bottom: 10px; }
 
 .our-service-bg{
     background-image: url(../media/service_Bg_Image.png);
     height: 850px;
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 50px;
     /* margin-bottom: 35px; */
 }
 .our-service-content{
@@ -951,7 +942,7 @@ body{ background-color: rgb(255, 255, 255) }
 .choose-img:hover{ transform: scale(1.07); }
 
 /* --------------------------------------------------------*/
-.collection{ margin-top: 25px; height: auto; margin-bottom: -40px;}
+.collection{ margin-top: 0px; height: auto; background-color: #2b9239;}
 
 .impact-container{ padding: 0px;} .impact-img{ width: 630px; }
 
@@ -982,7 +973,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 /* --------------------- BLOGS STYLE START --------------------- */
 
-.blog{ height: 700px; } .blog-container{ padding: 90px 0px;}
+.blog{ height: 700px; margin-bottom: -25px;} .blog-container{ padding: 30px 0px 0px; }
 
 .blog-section{  height: 1200px; }
 
@@ -1233,7 +1224,7 @@ body{ background-color: rgb(255, 255, 255) }
     border-radius: 12px 12px 0px 0px;
     height: 295px;
     margin-left: -12px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .action-content{ width: auto; height: 200px; }
 

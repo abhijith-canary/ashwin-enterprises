@@ -247,7 +247,7 @@
 
     // js script for smooth scroll effect 1
     function updateScrollOffset() {
-        let offsetValue = 10;  
+        let offsetValue = 50;  
 
         if (window.matchMedia("(max-width: 400px)").matches) {
             offsetValue = 73; 

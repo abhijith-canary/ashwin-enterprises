@@ -45,9 +45,9 @@
 
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */
 
-    .about-section{ margin-top: 70px; height: 850px; }
+    .about-section{ margin-top: 70px; height: 850px;}
 
-    .about-container1{ margin-top: -10px; height: 1350px; }
+    .about-container1{ margin-top: -20px; height: 1325px; }
 
     /* .about-container1 { margin-top: -10px; height: 865px; }  when event section is empty */
 
@@ -82,7 +82,7 @@
         height: 140px;
         width: auto;
         margin-left: 0px;
-        margin-top: 5px;
+        margin-top: -20px;
     }
     .about-box2, .about-box3{ margin-top: -15px; }
 
@@ -254,9 +254,9 @@
 
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
 
-    .collection{ margin-top: 0px; height: auto; padding: 0 7px; } .content-title{ font-size: 18px; }
+    .collection{ margin-top: 0px; height: auto; padding: 0 7px; background-color: seagreen;} .content-title{ font-size: 18px; }
 
-    .impact-container{ padding: 0px 15px; margin-top: -40px; }
+    .impact-container{ padding: 2px 15px; margin-top: 0px;  background-color: rgb(206, 54, 54); }
 
     .content-para{ font-size: 13px; line-height: 17px; } .impact-main{ margin-top: 0px; }
 

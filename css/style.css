@@ -299,7 +299,7 @@ body{ background-color: rgb(255, 255, 255) }
 /* --------------------- ABOUT US STYLE START --------------------- */
 .about-section{ margin-top: 120px;}
 
-.about-container1{ margin-top: 50px;  }
+.about-container1{ margin-top: 0px; }
 
 .section-about{
     background: url(../media/aboutus-bgimg1.png);
@@ -589,7 +589,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 #span-about-sentance{ font-weight: 700; }
 
-.about-box-container{ margin-top: -400px;}
+.about-box-container{ margin-top: -470px;}
 
 .about-box, .about-box2, .about-box3{
     background-color: #E7ECF0;
@@ -944,7 +944,7 @@ body{ background-color: rgb(255, 255, 255) }
 /* --------------------------------------------------------*/
 .collection{ height: auto;}
 
-.impact-container{ padding: 0px;} .impact-img{ width: 630px; }
+.impact-container{ padding: 50px 0px;} .impact-img{ width: 630px; }
 
 .impact-content, .leadership-content, .value-content{
     background-color: #E7ECF0;
@@ -973,7 +973,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 /* --------------------- BLOGS STYLE START --------------------- */
 
-.blog{ height: auto; } .blog-container{ padding: 22px 0px 35px; }
+.blog{ height: auto; } .blog-container{ padding: 32px 0px 35px; }
 
 .blog-section{ height: 1200px; }
 

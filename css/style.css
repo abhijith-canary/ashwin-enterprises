@@ -899,7 +899,7 @@ body{ background-color: rgb(255, 255, 255) }
 /* --------------------- SERVICE STYLE START --------------------- */
 
 .choose-section{
-    padding: 55px 0 16px 0px; background-color: #00ACED;
+    padding: 55px 0 16px 0px ;
 }
 .choose-container{
     background-color: #E7ECF0;
@@ -973,9 +973,9 @@ body{ background-color: rgb(255, 255, 255) }
 
 /* --------------------- BLOGS STYLE START --------------------- */
 
-.blog{ height: 700px; margin-bottom: -25px;} .blog-container{ padding: 30px 0px 0px; }
+.blog{ height: auto; } .blog-container{ padding: 17px 0px;  background-color: #00ACED}
 
-.blog-section{  height: 1200px; }
+.blog-section{ height: 1200px; }
 
 .blog-container1{ padding: 30px 0px;}
 

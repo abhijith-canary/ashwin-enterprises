@@ -269,7 +269,7 @@ body{ background-color: rgb(255, 255, 255) }
     width: 100px;
     color: white;
     margin-top: 250px;
-    margin-left: 700px;
+    margin-left: 685px;
 }
 #home-hr{
     width: 95px;
@@ -277,14 +277,14 @@ body{ background-color: rgb(255, 255, 255) }
     color: white;
     opacity: 100%;
     margin-top: -50px;
-    margin-left: 700px;
+    margin-left: 685px;
 }
 .home-title2{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 35px;
     width: 390px;
-    margin-left: 700px;
+    margin-left: 685px;
     margin-top: -10px;
     color: white;
 }

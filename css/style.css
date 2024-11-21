@@ -264,12 +264,12 @@ body{ background-color: rgb(255, 255, 255) }
 .home-title{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 55px;
-    line-height: 60px;
+    font-size: 75px;
+    line-height: 70px;
     width: 100px;
     color: white;
-    margin-top: 300px;
-    margin-left: 300px;
+    margin-top: 250px;
+    margin-left: 700px;
 }
 #home-hr{
     width: 95px;
@@ -277,14 +277,14 @@ body{ background-color: rgb(255, 255, 255) }
     color: white;
     opacity: 100%;
     margin-top: -50px;
-    margin-left: 300px;
+    margin-left: 700px;
 }
 .home-title2{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 35px;
     width: 390px;
-    margin-left: 300px;
+    margin-left: 700px;
     margin-top: -10px;
     color: white;
 }
@@ -302,9 +302,16 @@ body{ background-color: rgb(255, 255, 255) }
 .about-container1{ margin-top: 0px; }
 
 .section-about{
-    background: url(../media/aboutus-bgimg1.png);
+    /* background: url(../media/about-world-bg.png);
+    background-repeat: no-repeat; */
     width: 780px;
     height: 500px;
+    position: absolute;
+    margin-top: -250px;
+}
+.about-bg{
+    z-index: -1;
+    padding-left: 20px;
 }
 .section-title {
     max-width: 900px;
@@ -337,7 +344,6 @@ body{ background-color: rgb(255, 255, 255) }
     line-height: 24px;
     width: 800px;
     height: 107px;
-    margin-top: 30px;
     color: #53626D;
 }
 
@@ -350,7 +356,7 @@ body{ background-color: rgb(255, 255, 255) }
     text-align: center;
     right: 0px;
     left: 855px;
-    bottom: 500px;
+    bottom: 320px;
 }
 .header {
     display: flex;
@@ -589,7 +595,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 #span-about-sentance{ font-weight: 700; }
 
-.about-box-container{ margin-top: -470px;}
+.about-box-container{ margin-top: -270px;}
 
 .about-box, .about-box2, .about-box3{
     background-color: #E7ECF0;

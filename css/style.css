@@ -973,7 +973,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 /* --------------------- BLOGS STYLE START --------------------- */
 
-.blog{ height: auto; } .blog-container{ padding: 22px 0px;  background-color: #00ACED}
+.blog{ height: auto; } .blog-container{ padding: 22px 0px 35px; }
 
 .blog-section{ height: 1200px; }
 
@@ -1023,10 +1023,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 .blog-class{ justify-content: space-between;}
 
-.blog-link {
-    position: relative;
-    right: 10px;
-}
+.blog-link { position: relative; right: 10px; }
 
 /* --------------------- BLOG-DETAILS STYLE START --------------------- */
 .blog-banner{
@@ -1050,7 +1047,6 @@ body{ background-color: rgb(255, 255, 255) }
     color: white;
     padding-top: 6.5%;
 }
-
 .blog-detail-banner{
     background:linear-gradient( rgba(118, 28, 20, 0.9), rgba(118, 28, 20, 0.9)), url(../media/Blog_Details_banner_img.png);
     background-position: center center;

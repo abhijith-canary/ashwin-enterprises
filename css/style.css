@@ -139,12 +139,11 @@ body{ background-color: rgb(255, 255, 255) }
     margin-left: auto;
     position: relative;
     margin-right: 150px;    
-    width: 163px;
-    height: 50px;
-    border: 1px solid #BABABA;
+    border: 1px solid #D65614;
     border-radius: 4px;
-    padding: 13px 25px 10px 25px;
-    color: #000000;
+    padding: 13px 27px 13px 27px;
+    color: white;
+    background-color: #D65614;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -152,9 +151,7 @@ body{ background-color: rgb(255, 255, 255) }
     text-decoration: none;
 }
 .nav-btn:hover{
-    background-color: #D65614;
     color: white;
-    border: 1px solid #D65614;
 }
 .hamburger {
     display: none;
@@ -168,16 +165,12 @@ body{ background-color: rgb(255, 255, 255) }
     margin: 2px 0;
     transition: 0.3s;
 }
-
-/* Transform hamburger into a close icon */
 .hamburger.open .line1 {
     transform: rotate(45deg) translate(4px, 4px);
 }
-
 .hamburger.open .line2 {
     opacity: 0;
 }
-
 .hamburger.open .line3 {
     transform: rotate(-45deg) translate(5px, -5px);
 }
@@ -192,12 +185,9 @@ body{ background-color: rgb(255, 255, 255) }
         max-height: 0;
         overflow: hidden;
         background-color: white;
-        
     }
-    .nav-links .nav-menu {
-       margin-right: 110px;
-       padding: 5px 0px;
-    }
+    .nav-links .nav-menu { margin-right: 110px; padding: 5px 0px; }
+
     .nav-links.active {
         max-height: 300px;
         padding-top: 20px;
@@ -210,26 +200,16 @@ body{ background-color: rgb(255, 255, 255) }
     }
     .topnav-centered {
         position: absolute;
-        left: 50%;
+        left: 25%;
         transform: translateX(-50%);
         padding: 0;
         order: 1;
     }
-    .topnav img {
-        height: 60px;
-        margin-top: 0px;
-    }
-    .topnav.shrink img {
-        height: 60px;
-        margin-top: 0px;
-    }
-    .topnav {
-        height: 70px;
-    }
-    .nav-logo-head,
-    .nav-logo-head2 {
-        display: none;
-    }
+    .topnav img { height: 60px; margin-top: 0px; }
+
+    .topnav.shrink img { height: 60px; margin-top: 0px; }
+
+    .topnav { height: 70px; } .nav-logo-head, .nav-logo-head2 { display: none; }
 }
 /*** Navbar End ***/
 
@@ -299,30 +279,24 @@ body{ background-color: rgb(255, 255, 255) }
 /* --------------------- ABOUT US STYLE START --------------------- */
 .about-section{ margin-top: 120px;}
 
-.about-container1{ margin-top: 0px; }
+.about-container1{ margin-top: 0px;  }
 
-.section-about{
-    /* background: url(../media/about-world-bg.png);
-    background-repeat: no-repeat; */
-    width: 780px;
+/* .section-about{ 
+    background-repeat: no-repeat;
+    max-width: 780px;
     height: 500px;
     position: absolute;
     margin-top: -250px;
-}
-.about-bg{
-    z-index: -1;
-    padding-left: 20px;
-}
-.section-title {
-    max-width: 900px;
-    text-align: center;
-    margin: 0 auto;
-}
+}  */
+.about-bg{ z-index: -1; padding-left: 20px; width: auto; }
+
+.about-bg-2{ position: absolute; left: 26%; z-index: -1; width: auto; }
+
 .about-head{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: black;
+    color: black;  
 }
 .about-title{
     font-family: "Poppins", sans-serif;
@@ -333,8 +307,18 @@ body{ background-color: rgb(255, 255, 255) }
     height: 210px;
     color: #D65827;
 }
-.section-title h1{text-align: center; margin-left: -150px; width: 1050px;}
- 
+.section-title {
+    width: auto;
+    max-width: 900px;  
+    text-align: center;
+    margin: 0 auto;  
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.section-title h1{ text-align: center; margin-left: -60px; width: 1050px; }
+
+.section-title p{ margin-left: 50px;}
+
 #span-about-title{ color: #000000; }
 
 .about-sentance{

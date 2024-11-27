@@ -42,9 +42,9 @@
 
     .about-container1{ margin-top: -20px; height: 1335px; }
 
-    /* .about-container1 { margin-top: -10px; height: 865px; }  when event section is empty */
+    .about-container1 { margin-top: -10px; height: 865px; }  when event section is empty
 
-    .section-about{
+    /* .section-about{
         width: auto;
         height: 370px;
         border-radius: 12px;
@@ -52,7 +52,7 @@
         display: block;
         padding-right: 10px;
         margin-top: -150px;  
-    }
+    } */
     .about-bg{ width: 360px; padding-left: 0px; padding-right: 10px;}
 
     .about-bg-2{  position: absolute; left: 0px; }
@@ -73,11 +73,11 @@
         margin: auto;
         margin-top: -10px;
     }
-    /* .section-title { margin-top: 40px; padding-bottom: 150px;}    
+    .section-title { margin-top: 40px; padding-bottom: 150px;}    
 
     .section-title h1 { width: auto; margin-left: 0px;}
 
-    .section-title p{ margin-left: 0px;} */
+    .section-title p{ margin-left: 0px;}
 
     .about-box-container{ margin-top: 20px; }
 
@@ -527,9 +527,9 @@
 
     .about-container1{ margin-top: -25px; height: 1420px; }
 
-    /* .about-container1 { margin-top: -45px; height: 910px; }   when event section is empty */
+    .about-container1 { margin-top: -45px; height: 910px; }   when event section is empty
 
-    .section-about{
+    /* .section-about{
         width: auto;
         height: 350px;
         border-radius: 12px;
@@ -537,7 +537,7 @@
         display: block;
         padding-right: 10px;
         margin-top: -160px;  
-    }
+    } */
     .about-bg{ width: 430px; padding-left: 0px; padding-right: 10px;}
 
     .about-bg-2{ position: absolute; left: 0px; }
@@ -550,11 +550,11 @@
         line-height: 22px;
         margin-left: auto;
     }
-    /* .section-title { margin-top: 40px; padding-bottom: 150px;}    
+    .section-title { margin-top: 40px; padding-bottom: 150px;}    
 
     .section-title h1 { width: auto; margin-left: 0px;}
 
-    .section-title p{ margin-left: 0px;} */
+    .section-title p{ margin-left: 0px;}
 
     .about-sentance{
         font-size: 13px;

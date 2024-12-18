@@ -240,6 +240,7 @@ body{ background-color: rgb(255, 255, 255) }
     min-width: 100%;
     height: 900px;
     top: 0;
+    justify-items: center;
 }
 .home-title{
     font-family: "Poppins", sans-serif;
@@ -248,23 +249,32 @@ body{ background-color: rgb(255, 255, 255) }
     line-height: 70px;
     width: 100px;
     color: white;
-    margin-top: 250px;
-    margin-left: 685px;
+    margin-top: 250px; 
+    /* margin-left: -290px; */
 }
+.home-title1{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 70px; 
+    color: white;
+    margin-left: 80px;
+    margin-top: 200px;
+} 
 #home-hr{
     width: 95px;
     height: 3px;
     color: white;
     opacity: 100%;
-    margin-top: -50px;
-    margin-left: 685px;
+    margin-top: -50px; 
+    margin-left: -290px;
 }
 .home-title2{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 35px;
-    width: 390px;
-    margin-left: 685px;
+    width: 390px; 
+    /* margin-left: 685px; */
     margin-top: -10px;
     color: white;
 }
@@ -288,49 +298,76 @@ body{ background-color: rgb(255, 255, 255) }
     position: absolute;
     margin-top: -250px;
 } 
-.about-bg{ z-index: -1; padding-left: 20px; width: auto; }
+.about-bg{ z-index: -1; padding-left: 20px; width: auto; } 
 
-/* .about-bg-2{ position: absolute; left: 26%; z-index: -1; width: auto; } */
-
-.about-head{
+.about-head, .aboutus-title{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: black;  
 }
-.about-title{
+.about-title {
     font-family: "Poppins", sans-serif;
     font-size: 54px;
     font-weight: 600;
-    line-height: 70px;
+    line-height: 65px;
     width: 800px;
     height: 210px;
     color: #D65827;
-}
-/* .section-title {
-    width: auto;
-    max-width: 900px;  
-    text-align: center;
-    margin: 0 auto;  
-    margin-top: 100px;
-    padding-bottom: 100px;
-}
-.section-title h1{ text-align: center; margin-left: -60px; width: 1050px; }
-
-.section-title p{ margin-left: 50px;} */
+} 
 
 #span-about-title{ color: #000000; }
 
 .about-sentance{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     width: 800px;
-    height: 107px;
-    color: #53626D;
-}
+    height: 210px;
+    color: #53626D; 
+} 
 
+/* --------------------- ABOUT US 2 STYLE START --------------------- */
+.aboutus-container{ 
+    justify-items: center;
+    padding: 10px 0px;
+    text-align: center;  
+    height: auto;
+    margin-bottom: 100px;
+} 
+.aboutus-section{
+    position: absolute; top: 60px;
+}
+.aboutus-main-title{ 
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 60px;
+    width: auto;
+    max-width: 90%;
+    color: #D65827;
+    text-align: center;
+    margin: 0 auto;
+}
+.aboutus-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px; 
+    color: #53626D; 
+    width: auto;
+    max-width: 85%; 
+    margin: 20px auto;
+}
+.aboutus-link{
+    display: block; 
+    padding-top: 5px;
+    font-size: 14px; 
+}
+.aboutus-bg{
+    width: auto; background-size: cover;
+}
 /* --------------------- EVENT STYLE START --------------------- */
 
 .card-slider-container {
@@ -340,7 +377,10 @@ body{ background-color: rgb(255, 255, 255) }
     text-align: center;
     right: 0px;
     left: 855px;
-    bottom: 320px;
+    bottom: 290px;
+}
+.empty-event{
+    height: 300px; color: black; 
 }
 .header {
     display: flex;
@@ -623,39 +663,53 @@ body{ background-color: rgb(255, 255, 255) }
 
 /* --------------------- ABOUT US2 STYLE START --------------------- */
 
+.more-text{display: none;}
+
+.read-more-btn{
+    border: none; 
+    background-color: transparent;
+    color: #D65614;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0; 
+    text-decoration: underline;
+}
+.arrow-icon {margin-top: 20px; }
+
 .section-about2{
     background: url(../media/aboutus-bgimg2.png);
-    height: 800px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 820px;
     border-radius: 10px;
     padding-top: 40px;
 }
 .whatwedo-headers{
-    margin-left: 30px;
-    margin-top: 130px;
+    margin-left: 20px;
+    margin-top: 60px; 
 }
 .whatwedo-head{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     color: #ffffff;
 }
 .whatwedo-title{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 54px;
-  line-height: 70px;
+  font-size: 44px;
+  line-height: 60px;
   color: #ffffff;
-  width: 650px;
-  height: 210px;
+  width: 560px;
+  height: 210px; 
 }
-#whatwedo-title-span{
-  color: #D65827;
-}
+#whatwedo-title-span{  color: #D65827; }
 
 .about-content-right{
-    margin-left: 70px;
-    margin-top: 80px;
-    width: 630px;
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 660px;
     height: 630px;
 }
 .jobevaluation-title{
@@ -668,16 +722,15 @@ body{ background-color: rgb(255, 255, 255) }
 .jobvaluation-paragraph{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    width: 288px;
-    color: white;
-}
-.placement-block{
-    margin-top: -5px;
-}
-.arrow{
-    margin-left: 10px;
-}
+    font-size: 17px;
+    width: 300px;
+    color: white; 
+    opacity: 80%;
+    line-height: 18px; 
+} 
+.job-travel-block, .dep-place-block{ display: flex; gap: 50px; } .dep-place-block{ padding-top: 20px;} 
+ 
+.arrow{ margin-left: 10px; }
 
 /* --------------------- SERVICE STYLE START --------------------- */
 
@@ -686,7 +739,7 @@ body{ background-color: rgb(255, 255, 255) }
 .our-service { padding-top: 50px; padding-bottom: 10px; }
 
 .our-service-bg{
-    background-image: url(../media/service_Bg_Image.png);
+    background-image: url(../media/servicepage-bgimg2.png);
     height: 850px;
     border-radius: 10px;
     margin-top: 0px;
@@ -811,11 +864,11 @@ body{ background-color: rgb(255, 255, 255) }
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: white;
+    color: white; 
 }
 .manufacture-text, .manufacture-box-text, .hospitality-text, .hospitality-ul{
     font-family: "Roboto", sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 21px;
     color: #FFFFFF;
@@ -885,16 +938,16 @@ body{ background-color: rgb(255, 255, 255) }
     position: absolute;
     right: 20px;
     top: 10px;
+    cursor: pointer;
 }
 /* --------------------- SERVICE STYLE START --------------------- */
 
-.choose-section{
-    padding: 55px 0 16px 0px ;
-}
+.choose-section{ padding: 55px 0 16px 0px ; }
+
 .choose-container{
     background-color: #E7ECF0;
-    padding: 35px 50px;
-    border-radius: 12px;
+    padding: 35px 40px;
+    border-radius: 12px; 
 }
 .choose-title{
     font-family: "Poppins", sans-serif;
@@ -905,7 +958,8 @@ body{ background-color: rgb(255, 255, 255) }
 .choose-box{
     background-color: #fff;
     border-radius: 0px 0px 12px 12px;
-    padding: 20px 31px;
+    padding: 15px 20px;
+    height: auto;
     /* width: auto; */
 }
 .choose-sub-title{
@@ -916,20 +970,30 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .choose-text-para{
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 23px;
-    color: #53626D;
-}
-.choose-img{
-    border-radius: 12px 12px 0px 0px;
-    transition: 0.5s;
-}
-.choose-img-box{
-    border-radius: 12px 12px 0px 0px;
-    overflow: hidden;
-}
+    line-height: 22px;
+    color: #53626D; 
+    margin-top: 0px; 
+} 
+.choose-expertise, .choose-extensive, .choose-solution{ padding-top: 30px;}
+
+.choose-img{ border-radius: 12px 12px 0px 0px; transition: 0.5s; }
+
+.choose-img-box{ border-radius: 12px 12px 0px 0px; overflow: hidden; }
+
 .choose-img:hover{ transform: scale(1.07); }
+
+.choose-more-text{ display: none;} 
+
+.read-more-link{ 
+    font-family: "Roboto", sans-serif;
+    font-size: 14px; 
+    font-weight: 400;
+    color: #53626D; 
+    text-decoration: underline;
+}
+.read-more-link:hover{ color: #D65614;}
 
 /* --------------------------------------------------------*/
 .collection{ height: auto;}
@@ -939,11 +1003,11 @@ body{ background-color: rgb(255, 255, 255) }
 .impact-content, .leadership-content, .value-content{
     background-color: #E7ECF0;
     border-radius: 10px;
-    padding: 70px;
+    padding: 50px;
 }
 .leadership-img{ margin-left: 30px; height: 543px; width: 660px;}
 
-.leadership-content{ width: 630px; height: 543px; }
+.leadership-content{ width: 630px; height: 543px; padding: 35px 45px;}
 
 .value-content{ height: 528px; } .leadership-main, .valuetime-main{ margin-top: 20px; }
 
@@ -955,10 +1019,11 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .content-para{
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 26px;
     color: #53626D; 
+    text-align: justify; 
 }
 
 /* --------------------- BLOGS STYLE START --------------------- */
@@ -995,7 +1060,7 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .blog-text{
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 20px;
     color: #53626D;
@@ -1071,7 +1136,8 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .single-texts{
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
+    background-color: #00ACED;
     font-weight: 400;
     line-height: 24px;
     color: #53626D;
@@ -1120,7 +1186,7 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .sidebar-text{
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 24px;
     width: 402px;
@@ -1261,7 +1327,7 @@ body{ background-color: rgb(255, 255, 255) }
     font-weight: 500;
     line-height: 24px;
     color: #FFFFFF;
-    padding-left: 30px;
+    padding-left: 35px;
     width: 500px;
 }
 .contact-input{
@@ -1300,6 +1366,8 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .inside-btn:hover{ background-color: #cf2216; }
 
+.contact-left-section, .contact-address{ padding-left: 20px;}  
+
 .contact-para , .contact-email, .contact-number{
     width: 426px;
     height: 90px;
@@ -1310,7 +1378,7 @@ body{ background-color: rgb(255, 255, 255) }
     color: #ffffff;
     padding-left: 20px;
 }
-.contact-number{ font-size: 15px; }
+.contact-number{ font-size: 15px; padding-left: 30px; }
 
 .contact-email{
     margin-top: -50px;
@@ -1321,7 +1389,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 .contact-number-div{
     margin-left: 330px;
-    margin-top: -63px;
+    margin-top: -24px;   
     width: 400px;
 }
 .contact-number{ margin-left: -10px; height: 20px; }
@@ -1342,12 +1410,14 @@ body{ background-color: rgb(255, 255, 255) }
     width: 15px;
     height: 18px;
     margin-top: 15px;
-    margin-left: -30px;
+    /* margin-left: -30px; */
+    margin-left: -265px;
 }
 .contact-menu-section{
     width: 620px;
     height: 400px;
-    margin-left: 660px;
+    margin-left: 550px;
+    /* margin-top: -370px;   */
     margin-top: -460px;
 }
 .contact-menu{
@@ -1383,10 +1453,10 @@ body{ background-color: rgb(255, 255, 255) }
 .contact-menu-link{ margin-left: 170px; margin-top: 50px; }
 
 .social-icons-div{
-    margin-left: 445px;
-    margin-top: 120px;
+    margin-left: 565px;
+    margin-top: 10px;
     width: 170px;
-    height: 30px;
+    height: 30px; 
 }
 .social-icons{ padding: 0px 10px; }
 

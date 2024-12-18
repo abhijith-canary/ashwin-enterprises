@@ -62,7 +62,7 @@
         const carousel = $(".carousel-item-2");
     
         carousel.owlCarousel({
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 3000, // Adjust autoplay speed if needed
             smartSpeed: 1000,
             margin: 30,
@@ -267,3 +267,43 @@
     updateScrollOffset();
     window.addEventListener("resize", updateScrollOffset);
 
+    function toggleReadMore(button) {
+        const paragraph = button.parentElement.querySelector(".jobvaluation-paragraph");
+        const dots = paragraph.querySelector(".dots");
+        const moreText = paragraph.querySelector(".more-text");
+        const buttonText = button.querySelector(".button-text");
+    
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            buttonText.textContent = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            buttonText.textContent = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+
+    function chooseFunction(event) {
+        var parentElement = event.target.closest('.choose-box');  
+        var dots = parentElement.querySelector(".choose-dots");
+        var moreText = parentElement.querySelector(".choose-more-text");
+        var linkText = event.target; 
+        var icon = linkText.querySelector('i');
+    
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            linkText.innerHTML = "Read more";
+            linkText.appendChild(icon);
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            linkText.innerHTML = "Read less";
+            linkText.appendChild(icon);
+            moreText.style.display = "inline";
+        }
+    }
+     
+    document.querySelectorAll('.read-more-link').forEach(function(link) {
+        link.addEventListener('click', chooseFunction);
+    });

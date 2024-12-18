@@ -259,6 +259,8 @@
 
     .choose-expertise, .choose-extensive, .choose-solution{ padding-top: 15px;}
 
+    .choose-body { margin-right: 2px; } .choose-text-pad{ padding-top: 0px;}
+
     /* --------------------- SERVICE3 IMPACT RESPONSIVE START --------------------- */
 
     .collection{ margin-top: 0px; height: auto; padding: 0 7px; } .content-title{ font-size: 18px; }
@@ -739,6 +741,8 @@
 
     .choose-expertise, .choose-extensive, .choose-solution{ padding-top: 15px;}
 
+    .choose-text-pad{ padding-top: 0px;}
+
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 
     .collection{ height: auto; padding: 0 7px; } .content-title{ font-size: 18px; }
@@ -995,7 +999,7 @@
         font-size: 12px;
         padding: 5px 10px 5px 10px;  
     }
-    .topnav-centered { margin-left: 0px; left: 13%; margin-top: -30px;}
+    .topnav-centered { margin-left: 0px; left: 49%; margin-top: -30px;}
 
 /* --------------------- HOME RESPONSIVE START --------------------- */
 
@@ -1003,25 +1007,26 @@
 
     .home-title-div{ width: auto; max-height: 500px; }
 
-    .home-title{
+    .home-title1{
         font-size: 45px;
         line-height: 40px;
         margin-top: 140px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
-    #home-hr{ margin-top: -30px; margin-left: 35px; }
+    #home-hr{ margin-top: -30px; margin-left: 15px; float: left;}
 
     .home-title2{
-        margin-left: 35px;
+        margin-left: 15px;
         margin-top: -10px;
         width: auto;
         font-size: 20px;
+        float: left;
     }
     .home-bg-clip{ margin-left: auto; max-height: 500px; }
 
 /* --------------------- ABOUT US RESPONSIVE START --------------------- */ 
 
-    .about-container1{ margin-top: -30px; height: 690px; }
+    .about-container1{ margin-top: -30px; height: 700px; }
 
     .section-about{
         width: 350px;
@@ -1230,6 +1235,8 @@
     .choose-box{ padding: 15px 30px; height: auto;}  .choose-vision{ padding-top: 15px;}
 
     .choose-expertise, .choose-extensive, .choose-solution{ padding-top: 15px;}  
+
+    .choose-text-pad{ padding-top: 0px;}
 
     /* --------------------- SERVICE3 RESPONSIVE START --------------------- */
 

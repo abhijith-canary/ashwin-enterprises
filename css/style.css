@@ -975,6 +975,9 @@ body{ background-color: rgb(255, 255, 255) }
     color: #53626D; 
     margin-top: 0px; 
 } 
+.choose-text-pad{
+    padding-top: 28px;
+}
 .choose-expertise, .choose-extensive, .choose-solution{ padding-top: 30px;}
 
 .choose-img{ border-radius: 12px 12px 0px 0px; transition: 0.5s; }
@@ -983,7 +986,28 @@ body{ background-color: rgb(255, 255, 255) }
 
 .choose-img:hover{ transform: scale(1.07); }
 
-.choose-more-text{ display: none;} 
+.choose-more-text{ display: none;}  .blog-carousel{ margin-left: 10px; }
+
+.owl-carousel.blog-carousel .owl-nav .owl-prev,
+.owl-carousel.blog-carousel .owl-nav .owl-next {
+    position: absolute;
+    top:0;
+    transform: translateY( -800%);  
+    border: none;
+    padding: 10px;
+    font-size: 20px; 
+    z-index: 10;
+    cursor: pointer;
+}
+.owl-carousel.blog-carousel .owl-nav .owl-prev { right: 60px; border: 1px solid white; color: #eb621d;}
+
+.owl-carousel.blog-carousel .owl-nav .owl-prev:hover { color: white; border: none;}
+ 
+.owl-carousel.blog-carousel .owl-nav .owl-next { right: 10px; background-color: white; color: #eb621d;}
+
+.owl-carousel.blog-carousel .owl-nav .owl-next:hover{ background-color: #eb621d; color: white;}
+
+.choose-body { margin-right: 20px; margin-top: 10px;}
 
 .read-more-link{ 
     font-family: "Roboto", sans-serif;

@@ -240,26 +240,16 @@ body{ background-color: rgb(255, 255, 255) }
     min-width: 100%;
     height: 900px;
     top: 0;
-    justify-items: center;
-}
-.home-title{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 75px;
-    line-height: 70px;
-    width: 100px;
-    color: white;
-    margin-top: 250px; 
-    /* margin-left: -290px; */
-}
+    justify-items: center; 
+} 
 .home-title1{ 
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 75px;
     line-height: 70px; 
     color: white;
-    margin-left: 80px;
-    margin-top: 200px;
+    /* margin-left: 80px; */
+    margin-top: 310px; 
 } 
 #home-hr{
     width: 95px;
@@ -267,7 +257,8 @@ body{ background-color: rgb(255, 255, 255) }
     color: white;
     opacity: 100%;
     margin-top: -50px; 
-    margin-left: -290px;
+    margin-left: 400px;
+    float: inline-start;
 }
 .home-title2{
     font-family: "Poppins", sans-serif;
@@ -275,7 +266,9 @@ body{ background-color: rgb(255, 255, 255) }
     font-size: 35px;
     width: 390px; 
     /* margin-left: 685px; */
-    margin-top: -10px;
+    float: inline-start;
+    margin-left: 400px;
+    margin-top: -30px;  
     color: white;
 }
 .home-bg-clip{
@@ -362,8 +355,15 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .aboutus-link{
     display: block; 
-    padding-top: 5px;
+    padding-top: 15px;
     font-size: 14px; 
+    width: 90px; 
+}
+.aboutus-link a{
+    color: #373d41; text-decoration: underline;
+}
+.aboutus-link:hover, .aboutus-link a:hover{
+    color: #D65827;
 }
 .aboutus-bg{
     width: auto; background-size: cover;
@@ -619,7 +619,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 #span-about-sentance{ font-weight: 700; }
 
-.about-box-container{ margin-top: -270px;}
+.about-box-container{ margin-top: -270px;}  
 
 .about-box, .about-box2, .about-box3{
     background-color: #E7ECF0;
@@ -688,6 +688,7 @@ body{ background-color: rgb(255, 255, 255) }
 .whatwedo-headers{
     margin-left: 20px;
     margin-top: 60px; 
+    padding: 20px 40px;
 }
 .whatwedo-head{
     font-family: "Poppins", sans-serif;
@@ -868,9 +869,9 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .manufacture-text, .manufacture-box-text, .hospitality-text, .hospitality-ul{
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 21px; 
     color: #FFFFFF;
     opacity: 80%;
 }
@@ -1454,7 +1455,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 .social-icons-div{
     margin-left: 565px;
-    margin-top: 10px;
+    margin-top: 150px;
     width: 170px;
     height: 30px; 
 }

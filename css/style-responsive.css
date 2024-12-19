@@ -207,19 +207,19 @@
         height: 6px;
         width: 150px;
     }
-    .our-service-content{
+    /* .our-service-content{
         width: 107%;
         height: 80px;
         margin-top: 79px;
         margin-left: -11px;
-        border-radius: 0px 0px 10px 10px;  /*???*/
+        border-radius: 0px 0px 10px 10px;   
     }
     .our-service-para{
         font-size: 13px;
         line-height: 17px;
         width: auto;
         padding: 15px 20px;
-    }
+    } */
     .service-card-slider{
         margin-left: auto;
         margin-top: 65px;
@@ -694,7 +694,7 @@
         height: 6px;
         width: 150px;
     }
-    .our-service-content{
+    /* .our-service-content{
         width: 107%;
         height: 80px;
         margin-top: 76px;
@@ -706,7 +706,7 @@
         line-height: 17px;
         width: auto;
         padding: 15px 20px;
-    }
+    } */
     .service-card-slider {
         margin-left: auto ;
         margin-right: auto;
@@ -1207,9 +1207,7 @@
 
     .manufacture-box-title, .manufacture-title{ font-size: 14px;}
 
-    .box-content{ padding: 18px 20px; }
-
-    .hospitality-hover{ padding: 1px 15px; }
+    .box-content{ padding: 18px 20px; } 
 
     .owl-carousel-3 .owl-nav {
         width: auto;
@@ -1582,7 +1580,7 @@
 
     .our-service-title { font-size: 30px;} .service-card-slider{ width: 650px; margin-left: 470px; margin-top: 35px; }  
 
-    .our-service-content{ margin-top: 95px; } .our-service-para{ padding: 40px 40px;}
+    /* .our-service-content{ margin-top: 95px; } .our-service-para{ padding: 40px 40px;} */
 
     /* --------------------- SERVICE-2 RESPONSIVE START --------------------- */
 

@@ -58,7 +58,7 @@
             </div>
         
             <div class="nav-links" id="navLinks">
-                <a href="index.html#home_page" class="active nav-menu">Home</a>
+                <a href="index.html" class="active nav-menu">Home</a>
                 <a href="index.html#about_us" class="nav-menu">About Us</a>
                 <a href="index.html#service_page" class="nav-menu">Services</a>
                 <a href="index.html#blog_page" class="nav-menu">Blogs</a>
@@ -75,13 +75,17 @@
             <a href="tel:+91 9947070280" class="nav-btn"><span class="get-text">Get</span> Consulting</a>
         </div>
 
+        <!-- Aboutus Banner Start-->
+
         <div class="container-fluid blog-banner">
             <div class="container text-center">
                 <p class="blog-banner-subhead">ASHWIN ENTERPRISES</p>
                 <h3 class="blog-banner-title fadeInDown " data-wow-delay="0.1s">About Us</h1> 
             </div>
-        </div> 
+        </div>  
+        <!-- Aboutus Banner End -->
 
+        <!-- Aboutus Main Start--> 
         <div class="container-fluid overflow-hidden"  >
             <div class="container aboutus-container position-relative"  > 
                 <img src="media/aboutus-bgimg1.png" class="img-fluid aboutus-bg" >
@@ -90,16 +94,15 @@
                     <h1 class="aboutus-main-title">Ashwin Enterpises Pvt Ltd <span id="span-about-title">is a trusted overseas manpower recruitment agency in India.</span></h1>
                     <p class="aboutus-text"> 
                         We are a government-approved and licensed agency, recognized by the Ministry of External Affairs, Government of India, for our excellence in recruitment, staffing, and training services. With over 25 years of experience, we have built a trusted reputation as a reliable partner for workforce solutions, catering to industries such as <span id="span-about-sentance">Construction, Manufacturing, Oil & Gas, Security Services, Healthcare, and Hospitality.</span>
-                        <br>Our expertise lies in understanding the unique workforce requirements of our clients and delivering tailored solutions that align with their business goals. We provide a wide range of personnel, including <span id="span-about-sentance">senior professionals, managers, skilled technicians, security guards, and general laborers,</span> ensuring that every role is filled with the right talent.
-                        <br>To streamline the recruitment process, we organize interviews and trade tests at strategically located centers across the country. These centers are equipped to handle workforce requirements of various categories and scales, ensuring a smooth and efficient hiring process. Our rigorous evaluation methods and commitment to quality ensure that every candidate is thoroughly vetted and prepared to meet the highest industry standards.
-                        <br>Beyond recruitment, we also specialize in training programs designed to equip candidates with the necessary skills and knowledge required for their roles. This ensures seamless integration into their new work environments and contributes to their long-term success.
-                        <br>At the heart of our operations is our dedication to building long-term partnerships with our clients. By offering comprehensive workforce solutions, we aim to enhance organizational efficiency and contribute to the sustained success of our clients. Our commitment to excellence, reliability, and ethical practices has made us a trusted partner in workforce management for organizations across the globe.
+                        Our expertise lies in understanding the unique workforce requirements of our clients and delivering tailored solutions that align with their business goals. We provide a wide range of personnel, including <span id="span-about-sentance">senior professionals, managers, skilled technicians, security guards, and general laborers,</span> ensuring that every role is filled with the right talent.
+                        To streamline the recruitment process, we organize interviews and trade tests at strategically located centers across the country. These centers are equipped to handle workforce requirements of various categories and scales, ensuring a smooth and efficient hiring process. Our rigorous evaluation methods and commitment to quality ensure that every candidate is thoroughly vetted and prepared to meet the highest industry standards.
+                        Beyond recruitment, we also specialize in training programs designed to equip candidates with the necessary skills and knowledge required for their roles. This ensures seamless integration into their new work environments and contributes to their long-term success.
+                        At the heart of our operations is our dedication to building long-term partnerships with our clients. By offering comprehensive workforce solutions, we aim to enhance organizational efficiency and contribute to the sustained success of our clients. Our commitment to excellence, reliability, and ethical practices has made us a trusted partner in workforce management for organizations across the globe.
                     </p>
-                </div>
-                 
+                </div> 
             </div>
         </div>  
-
+        <!-- Aboutus Main End--> 
         
 
         <!-- Contact Start -->
@@ -124,12 +127,20 @@
                             <p class="contact-sentence">Stay connected with the country's fastest-growing manpower recruitment</p>
                         </div>
 
-                        <form class="custom-form mb-2" action="#" method="post" role="form">
+                        <!-- <form class="custom-form mb-2" action="#" method="post" role="form">
                             <div class="input-wrapper">
                                 <input type="email"  class="contact-input" placeholder="Enter email address" required>
                                 <button class="inside-btn">Submit</button>
                             </div>
+                        </form> -->
+
+                        <form class="custom-form mb-2" onsubmit="sendToWhatsApp(event)">
+                            <div class="input-wrapper">
+                                <input type="email" id="emailInput" class="contact-input" placeholder="Enter email address" required>
+                                <button type="submit" class="inside-btn">Submit</button>
+                            </div>
                         </form>
+
                         <div class="g-3 contact-address">
                             <div class="d-flex">
                                 <img src="media/contact-loc-icon.png" class="location-icon">

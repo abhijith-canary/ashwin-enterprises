@@ -118,21 +118,28 @@
                     </form>
                 </div>
 
-
-                <div class="row contact-section">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="row contact-section overflow-hidden">
+                    <div class="col-lg-6 wow fadeInLeft contact-left-section" data-wow-delay="0.1s">
                         <div class="">
                             <a href="index.html"><img src="media/logo-white Icon.png" class="contact-logo"></a>
                             <p class="contact-sentence">Stay connected with the country's fastest-growing manpower recruitment</p>
                         </div>
 
-                        <form class="custom-form mb-2" action="#" method="post" role="form">
+                        <!-- <form class="custom-form mb-2" action="#" method="post" role="form">
                             <div class="input-wrapper">
                                 <input type="email"  class="contact-input" placeholder="Enter email address" required>
                                 <button class="inside-btn">Submit</button>
                             </div>
+                        </form> -->
+
+                        <form class="custom-form mb-2" onsubmit="sendToWhatsApp(event)">
+                            <div class="input-wrapper">
+                                <input type="email" id="emailInput" class="contact-input" placeholder="Enter email address" required>
+                                <button type="submit" class="inside-btn">Submit</button>
+                            </div>
                         </form>
-                        <div class="g-3">
+
+                        <div class="g-3 contact-address">
                             <div class="d-flex">
                                 <img src="media/contact-loc-icon.png" class="location-icon">
                                 <p class="contact-para">G-282, 2nd Floor, Panampilly Nagar Main Avenue, Ernakulam, India - 682036</p>
@@ -152,10 +159,10 @@
                         <div class="col-md-6 col-lg-6 col-xl-3">
                             <div class="d-flex flex-column contact-menu">
                                 <h4 class="company-menu-title mb-4">Company</h4>
-                                <a href="index.html#about_us" class="contact-submenu1">About us</a>
-                                <a href="index.html#service_page" class="contact-submenu1">Services</a>
-                                <a href="blog.html" class="contact-submenu1">FAQ</a>
-                                <a href="contact.html" class="contact-submenu1">Contact us</a>
+                                <a href="#about_us" class="contact-submenu1">About us</a>
+                                <a href="#service_page" class="contact-submenu1">Services</a>
+                                <a href="#blog_page" class="contact-submenu1">FAQ</a>
+                                <a href="#contact_us" class="contact-submenu1">Contact us</a>
                             </div>
                         </div>
 
@@ -202,6 +209,8 @@
             </div>
         </div><br>
         <!-- Copyright End -->
+
+        
         <script>
             const recent_contents = {
                 blog1: {

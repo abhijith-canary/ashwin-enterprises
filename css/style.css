@@ -133,7 +133,7 @@ body{ background-color: rgb(255, 255, 255) }
     align-items: center;
     position: relative;
     margin: 0 auto;
-    margin-left: -310px;
+    margin-left: -310px;  
 }
 .nav-btn {
     margin-left: auto;
@@ -180,13 +180,17 @@ body{ background-color: rgb(255, 255, 255) }
         flex-direction: column;
         position: absolute;
         top: 100%;
-        left: 0;
+        left: 0; 
         width: 100%;
         max-height: 0;
         overflow: hidden;
-        background-color: white;
+        background-color: white; 
     }
-    .nav-links .nav-menu { margin-right: 110px; padding: 5px 0px; }
+    .nav-links .nav-menu { 
+        margin-right: 110px; 
+        /* margin-right: 200px; */
+        padding: 5px 0px;
+    }
 
     .nav-links.active {
         max-height: 300px;
@@ -304,7 +308,7 @@ body{ background-color: rgb(255, 255, 255) }
     line-height: 65px;
     width: 800px;
     height: 210px;
-    color: #D65827;
+    color: #D65827; 
 } 
 
 #span-about-title{ color: #000000; }
@@ -317,6 +321,7 @@ body{ background-color: rgb(255, 255, 255) }
     width: 800px;
     height: 210px;
     color: #53626D; 
+    text-align: justify;
 } 
 
 /* --------------------- ABOUT US 2 STYLE START --------------------- */
@@ -350,6 +355,7 @@ body{ background-color: rgb(255, 255, 255) }
     width: auto;
     max-width: 85%; 
     margin: 20px auto;
+    text-align: justify;
 }
 .aboutus-link{
     display: block; 
@@ -725,7 +731,8 @@ body{ background-color: rgb(255, 255, 255) }
     width: 300px;
     color: white; 
     opacity: 80%;
-    line-height: 18px; 
+    line-height: 18px;
+    text-align: justify;
 } 
 .job-travel-block, .dep-place-block{ display: flex; gap: 50px; } .dep-place-block{ padding-top: 20px;} 
  
@@ -871,7 +878,7 @@ body{ background-color: rgb(255, 255, 255) }
     font-weight: 400;
     line-height: 21px; 
     color: #FFFFFF;
-    opacity: 80%;
+    opacity: 80%; 
 }
 .box-content{
     background-color: white;
@@ -943,15 +950,18 @@ body{ background-color: rgb(255, 255, 255) }
 
 .choose-section{ padding: 55px 0 16px 0px ; }
 
+.choose-block{ padding-top: 25px;}
+ 
 .choose-container{
     background-color: #E7ECF0;
-    padding: 35px 40px;
+    padding: 35px 28px;
     border-radius: 12px; 
 }
 .choose-title{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
+    line-height: 20px; 
     color: #1D1E1C;
 }
 .choose-box{
@@ -973,11 +983,9 @@ body{ background-color: rgb(255, 255, 255) }
     font-weight: 400;
     line-height: 22px;
     color: #53626D; 
-    margin-top: 0px; 
-} 
-.choose-text-pad{
-    padding-top: 28px;
-}
+    margin-top: 0px;
+    text-align: justify;
+}  
 .choose-expertise, .choose-extensive, .choose-solution{ padding-top: 30px;}
 
 .choose-img{ border-radius: 12px 12px 0px 0px; transition: 0.5s; }
@@ -1007,7 +1015,7 @@ body{ background-color: rgb(255, 255, 255) }
 
 .owl-carousel.blog-carousel .owl-nav .owl-next:hover{ background-color: #eb621d; color: white;}
 
-.choose-body { margin-right: 20px; margin-top: 10px;}
+/* .choose-body { margin-right: 20px; margin-top: 10px;} */
 
 .read-more-link{ 
     font-family: "Roboto", sans-serif;
@@ -1159,12 +1167,12 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .single-texts{
     font-family: "Inter", sans-serif;
-    font-size: 17px;
-    background-color: #00ACED;
+    font-size: 17px; 
     font-weight: 400;
     line-height: 24px;
     color: #53626D;
     letter-spacing: 0.2px;
+    text-align: justify; 
 }
 .single-subhead{
     font-family: "Inter", sans-serif;
@@ -1322,6 +1330,7 @@ body{ background-color: rgb(255, 255, 255) }
     width: 800px;
     padding: 0px 35px;
     margin-top: -10px;
+    text-align: justify;
 }
 .consult-btn2{
     margin-top: -130px;
@@ -1509,6 +1518,7 @@ body{ background-color: rgb(255, 255, 255) }
     opacity: 50%;
     color: #FFFFFF;
     padding-left: 60px;
+    text-align: justify;
 }
 .end-note-span{
     font-family: "Poppins", sans-serif;

@@ -17,22 +17,22 @@
 /* --------------------- HOME RESPONSIVE START --------------------- */
     .carousel-header{ margin-top: 50px; }
 
-    .home-title-div{ width: auto; max-height: 400px; }
+    .home-title-div{ width: auto; max-height: 400px; align-items: start; }
 
     .home-title1{
         font-size: 35px;
-        line-height: 38px;
-        margin-top: 70px; 
-        margin-left: -20px;
+        line-height: 38px; 
         width: 380px; 
+        margin: 0 10px;
     }
-    #home-hr{ margin-top: -30px; margin-left: -300px; }
+    #home-hr{ margin: 15px 10px; text-align: start; }
 
-    .home-title2{ 
-        margin-top: -10px;
+    .home-title2{  
         width: 400px;
         font-size: 20px;
         color: white;
+        text-align: start;  
+        margin: -10px 10px;
     }
     .home-bg-clip{ margin-left: -100px; max-height: 400px; }
 
@@ -515,20 +515,21 @@
     .home-title-div{ width: auto; margin-top: 0px; max-height: 400px; }
 
     .home-title1{
-        font-size: 33px;
-        line-height: 35px;
-        margin-top: 80px;
-        margin-left: -35px; 
-        width: 360px; 
+        font-size: 35px;
+        line-height: 38px; 
+        width: 380px; 
+        margin: 0 auto;
+        margin-left: 1px;
     }
-    #home-hr{ margin-top: -30px; margin-left: -300px; }
+    #home-hr{ margin: 15px auto; text-align: start; margin-left: 2px;}
 
-    .home-title2{
-        margin-left: 0px;
-        margin-top: -10px;
+    .home-title2{  
         width: 400px;
         font-size: 20px;
         color: white;
+        text-align: start;  
+        margin: -10px auto; 
+        margin-left: 0;
     }
 
     /* --------------------- ABOUT US RESPONSIVE START --------------------- */ 
@@ -1010,18 +1011,16 @@
 
     .home-title1{
         font-size: 45px;
-        line-height: 40px;
-        margin-top: 140px;
-        margin-left: 10px;
+        line-height: 40px; 
+        text-align: center;
+        margin: 0 auto;
     }
-    #home-hr{ margin-top: -30px; margin-left: 15px; float: left;}
+    #home-hr{ margin: 17px auto; }
 
-    .home-title2{
-        margin-left: 15px;
-        margin-top: -10px;
+    .home-title2{ 
         width: auto;
-        font-size: 20px;
-        float: left;
+        font-size: 20px; 
+        margin: -5px auto;
     }
     .home-bg-clip{ margin-left: auto; max-height: 500px; }
 
@@ -1483,6 +1482,8 @@
 
 /* -----------ABOUT2 SECTION STYLING-------------- */
 
+    .home-title1{ width: 600px; } 
+
     .about{ height: auto; } .section-about2{ height: auto; width: auto; } 
 
     .whatwedo-headers{ margin-top: 80px; padding: 10px 20px 0px 10px; } .whatwedo-title{ width: auto; height: auto; }
@@ -1550,11 +1551,7 @@
 
 @media screen and (max-width: 1400px) and (min-width: 1200px) {
 
-    .home-bg-clip { margin-left: auto; max-height: 700px; } .home-title-div{ height: 700px;}
-
-    .home-title { margin-top: 120px; margin-left: 150px;} 
-
-    .home-title2, #home-hr{ margin-left: 150px;}
+    .home-bg-clip { margin-left: auto; max-height: 700px; } .home-title-div{ height: 700px;} 
 
     /* --------------------- ABOUTUS-1 RESPONSIVE START --------------------- */
     .section-about { width: 500px;} .about-title{ font-size: 40px; line-height: 50px; width: 600px;}
@@ -1625,7 +1622,7 @@
     .topnav-centered { text-align: center; margin: 0 auto; margin-left: -680px; width: 350px; }
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1201px){
+@media screen and (max-width: 1500px) and (min-width: 1201px){ 
 
     .nav-links{ padding: 10px; padding-left: 70px;} .nav-links .nav-menu{ padding: 10px 5px; font-size: 15px;}
 
@@ -1739,5 +1736,5 @@
 
     #navLinks{ padding-left: 70px;} .topnav-centered{ text-align: center; margin: 0 auto; margin-left: -170px; }
     
-    /* .impact-content{ padding: 50px; } */
+    .nav-links .nav-menu{ padding: 10px 10px; } 
 }

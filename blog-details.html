@@ -79,26 +79,27 @@
         <div class="single-blogs">
             <div class="container overflow-hidden">
                 <div class="row">
-                    <!-- Sidebar Section -->
-                    <div class="col-lg-4 sidebar-container">
-                        <div class="sidebar">
-                            <div class="sidebar-widget">
-                                <h2 class="sidebar-title wow fadeInLeft" data-wow-delay="0.1s">Recent Blog Post</h2>
-                            </div>
-                            <div id="recentBlogContents"></div>
-                        </div>
-                    </div>
+
 
                     <!-- Blog Content Section -->
                     <div class="col-lg-8 content-container">
                         <div class="sn-container">
                             <div class="sn-img">
-                                <h1 class="single-head py-3 wow fadeInRight" data-wow-delay="0.1s" id="blogTitle"></h1>
+                                <h1 class="single-head py-3 wow fadeInLeft" data-wow-delay="0.1s" id="blogTitle"></h1>
                             </div>
                             <div class="sn-content" id="blogContentContainer"></div>
                         </div>
                     </div>
 
+                    <!-- Sidebar Section -->
+                    <div class="col-lg-4 sidebar-container">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <h2 class="sidebar-title wow fadeInRight" data-wow-delay="0.1s">Recent Blog Post</h2>
+                            </div>
+                            <div id="recentBlogContents"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div> 
@@ -382,7 +383,7 @@
                     if (blogContent) {
                         const blogElement = document.createElement('div');
                         blogElement.innerHTML = `
-                            <div class="sidebar-widget wow fadeInLeft" data-wow-delay="0.1s">
+                            <div class="sidebar-widget wow fadeInRight" data-wow-delay="0.1s">
                                 <div class="sidebar-block">
                                     <img src="${blogContent.recent_img}" class="sidebar-img1 img-fluid">
                                     <p class="blog-head-manu">Manufacturing</p>
@@ -412,7 +413,7 @@
 
                     document.getElementById("blogTitle").textContent = blogPost.blog_banner_title;               
                     document.getElementById("blogContentContainer").innerHTML = `
-                        <div class="wow fadeInRight" data-wow-delay="0.1s">
+                        <div class="wow fadeInLeft" data-wow-delay="0.1s">
                             <img src="${blogPost.blog_img1}" class="img-fluid blog-main-img">
                             <p class="single-texts">${blogPost.blog_introduction}</p>
 
@@ -423,7 +424,7 @@
                             <p class="single-texts">${blogPost.blog_text2}</p>
                         </div>
 
-                        <div class="wow fadeInRight" data-wow-delay="0.1s">
+                        <div class="wow fadeInLeft" data-wow-delay="0.1s">
                             <div class="blog-second-img">
                                 <img src="${blogPost.blog_img2}" class="img-fluid blog-main-img2">
                             </div>

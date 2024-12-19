@@ -1124,6 +1124,8 @@ body{ background-color: rgb(255, 255, 255) }
     font-weight: 600;
     line-height: 59px;
 }
+.blog-main-img{ width: 100%; height: auto; max-height: 430px; border-radius: 12px;}
+
 .single-blogs {
     position: relative;
     width: 100%;

@@ -104,16 +104,35 @@
     }
     .slider-wrapper{ margin-top: -15px;} .slider-heading { font-size: 17px; } .card-img{ height: 243px;} .empty-event{ height: 235px; }
 
-    .card-content{ padding: 5px 15px; height: 145px;} .card-content-head { font-size: 18px; } 
+    .card-content{ padding: 25px 20px 5px; height: 145px;} .card-content-head { font-size: 18px; } 
 
     .card-content-text, .time-date{ font-size: 13px; width: auto; } .post-time{ position: absolute; margin-top: 20px; left: 15px;}
 
-    .card-btn {
+    .event-title{
+        font-size: 17px;
+        line-height: 22px;
+        width: 70%;
+        top: 115px;
+        left: 20px;
+    }
+    .event-text{ top: 170px; left: 20px; }
+
+    .event-card-btn{
         width: auto; 
         height: 35px;
         font-size: 13px;
         font-weight: 400;
+        position: absolute; 
+        margin-top: -18px;
+        right: 40px;
+    }
+    .card-btn {
+        /* width: auto;  */
+        height: 35px;
+        font-size: 13px;
+        font-weight: 400;
         bottom: 16px;
+        left: 20px;
     }
     .arrow-orange{ font-size: 12px;}
 
@@ -143,15 +162,7 @@
     
     .event-card{ padding-top: 15px; } .event-content{ padding: 10px 20px 30px 20px; }
 
-    .event-card-btn{
-        width: auto; 
-        height: 35px;
-        font-size: 13px;
-        font-weight: 400;
-        position: absolute; 
-        margin-top: -18px;
-        right: 40px;
-    }
+
     .event-time{ position: absolute; left: 40px;}
     
     /* --------------------------------------------------------- */
@@ -309,7 +320,7 @@
 
     .blog-detail-banner{ padding: 90px 20px; margin-top: 70px; height: 290px; }
 
-    .banner-title{ width: 320px; font-size: 22px; line-height: 35px; }
+    .banner-title{ width: auto; font-size: 22px; line-height: 27px; }
 
     .sidebar-img1{ height: 230px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
 
@@ -790,7 +801,7 @@
 
     .blog-detail-banner{ padding: 80px 40px; margin-top: 70px; height: 290px; }
 
-    .banner-title{ width: 320px; font-size: 22px; line-height: 35px; }
+    .banner-title{   font-size: 22px; line-height: 27px; }
 
     .sidebar-img1{ height: 250px;} .sidebar{ padding-top: 0px;} .sidebar-title, .sidebar-head{font-size: 17px; line-height: normal;} 
 
@@ -1298,7 +1309,7 @@
 
     .blog-detail-banner{ padding: 95px 40px; margin-top: 70px; height: 300px; }
 
-    .banner-title{ width: auto; font-size: 30px; line-height: 35px; }
+    .banner-title{ font-size: 30px; line-height: 35px; }
 
     .sidebar-container{ width: auto;} .sidebar{ padding-top: 0px;}
 
@@ -1734,5 +1745,5 @@
 
     #navLinks{ padding-left: 70px;} .topnav-centered{ text-align: center; margin: 0 auto; margin-left: -170px; }
     
-    .nav-links .nav-menu{ padding: 10px 10px; } 
+    .nav-links .nav-menu{ padding: 10px 10px; }  
 }

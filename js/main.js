@@ -170,22 +170,22 @@
     });
 
     // // Event card slider 
-    // let currentSlide = 0; 
-    // const slides = document.querySelectorAll(".card");
-    // const dots = document.querySelectorAll(".dot");
+    let currentSlide = 0; 
+    const slides = document.querySelectorAll(".card");
+    const dots = document.querySelectorAll(".dot");
 
-    // // Function to show the specified slide
-    // function showSlide(index) {
-    // document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
+    // Function to show the specified slide
+    function showSlide(index) {
+    document.querySelector(".slider-wrapper").style.transform = `translateX(-${index * 100}%)`;
 
-    // dots.forEach(dot => dot.classList.remove("active"));
-    // dots[index].classList.add("active");
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[index].classList.add("active");
 
-    // // Update the current slide index
-    // currentSlide = index;
-    // }
+    // Update the current slide index
+    currentSlide = index;
+    }
 
-    // // Auto-slide functionality (optional)
+    // Auto-slide functionality (optional)
     // setInterval(() => {
     // currentSlide = (currentSlide + 1) % slides.length;    
     // showSlide(currentSlide);

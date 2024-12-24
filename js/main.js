@@ -344,7 +344,7 @@
         event.preventDefault();  
 
         const email = document.getElementById("emailInput").value; 
-        const phoneNumber = "9847038539";  
+        const phoneNumber = "9947070280";  
         const message = `Hello, This is my email: ${email}`;
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`; 
         

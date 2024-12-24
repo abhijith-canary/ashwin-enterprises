@@ -360,7 +360,7 @@
     .logo20{ height: 60px; width: 145px;}
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
-    .contact-main{ padding: 0 17px;}
+    .contact-main{ padding: 0 17px; margin-top: -10px;}
 
     .contact-action{
         border-radius: 12px 12px 0px 0px;
@@ -479,20 +479,19 @@
 
     .contact-form-header h6{ font-size: 16px;} .contact-form-header p { font-size: 20px; line-height: 20px;}
 
-    .input-field { height: 40px; padding: 10px; font-size: 13px; } .contact-us-btn{ font-size: 12px;}
+    .input-field { height: 40px; padding: 10px; font-size: 13px; } .contact-us-btn{ font-size: 12px; height: 40px;}
 
     .contact-form-div{ padding: 0px; } .contact-info-div{ padding: 20px 0px;}
 
     .contact-info a, .contact-info h5 { font-size: 13px; line-height: 18px; } 
 
-    .mail-box{ height: 110px;} .mail{margin-top: 5px;}  
+    .mail-box{ height: 110px;} .mail{margin-top: 5px;}
 
-    .whatsapp-container{ width: 107%; padding: 10px; margin: 20px 0px 30px; margin-left: -10px; }
+    .whatsapp-container { padding: 50px 13px; background-image:url(../media/Action_button_bg_croped.png); margin-top: 20px;}
 
-    .whatsapp-text{ font-size: 13px; line-height: 18px; width: 50%;}
+    .whatsapp-text{ font-size: 13px; line-height: 18px; width: 50%; padding: 0; margin-top: 0px;}
 
-    .whatsapp-link{ font-size: 13px; height: 40px;} .whatsapp-link i {font-size: 25px;}
- 
+    .whatsapp-link{ font-size: 13px; height: 40px;} .whatsapp-link i {font-size: 25px;} 
 }
 
 /* ---------------------------------------------------------------------------------------------------------
@@ -977,13 +976,13 @@
 
     .contact-info a, .contact-info h5 { font-size: 13px; line-height: 18px; } 
 
-    .mail-box{ height: 110px;} .mail{margin-top: 5px;}  
+    .mail-box{ height: 110px;} .mail{margin-top: 5px;} 
+    
+    .whatsapp-container { padding: 50px 13px; background-image:url(../media/Action_button_bg_croped.png); margin-top: 20px;}
 
-    .whatsapp-container{ width: auto; padding: 10px; margin: 20px 0px 30px; margin-left: 0px; }
+    .whatsapp-text{ font-size: 13px; line-height: 18px; width: 50%; padding: 0; margin-top: 0px; }
 
-    .whatsapp-text{ font-size: 13px; line-height: 18px; width: 50%;}
-
-    .whatsapp-link{ font-size: 13px; height: 40px; margin-top: 4px;} .whatsapp-link i {font-size: 25px;}
+    .whatsapp-link{ font-size: 13px; height: 40px;} .whatsapp-link i {font-size: 25px;}
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
 
@@ -1216,20 +1215,7 @@
         height: 6px;
         width: 170px;
         color: #fff;
-    }
-    /* .our-service-content{
-        width: 103.3%;
-        height: 100px;
-        margin-top: 89px;
-        margin-left: -11px; 
-        border-radius: 0 0 10px 10px;
-    }
-    .our-service-para{
-        font-size: 15px;
-        line-height: 17px;
-        width: 450px;
-        padding: 20px 20px;
-    } */
+    } 
     .service-card-slider{  margin-left: 70px; margin-top: 65px; width: 590px; height: 370px; }  
 
     .manufacture-img, .box-content{ width: 265px;} .manufacture-hover{ width: 265px; padding: 10px 30px; height: 383px;}
@@ -1466,7 +1452,7 @@
 
     .mail-box{ height: 110px;} .mail{margin-top: 5px;}  
 
-    .whatsapp-container{   padding: 10px; margin: 20px 0px 30px; margin-left: -5px; }
+    .whatsapp-container{ padding: 60px 20px; margin-top: 20px; }
 
     .whatsapp-text{ font-size: 14px; line-height: 18px; width: 50%;}
 

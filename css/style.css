@@ -292,7 +292,7 @@ body{ background-color: rgb(255, 255, 255) }
     padding: 10px 0px;
     text-align: center;  
     height: 68vh;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 } 
 .aboutus-section{
     position: absolute; top: 60px;
@@ -1019,9 +1019,9 @@ body{ background-color: rgb(255, 255, 255) }
 
 .blog{ height: auto; } .blog-container{ padding: 32px 0px 35px; }
 
-.blog-section{ height: 1200px; }
+.blog-section{ height: auto; }
 
-.blog-container1{ padding: 30px 0px;}
+.blog-container1{ padding: 30px 0px; }
 
 .our-blog-head, .contact-us-title, .form-title{
     font-family: "Poppins", sans-serif;
@@ -1263,6 +1263,8 @@ body{ background-color: rgb(255, 255, 255) }
 
 /* --------------------- CONTACT1 STYLE START --------------------- */
 .contact-container{ margin-top: 140px; } 
+
+.contact-main{ margin-top: 30px;}
 
 .contact-action{
     background-image: url(../media/Action_button_bg.png);
@@ -1557,23 +1559,33 @@ body{ background-color: rgb(255, 255, 255) }
 .contact-form-number{ width: 300px; justify-self: center;} 
 
 .whatsapp-container{
-    margin: 30px 0 80px; 
+    /* margin: 30px 0 80px; 
     padding: 20px 35px;
     background-color: #E7ECF0; 
+    background-image: url(../media/Action_button_bg.png); 
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
     margin-left: -10px;
-    width: 101.6%; 
+    width: 101.6%;  */
+    
+    background-image: url(../media/Action_button_bg.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px 12px 0px 0px;  
+    justify-content: space-between;
+    padding: 70px 45px;
 } 
 .whatsapp-text{
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 26px; 
-    color: #343435; 
+    color: #fff; 
+    width: auto;
+    margin-top: 10px;
 }
-.whatsapp-link{  
+.whatsapp-link{
     display: flex;  
     align-items: center;  
     justify-content: center;  
@@ -1586,8 +1598,7 @@ body{ background-color: rgb(255, 255, 255) }
     border: none; 
     border-radius: 8px;
     cursor: pointer;  
-    gap: 8px;
-    margin-top: 10px;
+    gap: 8px; 
 }
 .whatsapp-link i { font-size: 35px; color: forestgreen; justify-content: center; transition: 0.5s;}
 

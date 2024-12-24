@@ -335,4 +335,40 @@
         }
     });
 
- 
+    function makeCall(phoneNumber) {
+        window.location.href = `tel:${phoneNumber}`;
+    }
+
+    // footer session whatsapp  
+    function sendToWhatsApp(event) {
+        event.preventDefault();  
+
+        const email = document.getElementById("emailInput").value; 
+        const phoneNumber = "9847038539";  
+        const message = `Hello, This is my email: ${email}`;
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`; 
+        
+        setTimeout(() => {
+            window.open(whatsappURL, "_blank");
+        }, 50); 
+
+        emailInput.value = "";
+    }
+
+
+    // contact session whatsapp 
+    function openWhatsApp() { 
+        const phoneNumber = "9947070280"; 
+        const message = "Hello, I would like to know more information.";
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        
+        // Open the WhatsApp link
+        window.open(whatsappURL, "_blank");
+
+        setTimeout(() => {
+            window.open(whatsappURL, "_blank");
+        }, 10); 
+    }
+
+
+            // const phoneNumber = "+91 99470 70280";  

@@ -265,12 +265,12 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .about-title {
     font-family: "Poppins", sans-serif;
-    font-size: 54px;
+    font-size: 52px;
     font-weight: 600;
     line-height: 65px;
-    width: 800px;
+    width: 870px;
     height: 210px;
-    color: #D65827; 
+    color: #D65827;  
 } 
 
 #span-about-title{ color: #000000; }
@@ -291,7 +291,7 @@ body{ background-color: rgb(255, 255, 255) }
     justify-items: center;
     padding: 10px 0px;
     text-align: center;  
-    height: auto;
+    height: 68vh;
     margin-bottom: 100px;
 } 
 .aboutus-section{
@@ -390,31 +390,8 @@ body{ background-color: rgb(255, 255, 255) }
 
 .slider-wrapper {
     display: flex;
-    transition: transform 0.5s ease-in-out;
-    
-}
-/* .event-main-blog{
-    position: absolute;
-    padding: 160px 25px;
-}
-.event-title{
-    font-family:"Poppins", sans-serif;
-    font-size: 25px;
-    font-weight: 800;
-    line-height: 34px; 
-    color: white;
-    text-align: left;
-    width: 80%;
-}
-.event-text{
-    font-family:"Poppins", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 17.28px;
-    text-align: left; 
-    color: white;
-    margin-top: -20px;
-} */
+    transition: transform 0.5s ease-in-out; 
+} 
 .card {
     min-width: 100%;
     background-color: white;
@@ -447,7 +424,7 @@ body{ background-color: rgb(255, 255, 255) }
 }
 .image-container .naukri {
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 0px;
     z-index: 3;
     color: white;
@@ -485,24 +462,27 @@ body{ background-color: rgb(255, 255, 255) }
     color: white; 
 }  
 .card-content {
-    height: 165px;
-    padding: 30px 25px;
+    height: 175px;
+    padding: 0px 25px;
     text-align: start;
 }
 .card-content-head{
     font-family: "Poppins", sans-serif;
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 23px;
     font-weight: 700;
-    line-height: 0px;
+    line-height: normal;
     color: #161616;
+    margin-top: 5px; 
 }
 .card-content-text{
     font-family: "Poppins", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 18.46px;
     width: auto;
-    color: #53626D;
+    color: #53626D; 
+    margin-top: -15px;
 }
 .time-date{
     font-family: "Poppins", sans-serif;
@@ -524,7 +504,7 @@ body{ background-color: rgb(255, 255, 255) }
     font-size: 14px;
     font-weight: 800;
 }
-.card-btn{ position: absolute; right: 0; left: 25px; bottom: 18px; }
+.card-btn{ position: absolute; right: 20px; bottom: 18px; }
 
 .card-btn:hover { background-color: #f1651fec;}
 
@@ -638,26 +618,26 @@ body{ background-color: rgb(255, 255, 255) }
     position: relative;
     overflow: hidden;
     text-align: end;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 } 
 .event-card-container{ padding-top: 20px; padding-bottom: 30px; }
 
 .event-banner-title{ padding-top: 8%; } .event-card{ padding-top: 25px; }
-
-.event-content{ 
+ 
+/* .event-content{ 
     background-color: #f5f8fa;
     height: auto;
     padding: 30px 25px 20px 25px ;
     border-radius: 0px 0px 8px 8px;
-}
+} */
 .card-content-head, .card-content-text, .time-date { text-align: start;}
 
 .event-card-btn{
     width: 110px;
     height: 40px;
     position: absolute;
-    margin-top: -40px; 
-    margin-left: -110px;
+    margin-top: 10px; 
+    margin-left: 0px;
 }
 .event-card-btn:hover{ background-color: #f1651fec; }
 
@@ -1286,22 +1266,21 @@ body{ background-color: rgb(255, 255, 255) }
 
 .contact-action{
     background-image: url(../media/Action_button_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 12px 12px 0px 0px;
-    height: 295px;
-    margin-left: -12px;
-    margin-top: 25px;
+    padding: 0px 30px;
+    height: 295px; 
 }
-.action-content{ width: auto; height: 200px; }
+.action-content{ width: auto; }
 
 .action-title{
     font-family: "Poppins", sans-serif;
     font-size: 35px;
     font-weight: 600;
     color: white;
-    width: 680px;
-    height: 50px;
-    margin-left: 20px;
-    padding: 10px;
+    width: auto;
+    height: 50px; 
 }
 .action-para{
     font-family: "Roboto", sans-serif;
@@ -1309,13 +1288,12 @@ body{ background-color: rgb(255, 255, 255) }
     font-weight: 500;
     line-height: 22px;
     color: white;
-    width: 800px;
-    padding: 0px 35px;
+    width: 800px;  
     margin-top: -10px;
     text-align: justify;
 }
 .consult-btn2{
-    margin-top: -130px;
+    margin-top: -160px;
     margin-right: 70px;
     width: 170px;
     height: 60px;
@@ -1392,7 +1370,9 @@ body{ background-color: rgb(255, 255, 255) }
     color: #ffffff;
     padding-left: 20px;
 }
-.contact-number{ font-size: 15px; padding-left: 30px; }
+.contact-number{ font-size: 14px; padding-left: 30px; }
+
+.contact-number a{ color: white; }
 
 .contact-email{
     margin-top: -50px;
@@ -1518,97 +1498,97 @@ body{ background-color: rgb(255, 255, 255) }
     background-color: #cf2216;
     border: none;
     color: white;
-}
-.contact-form{
+} 
+
+.contact-field{ margin: 70px auto; } .contact-form{ padding: 80px 0px 40px; margin-left: 30px;} 
+
+.input-field{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f6;
     background-color: #E7ECF0;
-    padding: 100px 30px 0px 30px;
-    height: 700px;
-    border-right: 1px solid #b1b3b6;
-    border-left: 1px solid #b1b3b6;
-}
-.contact-us-box { margin-top: 20px; height: 460px; }
-
-.contact-us-title, .form-title{ font-size: 20px; }
-
-.contact-us-head{
-    font-family: "Poppins", sans-serif;
-    font-size: 35px;
-    font-weight: 600;
-    color: #1D1E1C;
-    margin-top: 30px;
-}
-.contact-us-text{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: normal;
-    color: #53626D;
-}
-.contact-link{ padding:10px 20px; }
-
-.contact-loc{ padding-left: 20px; margin-top: -20px;}
-
-.contact-subhead{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #1D1E1C;
-}
-.contact-subtext{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: #1D1E1C;
-}
-.line{ display: none;}
-
-.form-box{
     padding: 20px;
-    border: 1px solid #b1b3b6;
-    height: 490px;
-    border-radius: 12px;
-    overflow: hidden;
-}
-.form-floating input, .form-floating textarea{ border-radius: 10px; }
-
-.form-btn {
-    border: none;
-    border-radius: 12px;
-    color: white;
-    background-color: #ac3128;
-}
-
-.form-btn:hover {
-    background-color: #ce3429;
-}
-
-@keyframes fadeInOut {
-    0% {
-        background-color: #ac3128; /* Original color */
-    }
-    10% {
-        background-color: #2b9239; /* Green color when email is sent */
-    }
-    40% {
-        background-color: #2b9239; /* Green color when email is sent */
-    }
-    100% {
-        background-color: #ac3128; /* Back to original color */
-    }
-}
-
-.form-btn.sent-animation {
-    animation: fadeInOut 4s ease-in-out; /* Animation duration and timing */
-    font-weight: bold;
+    color: #5b656d;
     font-size: 15px;
+    font-family: "Poppins", sans-serif;
 }
-.error-message {
-    font-size: 12px;
-    color: rgb(204, 30, 30);
-}
-.call-icon{
-    width: 20px;
-    height: 20px;
-    opacity: 80%;
-}
+.input-field::placeholder{ color: #5b656d; }
 
+.contact-us-title { opacity: 90%; padding-left: 40px; }
+
+.contact-us-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #D65614;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+}
+.contact-us-btn:hover{ background-color: #e26f36; }
+
+.contact-info-div{ padding: 20px 10px; } 
+
+.contact-info{  border: 1px solid #5b656d; border-radius: 5px; padding: 20px; }
+
+.contact-info:hover{ border: 1px solid #D65614; } .contact-info{ margin-top: 10px; }
+
+.contact-info i{  
+    width: 100px;
+    height: 100px;
+    font-size: 23px; 
+    color: #D65614;
+}
+.contact-info a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px; 
+    color: #53626D;
+    padding-top: 10px;
+}
+.contact-info h5{ color: #53626D; }
+
+.mail-box{ height: 125px;} .mail{margin-top: 10px;}
+
+.contact-form-number{ width: 300px; justify-self: center;} 
+
+.whatsapp-container{
+    margin: 30px 0 80px; 
+    padding: 20px 35px;
+    background-color: #E7ECF0; 
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+    width: 101.6%; 
+} 
+.whatsapp-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; 
+    color: #343435; 
+}
+.whatsapp-link{  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    width: auto;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #343435;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer;  
+    gap: 8px;
+    margin-top: 10px;
+}
+.whatsapp-link i { font-size: 35px; color: forestgreen; justify-content: center; transition: 0.5s;}
+
+.whatsapp-link i:hover{ transform: scale(1.1);}

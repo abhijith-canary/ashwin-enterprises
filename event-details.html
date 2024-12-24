@@ -124,27 +124,35 @@
             const eventData = {
                 card1: {
                     mail: "naukri.uae@gmail.com",
-                    heading: "Client Interview @ Kochi",
+                    eventTitle:"Requirement for Pipe Fitters for Dubai",
+                    eventText:"Urgent Requirement for Pipe Fitters for UAE & KSA",
+                    // heading: "Client Interview @ Kochi",
+                    heading: "coming soon",
+
                     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
                     date: "6th october sunday",
                     time: "9 am onwards",
-                    image: "media/event-1.png"
+                    image: "media/event-img1.jpeg"
                 },
                 card2: {
                     mail: "naukri.uae@gmail.com",
-                    heading: "Client Interview @ Kochi",
+                    eventTitle:"Requirement for Pipe Fitting Helpers for Dubai",
+                    eventText:"Urgent Requirement for Pipe Fitting Helpers for UAE & KSA", 
+                    heading: "coming soon",
                     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
                     date: "6th october sunday",
                     time: "9 am onwards",
-                    image: "media/event-1.png"
+                    image: "media/event-img1.jpeg"
                 },
                 card3: {
                     mail: "naukri.uae@gmail.com",
-                    heading: "Client Interview @ Kochi",
+                    eventTitle:"Requirement for Mill Wright Fitters for Saudi Arabia",
+                    eventText:"Urgent Requirement for Mill Wright Fitters - KSA", 
+                    heading: "coming soon",
                     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
                     date: "6th october sunday",
                     time: "9 am onwards",
-                    image: "media/event-1.png"
+                    image: "media/event-img1.jpeg"
                 },
                 // card4: {
                 //     mail: "naukri.uae@gmail.com",
@@ -169,19 +177,26 @@
                 const card = eventData[key];
                 const cardHTML = `
                     <div class="col-md-4 event-card" id="${key}">
-                        <p class="naukri">${card.mail}</p>
-                        <img src="${card.image}" alt="Event Image" class="event-img img-fluid">
-
-                        <div class="event-content">
+                        <div class="image-container">
+                            <p class="naukri">${card.mail}</p>
+                            <img src="${card.image}" alt="Event Image" class="card-img img-fluid">
+                            <p class="event-title">${card.eventTitle}</p>
+                            <p class="event-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p>
+                        </div> 
+                        <div class="card-content" style="background-color: #f5f8fa;" >
                             <p class="card-content-head ">${card.heading}</p>
-                            <p class="card-content-text">${card.text}</p>
+                            <!-- <p class="card-content-text">${card.text}</p>
                             <div class="time-date text-uppercase ">
                                 <span class="post-date event-date">${card.date}</span><br>
                                 <span class="post-time event-time">${card.time}</span>
-                            </div>
+                            </div> -->
                             <button class="event-card-btn">Contact Us</button>
                         </div>
-                    </div>`;
+                    </div>
+                    
+                    
+                    
+                    `;
                 container.innerHTML += cardHTML;
             }
         });

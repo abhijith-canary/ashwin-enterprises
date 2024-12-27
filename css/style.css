@@ -1271,42 +1271,48 @@ body{ background-color: rgb(255, 255, 255) }
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 12px 12px 0px 0px;
-    padding: 0px 30px;
-    height: 295px; 
-}
-.action-content{ width: auto; }
-
+    /* padding: 0px 30px; */
+    /* height: 295px;  */
+    padding: 10px 50px 20px 30px;
+    justify-content: space-between; 
+    align-items: center;
+} 
 .action-title{
     font-family: "Poppins", sans-serif;
     font-size: 35px;
-    font-weight: 600;
-    color: white;
-    width: auto;
-    height: 50px; 
+    line-height: 30px;
+    font-weight: 600; 
+    line-height: 40px;
+    /* width: auto;  */ 
 }
 .action-para{
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 500;
-    line-height: 22px;
-    color: white;
-    width: 800px;  
+    line-height: 22px; 
+    margin-top: -20px;
+    /* width: 800px;  
     margin-top: -10px;
-    text-align: justify;
+    text-align: justify; */
 }
 .consult-btn2{
-    margin-top: -160px;
+    /* margin-top: -160px;
     margin-right: 70px;
-    width: 170px;
-    height: 60px;
+    width: 170px;*/
+    
+    display: flex;  
+    align-items: center;  
+    justify-content: center;   
+    height: 50px; 
+    width: auto;
     border: .4px solid rgba(255, 255, 255, 0.678);
     border-radius: 4px;
     background-color: transparent;
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    transition: 1s;
+    transition: 0.5s;
 }
 .consult-btn2:hover{ background-color: white; color: rgb(170, 48, 26); }
 
@@ -1502,11 +1508,20 @@ body{ background-color: rgb(255, 255, 255) }
     color: white;
 } 
 
-.contact-field{ margin: 70px auto; } .contact-form{ padding: 80px 0px 40px; margin-left: 30px;} 
+/* --------------------- CONTACT FORM STYLE START ------------------------ */
 
+.contact-field{ margin: 50px auto 70px; } .contact-form{ padding: 0px 0px 40px; margin-left: 30px; margin-top: 30px; } 
+
+.contact-form p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;  
+    color: #1D1E1C; 
+    margin: 15px 0px; 
+} 
 .input-field{
     width: 100%;
-    height: 55px;
+    height: 60px;
     border-radius: 5px;
     border: 1px solid #f2f2f6;
     background-color: #E7ECF0;
@@ -1514,6 +1529,7 @@ body{ background-color: rgb(255, 255, 255) }
     color: #5b656d;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
+    margin-top: 5px;
 }
 .input-field::placeholder{ color: #5b656d; }
 
@@ -1529,20 +1545,21 @@ body{ background-color: rgb(255, 255, 255) }
     font-size: 14px;
     font-weight: 400;
     height: 50px;
+    transition: 0.3s;
 }
 .contact-us-btn:hover{ background-color: #e26f36; }
 
-.contact-info-div{ padding: 20px 10px; } 
+.contact-info-div{ padding: 0px 10px 10px; } 
 
-.contact-info{  border: 1px solid #5b656d; border-radius: 5px; padding: 20px; }
+.contact-info{ border: 1px solid #d4d6d8ea; border-radius: 5px; padding: 20px; margin-top: 25px; }
 
-.contact-info:hover{ border: 1px solid #D65614; } .contact-info{ margin-top: 10px; }
+.contact-info:hover{ border: 1px solid #da7340e3; } 
 
 .contact-info i{  
     width: 100px;
     height: 100px;
     font-size: 23px; 
-    color: #D65614;
+    color: #da7340e3;
 }
 .contact-info a {
     font-family: "Roboto", sans-serif;
@@ -1558,30 +1575,20 @@ body{ background-color: rgb(255, 255, 255) }
 
 .contact-form-number{ width: 300px; justify-self: center;} 
 
-.whatsapp-container{
-    /* margin: 30px 0 80px; 
-    padding: 20px 35px;
-    background-color: #E7ECF0; 
-    background-image: url(../media/Action_button_bg.png); 
-    border-radius: 12px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: -10px;
-    width: 101.6%;  */
-    
+.whatsapp-container{  
     background-image: url(../media/Action_button_bg.png);  
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 12px 12px 0px 0px;  
+    border-radius: 12px;  
     justify-content: space-between;
     padding: 70px 45px;
+    margin-bottom: 80px;
 } 
 .whatsapp-text{
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 26px; 
-    color: #fff; 
+    line-height: 26px;  
     width: auto;
     margin-top: 10px;
 }

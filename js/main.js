@@ -186,10 +186,10 @@
     }
 
     // Auto-slide functionality (optional)
-    // setInterval(() => {
-    // currentSlide = (currentSlide + 1) % slides.length;    
-    // showSlide(currentSlide);
-    // }, 5000); // Change slide every 5 seconds
+    setInterval(() => {
+    currentSlide = (currentSlide + 1) % slides.length;    
+    showSlide(currentSlide);
+    }, 5000); // Change slide every 5 seconds
 
 
     // card from btn click

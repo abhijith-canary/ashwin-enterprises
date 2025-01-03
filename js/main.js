@@ -1,15 +1,6 @@
 (function ($) {
     "use strict";
-
-    // Spinner
-    // var spinner = function () {
-    //     setTimeout(function () {
-    //         if ($('#spinner').length > 0) {
-    //             $('#spinner').removeClass('show');
-    //         }
-    //     }, 1);
-    // };
-    // spinner(0);
+ 
     
     // Wait for the page to fully load
     window.addEventListener('load', function () {
@@ -247,7 +238,7 @@
 
     // js script for smooth scroll effect 1
     function updateScrollOffset() {
-        let offsetValue = 50;  
+        let offsetValue = 70;  
 
         if (window.matchMedia("(max-width: 400px)").matches) {
             offsetValue = 73; 

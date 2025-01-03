@@ -98,22 +98,7 @@
 
         <!-- Contact Start -->
         <div class="container-fluid py-3" id="contact_us">
-            <div class="container py-0 contact-main">
-                <!-- <div class="row contact-action">
-                    <div class="wow fadeInLeft action-content" data-wow-delay="0.1s">
-                        <p class="action-title">Experience Excellence with Ashwin Enterprises</p>
-                        <p class="action-para"> 
-                            At Ashwin Enterprises, we specialize in empowering industries with the right talent to achieve success. Our recruitment solutions are designed to meet the unique challenges of diverse sectors, ensuring you have access to skilled professionals who drive innovation and deliver exceptional results.
-                            <br> <br>
-                            Whether in construction, manufacturing, logistics, or beyond, we are dedicated to helping your business thrive with the expertise you need. Partner with Ashwin Enterprises to build your team, enhance your capabilities, and unlock new opportunities for growth and success.
-                        </p>
-                    </div>
-                    <form action="contact.html">
-                        <div class="d-flex wow fadeInRight">
-                            <button class="consult-btn2 ms-lg-auto fadeInRight " type="submit">Get Consulting</button>
-                        </div>
-                    </form>
-                </div> -->
+            <div class="container py-0 contact-main"> 
 
                 <div class="row contact-action">
                     <div class="col-xl-7 wow fadeInLeft action-content text-white" >
@@ -711,7 +696,7 @@
                 const contentContainer = document.getElementById('recentBlogContents');
                 contentContainer.innerHTML = ''; // Clear existing content
 
-                blogs.slice(0, 3).forEach(blog => {
+                blogs.slice(1, 4).forEach(blog => {
                     const blogContent = recent_contents[blog];
                     if (blogContent) {
                         const blogElement = document.createElement('div');

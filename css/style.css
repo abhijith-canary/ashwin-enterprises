@@ -1499,7 +1499,7 @@ body{ background-color: rgb(255, 255, 255) }
     margin-left: 2px;
 }
 .insta-icon:hover{
-    transform: scale(1.14);
+    transform: scale(1.15);
 }
 .contact-end-hr{
     color: #ffffff;

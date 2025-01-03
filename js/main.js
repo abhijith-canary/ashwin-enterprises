@@ -231,8 +231,7 @@
         document.querySelectorAll('.event-card-btn').forEach(button => {
             button.addEventListener("click", openModal);
         });
-        closeButton.addEventListener("click", closeModal);
-
+        closeButton.addEventListener("click", closeModal); 
     });
 
 
@@ -298,33 +297,6 @@
     document.querySelectorAll('.read-more-link').forEach(function(link) {
         link.addEventListener('click', chooseFunction);
     });
-    
-
-    // // Blogs carousel
-    // $(".blog-carousel").owlCarousel({
-    //     autoplay: true,
-    //     dots: false,
-    //     loop: true,
-    //     nav : true,
-    //     navText : [
-    //         '<i class="bi bi-chevron-left" aria-hidden="true"></i>',
-    //         '<i class="bi bi-chevron-right" aria-hidden="true"></i>'
-    //     ],
-    //     responsive: {
-    //         0:{
-    //             items:1
-    //         },
-    //         576:{
-    //             items:1
-    //         },
-    //         768:{
-    //             items:2
-    //         },
-    //         992:{
-    //             items:3
-    //         }
-    //     }
-    // });
 
     function makeCall(phoneNumber) {
         window.location.href = `tel:${phoneNumber}`;
@@ -346,7 +318,6 @@
         emailInput.value = "";
     }
 
-
     // contact session whatsapp 
     function openWhatsApp() { 
         const phoneNumber = "9947070280"; 
@@ -359,9 +330,4 @@
         setTimeout(() => {
             window.open(whatsappURL, "_blank");
         }, 10); 
-    }
-
- 
-
-    // Hello, I would like to know more information.
-
+    } 

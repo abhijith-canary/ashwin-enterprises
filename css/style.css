@@ -1368,6 +1368,7 @@ body{ background-color: rgb(255, 255, 255) }
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
+    outline: none;
 }
 /* ::placeholder{ color: #C9ADAA; } */
 
@@ -1574,6 +1575,7 @@ body{ background-color: rgb(255, 255, 255) }
     font-size: 15px;
     font-family: "Poppins", sans-serif;
     margin-top: 5px;
+    outline: none;
 }
 .input-field::placeholder{ color: #5b656d; }
 

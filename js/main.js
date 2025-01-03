@@ -336,7 +336,7 @@
 
         const email = document.getElementById("emailInput").value; 
         const phoneNumber = "9947070280";  
-        const message = `Hello, This is my email: ${email}`;
+        const message = `Hello! My email is ${email}. I’m interested in learning more about your services. Kindly reach out at your earliest convenience. Thanks!`;
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`; 
         
         setTimeout(() => {
@@ -350,7 +350,7 @@
     // contact session whatsapp 
     function openWhatsApp() { 
         const phoneNumber = "9947070280"; 
-        const message = "Hello! Thank you for reaching out to us. Please let us know your query, and we’ll get back to you as soon as possible";
+        const message = "Hi there! I’d love to know more about the services you offer. Can you share some information with me? Thanks a lot!";
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         
         // Open the WhatsApp link
@@ -362,3 +362,6 @@
     }
 
  
+
+    // Hello, I would like to know more information.
+

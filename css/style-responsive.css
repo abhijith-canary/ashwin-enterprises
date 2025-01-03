@@ -1339,7 +1339,7 @@
 
     /* --------------------- CONTACT1 RESPONSIVE START --------------------- */
 
-    .contact-container{ margin-top: 90px; } 
+    .contact-container{ margin-top: 90px; } .contact-main{ margin-top: -15px;}
 
     .contact-action{ padding: 5px 25px 10px 10px; }
 
@@ -1522,7 +1522,7 @@
 
     .contact-form{ padding: 20px 0px 0px; margin-left: 50px; } 
 
-    .social-icons-div { margin-left: 350px; }
+    .social-icons-div { margin-left: 770px; }
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1200px) {

@@ -330,11 +330,19 @@
     
     .sidebar-text{ width: auto; font-size: 14px; line-height: normal; margin-top: -30px;} 
 
+    .blog-main-img {margin-bottom: 10px;}
+
     .blog-main-img , .blog-main-img2{ height: 200px;}
 
-    .single-head{ font-size: 18px; width: auto;} .single-texts{font-size: 13px; line-height: normal; }
+    .single-head{ font-size: 18px; width: auto; } .single-texts{font-size: 13px; line-height: 18px; margin-top: 0px; }
 
-    .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
+    .single-subhead{ font-size: 14.5px; line-height: 18px; padding-right: 0px; } .blog-second-img{ padding: 20px 0px 30px 0px; }
+  
+    .blog-text-1, .blog-text-p{ font-size: 13px; line-height: 18px; margin-top: 10px;} .blog-text2-h{font-size: 13px; } 
+
+    .blog-text2-p{ font-size: 13px; padding: 0px 0px 0px 10px; }
+
+    .blog-text3-div{ font-size: 13px; padding-left: 0px; padding-top: 0px;} .blog-text-span, .blog-text1-span{font-size: 13px;}
 
     .blog-media{ padding: 0px 20px 0px 0px;}
     
@@ -342,8 +350,7 @@
 
     .hr-blog { width: 90px;} .share-span1{ display: none ;} 
 
-    .share-div{ padding-top: 8px;}
-
+    .share-div{ padding-top: 8px;} 
 
     /* --------------------- BLOGLOGO RESPONSIVE START --------------------- */
 
@@ -366,7 +373,7 @@
 
     .action-title{ font-size: 18px; line-height: 20px; }
 
-    .action-para{ font-size: 13px; line-height: 16px; margin-top: 0px; }
+    .action-para{ font-size: 13px; line-height: 16px; margin-top: 0px; width: auto; }
 
     .consult-btn2{ font-size: 12px; height: 30px; margin-left: 15px; }
 
@@ -430,28 +437,29 @@
 
     .contact-submenu, .contact-submenu1{ font-size: 13px; line-height: normal; width: auto; }
 
-    .contact-menu{ margin-top: 15px; margin-left: -5px; width: 80px; }
+    .contact-menu{ margin-top: 20px; margin-left: 0px; width: 80px; }
 
-    .contact-menu-service{ margin-top: -103px; margin-left: 90px; width: 130px; }
+    .contact-menu-service{ margin-top: -122px; margin-left: 90px; width: 130px; }
 
-    .contact-menu-link{ margin-left: 230px; margin-top: -125px; width: 80px; }
+    /* .contact-menu-link{ margin-left: 230px; margin-top: -125px; width: 80px; } */
 
-    .social-icons-div{ margin-left: 200px; margin-top: 0px; width: auto; height: 30px; }
+    .social-icons-div{ margin-left: 200px; margin-top: 10px; margin-bottom: 10px; width: auto; height: 30px; }
 
     .social-icons{ padding: 0px 5px; width: 31px; } .contact-end-hr{ width: 94%; margin-left: 10px; }
 
     /* --------------------- CONTACT2 RESPONSIVE START --------------------- */
 
-    .copyright{ padding: 0 17px 10px ;} .copyright-container{ padding: 10px 10px 80px 0px; }
-
-    .end-note{
-        font-size: 11px;
+    .copyright{ padding: 0 17px ;} 
+    
+    .copyright-container{ 
+        padding: 1px 5px 10px 5px; 
+        font-size: 12px;
         line-height: 13px;
-        padding-left: 30px;
-        padding: 0px 20px 0px 30px;
-        margin-top: -15px; 
+        display: block;
+        justify-content: center;
+        text-align: center;
     }
-    .end-note-span{ font-size: 11px; }
+
 
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */ 
 
@@ -813,6 +821,12 @@
 
     .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
 
+    .blog-text-1, .blog-text-p{ font-size: 13px; line-height: 18px; margin-top: 10px;} .blog-text2-h{font-size: 13px; } 
+
+    .blog-text2-p{ font-size: 13px; padding: 0px 0px 0px 10px; }
+
+    .blog-text3-div{ font-size: 13px; padding-left: 0px; padding-top: 0px;} .blog-text-span, .blog-text1-span{font-size: 13px;}
+
     .blog-media{ padding: 0px 10px 0px 0px;}
     
     .shares, .tweet, .share-span, .facebook{ font-size: 13px; }
@@ -843,7 +857,7 @@
 
     .action-title{ font-size: 18px; line-height: 20px; }
 
-    .action-para{ font-size: 13px; line-height: 16px; margin-top: 0px; }
+    .action-para{ font-size: 13px; line-height: 16px; margin-top: 0px; width: auto; }
 
     .consult-btn2{ font-size: 13px; height: 30px; margin-left: 15px; }
 
@@ -916,17 +930,17 @@
         margin-left: auto;
         margin-top: auto;
     }
-    .company-menu-title{ font-size: 15px; width: 70px; line-height: 0px; }
+    .company-menu-title{ font-size: 14px; width: 70px; line-height: 0px; }
 
     .contact-submenu, .contact-submenu1{ font-size: 13px; line-height: normal; width: auto; }
 
-    .contact-menu{ margin-top: 15px; margin-left: -5px; width: 80px; }
+    .contact-menu{ margin-top: 10px; margin-left: -10px; width: 80px; }
 
-    .contact-menu-service{ margin-top: -103px; margin-left: 90px; width: 130px; }
+    .contact-menu-service{ margin-top: -123px; margin-left: 90px; width: 130px; }
 
-    .contact-menu-link{ margin-left: 240px; margin-top: -123px; width: 80px; }
+    /* .contact-menu-link{ margin-left: 240px; margin-top: -123px; width: 80px; } */
 
-    .social-icons-div{ margin-left: 230px; margin-top: -25px; width: auto; height: 30px; }
+    .social-icons-div{ margin-left: 220px; margin-top: 0px; margin-bottom: 10px; width: auto; height: 30px; }
 
     .social-icons{ padding: 0px 5px; width: 31px; }
 
@@ -960,16 +974,16 @@
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
 
-    .copyright{ padding: 0 20px 10px; } .copyright-container{ padding: 20px 10px 70px 0px; }
-
-    .end-note{
-        font-size: 11px;
+    .copyright{ padding: 0 20px 10px; }     
+    
+    .copyright-container{ 
+        padding: 1px 5px 10px 5px; 
+        font-size: 12px;
         line-height: 13px;
-        padding-left: 30px;
-        padding-right: 20px;
-        margin-top: -15px;
+        display: block;
+        justify-content: center;
+        text-align: center;
     }
-    .end-note-span{ font-size: 11px; } 
 }
 
 /* ---------------------------------------------------------------------------------------------------------
@@ -1295,7 +1309,7 @@
 
     .sidebar-title{ padding-top: 20px;} .sidebar-block{ padding-top: 15px;} .single-blogs{ padding-top: 10px;}
 
-    .sidebar-text{ width: 250px; font-size: 14px; line-height: normal; margin-top: -30px;} 
+    .sidebar-text{ width: 250px; font-size: 14px; line-height: normal; margin-top: -10px; } 
 
     .blog-head-manu{ font-size: 13px; } .leadership{ margin-top: 0px; }
 
@@ -1307,7 +1321,13 @@
 
     .blog-main-img, .blog-main-img2{ width: 422px; } 
 
-    .single-subhead{ font-size: 15px;} .blog-second-img{ padding: 20px 0px 30px 0px; }
+    .single-subhead{ font-size: 15px; width: 422px; } .blog-second-img{ padding: 20px 0px 30px 0px; }
+
+    .blog-text-1, .blog-text-p{ font-size: 15px; line-height: 18px; margin-top: 10px; width: 422px; } .blog-text2-h{font-size: 15px; } 
+
+    .blog-text2-p{ font-size: 15px; padding: 0px 0px 0px 10px; width: 422px;}
+
+    .blog-text3-div{ font-size: 15px; padding-left: 0px; padding-top: 0px; width: 422px; } .blog-text-span, .blog-text1-span{font-size: 15px; }
     
     .blog-media{ padding: 0px 10px 0px 0px;}
     
@@ -1365,13 +1385,13 @@
 
     .contact-submenu, .contact-submenu1{ font-size: 13px; line-height: normal; width: auto; }
 
-    .contact-menu{ margin-top: 15px; margin-left: -5px; width: 100px; }
+    .contact-menu{ margin-top: 15px; margin-left: 15px; width: 100px; }
 
     .contact-menu-service{ margin-top: 15px; margin-left: -150px; width: 170px; }
 
-    .contact-menu-link{ margin-left: 360px; margin-top: -123px; width: 80px; }
+    /* .contact-menu-link{ margin-left: 360px; margin-top: -123px; width: 80px; } */
 
-    .social-icons-div{ margin-left: 180px; margin-top: -15px; width: auto; height: 30px; }
+    .social-icons-div{ margin-left: 540px; margin-top: -25px; width: auto; height: 30px; }
 
     .social-icons{ padding: 0px 5px; width: 31px; }
 
@@ -1379,16 +1399,13 @@
 
     /* --------------------- COPYRIGHT RESPONSIVE START --------------------- */
     
-    .copyright{ padding: 0 20px 10px;} .copyright-container{ padding: 0px 10px 35px 10px; }
-
-    .end-note{
+    .copyright{ padding: 0 20px 10px;}     
+    
+    .copyright-container{ 
+        padding: 1px 40px 10px 40px; 
         font-size: 12px;
-        line-height: 15px;
-        padding-left: 30px;
-        margin-top: 0px;
-        width: 600px;
-    }
-    .end-note-span{ font-size: 12px; }
+        line-height: 13px;  
+    } 
 
     /* --------------------- CONTACT-FORM RESPONSIVE START --------------------- */ 
 
@@ -1497,6 +1514,8 @@
 
     .sidebar-head, .sidebar-text{ width: 340px;} .leadership{ margin-top: -20px;}
 
+    .blog-text-1, .blog-text-p, .blog-text2-h, .blog-text2-p, .blog-text3-div{ width: 560px; } 
+
     .blog-main-img, .blog-main-img2, .single-texts { width: 560px;} 
 
     .qwerty { gap: 10px;} .logos-title{ font-size: 30px;} 
@@ -1566,9 +1585,9 @@
 
     /* -----------CONTACT SECTION-------------- */
 
-    .contact-menu-section{ margin-left: 520px; margin-top: -450px;} 
+    .contact-menu-section{ margin-left: 600px; margin-top: -450px; } 
 
-    .contact-menu { margin-left: 90px;} .social-icons-div { margin-left: 400px;}
+    .contact-menu { margin-left: 90px;} .social-icons-div { margin-left: 350px; }
  
 }
 

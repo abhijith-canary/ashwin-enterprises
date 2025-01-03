@@ -153,23 +153,7 @@
                     date: "6th october sunday",
                     time: "9 am onwards",
                     image: "media/event-img1.jpeg"
-                },
-                // card4: {
-                //     mail: "naukri.uae@gmail.com",
-                //     heading: "Client Interview @ Kochi",
-                //     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
-                //     date: "6th october sunday",
-                //     time: "9 am onwards",
-                //     image: "media/event-1.png"
-                // },
-                // card5: {
-                //     mail: "naukri.uae@gmail.com",
-                //     heading: "Client Interview @ Kochi",
-                //     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
-                //     date: "6th october sunday",
-                //     time: "9 am onwards",
-                //     image: "media/event-1.png"
-                // },
+                }, 
             };
 
             const container = document.getElementById('event-cards-container');
@@ -178,30 +162,46 @@
                 const cardHTML = `
                     <div class="col-md-4 event-card" id="${key}">
                         <div class="image-container">
-                            <p class="naukri">${card.mail}</p>
-                            <img src="${card.image}" alt="Event Image" class="card-img img-fluid">
-                            <p class="event-title">${card.eventTitle}</p>
-                            <p class="event-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p>
+                            <!-- <a href="#"><p class="naukri">${card.mail}</p></a> -->
+                            <img src="media/event-img1.jpeg" alt="Event 1" class="card-img img-fluid">
+                            <!-- <p class="event-title">Requirement for Pipe Fitters for Dubai</p>
+                            <p class="event-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p> -->
                         </div> 
-                        <div class="card-content" style="background-color: #f5f8fa;" >
-                            <p class="card-content-head ">${card.heading}</p>
-                            <!-- <p class="card-content-text">${card.text}</p>
-                            <div class="time-date text-uppercase ">
-                                <span class="post-date event-date">${card.date}</span><br>
-                                <span class="post-time event-time">${card.time}</span>
-                            </div> -->
-                            <button class="event-card-btn">Contact Us</button>
+                        <div class="card-content">
+                            <p class="card-content-head">Requirement for Pipe Fitters for Dubai</p>
+                            <p class="card-content-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p>
+                            <div class="time-date text-uppercase  ">
+                                <span class="post-date">Coming soon..</span><br>
+                                <!-- <span class="post-time">9 am onwards</span> -->
+                            </div> 
+                            <!-- <button class="card-btn" >Contact Us</button> -->
+
+                            <button class="event-card-btn" onclick="makeCall('+91 99470 70280')">Contact Us</button>
                         </div>
                     </div>
-                    
-                    
                     
                     `;
                 container.innerHTML += cardHTML;
             }
         });
     </script>
-
+<!-- <div class="col-md-4 event-card" id="${key}">
+    <div class="image-container">
+        <p class="naukri">${card.mail}</p>
+        <img src="${card.image}" alt="Event Image" class="card-img img-fluid">
+        <p class="event-title">${card.eventTitle}</p>
+        <p class="event-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p>
+    </div> 
+    <div class="card-content" style="background-color: #f5f8fa;" >
+        <p class="card-content-head ">${card.heading}</p>
+        <p class="card-content-text">${card.text}</p>
+        <div class="time-date text-uppercase ">
+            <span class="post-date event-date">${card.date}</span><br>
+            <span class="post-time event-time">${card.time}</span>
+        </div>
+        <button class="event-card-btn">Contact Us</button>
+    </div>
+</div> -->
 
     <!-- Back to Top -->
     <a href="#" class="btn-up  back-to-top"><i class="fa fa-arrow-up"></i></a> 

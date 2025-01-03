@@ -53,7 +53,7 @@
         const carousel = $(".carousel-item-2");
     
         carousel.owlCarousel({
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 3000, // Adjust autoplay speed if needed
             smartSpeed: 1000,
             margin: 30,
@@ -300,31 +300,31 @@
     });
     
 
-    // Blogs carousel
-    $(".blog-carousel").owlCarousel({
-        autoplay: false,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left" aria-hidden="true"></i>',
-            '<i class="bi bi-chevron-right" aria-hidden="true"></i>'
-        ],
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:3
-            }
-        }
-    });
+    // // Blogs carousel
+    // $(".blog-carousel").owlCarousel({
+    //     autoplay: true,
+    //     dots: false,
+    //     loop: true,
+    //     nav : true,
+    //     navText : [
+    //         '<i class="bi bi-chevron-left" aria-hidden="true"></i>',
+    //         '<i class="bi bi-chevron-right" aria-hidden="true"></i>'
+    //     ],
+    //     responsive: {
+    //         0:{
+    //             items:1
+    //         },
+    //         576:{
+    //             items:1
+    //         },
+    //         768:{
+    //             items:2
+    //         },
+    //         992:{
+    //             items:3
+    //         }
+    //     }
+    // });
 
     function makeCall(phoneNumber) {
         window.location.href = `tel:${phoneNumber}`;
@@ -350,7 +350,7 @@
     // contact session whatsapp 
     function openWhatsApp() { 
         const phoneNumber = "9947070280"; 
-        const message = "Hello, I would like to know more information.";
+        const message = "Hello! Thank you for reaching out to us. Please let us know your query, and we’ll get back to you as soon as possible";
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         
         // Open the WhatsApp link
@@ -361,5 +361,4 @@
         }, 10); 
     }
 
-
-            // const phoneNumber = "+91 99470 70280";  
+ 

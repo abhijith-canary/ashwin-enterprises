@@ -479,7 +479,7 @@ body{ background-color: rgb(255, 255, 255) }
     font-size: 14px;
     font-weight: 500;
     line-height: 18.46px;
-    width: auto;
+    width: 320px;
     color: #53626D; 
     margin-top: -15px;
 }
@@ -635,8 +635,8 @@ body{ background-color: rgb(255, 255, 255) }
     width: 110px;
     height: 40px;
     position: absolute;
-    margin-top: 10px; 
-    margin-left: 0px;
+    margin-top: -10px; 
+    margin-left: 260px;
 }
 .event-card-btn:hover{ background-color: #f1651fec; }
 

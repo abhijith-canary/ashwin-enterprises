@@ -127,32 +127,32 @@
                     eventTitle:"Requirement for Pipe Fitters for Dubai",
                     eventText:"Urgent Requirement for Pipe Fitters for UAE & KSA",
                     // heading: "Client Interview @ Kochi",
-                    heading: "coming soon",
+                    heading: "Urgent Requirement",
 
                     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
                     date: "6th october sunday",
                     time: "9 am onwards",
-                    image: "media/event-img1.jpeg"
+                    image: "media/pipe-fitter-event.jpg"
                 },
                 card2: {
                     mail: "naukri.uae@gmail.com",
                     eventTitle:"Requirement for Pipe Fitting Helpers for Dubai",
                     eventText:"Urgent Requirement for Pipe Fitting Helpers for UAE & KSA", 
-                    heading: "coming soon",
+                    heading: "Urgent Requirement",
                     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
                     date: "6th october sunday",
                     time: "9 am onwards",
-                    image: "media/event-img1.jpeg"
+                    image: "media/fitting-helper-event.jpg"
                 },
                 card3: {
                     mail: "naukri.uae@gmail.com",
                     eventTitle:"Requirement for Mill Wright Fitters for Saudi Arabia",
                     eventText:"Urgent Requirement for Mill Wright Fitters - KSA", 
-                    heading: "coming soon",
+                    heading: "Urgent Requirement",
                     text: "Little Flower Engineering Institute, Cochin University P.O South Kalamassery. Kochi",
                     date: "6th october sunday",
                     time: "9 am onwards",
-                    image: "media/event-img1.jpeg"
+                    image: "media/mill-wright-event.jpg"
                 }, 
             };
 
@@ -163,20 +163,17 @@
                     <div class="col-md-4 event-card" id="${key}">
                         <div class="image-container">
                             <!-- <a href="#"><p class="naukri">${card.mail}</p></a> -->
-                            <img src="media/event-img1.jpeg" alt="Event 1" class="card-img img-fluid">
-                            <!-- <p class="event-title">Requirement for Pipe Fitters for Dubai</p>
-                            <p class="event-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p> -->
+                            <img src="${card.image}" alt="Event 1" class="card-img img-fluid"> 
                         </div> 
-                        <div class="card-content">
-                            <p class="card-content-head">Requirement for Pipe Fitters for Dubai</p>
-                            <p class="card-content-text">Urgent Requirement for Pipe Fitters for UAE & KSA</p>
-                            <div class="time-date text-uppercase  ">
-                                <span class="post-date">Coming soon..</span><br>
-                                <!-- <span class="post-time">9 am onwards</span> -->
+                        <div class="card-content" style="background-color: #f5f8fa; margin-top: -2px; border-radius:0px 0px 10px 10px;">
+                            <p class="card-content-head">${card.eventTitle}</p>
+                            <p class="card-content-text">${card.eventText}</p>
+                            <div class="time-date text-uppercase  d-flex ">
+                                <span class="post-date">${card.heading}</span><br> 
+                                <button class="event-card-btn" >Contact Us</button> 
                             </div> 
-                            <!-- <button class="card-btn" >Contact Us</button> -->
-
-                            <button class="event-card-btn" onclick="makeCall('+91 99470 70280')">Contact Us</button>
+                            
+ 
                         </div>
                     </div>
                     

@@ -1,18 +1,5 @@
 (function ($) {
-    "use strict";
- 
-    
-    // Wait for the page to fully load
-    window.addEventListener('load', function () {
-        // Hide the spinner
-        const spinner = document.getElementById('loadingSpinner');
-        spinner.style.display = 'none';
-
-        // Show the main content
-        const mainContent = document.getElementById('mainContent');
-        mainContent.style.display = 'block';
-    });
-
+    "use strict"; 
     
     // Initiate the wowjs
     new WOW().init();
@@ -212,27 +199,27 @@
     });
 
 
-    document.addEventListener('DOMContentLoaded', function () {
+    // document.addEventListener('DOMContentLoaded', function () {
         
-        // Select the modal and the close button
-        const modal = document.getElementById("contactModal");
-        const closeButton = modal.querySelector(".close");
+    //     // Select the modal and the close button
+    //     const modal = document.getElementById("contactModal");
+    //     const closeButton = modal.querySelector(".close");
 
-        // Function to open the modal
-        function openModal() {
-            modal.style.display = "flex"; 
-            document.body.style.overflow = 'hidden'; // Prevent background scroll
-        }
-        // Function to close the modal
-        function closeModal() {
-            modal.style.display = "none"; 
-            document.body.style.overflow = 'auto'; // Allow background scroll
-        }
-        document.querySelectorAll('.event-card-btn').forEach(button => {
-            button.addEventListener("click", openModal);
-        });
-        closeButton.addEventListener("click", closeModal); 
-    });
+    //     // Function to open the modal
+    //     function openModal() {
+    //         modal.style.display = "flex"; 
+    //         document.body.style.overflow = 'hidden'; // Prevent background scroll
+    //     }
+    //     // Function to close the modal
+    //     function closeModal() {
+    //         modal.style.display = "none"; 
+    //         document.body.style.overflow = 'auto'; // Allow background scroll
+    //     }
+    //     document.querySelectorAll('.event-card-btn').forEach(button => {
+    //         button.addEventListener("click", openModal);
+    //     });
+    //     closeButton.addEventListener("click", closeModal); 
+    // });
 
 
     // js script for smooth scroll effect 1

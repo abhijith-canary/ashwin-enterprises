@@ -281,7 +281,7 @@
         margin-top: -5px;
         border-radius: 0px 0px 12px 12px;
     }
-    .leadership-img{ margin-left: 0px; margin-top: -930px; height: 340px;}
+    .leadership-img{ margin-left: 0px; margin-top: -930px; height: 320px;}
 
     .leadership-content{ height: 320px; margin-top: 300px; z-index: 1; }
 
@@ -1711,5 +1711,5 @@
 
     #navLinks{ padding-left: 70px;} .topnav-centered{ text-align: center; margin: 0 auto; margin-left: -170px; }
     
-    .nav-links .nav-menu{ padding: 10px 10px; }  
+    .nav-links .nav-menu{ padding: 10px 10px; }  .nav-btn{ right: -70px;}
 }
